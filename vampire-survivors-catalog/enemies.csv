@@ -1,0 +1,580 @@
+﻿id,name,level,max_hp,speed,power,xp,knockback,max_knockback,death_kb,skills,resistances,pass_through_walls,bestiary_included,boss_id,places,variants,image
+BAT1,Pipeestrello,1,0.1,140,5,1,1,3,2,,,,True,False,FOREST|TOWER,BAT1|BAT2|BAT3|FANGEL1|FANGEL2,assets/enemies/BAT1.png
+BAT2,BAT2,1,0.5,140,5,1,1,3,2,,,,False,False,,,assets/enemies/BAT2.png
+BAT3,BAT3,1,0.5,140,5,1,1,3,2,,,,False,False,,,assets/enemies/BAT3.png
+BAT6,Bloodbath,1,1.1,140,5,1,1,3,2,,,,True,False,TOWER,,assets/enemies/BAT6.png
+SKULLINO,Skullino,1,0.6,140,5,1,1,3,2,,,,True,False,TOWER|BONEZONE,,assets/enemies/SKULLINO.png
+SKULOROSSO,Skulorosso,1,1,140,5,1,1,3,2,,,,True,False,TOWER,,assets/enemies/SKULOROSSO.png
+BAT4,BAT4,1,5,140,10,30,1,3,2,HP_x_Level,,,False,False,,,assets/enemies/BAT4.png
+BAT5,BAT5,1,5,140,10,30,1,3,2,HP_x_Level,,,False,False,,,assets/enemies/BAT5.png
+BATSWARM,BATSWARM,1,0.1,700,1,1,1,3,2,Fixed_Direction,res_Defang:1,,False,False,,,assets/enemies/BATSWARM.png
+SKELANGUE,Scarleton,1,1.5,100,5,1,1,3,1,,,,True,False,TOWER,,assets/enemies/SKELANGUE.png
+SKELETON,Skeleton,1,1.5,100,10,2,1,3,5,,,,True,False,FOREST|WAREHOUSE|TOWER|BONEZONE,SKELETON2|SKELETON3|SKELETON4,assets/enemies/SKELETON.png
+SKELETON2,SKELETON2,1,1.5,100,10,2,1,3,5,,,,False,False,,,assets/enemies/SKELETON2.png
+SKELETON3,SKELETON3,1,1.5,100,10,2,1,3,5,,,,False,False,,,assets/enemies/SKELETON3.png
+SKELETON4,SKELETON4,1,1.5,100,10,2,1,3,5,,,,False,False,,,assets/enemies/SKELETON4.png
+ZOMBIE,Zombie,1,1,100,10,1,0.8,3,4,,,,True,False,FOREST,MS_ZOMBIE,assets/enemies/ZOMBIE.png
+MUDMAN1,Mudman,1,7,100,10,2.5,0.3,3,2,,,,True,False,FOREST,MUDMAN2,assets/enemies/MUDMAN1.png
+MUDMAN2,MUDMAN2,1,15,100,10,2.5,0.3,3,2,,,,False,False,,,assets/enemies/MUDMAN2.png
+FLOWER,Flower Wall,1,3,20,1,2,1,3,2,HP_x_Level,,,True,False,FOREST,,assets/enemies/FLOWER.png
+EX_SKELEGEM,EX_SKELEGEM,1,1.5,40,1,3,1,3,2,HP_x_Level,,,True,False,,,assets/enemies/EX_SKELEGEM.png
+GHOST,Ghost,1,1,200,5,1.5,0,3,0,,,,True,False,FOREST|LIBRARY|TOWER,GHOST2,assets/enemies/GHOST.png
+GHOST2,GHOST2,1,1,200,5,1.5,0,3,0,,,,False,False,,,assets/enemies/GHOST2.png
+GHOSTSWARM,GHOSTSWARM,1,1,700,5,1.5,0,3,0,Fixed_Direction,res_Defang:1,,False,False,,,assets/enemies/GHOSTSWARM.png
+WEREWOLF,Werewolf,1,18,130,14,2,0.8,3,7,,,,True,False,FOREST,,assets/enemies/WEREWOLF.png
+MUD,Dust Elemental,1,0.5,140,5,1,1,3,1,,,,True,False,LIBRARY,,assets/enemies/MUD.png
+BUER,Lionhead,1,0.3,200,3,2,1,3,1,HP_x_Level,,,True,False,LIBRARY,,assets/enemies/BUER.png
+MILK,Milk Elemental,1,0.5,140,5,1,1,3,1,,,,True,False,WAREHOUSE,,assets/enemies/MILK.png
+MILK2,MILK2,1,1,140,5,2,1,3,1,,,,False,False,,,assets/enemies/MILK2.png
+PANTHER,PANTHER,1,0.3,200,3,2,1,3,1,HP_x_Level,,,False,False,,,assets/enemies/PANTHER.png
+XLDRAGON1,Dragon Shrimp,1,0.4,200,3,2,0.6,3,1,HP_x_Level,,,True,False,TOWER,XLDRAGON2,assets/enemies/XLDRAGON1.png
+XLDRAGON1_FLAG,XLDRAGON1_FLAG,1,0.5,400,3,2,0,0,1,HP_x_Level|Fixed_Direction,,True,False,False,,,assets/enemies/XLDRAGON1_FLAG.png
+XLDRAGON2,XLDRAGON2,1,2,200,8,2,0.6,3,1,HP_x_Level,,,False,False,,,assets/enemies/XLDRAGON2.png
+XLDRAGON2_FLAG,XLDRAGON2_FLAG,1,2,400,6,2,0,0,1,HP_x_Level|Fixed_Direction,,True,False,False,,,assets/enemies/XLDRAGON2_FLAG.png
+XLDRAGON3_FLAG,XLDRAGON3_FLAG,1,2,400,6,2,0,0,1,HP_x_Level|Fixed_Direction,,True,False,False,,,assets/enemies/XLDRAGON3_FLAG.png
+SHADEBLUE,SHADEBLUE,1,1.5,300,3,2,1,3,1,HP_x_Level,,True,False,False,,,assets/enemies/SHADEBLUE.png
+SHADERED,Sig.ra Rossi,1,1.1,330,3,2,1,3,1,Self_Destruct|HP_x_Level,,True,True,False,LIBRARY,,assets/enemies/SHADERED.png
+POLTER_DEST,POLTER_DEST,1,1,0,3,2,0,0,1,Self_Destruct|HP_x_Level,,True,False,False,,,assets/enemies/POLTER_DEST.png
+POLTER,Poltergeist,1,0.5,50,3,2,0,0,1,Self_Destruct|HP_x_Level,,,True,False,TOWER|CHAPEL,POLTER_DEST|POLTER_GEM|POLTER_GEM_STATIC,assets/enemies/POLTER.png
+BOSS_COUNT1,Hag,30,25,210,30,50,0,1,1,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1,True,True,True,LIBRARY,,assets/enemies/BOSS_COUNT1.png
+BOSS_COUNT2,Nesufritto,30,20,160,30,50,0,1,1,HP_x_Level,res_Freeze:1,,True,True,LIBRARY,,assets/enemies/BOSS_COUNT2.png
+SKULL2_SCALING,SKULL2_SCALING,1,0.65,140,20,2,0,3,1,HP_x_Level,,,False,False,,,assets/enemies/SKULL2_SCALING.png
+SKULL2_EASY,SKULL2_EASY,1,2,100,10,2,1,3,5,,,,False,False,,,assets/enemies/SKULL2_EASY.png
+SKULL2_SWARM,SKULL2_SWARM,1,2.5,700,3,2,0,3,1,Fixed_Direction,res_Defang:1,True,False,False,,,assets/enemies/SKULL2_SWARM.png
+BOSS_SKULL2,BOSS_SKULL2,1,5,140,10,30,1,3,2,HP_x_Level,,,False,True,,,assets/enemies/BOSS_SKULL2.png
+MUMMY,Mummy,1,1.5,140,3,2,1,3,1,,,,True,False,LIBRARY,,assets/enemies/MUMMY.png
+MEDUSA1,Sneaky Head,1,0.1,240,1,1,1,3,1,Medusa|Fixed_Direction,,True,True,False,LIBRARY,MEDUSA2,assets/enemies/MEDUSA1.png
+MEDUSA1_FAST,MEDUSA1_FAST,1,0.1,600,1,1,1,3,1,Medusa|Fixed_Direction,,True,False,False,,,assets/enemies/MEDUSA1_FAST.png
+HARPY,Harzia,1,2.5,240,1,2,1,3,1,,,,True,False,TOWER,,assets/enemies/HARPY.png
+EX_HARPY2,EX_HARPY2,1,1.25,180,1,2,1,3,1,,,True,False,False,,,assets/enemies/EX_HARPY2.png
+HARPYV,HARPYV,1,2.5,240,1,2,1,3,1,Fixed_Direction,,,False,False,,,assets/enemies/HARPYV.png
+MEDUSA2,MEDUSA2,1,2.5,240,1,2,1,3,1,Medusa|Fixed_Direction,,,False,False,,,assets/enemies/MEDUSA2.png
+MEDUSA2_AGGRO,MEDUSA2_AGGRO,1,2.5,240,1,2,1,3,1,,,,False,False,,,assets/enemies/MEDUSA2_AGGRO.png
+MEDUSA2_FAST,MEDUSA2_FAST,1,2.5,600,1,2,1,3,1,Medusa|Fixed_Direction,,True,False,False,,,assets/enemies/MEDUSA2_FAST.png
+ECTO1,Musc Musc,1,0.1,160,2,1,1,3,1,,,,True,False,LIBRARY|WAREHOUSE,ECTO2,assets/enemies/ECTO1.png
+ECTO2,ECTO2,1,1.3,160,4,1,1,3,1,,,,False,False,,,assets/enemies/ECTO2.png
+IMP,Impefinger,1,1.3,160,4,1,1,3,1,,,,True,False,TOWER,,assets/enemies/IMP.png
+DULL0,Testa di Mano,1,3.5,100,8,1,0.3,3,1,,,,True,False,LIBRARY|TOWER,DULL1|DULL2,assets/enemies/DULL0.png
+DULL1,DULL1,1,7,100,8,2,0.3,3,1,,,,False,False,,,assets/enemies/DULL1.png
+DULL2,DULL2,1,15,100,8,2,0.2,3,2,,,,False,False,,,assets/enemies/DULL2.png
+DEVIL1,Ghiavolo,1,7,100,8,2,0.3,3,1,,,,True,False,TOWER,,assets/enemies/DEVIL1.png
+ARMOR1,ARMOR1,1,15,100,8,2,0.2,3,2,,,,False,False,,,assets/enemies/ARMOR1.png
+DEVIL3,DEVIL3,1,5,140,10,30,0.5,3,2,HP_x_Level,,,False,False,,,assets/enemies/DEVIL3.png
+XLMAGIO,Undead Mage,1,22,130,14,3,0,0,1,,,,True,False,TOWER,,assets/enemies/XLMAGIO.png
+WITCH1,Undead Witch,1,22,130,14,3,0.8,3,0,,,,True,False,LIBRARY|TOWER,,assets/enemies/WITCH1.png
+WITCH2,Undead Sassy Witch,10,50,200,20,3,1.5,3,1,,,,True,False,LIBRARY|TOWER,,assets/enemies/WITCH2.png
+XLARMOR1,Archon Spada,10,50,200,20,3,1.5,3,1,,,,True,False,TOWER,,assets/enemies/XLARMOR1.png
+XLARMOR2,Archon Disco,10,50,200,20,3,1.5,3,1,,,,True,False,TOWER,,assets/enemies/XLARMOR2.png
+XLMEDUSA,Merdusa,10,80,150,15,3,1,3,1,,,,True,False,LIBRARY,,assets/enemies/XLMEDUSA.png
+XLBAT,Giant Bat,10,27,140,10,2.5,0.1,3,2,,,,True,False,FOREST,,assets/enemies/XLBAT.png
+XLMANTIS,Mantichana,10,50,80,20,3,0,3,0,,,,True,False,FOREST,,assets/enemies/XLMANTIS.png
+XLMUMMY,Big Mummy,10,50,80,20,3,0,3,0,,,,True,False,LIBRARY,,assets/enemies/XLMUMMY.png
+XLFLOWER,Venus,10,50,80,20,3,0,3,0,,,,True,False,FOREST,,assets/enemies/XLFLOWER.png
+BOSS_WEREWOLF,BOSS_WEREWOLF,1,20,130,20,30,0.1,1,7,HP_x_Level,,,False,True,,,assets/enemies/BOSS_WEREWOLF.png
+BOSS_WEREWOLF2,BOSS_WEREWOLF2,1,1000,130,20,30,0.1,1,3,,,,False,True,,,assets/enemies/BOSS_WEREWOLF2.png
+BOSS_XLMUMMY,BOSS_XLMUMMY,15,25,80,20,25,0,1,5,HP_x_Level,res_Freeze:1.1,,False,True,,,assets/enemies/BOSS_XLMUMMY.png
+BOSS_XLBAT,BOSS_XLBAT,15,50,140,20,25,0,1,5,HP_x_Level,res_Freeze:1,,False,True,,,assets/enemies/BOSS_XLBAT.png
+test,test,1,3,50,1,0,1,1,1,,,,False,False,,,assets/enemies/test.png
+BOSS_XLMANTIS,BOSS_XLMANTIS,15,15,160,20,50,0,1,5,HP_x_Level,res_Freeze:1.1,,False,True,,,assets/enemies/BOSS_XLMANTIS.png
+BOSS_XLFLOWER,BOSS_XLFLOWER,30,15,160,30,50,0,1,1,HP_x_Level,res_Freeze:1.1,,False,True,,,assets/enemies/BOSS_XLFLOWER.png
+BOSS_XLTRICKSTER,BOSS_XLTRICKSTER,100,255,0,50,0,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1,True,False,True,,,assets/enemies/BOSS_XLTRICKSTER.png
+BOSS_XLSTALKER,BOSS_XLSTALKER,100,65535,300,50,0,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1,,False,True,,,assets/enemies/BOSS_XLSTALKER.png
+BOSS_XLLEDA,BOSS_XLLEDA,99,8888,100,50,0,0,0,0,,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Rosary:1,,False,True,,,assets/enemies/BOSS_XLLEDA.png
+BOSS_NOOB,BOSS_NOOB,99,8888,140,50,0,0,0,0,,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Rosary:1,,False,True,,,assets/enemies/BOSS_NOOB.png
+BOSS_XLDROWNER,BOSS_XLDROWNER,100,65535,300,50,0,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1,True,False,True,,,assets/enemies/BOSS_XLDROWNER.png
+BOSS_HARPY,BOSS_HARPY,1,5,170,10,30,1,1,2,HP_x_Level,,,False,True,,,assets/enemies/BOSS_HARPY.png
+BOSS_PANTHER,BOSS_PANTHER,1,5,170,10,30,1,1,2,HP_x_Level,,,False,True,,,assets/enemies/BOSS_PANTHER.png
+BOSS_XLDRAGON1,BOSS_XLDRAGON1,1,5,170,10,30,1,1,2,HP_x_Level,,,False,True,,,assets/enemies/BOSS_XLDRAGON1.png
+BOSS_XLDRAGON2,BOSS_XLDRAGON2,1,6,170,10,30,1,1,2,HP_x_Level,,,False,True,,,assets/enemies/BOSS_XLDRAGON2.png
+BOSS_ECTO,BOSS_ECTO,1,5,170,10,30,1,1,2,HP_x_Level,,,False,True,,,assets/enemies/BOSS_ECTO.png
+BOSS_MUD,BOSS_MUD,1,5,170,10,30,1,1,2,HP_x_Level,,,False,True,,,assets/enemies/BOSS_MUD.png
+BOSS_BUER,BOSS_BUER,1,5,170,10,30,1,1,2,HP_x_Level,,,False,True,,,assets/enemies/BOSS_BUER.png
+BOSS_MEDUSA1,BOSS_MEDUSA1,1,4,170,10,30,1,1,2,HP_x_Level,,,False,True,,,assets/enemies/BOSS_MEDUSA1.png
+BOSS_XLMEDUSA,BOSS_XLMEDUSA,15,15,160,20,30,0.5,1,2,HP_x_Level,res_Freeze:1.1,,False,True,,,assets/enemies/BOSS_XLMEDUSA.png
+BOSS_XLARMOR1,BOSS_XLARMOR1,15,15,160,20,30,0.5,1,2,HP_x_Level,res_Freeze:1.1,,False,True,,,assets/enemies/BOSS_XLARMOR1.png
+BOSS_XLARMOR2,BOSS_XLARMOR2,15,15,160,20,30,0.5,1,2,HP_x_Level,res_Freeze:1.1,,False,True,,,assets/enemies/BOSS_XLARMOR2.png
+BOSS_WITCH2,BOSS_WITCH2,10,15,200,30,3,0.6,1,1,HP_x_Level,res_Freeze:1.1,,False,True,,,assets/enemies/BOSS_WITCH2.png
+FISHMAN_1,Merman,1,0.5,140,4,1,1,3,2,,,,True,False,WAREHOUSE|SINKING,MERMA1_3|MERMA2_4,assets/enemies/FISHMAN_1.png
+BULLET_1,BULLET_1,1,0.1,200,20,0,1,1,1,Fixed_Direction,,True,False,False,,,assets/enemies/BULLET_1.png
+LIZARD1_2,Lizard Pawn,2,1.5,100,6,2.2,1,3,2,,,,True,False,WAREHOUSE,,assets/enemies/LIZARD1_2.png
+PILE1,Twin Snakes,2,2.5,0,10,1.5,0,0,1,,,,True,False,WAREHOUSE,,assets/enemies/PILE1.png
+MERMA1_3,MERMA1_3,3,6,100,8,2.5,1,3,2,,,,False,False,,,assets/enemies/MERMA1_3.png
+LIZARD2_3,Lizard Rook,3,12,100,7,4,0,1,2,,,,True,False,WAREHOUSE,,assets/enemies/LIZARD2_3.png
+PILE2,Twin Demons,3,15,0,10,1.75,0,0,1,,,,True,False,WAREHOUSE,,assets/enemies/PILE2.png
+BULLET_2,BULLET_2,1,0.1,250,25,0,1,1,1,Fixed_Direction,,True,False,False,,,assets/enemies/BULLET_2.png
+MERMA2_4,MERMA2_4,4,15,100,8,3,1,3,2,,,,False,False,,,assets/enemies/MERMA2_4.png
+JELLYFISH,Jellyfish,4,14,200,6,2.5,0.2,3,2,Fixed_Direction,,True,True,False,WAREHOUSE|SINKING,,assets/enemies/JELLYFISH.png
+JELLYFISH2,JELLYFISH2,4,18,150,8,2.5,1,3,2,,,,False,False,,,assets/enemies/JELLYFISH2.png
+JELLYFISH2_SWARM,JELLYFISH2_SWARM,4,18,150,10,2.5,0.2,3,2,Fixed_Direction,res_Defang:1,,False,False,,,assets/enemies/JELLYFISH2_SWARM.png
+SKELENIN1,Skeleton Ninja,4,13,200,8,4,1,3,2,,,,True,False,WAREHOUSE|BONEZONE,SKELENIN2|SKELENIN_ZONE,assets/enemies/SKELENIN1.png
+PILE3,Lost Twin,4,18,0,10,2,0,0,1,,,,True,False,WAREHOUSE|BONEZONE,,assets/enemies/PILE3.png
+BOSS_PILE3,BOSS_PILE3,4,7,0,10,30,0,0,1,HP_x_Level,,,False,True,,,assets/enemies/BOSS_PILE3.png
+BULLET_3,BULLET_3,3,0.1,300,40,0,1,1,1,Fixed_Direction,,True,False,False,,,assets/enemies/BULLET_3.png
+BULLET_W,BULLET_W,3,65535,0,10,0,0,0,0,HP_x_Level,res_Freeze:2|res_Rosary:1|res_Debuffs:1,True,False,False,,,assets/enemies/BULLET_W.png
+BULLET_Z,BULLET_Z,100,65535,300,40,0,0,0,0,Fixed_Direction,,True,False,False,,,assets/enemies/BULLET_Z.png
+SKELENIN2,SKELENIN2,5,20,200,9,4,1,3,2,,,,False,False,,,assets/enemies/SKELENIN2.png
+GOLEM1,Melone,5,30,100,11,3.5,0,1,2,,,,True,False,WAREHOUSE,,assets/enemies/GOLEM1.png
+MIGNO1_5,Minotaur,5,25,130,10,2.75,0.5,3,3,,,,True,False,WAREHOUSE,,assets/enemies/MIGNO1_5.png
+BOSS_MIGNO2_5,BOSS_MIGNO2_5,5,6,200,11,30,0.5,3,2,HP_x_Level,,,False,True,,,assets/enemies/BOSS_MIGNO2_5.png
+BOSS_MIGNO2_5_L,BOSS_MIGNO2_5_L,5,5,180,11,30,1,3,2,HP_x_Level,,,False,True,,,assets/enemies/BOSS_MIGNO2_5_L.png
+BOSS_MERMAN,BOSS_MERMAN,5,5,140,11,40,1,3,2,HP_x_Level,,,False,True,,,assets/enemies/BOSS_MERMAN.png
+BOSS_ARMOR1,BOSS_ARMOR1,5,6,140,11,40,0,2,2,HP_x_Level,,,False,True,,,assets/enemies/BOSS_ARMOR1.png
+MIGNO3_5,MIGNO3_5,5,25,280,10,2.75,0.5,3,3,,,,False,False,,,assets/enemies/MIGNO3_5.png
+MIGNO_3_5SWARM,Mignotaur,5,25,600,9,2.25,0.5,3,3,Fixed_Direction,,False,True,False,WAREHOUSE,,assets/enemies/MIGNO_3_5SWARM.png
+PATROL_MIGNO_3_5SWARM,PATROL_MIGNO_3_5SWARM,5,30,600,10,2.25,1,3,3,,,True,False,False,,,assets/enemies/PATROL_MIGNO_3_5SWARM.png
+ARMORSPEAR_6,Archon Lancia,6,30,160,15,3,1,2,0,,,,True,False,WAREHOUSE,,assets/enemies/ARMORSPEAR_6.png
+ARMOR_6,Archon Ascia,6,30,140,15,2.5,0,2,2,,,,True,False,WAREHOUSE,,assets/enemies/ARMOR_6.png
+PATROL_ARMOR_6,PATROL_ARMOR_6,6,40,140,10,2.5,0,0,0,,,,False,False,,,assets/enemies/PATROL_ARMOR_6.png
+PATROL_WITCH,PATROL_WITCH,30,5,250,7,50,0,1,0,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1,,False,False,,,assets/enemies/PATROL_WITCH.png
+SKELEWING,Skelewing,6,35,160,10,2.5,0,2,2,,,,True,False,WAREHOUSE|TOWER|BONEZONE,SKELEWING_ZONE|SKELEWING_INO,assets/enemies/SKELEWING.png
+SKELEWING_INO,SKELEWING_INO,5,22,130,14,3,0.1,3,2,,,,False,False,,,assets/enemies/SKELEWING_INO.png
+PATROL_SKELEWING,PATROL_SKELEWING,6,40,250,10,2.5,0,2,2,,,True,False,False,,,assets/enemies/PATROL_SKELEWING.png
+XLTRITON,Tritont,7,50,150,15,3,0,2,0,,,,True,False,WAREHOUSE,EX_TRITONT_01|EX_TRITONT_02,assets/enemies/XLTRITON.png
+XLCHIMERA,Manticore,7,70,140,15,3,0,2,0,,,,True,False,TOWER,,assets/enemies/XLCHIMERA.png
+XLCOCKATRICE,Gallotrice,7,70,140,15,3,0,2,0,,,,True,False,WAREHOUSE|TOWER,,assets/enemies/XLCOCKATRICE.png
+XLCOCKATRICE_GOLD,XLCOCKATRICE_GOLD,7,60,140,15,3,0,2,0,,,,False,False,,,assets/enemies/XLCOCKATRICE_GOLD.png
+XLGOLEM1,Big Golem,7,70,140,20,3,0,2,0,,,,True,False,WAREHOUSE,XLGOLEM2,assets/enemies/XLGOLEM1.png
+XLGOLEM2,XLGOLEM2,7,70,140,20,3,0,2,0,,,,False,False,,,assets/enemies/XLGOLEM2.png
+XLGOLEM3,Meat Golem,7,90,140,20,3,0,2,0,,,,True,False,TOWER,XLGOLEM4,assets/enemies/XLGOLEM3.png
+XLGOLEM4,XLGOLEM4,7,90,140,20,3,0,2,0,,,,False,False,,,assets/enemies/XLGOLEM4.png
+XLARMOR_SWORD,Sword Guardian,7,70,140,20,3,0,2,0,,,,True,False,WAREHOUSE,,assets/enemies/XLARMOR_SWORD.png
+PATROL_XLARMOR_SWORD,PATROL_XLARMOR_SWORD,7,80,200,20,3,0,0,0,,,True,False,False,,,assets/enemies/PATROL_XLARMOR_SWORD.png
+PATROL_XLARMOR_1,PATROL_XLARMOR_1,7,40,50,10,3,0,0,0,,,True,False,False,,,assets/enemies/PATROL_XLARMOR_1.png
+PATROL_SKELEWING_BIG,PATROL_SKELEWING_BIG,7,80,200,20,3,0,0,0,,,True,False,False,,,assets/enemies/PATROL_SKELEWING_BIG.png
+BOSS_XLCOCKATRICE,BOSS_XLCOCKATRICE,30,20,180,20,50,0,1,1,HP_x_Level,res_Freeze:1|res_Rosary:1|res_Debuffs:1,,False,True,,,assets/enemies/BOSS_XLCOCKATRICE.png
+BOSS_XLCHIMERA,BOSS_XLCHIMERA,30,20,180,20,50,0,1,1,HP_x_Level,res_Freeze:1|res_Rosary:1|res_Debuffs:1,,False,True,,,assets/enemies/BOSS_XLCHIMERA.png
+BOSS_XLTRITON,BOSS_XLTRITON,30,20,180,20,50,0,1,1,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1,,False,True,,,assets/enemies/BOSS_XLTRITON.png
+BOSS_XLGOLEM1,BOSS_XLGOLEM1,30,20,180,20,50,0,1,1,HP_x_Level,res_Freeze:1,,False,True,,,assets/enemies/BOSS_XLGOLEM1.png
+BOSS_XLGOLEM2,BOSS_XLGOLEM2,30,20,180,20,50,0,1,1,HP_x_Level,res_Freeze:1,,False,True,,,assets/enemies/BOSS_XLGOLEM2.png
+BOSS_XLGOLEM1_29,BOSS_XLGOLEM1_29,30,8,120,20,25,0,1,1,HP_x_Level,res_Freeze:1,,False,True,,,assets/enemies/BOSS_XLGOLEM1_29.png
+BOSS_XLGOLEM2_29,BOSS_XLGOLEM2_29,30,8,120,20,25,0,1,1,HP_x_Level,res_Freeze:1,,False,True,,,assets/enemies/BOSS_XLGOLEM2_29.png
+BOSS_XLARMOR,BOSS_XLARMOR,30,25,210,30,50,0,1,1,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1,True,False,True,,,assets/enemies/BOSS_XLARMOR.png
+BOSS_GALLO,BOSS_GALLO,30,20,250,10,50,0,0,0,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1|res_Defang:1,,False,True,,,assets/enemies/BOSS_GALLO.png
+BOSS_XLCRAB,Giant Enemy Crab,30,50,200,30,50,0,1,0,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1|res_Defang:1,True,True,True,TOWER,,assets/enemies/BOSS_XLCRAB.png
+BOSS_XLPINCER,BOSS_XLPINCER,30,0.5,0,12,10,0,1,0,HP_x_Level,res_Defang:1|res_Debuffs:1,True,False,True,,,assets/enemies/BOSS_XLPINCER.png
+ADV_MOLISANI,ADV_MOLISANI,1,0.35,0,1,1,0,3,1,,,,False,False,MOLISE,MOLISANO_BASE|MOLISANO_SECCO|MOLISANO_GIALLO|MOLISANO_BELLO|MOLISANO_GROSSO|MOLISANO_ROSSO|MOLISANO_FAGIOLO|MOLISANO_COLONNA|MOLISANO_VECCHIO|MOLISANO_ANFORA,assets/enemies/ADV_MOLISANI.png
+ADV_MOLISANI_MOVING,ADV_MOLISANI_MOVING,1,0.3,50,1,1,0,3,1,HP_x_Level,,,False,False,,,assets/enemies/ADV_MOLISANI_MOVING.png
+ADV_MOLISANI_SWARM,ADV_MOLISANI_SWARM,1,0.3,400,1,1,0,3,1,HP_x_Level,,,False,False,,,assets/enemies/ADV_MOLISANI_SWARM.png
+ADV_XLFLOWER_SMALL,ADV_XLFLOWER_SMALL,1,0.2,80,8,1,1,3,2,,,False,False,False,,,assets/enemies/ADV_XLFLOWER_SMALL.png
+ADV_MOON_GARLIC_SMALL,ADV_MOON_GARLIC_SMALL,1,0.5,80,16,1,1,3,2,,,False,False,False,,,assets/enemies/ADV_MOON_GARLIC_SMALL.png
+ADV_MOLISANI_MOVING2,ADV_MOLISANI_MOVING2,1,0.3,50,1,2,0,3,1,HP_x_Level,,False,False,False,,,assets/enemies/ADV_MOLISANI_MOVING2.png
+ADV_MOLISANI_MOVING3,ADV_MOLISANI_MOVING3,1,0.3,50,1,3,0,3,1,HP_x_Level,,False,False,False,,,assets/enemies/ADV_MOLISANI_MOVING3.png
+MOLISANO_BASE,Sad Molisano,1,0.35,0,1,1,0,3,1,,,,True,False,MOLISE,MOLISANO_SECCO,assets/enemies/MOLISANO_BASE.png
+MOLISANO_GIALLO,Happy Molisano,1,0.35,0,1,1,0,3,1,,,,True,False,MOLISE,MOLISANO_ROSSO,assets/enemies/MOLISANO_GIALLO.png
+MOLISANO_SECCO,MOLISANO_SECCO,1,1,0,1,1,0,3,1,,,,False,False,,,assets/enemies/MOLISANO_SECCO.png
+MOLISANO_BELLO,Cute Molisano,1,1,0,1,1,0,3,1,,,,True,False,MOLISE,MOLISANO_FAGIOLO,assets/enemies/MOLISANO_BELLO.png
+MOLISANO_GROSSO,MOLISANO_GROSSO,2,2,0,1,1,0,3,1,,,,False,False,,,assets/enemies/MOLISANO_GROSSO.png
+MOLISANO_ROSSO,MOLISANO_ROSSO,3,3,0,1,1,0,3,1,,,,False,False,,,assets/enemies/MOLISANO_ROSSO.png
+MOLISANO_FAGIOLO,MOLISANO_FAGIOLO,4,4,0,1,1,0,3,1,,,,False,False,,,assets/enemies/MOLISANO_FAGIOLO.png
+MOLISANO_COLONNA,Old Molisano,5,5,0,1,1,0,3,1,,,,True,False,MOLISE,,assets/enemies/MOLISANO_COLONNA.png
+MOLISANO_VECCHIO,Dead Molisano,6,6,0,1,1,0,0,1,,,,True,False,MOLISE,,assets/enemies/MOLISANO_VECCHIO.png
+MOLISANO_ANFORA,MOLISANO_ANFORA,6,6,0,1,0,0,3,1,,,,False,False,,,assets/enemies/MOLISANO_ANFORA.png
+MOLISANO_ANFORA_GOLD,MOLISANO_ANFORA_GOLD,6,6,0,1,0,0,3,1,,,,False,False,,,assets/enemies/MOLISANO_ANFORA_GOLD.png
+BOSS_THICKTREE,BOSS_THICKTREE,1,1000,40,1,30,0,3,1,,res_Rosary:1,,False,True,,,assets/enemies/BOSS_THICKTREE.png
+EX_SNOWMAN_HAUNTED,Bambaman,10,30,80,20,3,0,3,0,,,True,True,False,WHITEOUT,EX_SNOWMAN_HAUNTED2|EX_SNOWMAN_HAUNTED3,assets/enemies/EX_SNOWMAN_HAUNTED.png
+EX_SNOWMAN_HAUNTED2,EX_SNOWMAN_HAUNTED2,10,40,80,20,3,0,3,0,,,True,False,False,,,assets/enemies/EX_SNOWMAN_HAUNTED2.png
+EX_SNOWMAN_HAUNTED3,EX_SNOWMAN_HAUNTED3,10,50,80,20,3,0,3,0,,,True,False,False,,,assets/enemies/EX_SNOWMAN_HAUNTED3.png
+EX_SNOWMAN,EX_SNOWMAN,1,5,0,10,0.7,0,0,0,,res_Defang:1,True,False,False,,,assets/enemies/EX_SNOWMAN.png
+EX_SPIRIT1,Miragello,1,0.5,140,5,1,1,3,2,,,,True,False,WHITEOUT,EX_FROST|EX_FOXFIRE|EX_SNOWELEM|EX_SNOWELEM2,assets/enemies/EX_SPIRIT1.png
+EX_SNOWELEM,EX_SNOWELEM,1,1,100,10,1,0.8,3,4,,,,False,False,,,assets/enemies/EX_SNOWELEM.png
+EX_SNOWELEM2,EX_SNOWELEM2,1,1,120,10,1,0.8,3,2,,,,False,False,,,assets/enemies/EX_SNOWELEM2.png
+EX_FROST,EX_FROST,1,1.5,100,10,2,1,3,5,,,,False,False,,,assets/enemies/EX_FROST.png
+EX_GOLEM_ICE,Menta Elemental,10,27,140,10,2.5,0.1,3,2,,,,True,False,WHITEOUT,EX_GOLEM_SNOW,assets/enemies/EX_GOLEM_ICE.png
+EX_GOLEM_SNOW,EX_GOLEM_SNOW,1,18,130,14,2,0.8,3,7,,,,False,False,,,assets/enemies/EX_GOLEM_SNOW.png
+MS_ADV_MADDONNAS1,MS_ADV_MADDONNAS1,1,1,100,10,1,0.3,3,2,HP_x_Level,,,False,False,,,assets/enemies/MS_ADV_MADDONNAS1.png
+MS_ADV_MADDONNAS2,MS_ADV_MADDONNAS2,1,0.5,100,10,1,0.3,3,2,HP_x_Level,,,False,False,,,assets/enemies/MS_ADV_MADDONNAS2.png
+MS_ADV_MADDONNAS3,MS_ADV_MADDONNAS3,1,1,100,10,1,0.3,3,2,,,,False,False,,,assets/enemies/MS_ADV_MADDONNAS3.png
+EX_ILLUSION,Madd-Onna,1,7,100,10,1,0.3,3,2,,,,True,False,WHITEOUT,EX_ILLUSION2|MS_ADV_MADDONNAS1|MS_ADV_MADDONNAS2|MS_ADV_MADDONNAS3,assets/enemies/EX_ILLUSION.png
+EX_ILLUSION2,EX_ILLUSION2,1,15,100,10,1,0.3,3,2,,,,False,False,,,assets/enemies/EX_ILLUSION2.png
+EX_BOSS_KITSUNE,Kizzune,30,60,100,20,50,0,1,1,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Knockback:1|res_Debuffs:1,True,True,False,WHITEOUT,,assets/enemies/EX_BOSS_KITSUNE.png
+EX_BOSS_KITSUNE_TAIL,EX_BOSS_KITSUNE_TAIL,1,20,0,10,30,0,1,1,HP_x_Level,res_Defang:1|res_Freeze:1.1|res_Rosary:1|res_Knockback:1|res_Debuffs:1,True,False,False,,,assets/enemies/EX_BOSS_KITSUNE_TAIL.png
+EX_FOXFIRE,EX_FOXFIRE,1,1,400,10,1,0,0,0,Fixed_Direction,res_Freeze:1.1|res_Rosary:1|res_Knockback:1|res_Debuffs:1,True,False,False,,,assets/enemies/EX_FOXFIRE.png
+EX_CONSTABLEBOT,EX_CONSTABLEBOT,5,25,130,10,2.75,0.5,3,1,,,False,False,False,,,assets/enemies/EX_CONSTABLEBOT.png
+EX_TDCCC,EX_TDCCC,1,1.5,100,10,2,1,3,0,,,False,False,False,,,assets/enemies/EX_TDCCC.png
+EX_RETROBOT,EX_RETROBOT,5,30,100,11,3.5,0,1,1,,,False,True,False,LABORRATORY,EX_TDCCC|EX_CONSTABLEBOT|EX_ER2000,assets/enemies/EX_RETROBOT.png
+EX_BOUNTYHUNTER,EX_BOUNTYHUNTER,4,13,200,8,4,1,3,0,,,False,True,False,LABORRATORY,,assets/enemies/EX_BOUNTYHUNTER.png
+EX_ER2000,EX_ER2000,400,40,100,25,25,1,3,3,,res_Freeze:1|res_Debuffs:1,False,False,False,,,assets/enemies/EX_ER2000.png
+EX_APEX,EX_APEX,6,30,160,15,3,1,2,0,,,False,True,False,LABORRATORY,,assets/enemies/EX_APEX.png
+EX_GYORUNTIN,EX_GYORUNTIN,5,25,280,10,2.75,0,0,0,,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Defang:1,True,True,False,LABORRATORY,,assets/enemies/EX_GYORUNTIN.png
+EX_BOSSGYORUNTIN,EX_BOSSGYORUNTIN,100,20,150,20,30,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Defang:1,True,False,False,,,assets/enemies/EX_BOSSGYORUNTIN.png
+EX_BOSSGYORUNTIN_SOLID,EX_BOSSGYORUNTIN_SOLID,100,10,150,20,30,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Defang:1,False,False,False,,,assets/enemies/EX_BOSSGYORUNTIN_SOLID.png
+EX_COSMICEYE,EX_COSMICEYE,7,150,150,15,1665,0,2,0,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1|res_Defang:1,,False,False,,,assets/enemies/EX_COSMICEYE.png
+EX_FISHMAN_1GREEN,EX_FISHMAN_1GREEN,1,0.95,140,4,1,1,3,1,,,,False,False,,,assets/enemies/EX_FISHMAN_1GREEN.png
+EX_RETROBOT_SWARM,EX_RETROBOT_SWARM,5,25,600,9,2.25,0.5,3,3,Fixed_Direction,,False,False,False,,,assets/enemies/EX_RETROBOT_SWARM.png
+EX_GYORUNTIN_SWARM,EX_GYORUNTIN_SWARM,5,25,600,10,2.75,0,0,0,Fixed_Direction,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Defang:1,False,False,False,,,assets/enemies/EX_GYORUNTIN_SWARM.png
+EX_YTRAINEE_SWARM,EX_YTRAINEE_SWARM,1,1.5,640,5,1,1,3,1,Fixed_Direction,,,False,False,,,assets/enemies/EX_YTRAINEE_SWARM.png
+EX_EXPLOANGEL_SWARM,EX_EXPLOANGEL_SWARM,5,25,480,10,2.75,0.5,3,3,Fixed_Direction|Self_Destruct,,,False,False,,,assets/enemies/EX_EXPLOANGEL_SWARM.png
+EX_TRINA_SWARM,EX_TRINA_SWARM,7,70,640,15,3,0,2,0,Fixed_Direction,res_Defang:1,,False,False,,,assets/enemies/EX_TRINA_SWARM.png
+EX_COSMICEYE_SWARM,EX_COSMICEYE_SWARM,7,150,300,15,1665,0,2,0,HP_x_Level|Fixed_Direction,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1|res_Defang:1,,False,False,,,assets/enemies/EX_COSMICEYE_SWARM.png
+EX_MUD_FASTSWARM,EX_MUD_FASTSWARM,1,0.5,700,5,1,1,3,1,Fixed_Direction,,,False,False,,,assets/enemies/EX_MUD_FASTSWARM.png
+EX_ECTO2_FASTSWARM,EX_ECTO2_FASTSWARM,1,1.3,700,4,1,1,3,1,Fixed_Direction,,,False,False,,,assets/enemies/EX_ECTO2_FASTSWARM.png
+EX_JELLYFISH2_FASTSWARM,EX_JELLYFISH2_FASTSWARM,4,18,650,10,2.5,0.2,3,2,Fixed_Direction,res_Defang:1,,False,False,,,assets/enemies/EX_JELLYFISH2_FASTSWARM.png
+EX_CONSTABLEBOT_RANGED,EX_CONSTABLEBOT_RANGED,5,25,130,10,2.75,0.5,3,1,,,False,False,False,,,assets/enemies/EX_CONSTABLEBOT_RANGED.png
+EX_TDCCC_RANGED,EX_TDCCC_RANGED,1,1.5,100,10,2,1,3,0,,,False,False,False,,,assets/enemies/EX_TDCCC_RANGED.png
+EX_BOUNTYHUNTER_RANGED,EX_BOUNTYHUNTER_RANGED,4,13,200,8,4,1,3,0,,,,False,False,,,assets/enemies/EX_BOUNTYHUNTER_RANGED.png
+EX_ER2000_RANGED,EX_ER2000_RANGED,400,40,100,25,25,1,3,3,,res_Freeze:1|res_Debuffs:1,False,False,False,,,assets/enemies/EX_ER2000_RANGED.png
+BULLET_SM1,BULLET_SM1,1,0.1,400,5,0,0,0,0,Fixed_Direction,,True,False,False,,,assets/enemies/BULLET_SM1.png
+BULLET_SM2,BULLET_SM2,1,0.1,500,5,0,0,0,0,Fixed_Direction,,True,False,False,,,assets/enemies/BULLET_SM2.png
+EX_RACING_BAT3,EX_RACING_BAT3,1,0.5,140,5,1,1,3,2,,,,False,False,,,assets/enemies/EX_RACING_BAT3.png
+EX_RACING_XLBAT,EX_RACING_XLBAT,10,27,140,10,2.5,0.1,3,2,,,,False,False,,,assets/enemies/EX_RACING_XLBAT.png
+EX_RACING_RETRO,EX_RACING_RETRO,5,30,100,11,3.5,0,1,1,,,False,False,False,,,assets/enemies/EX_RACING_RETRO.png
+EX_RACING_FISHMAN_1,EX_RACING_FISHMAN_1,1,0.5,140,4,1,1,3,2,,,,False,False,,,assets/enemies/EX_RACING_FISHMAN_1.png
+EX_RACING_LIZARD2_3,EX_RACING_LIZARD2_3,3,12,100,7,4,0,1,2,,,,False,False,,,assets/enemies/EX_RACING_LIZARD2_3.png
+EX_RACING_LIZARD1_2,EX_RACING_LIZARD1_2,2,1.5,100,6,2.2,1,3,2,,,,False,False,,,assets/enemies/EX_RACING_LIZARD1_2.png
+EX_RACING_MERMA1_3,EX_RACING_MERMA1_3,3,6,100,8,2.5,1,3,2,,,,False,False,,,assets/enemies/EX_RACING_MERMA1_3.png
+EX_RACING_MERMA2_4,EX_RACING_MERMA2_4,4,15,100,8,3,1,3,2,,,,False,False,,,assets/enemies/EX_RACING_MERMA2_4.png
+EX_RACING_PILE1,EX_RACING_PILE1,2,2.5,100,10,1.5,0,0,1,,,,False,False,,,assets/enemies/EX_RACING_PILE1.png
+EX_RACING_PILE2,EX_RACING_PILE2,3,15,100,10,1.75,0,0,1,,,,False,False,,,assets/enemies/EX_RACING_PILE2.png
+EX_RACING_PILE3,EX_RACING_PILE3,4,18,120,10,2,0,0,1,,,,False,False,,,assets/enemies/EX_RACING_PILE3.png
+EX_RACING_BOSS_PILE3,EX_RACING_BOSS_PILE3,4,7,140,10,30,0,0,1,HP_x_Level,,,False,False,,,assets/enemies/EX_RACING_BOSS_PILE3.png
+EX_RACING_BOSS_MERMAN,EX_RACING_BOSS_MERMAN,5,5,140,11,40,1,3,2,HP_x_Level,,,False,False,,,assets/enemies/EX_RACING_BOSS_MERMAN.png
+EX_RACING_BUER,EX_RACING_BUER,1,0.4,200,3,2,1,3,1,HP_x_Level|Fixed_Direction,,,False,False,,,assets/enemies/EX_RACING_BUER.png
+EX_RACING_IMP,EX_RACING_IMP,1,1.3,160,4,1,1,3,1,,,,False,False,,,assets/enemies/EX_RACING_IMP.png
+EX_RACING_XLDRAGON1,EX_RACING_XLDRAGON1,1,3,200,3,2,0.6,3,1,HP_x_Level,,,False,False,,,assets/enemies/EX_RACING_XLDRAGON1.png
+EX_RACING_BOSS_MIGNO2_5,EX_RACING_BOSS_MIGNO2_5,5,6,200,11,30,0.5,3,2,HP_x_Level,,,False,False,,,assets/enemies/EX_RACING_BOSS_MIGNO2_5.png
+EX_CART_REAPER,EX_CART_REAPER,100,65535,300,10,0,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1,,False,False,,,assets/enemies/EX_CART_REAPER.png
+EX_CART_TRICKSTER,EX_CART_TRICKSTER,100,65535,300,10,0,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1,,False,False,,,assets/enemies/EX_CART_TRICKSTER.png
+EX_CART_STALKER,EX_CART_STALKER,100,65535,300,10,0,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1,,False,False,,,assets/enemies/EX_CART_STALKER.png
+EX_CART_DROWNER,EX_CART_DROWNER,100,65535,300,10,0,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1,,False,False,,,assets/enemies/EX_CART_DROWNER.png
+EX_CART_MADDENER,EX_CART_MADDENER,100,65535,300,10,0,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1,,False,False,,,assets/enemies/EX_CART_MADDENER.png
+EX_CART_BLINDER,EX_CART_BLINDER,100,65535,300,10,0,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1,,False,False,,,assets/enemies/EX_CART_BLINDER.png
+COOP_CHICKEN_SPECIAL,COOP_CHICKEN_SPECIAL,1,0.1,500,5,1,1,3,1,Fixed_Direction,,,False,False,,,assets/enemies/COOP_CHICKEN_SPECIAL.png
+COOP_CHICKEN_COUNTER,COOP_CHICKEN_COUNTER,1,0.65,300,5,1,1,3,1,,,,False,False,,COOP_CHICKEN|COOP_CHICKEN_H|COOP_COCK_H|COOP_CHIK_H|COOP_ABRAXAS_H|COOP_ABRAXASCROWN_H|COOP_ABRAXASHALO_H|COOP_BOSS_ABRAXAS|COOP_BOSS_ABRAXASCROWN|COOP_BOSS_ABRAXASHALO|COOP_CHICKEN_SWARM|COOP_COCK_SWARM|COOP_CHIK_SWARM|COOP_EGG_SWARM|COOP_CHICKEN_SPECIAL|COOP_ROAST_CHICKEN|COOP_ROAST_CHICKEN_H|COOP_ROAST_CHICKEN_SWARM|COOP_BOSS_COCK|COOP_CHICKEN_SLOW|COOP_PATROL|COOP_CHICKEN|COOP_COCK|COOP_CHIK|COOP_EGG|COOP_SPICYCHICKEN|COOP_COCKATRICE|COOP_EGG_H,assets/enemies/COOP_CHICKEN_COUNTER.png
+COOP_CHICKEN,COOP_CHICKEN,1,0.65,300,5,1,1,3,1,,,,True,False,COOP,COOP_CHICKEN_H|COOP_CHICKEN_SWARM,assets/enemies/COOP_CHICKEN.png
+COOP_CHICKEN_H,COOP_CHICKEN_H,1,0.65,600,7,1,1,3,1,,,,False,False,,,assets/enemies/COOP_CHICKEN_H.png
+COOP_CHICKEN_SWARM,COOP_CHICKEN_SWARM,1,0.65,800,7,1,1,3,1,Fixed_Direction,res_Defang:1,,False,False,,,assets/enemies/COOP_CHICKEN_SWARM.png
+COOP_COCK,COOP_COCK,1,1.5,250,7,1,1,3,1,,,,True,False,COOP,COOP_COCK_H|COOP_COCK_SWARM,assets/enemies/COOP_COCK.png
+COOP_COCK_H,COOP_COCK_H,1,1.4,600,7,1,1,3,1,,,,False,False,,,assets/enemies/COOP_COCK_H.png
+COOP_COCK_SWARM,COOP_COCK_SWARM,1,1.4,800,7,1,1,3,1,Fixed_Direction,res_Defang:1,,False,False,,,assets/enemies/COOP_COCK_SWARM.png
+COOP_CHIK,COOP_CHIK,1,0.5,280,4,1,1,3,1,,,,True,False,COOP,COOP_CHIK_H|COOP_CHIK_SWARM,assets/enemies/COOP_CHIK.png
+COOP_CHIK_H,COOP_CHIK_H,1,0.5,450,4,1,1,3,1,,,,False,False,,,assets/enemies/COOP_CHIK_H.png
+COOP_CHIK_SWARM,COOP_CHIK_SWARM,1,0.5,800,4,1,1,3,1,Fixed_Direction,res_Defang:1,,False,False,,,assets/enemies/COOP_CHIK_SWARM.png
+COOP_EGG,COOP_EGG,1,0.3,220,3,1,1,3,1,,,,True,False,COOP,COOP_EGG_H|COOP_EGG_SWARM,assets/enemies/COOP_EGG.png
+COOP_EGG_H,COOP_EGG_H,1,0.3,450,3,1,1,3,1,,,,False,False,,,assets/enemies/COOP_EGG_H.png
+COOP_EGG_SWARM,COOP_EGG_SWARM,1,0.3,800,3,1,1,3,1,Fixed_Direction,res_Defang:1,,False,False,,,assets/enemies/COOP_EGG_SWARM.png
+COOP_ROAST_CHICKEN,COOP_ROAST_CHICKEN,1,1.1,130,9,2,1,3,1,Self_Destruct|HP_x_Level,,True,True,False,COOP,COOP_ROAST_CHICKEN_H|COOP_ROAST_CHICKEN_SWARM,assets/enemies/COOP_ROAST_CHICKEN.png
+COOP_ROAST_CHICKEN_H,COOP_ROAST_CHICKEN_H,1,1.1,330,9,2,1,3,1,Self_Destruct|HP_x_Level,,True,False,False,,,assets/enemies/COOP_ROAST_CHICKEN_H.png
+COOP_ROAST_CHICKEN_SWARM,COOP_ROAST_CHICKEN_SWARM,1,1.1,700,9,2,1,3,1,Self_Destruct|HP_x_Level,,,False,False,,,assets/enemies/COOP_ROAST_CHICKEN_SWARM.png
+COOP_PATROL,COOP_PATROL,1,3,100,12,3,0,0,1,HP_x_Level,,,False,False,,,assets/enemies/COOP_PATROL.png
+COOP_ABRAXAS,COOP_ABRAXAS,1,7,250,12,3,0.5,3,1,,,,True,False,COOP,COOP_ABRAXAS_H|COOP_BOSS_ABRAXAS,assets/enemies/COOP_ABRAXAS.png
+COOP_ABRAXAS_H,COOP_ABRAXAS_H,1,7,700,12,3,0.5,3,1,,,,False,False,,,assets/enemies/COOP_ABRAXAS_H.png
+COOP_ABRAXASCROWN,COOP_ABRAXASCROWN,1,20,250,16,5,0.5,1,1,,,,True,False,COOP,COOP_ABRAXASCROWN_H|COOP_BOSS_ABRAXASCROWN,assets/enemies/COOP_ABRAXASCROWN.png
+COOP_ABRAXASCROWN_H,COOP_ABRAXASCROWN_H,1,20,700,16,5,0.5,1,1,,,,False,False,,,assets/enemies/COOP_ABRAXASCROWN_H.png
+COOP_ABRAXASHALO,COOP_ABRAXASHALO,1,25,250,16,10,0.5,1,1,,,,True,False,COOP,COOP_ABRAXASHALO_H|COOP_BOSS_ABRAXASHALO,assets/enemies/COOP_ABRAXASHALO.png
+COOP_ABRAXASHALO_H,COOP_ABRAXASHALO_H,1,25,700,16,10,0.5,1,1,,,,False,False,FOREST,COOP_ABRAXASHALO_H|COOP_BOSS_ABRAXASHALO,assets/enemies/COOP_ABRAXASHALO_H.png
+COOP_BOSS_ABRAXAS,COOP_BOSS_ABRAXAS,1,5,160,10,60,0.5,1,1,HP_x_Level,res_Rosary:1|res_Debuffs:1,,False,False,,,assets/enemies/COOP_BOSS_ABRAXAS.png
+COOP_BOSS_ABRAXASCROWN,COOP_BOSS_ABRAXASCROWN,1,8,160,12,60,0.5,1,1,HP_x_Level,res_Rosary:1|res_Debuffs:1,,False,False,,,assets/enemies/COOP_BOSS_ABRAXASCROWN.png
+COOP_BOSS_ABRAXASHALO,COOP_BOSS_ABRAXASHALO,1,12,160,14,60,0.5,1,1,HP_x_Level,res_Rosary:1|res_Debuffs:1,,False,False,,,assets/enemies/COOP_BOSS_ABRAXASHALO.png
+COOP_BOSS_COCK,COOP_BOSS_COCK,1,5,100,10,20,0,0,1,HP_x_Level,,,False,False,,,assets/enemies/COOP_BOSS_COCK.png
+EX_BATS_COUNTER,EX_BATS_COUNTER,3,0.5,140,5,1,1,3,2,,,False,False,False,SPAZIE,CHAL_BATS|CHAL_BATSSWARM|BAT1|BAT2|BAT3|BAT4|BAT5|BAT6|BATSWARM|XLBAT|EX_BATSPACE_ALL4|EX_BATSPACE_A|EX_BATSPACE_B|EX_BATSPACE_C|EX_BATSPACE_D|EX_SCALING_BAT1|EX_SCALING_BAT2|EX_SCALING_BAT3|EX_SCALING_BAT3_YELLOW|EX_SCALING_BAT3_GREEN|EX_SCALING_BAT3_PURPLE|EX_SCALING_XLBAT|EX_SCALING_XXLBAT,assets/enemies/EX_BATS_COUNTER.png
+EX_BATSPACE_ALL4,EX_BATSPACE_ALL4,3,0.5,140,5,1,1,3,2,,,False,True,False,SPAZIE,EX_BATSPACE_A|EX_BATSPACE_B|EX_BATSPACE_C|EX_BATSPACE_D|EX_BATSPACE_SWARM|EX_BATSPACE_HP,assets/enemies/EX_BATSPACE_ALL4.png
+EX_BATSPACE_A,EX_BATSPACE_A,3,0.5,140,5,1,1,3,2,,,False,False,False,,,assets/enemies/EX_BATSPACE_A.png
+EX_BATSPACE_B,EX_BATSPACE_B,3,0.5,140,5,1,1,3,2,,,False,False,False,,,assets/enemies/EX_BATSPACE_B.png
+EX_BATSPACE_C,EX_BATSPACE_C,3,0.5,140,5,1,1,3,2,,,False,False,False,,,assets/enemies/EX_BATSPACE_C.png
+EX_BATSPACE_D,EX_BATSPACE_D,3,0.5,140,5,1,1,3,2,,,False,False,False,,,assets/enemies/EX_BATSPACE_D.png
+EX_BATSPACE_SWARM,EX_BATSPACE_SWARM,5,0.1,700,1,1,1,3,2,Fixed_Direction,res_Defang:1,False,False,False,,,assets/enemies/EX_BATSPACE_SWARM.png
+EX_BATSPACE_HP,EX_BATSPACE_HP,5,1,300,1,2,1,3,2,HP_x_Level,res_Defang:1,False,False,False,,,assets/enemies/EX_BATSPACE_HP.png
+EX_RABBIT_SWARM,EX_RABBIT_SWARM,9,1,700,5,1.5,0,3,0,Fixed_Direction,res_Defang:1,False,True,False,SPAZIE,EX_RABBIT_SWARM_H,assets/enemies/EX_RABBIT_SWARM.png
+EX_RABBIT_SWARM_H,EX_RABBIT_SWARM_H,9,1,250,5,1.5,0,3,0,Fixed_Direction,res_Defang:1,True,False,False,,,assets/enemies/EX_RABBIT_SWARM_H.png
+EX_DUCK_SWARM,EX_DUCK_SWARM,9,1,350,5,1.5,0,3,0,Fixed_Direction,res_Defang:1,False,True,False,SPAZIE,EX_DUCK_SWARM_H,assets/enemies/EX_DUCK_SWARM.png
+EX_DUCK_SWARM_H,EX_DUCK_SWARM_H,9,1,250,5,1.5,0,3,0,Fixed_Direction,res_Defang:1,True,False,False,,,assets/enemies/EX_DUCK_SWARM_H.png
+EX_BROCCOLI_SCALE,EX_BROCCOLI_SCALE,1,2,160,4,1,1,3,1,,,False,False,False,,,assets/enemies/EX_BROCCOLI_SCALE.png
+EX_ANT,EX_ANT,12,7,100,10,2.5,0.3,3,2,,,False,True,False,SPAZIE,EX_ANTBRAIN_SCALE|EX_ANT_SCALE|EX_ANTBRAIN,assets/enemies/EX_ANT.png
+EX_ANT_SCALE,EX_ANT_SCALE,12,7,140,10,2.5,0.3,3,2,,,False,False,False,,,assets/enemies/EX_ANT_SCALE.png
+EX_ANTBRAIN,EX_ANTBRAIN,8,15,100,10,2.5,0.3,3,2,,,False,False,False,,,assets/enemies/EX_ANTBRAIN.png
+EX_ANTBRAIN_SCALE,EX_ANTBRAIN_SCALE,8,15,140,10,2.5,0.3,3,2,,,False,False,False,,,assets/enemies/EX_ANTBRAIN_SCALE.png
+EX_PICKLE,EX_PICKLE,11,1.5,120,1,2,1,3,2,,,False,True,False,SPAZIE,EX_PICKLE_SCALE,assets/enemies/EX_PICKLE.png
+EX_PICKLE_SCALE,EX_PICKLE_SCALE,11,2,160,1,2,1,3,2,,,False,False,False,,,assets/enemies/EX_PICKLE_SCALE.png
+EX_PHALIEN_XL,EX_PHALIEN_XL,10,48,80,20,3,1,2,1,,,False,True,False,SPAZIE,EX_PHALIEN_L|EX_PHALIEN,assets/enemies/EX_PHALIEN_XL.png
+EX_PHALIEN_L,EX_PHALIEN_L,10,24,120,10,2,1,2,1,,,False,False,False,,,assets/enemies/EX_PHALIEN_L.png
+EX_PHALIEN,EX_PHALIEN,10,12,160,5,1,1,2,1,,,False,False,False,,,assets/enemies/EX_PHALIEN.png
+EX_PHALIEN_XL_BOSS,EX_PHALIEN_XL_BOSS,10,4,100,20,3,1,2,1,HP_x_Level,,True,False,False,,,assets/enemies/EX_PHALIEN_XL_BOSS.png
+EX_PHALIEN_L_BOSS,EX_PHALIEN_L_BOSS,10,2,140,10,2,1,2,1,HP_x_Level,,False,False,False,,,assets/enemies/EX_PHALIEN_L_BOSS.png
+EX_PHALIEN_BOSS,EX_PHALIEN_BOSS,10,1,180,5,1,1,2,1,HP_x_Level,,False,False,False,,,assets/enemies/EX_PHALIEN_BOSS.png
+EX_CUBE_HITS_STATIC,EX_CUBE_HITS_STATIC,1,5,0,10,5,0,0,0,,res_Defang:1|res_Debuffs:1|res_Corridor:1,True,False,False,,,assets/enemies/EX_CUBE_HITS_STATIC.png
+EX_CUBE_HITS_AXE,EX_CUBE_HITS_AXE,1,5,300,10,5,0,0,0,,res_Defang:1|res_Debuffs:1|res_Corridor:1,True,False,False,,,assets/enemies/EX_CUBE_HITS_AXE.png
+EX_CUBE_HITS_AGGRO,EX_CUBE_HITS_AGGRO,1,5,160,10,5,0,1,0,,res_Defang:1|res_Debuffs:1|res_Corridor:1,False,False,False,,,assets/enemies/EX_CUBE_HITS_AGGRO.png
+EX_CUBE_HITS_PATH,EX_CUBE_HITS_PATH,1,5,300,10,5,0,0,0,,res_Defang:1,True,False,False,,,assets/enemies/EX_CUBE_HITS_PATH.png
+EX_CUBE_HITS_MEDUSA,EX_CUBE_HITS_MEDUSA,1,5,120,10,5,0,1,0,Fixed_Direction|Medusa,res_Defang:1|res_Debuffs:1|res_Corridor:1,True,False,False,,,assets/enemies/EX_CUBE_HITS_MEDUSA.png
+EX_CUBE_HITS_FACING,EX_CUBE_HITS_FACING,1,5,160,10,5,0,1,0,,res_Defang:1|res_Debuffs:1|res_Corridor:1,False,False,False,,,assets/enemies/EX_CUBE_HITS_FACING.png
+EX_CUBE_HITS_STERILE,EX_CUBE_HITS_STERILE,1,5,300,10,0,0,0,0,,res_Defang:1|res_Debuffs:1|res_Corridor:1|res_Freeze:2|res_Knockback:1|res_Rosary:1,False,True,False,SPAZIE,EX_CUBE_HITS_STATIC|EX_CUBE_HITS_AGGRO|EX_CUBE_HITS_MEDUSA|EX_CUBE_HITS_FACING,assets/enemies/EX_CUBE_HITS_STERILE.png
+PILE4,Twin Skulls,3,2,0,10,2,0,0,1,,,,True,False,BONEZONE,,assets/enemies/PILE4.png
+PILE4_SCALED,PILE4_SCALED,3,2,0,10,2,0,0,1,,,True,False,False,,,assets/enemies/PILE4_SCALED.png
+SKULLNOAURA,Skullone,1,3,100,10,2,0.3,3,2,,,,True,False,LIBRARY|BONEZONE,SKULL2_SCALING,assets/enemies/SKULLNOAURA.png
+SKELEPANTHER,Skeleton Panther,1,5,140,10,2,0.3,3,2,,,,True,False,BONEZONE,,assets/enemies/SKELEPANTHER.png
+SKELENIN_ZONE,SKELENIN_ZONE,4,8,190,8,3,1,3,2,,,,False,False,,,assets/enemies/SKELENIN_ZONE.png
+SKELEWING_ZONE,SKELEWING_ZONE,5,13,130,14,4,0.1,3,2,,,,False,False,,,assets/enemies/SKELEWING_ZONE.png
+XLSKELETON,Giant Skeleton,10,21,80,20,6,0,3,0,,,,True,False,BONEZONE,,assets/enemies/XLSKELETON.png
+SKELEGLOW,SKELEGLOW,1,5,140,10,30,1,3,2,HP_x_Level,,,False,False,,,assets/enemies/SKELEGLOW.png
+SKELETONE,Skeletone,29,0.7,100,20,25,0.05,1,5,HP_x_Level,,,True,False,BONEZONE,,assets/enemies/SKELETONE.png
+BOSS_XLSKELETON,BOSS_XLSKELETON,30,10,160,30,50,0,1,1,HP_x_Level,res_Freeze:1,,False,True,,,assets/enemies/BOSS_XLSKELETON.png
+SKETAMARI,Sketamari,1,1080,220,40,100,1,1,1,Fixed_Direction,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1|res_Defang:1,True,True,False,BONEZONE,,assets/enemies/SKETAMARI.png
+MASK_GOLD,Sun Atlantean,99,3000,200,50,0,0,0,0,,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Rosary:1|res_Defang:1,,True,False,SINKING|FOREST|LIBRARY|WAREHOUSE|TOWER|CHAPEL,,assets/enemies/MASK_GOLD.png
+MASK_SILVER,Moon Atlantean,99,3000,200,50,0,0,0,0,,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Rosary:1|res_Defang:1,,True,False,SINKING|FOREST|LIBRARY|WAREHOUSE|TOWER|CHAPEL,,assets/enemies/MASK_SILVER.png
+MASK_LEFT,City Atlantean,99,3000,200,50,0,0,0,0,,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Rosary:1|res_Defang:1,,True,False,SINKING|FOREST|LIBRARY|WAREHOUSE|TOWER|CHAPEL,,assets/enemies/MASK_LEFT.png
+MASK_RIGHT,Volcano Atlantean,99,3000,200,50,0,0,0,0,,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Rosary:1|res_Defang:1,,True,False,SINKING|FOREST|LIBRARY|WAREHOUSE|TOWER|CHAPEL,,assets/enemies/MASK_RIGHT.png
+MOON_MASK3,Moongolow Atlanteans,99,16,200,30,30,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Rosary:1,,True,False,SINKING,MOON_MASK2|MOON_MASK1|MOON_MASK4|MOON_MASK5,assets/enemies/MOON_MASK3.png
+MOON_SNEK,Serpentvine,1,0.1,140,5,1,1,3,2,,,,True,False,SINKING,MOON_SNEK|MOON_SNEK_RED|MOON_SNEK_GREEN,assets/enemies/MOON_SNEK.png
+MOON_SNEK_GREEN,MOON_SNEK_GREEN,1,0.5,140,5,1,1,3,2,,,,False,False,,,assets/enemies/MOON_SNEK_GREEN.png
+MOON_SNEK_RED,MOON_SNEK_RED,1,3,140,5,2,1,3,2,,,,False,False,,,assets/enemies/MOON_SNEK_RED.png
+MOON_GARLIC,Garlic,10,35,80,14,3,0.1,3,0,,,,True,False,SINKING,,assets/enemies/MOON_GARLIC.png
+MOON_NIGHTSHADE,Nightshade,10,35,80,14,3,0.1,3,0,,,,True,False,SINKING,,assets/enemies/MOON_NIGHTSHADE.png
+MOON_BOSS_GARLIC,MOON_BOSS_GARLIC,10,20,80,20,30,0,3,0,HP_x_Level,,,False,False,,,assets/enemies/MOON_BOSS_GARLIC.png
+MOON_BOSS_NIGHTSHADE,MOON_BOSS_NIGHTSHADE,10,20,80,20,30,0,3,0,HP_x_Level,,,False,False,,,assets/enemies/MOON_BOSS_NIGHTSHADE.png
+MOON_GHOST,MOON_GHOST,1,1,150,5,1.5,0,3,0,,,,False,False,,,assets/enemies/MOON_GHOST.png
+MOON_SHADEBLUE,Sig.ra Blu,1,3,160,5,2,1,3,1,,,True,True,False,SINKING,,assets/enemies/MOON_SHADEBLUE.png
+MOON_MEDUSA1,MOON_MEDUSA1,1,0.1,240,1,1,1,3,1,Medusa|Fixed_Direction,,True,False,False,,,assets/enemies/MOON_MEDUSA1.png
+MOON_MEDUSA2,MOON_MEDUSA2,1,2.5,240,1,2,1,3,1,Medusa|Fixed_Direction,,,False,False,,,assets/enemies/MOON_MEDUSA2.png
+MOON_FISHMAN,MOON_FISHMAN,1,8,120,4,3,1,3,2,,,,False,False,,,assets/enemies/MOON_FISHMAN.png
+MOON_JELLYFISH,MOON_JELLYFISH,1,0.1,120,3,1,0.2,3,2,Fixed_Direction,,,False,False,,,assets/enemies/MOON_JELLYFISH.png
+MOON_XLTRITON,MOON_XLTRITON,7,50,150,15,3,0,2,0,,,,False,False,,,assets/enemies/MOON_XLTRITON.png
+MOON_TRINACRIA,MOON_TRINACRIA,7,20,150,15,3,0,2,0,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1,,False,False,,,assets/enemies/MOON_TRINACRIA.png
+MOON_CRABBINO,Non-Giant Enemy Crab,1,0.5,120,5,3,0,1,0,Fixed_Direction|HP_x_Level,,,True,False,SINKING,,assets/enemies/MOON_CRABBINO.png
+MOON_BOSS_CRABBINO,MOON_BOSS_CRABBINO,1,5,120,5,3,0,1,0,HP_x_Level,,,False,False,,,assets/enemies/MOON_BOSS_CRABBINO.png
+MOON_ANFORA,MOON_ANFORA,3,3,0,0,0,0,0,1,,res_Defang:1,,False,False,,,assets/enemies/MOON_ANFORA.png
+MOON_MASK1,MOON_MASK1,99,16,200,30,30,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Rosary:1,,False,False,,,assets/enemies/MOON_MASK1.png
+MOON_MASK2,MOON_MASK2,99,16,200,30,30,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Rosary:1,,False,False,,,assets/enemies/MOON_MASK2.png
+MOON_MASK4,MOON_MASK4,99,16,200,30,30,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Rosary:1,,False,False,,,assets/enemies/MOON_MASK4.png
+MOON_MASK5,MOON_MASK5,99,16,200,30,30,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Rosary:1,,False,False,,,assets/enemies/MOON_MASK5.png
+MOON_BAT,MOON_BAT,1,0.5,140,5,0,1,3,2,,,,False,False,,,assets/enemies/MOON_BAT.png
+MOON_BAT_PROJECTILE,MOON_BAT_PROJECTILE,1,1.5,900,3,,0,3,1,Fixed_Direction,res_Defang:1,True,False,False,,,assets/enemies/MOON_BAT_PROJECTILE.png
+MOON_SHADE,MOON_SHADE,1,1.1,330,3,2,1,3,1,Self_Destruct,,True,False,False,,,assets/enemies/MOON_SHADE.png
+BOSS_XLMADDENER,BOSS_XLMADDENER,100,65535,300,50,0,0,0,0,HP_x_Level,res_Defang:1|res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Rosary:1,,False,True,,,assets/enemies/BOSS_XLMADDENER.png
+MOON_TRINACRIA_X,MOON_TRINACRIA_X,7,30,150,5,,0,2,0,HP_x_Level,res_Defang:1|res_Freeze:1.1|res_Rosary:1|res_Debuffs:1,,False,False,,,assets/enemies/MOON_TRINACRIA_X.png
+MOON_EYE1,MOON_EYE1,7,1.8,150,10,3,0.2,2,0,HP_x_Level,,,False,False,,,assets/enemies/MOON_EYE1.png
+MOON_EYE2,Unknown,7,2.7,150,10,4.5,0.1,2,0,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1,,True,False,CHAPEL,,assets/enemies/MOON_EYE2.png
+MOON_EYE3,MOON_EYE3,7,5,150,15,9,0,2,0,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1,,False,False,,,assets/enemies/MOON_EYE3.png
+MOON_EYE1S,MOON_EYE1S,7,30,150,15,3,0,2,0,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1,True,False,False,,,assets/enemies/MOON_EYE1S.png
+MOON_EYE2S,MOON_EYE2S,7,30,150,15,3,0,2,0,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1,True,False,False,,,assets/enemies/MOON_EYE2S.png
+MOON_EYE3S,MOON_EYE3S,7,30,150,15,3,0,2,0,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1,True,False,False,,,assets/enemies/MOON_EYE3S.png
+FS_ANFORA_HP,FS_ANFORA_HP,1,2,0,0,5,0,0,0,,res_Defang:1,,False,False,,,assets/enemies/FS_ANFORA_HP.png
+TRAINEE,TRAINEE,1,1.5,140,5,1.5,1,3,1,,,,False,False,,,assets/enemies/TRAINEE.png
+TRAINEE_Y,TRAINEE_Y,1,0.5,140,5,1,1,3,1,,,,False,False,,,assets/enemies/TRAINEE_Y.png
+TRAINEE_B,TRAINEE_B,1,0.5,140,5,1,1,3,1,,,,False,False,,,assets/enemies/TRAINEE_B.png
+TRAINEE_G,TRAINEE_G,1,4,140,5,1,1,3,1,,,,False,False,,,assets/enemies/TRAINEE_G.png
+TRAINEE_P,TRAINEE_P,4,18,150,8,2.5,1,3,2,,,,False,False,,,assets/enemies/TRAINEE_P.png
+TRAINEE_R,TRAINEE_R,50,255,600,255,,-0.25,2,1,,,,False,False,,,assets/enemies/TRAINEE_R.png
+TRAINEE_ANY,Reaper Trainee,30,8,120,20,25,0,1,1,HP_x_Level,res_Freeze:1,,True,False,CHAPEL,,assets/enemies/TRAINEE_ANY.png
+FANGEL1,FANGEL1,1,0.5,140,4,1,1,3,2,,,,False,False,,,assets/enemies/FANGEL1.png
+FANGEL2,FANGEL2,2,1.5,100,6,2,1,3,2,,,,False,False,,,assets/enemies/FANGEL2.png
+FANGEL3,FANGEL3,3,15,100,7,3,0,1,2,,,,False,False,,,assets/enemies/FANGEL3.png
+KALI1,Tetrabrachia,3,7,100,8,2.5,1,3,2,,,,True,False,CHAPEL,KALI2,assets/enemies/KALI1.png
+ARMOR_SWORD,ARMOR_SWORD,3,15,120,10,1.75,0,0,1,,,,False,False,,,assets/enemies/ARMOR_SWORD.png
+KALI2,KALI2,4,15,200,8,3,1,3,2,,,,False,False,,,assets/enemies/KALI2.png
+ARMOR_FIRE,Archon Fiamma,4,15,120,8,3,1,3,2,,,,True,False,CHAPEL,,assets/enemies/ARMOR_FIRE.png
+SUCCUBUS,Succubus,5,25,130,10,2.75,0.5,3,3,,,,True,False,CHAPEL,,assets/enemies/SUCCUBUS.png
+KALI2_FAST,KALI2_FAST,5,25,200,9,3,1,3,2,,,,False,False,,,assets/enemies/KALI2_FAST.png
+XLARMOR_GREEN,Archon Rame,5,30,100,11,3,0,1,2,,,,True,False,CHAPEL,,assets/enemies/XLARMOR_GREEN.png
+DEMON,DEMON,5,25,140,10,2.75,0.5,3,3,,,,False,False,,,assets/enemies/DEMON.png
+DEMON_FAST,Demon Priest,5,25,280,10,2.75,0.5,3,3,,,,True,False,CHAPEL,,assets/enemies/DEMON_FAST.png
+ANGEL1,Fallen Cherub,5,30,100,11,3,0,1,2,,,,True,False,CHAPEL,,assets/enemies/ANGEL1.png
+ANGEL2,Fallen Cherubbello,5,25,280,10,2.75,0.5,3,3,,,,True,False,CHAPEL,,assets/enemies/ANGEL2.png
+ANGEL3,Fallen Throne,6,30,160,15,3,1,2,0,,,,True,False,CHAPEL,,assets/enemies/ANGEL3.png
+XLARMOR_GOLD,Archon Oro,6,30,140,15,2.5,0,2,2,,,,True,False,CHAPEL,,assets/enemies/XLARMOR_GOLD.png
+XLDEMON,Demon Beast,6,30,160,15,3,1,2,0,,,,True,False,CHAPEL,,assets/enemies/XLDEMON.png
+XLDEMON2,XLDEMON2,7,50,150,15,3,0,2,0,,,,False,False,,,assets/enemies/XLDEMON2.png
+XLARCHDEMON,Archdemon,8,70,140,20,3,0,2,0,,,,True,False,CHAPEL,,assets/enemies/XLARCHDEMON.png
+TRINACRIA,Trinacria,7,70,140,15,3,0,2,0,,res_Defang:1,,True,False,CHAPEL,,assets/enemies/TRINACRIA.png
+BOSS_EYE2,BOSS_EYE2,5,6,200,11,30,0.5,3,2,HP_x_Level,res_Defang:1,,False,True,,,assets/enemies/BOSS_EYE2.png
+BOSS_FANGEL3,BOSS_FANGEL3,5,5,140,11,30,1,3,2,HP_x_Level,,,False,True,,,assets/enemies/BOSS_FANGEL3.png
+BOSS_SUCCUBUS,BOSS_SUCCUBUS,5,6,140,11,30,1,3,2,HP_x_Level,,,False,True,,,assets/enemies/BOSS_SUCCUBUS.png
+BOSS_XLARMOR_GREEN,BOSS_XLARMOR_GREEN,5,7,140,11,30,1,3,2,HP_x_Level,,,False,True,,,assets/enemies/BOSS_XLARMOR_GREEN.png
+BOSS_XLARCHDEMON,BOSS_XLARCHDEMON,5,8,140,11,30,1,3,2,HP_x_Level,,,False,True,,,assets/enemies/BOSS_XLARCHDEMON.png
+STAGEKILLER,Stage Killer,99,1,140,11,3,1,3,2,HP_x_Level,res_Defang:1,,True,False,CHAPEL,STAGEKILLER2,assets/enemies/STAGEKILLER.png
+STAGEKILLER2,STAGEKILLER2,99,1.1,140,11,3,1,3,2,HP_x_Level,res_Defang:1,,False,False,,,assets/enemies/STAGEKILLER2.png
+BOSS_TRINACRIA,BOSS_TRINACRIA,30,25,210,30,50,0,1,1,HP_x_Level,res_Defang:1|res_Freeze:1.1|res_Rosary:1|res_Debuffs:1,,False,True,,,assets/enemies/BOSS_TRINACRIA.png
+POLTER_GEM_STATIC,POLTER_GEM_STATIC,1,0.5,0,3,2,0,0,1,Self_Destruct|HP_x_Level,res_Defang:1,True,False,False,,,assets/enemies/POLTER_GEM_STATIC.png
+POLTER_GEM,POLTER_GEM,1,0.5,150,3,2,0,0,1,Self_Destruct|HP_x_Level,res_Defang:1,,False,False,,,assets/enemies/POLTER_GEM.png
+BOSS_XLDEATH,The Reaper,100,65535,1200,65535,0,-0.5,0,0,HP_x_Level,res_Defang:1|res_Freeze:1|res_Rosary:1|res_Knockback:1|res_Debuffs:1,False,True,True,FOREST|LIBRARY|WAREHOUSE|TOWER|CHAPEL|MOLISE|SINKING|GREENACRES|BONEZONE,BOSS_XLDEATH2,assets/enemies/BOSS_XLDEATH.png
+BOSS_XLDEATH2,BOSS_XLDEATH2,100,65535,1200,65535,0,-0.5,0,0,HP_x_Level,res_Defang:1|res_Freeze:1|res_Rosary:1|res_Knockback:1|res_Debuffs:1,True,False,True,,,assets/enemies/BOSS_XLDEATH2.png
+BOSS_TRICKSTER_NORMAL,The Trickster,100,255,150,50,0,0,0,0,HP_x_Level,res_Defang:1|res_Freeze:2|res_Knockback:1|res_Debuffs:1,,True,True,LIBRARY|CHAPEL,,assets/enemies/BOSS_TRICKSTER_NORMAL.png
+BOSS_STALKER_NORMAL,The Stalker,100,255,150,50,0,0,0,0,HP_x_Level,res_Defang:1|res_Freeze:2|res_Knockback:1|res_Debuffs:1,,True,True,WAREHOUSE|CHAPEL|BONEZONE,,assets/enemies/BOSS_STALKER_NORMAL.png
+BOSS_DROWNER_NORMAL,The Drowner,100,255,150,50,0,0,0,0,HP_x_Level,res_Defang:1|res_Freeze:2|res_Knockback:1|res_Debuffs:1,True,True,True,TOWER|CHAPEL|BONEZONE,BOSS_DROWNER_RASH,assets/enemies/BOSS_DROWNER_NORMAL.png
+BOSS_MADDENER_NORMAL,The Maddener,100,255,150,50,0,0,0,0,HP_x_Level,res_Defang:1|res_Freeze:2|res_Knockback:1|res_Debuffs:1,True,True,True,CHAPEL,,assets/enemies/BOSS_MADDENER_NORMAL.png
+BOSS_BLINDER_NORMAL,The Blinder,100,255,150,25,66,0,0,0,HP_x_Level,res_Defang:1|res_Freeze:2|res_Knockback:1|res_Debuffs:1,True,True,True,ASTRALSTAIR,STARDUST_BLINDER_PATROL|BOSS_XLBLINDER|FS_BLINDER_PATROL,assets/enemies/BOSS_BLINDER_NORMAL.png
+BOSS_ENDER,The Ender,100,255,150,50,0,0,0,0,HP_x_Level,res_Defang:1|res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Rosary:1,,True,True,CHAPEL,BOSS_ENDER_RASH,assets/enemies/BOSS_ENDER.png
+BULLET_SCYTHE,BULLET_SCYTHE,1,0.1,400,10,0,0,0,0,Fixed_Direction,res_Defang:1,True,False,False,,,assets/enemies/BULLET_SCYTHE.png
+BOSS_GIANT_MIMIC1,Mimic Season One,100,10,150,20,30,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1,,True,True,RASH,,assets/enemies/BOSS_GIANT_MIMIC1.png
+BOSS_GIANT_MIMIC2,Mimic Season Two,100,10,150,20,30,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1,,True,True,RASH,,assets/enemies/BOSS_GIANT_MIMIC2.png
+BOSS_GIANT_MIMIC3,Mimic Season Three,100,10,150,20,30,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1,,True,True,RASH,,assets/enemies/BOSS_GIANT_MIMIC3.png
+BOSS_XLCRAB_RASH,BOSS_XLCRAB_RASH,30,40,190,30,50,0,1,0,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1,True,False,True,,,assets/enemies/BOSS_XLCRAB_RASH.png
+BOSS_DRAGOGION,Tri-Anchors,100,20,150,50,30,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Defang:1,True,True,True,RASH,,assets/enemies/BOSS_DRAGOGION.png
+BRIDGE_TRAINEE,BRIDGE_TRAINEE,1,0.5,140,5,1,1,3,1,,,,False,False,,,assets/enemies/BRIDGE_TRAINEE.png
+BRIDGE_MINION,BRIDGE_MINION,1,7,100,10,2.5,0.3,3,2,,,,False,False,,,assets/enemies/BRIDGE_MINION.png
+BRIDGE_TETRA,BRIDGE_TETRA,4,15,200,8,3,1,3,2,,,,False,False,,,assets/enemies/BRIDGE_TETRA.png
+BRIDGE_ARMOR,BRIDGE_ARMOR,6,20,140,15,2.5,0,2,2,,,,False,False,,,assets/enemies/BRIDGE_ARMOR.png
+XLSWORDIAN_V,XLSWORDIAN_V,7,70,400,15,5,0,1,0,Fixed_Direction|Medusa,,True,False,False,,,assets/enemies/XLSWORDIAN_V.png
+XLSWORDIAN_AGGRO,XLSWORDIAN_AGGRO,7,70,120,20,5,0,1,0,,,,False,False,,,assets/enemies/XLSWORDIAN_AGGRO.png
+BOSS_XLSWORDIAN,BOSS_XLSWORDIAN,7,10,170,20,30,0.1,1,0,HP_x_Level,,,False,True,,,assets/enemies/BOSS_XLSWORDIAN.png
+BOSS_XLSWORDIAN_2,BOSS_XLSWORDIAN_2,7,10,170,20,30,0.1,1,0,HP_x_Level,,,False,True,,,assets/enemies/BOSS_XLSWORDIAN_2.png
+BRIDGE_BOSS,BRIDGE_BOSS,90,5555,150,30,50,0,1,1,,res_Freeze:1.1|res_Knockback:1|res_Rosary:1|res_Debuffs:1|res_Defang:1,True,False,False,,,assets/enemies/BRIDGE_BOSS.png
+BOSS_DROWNER_RASH,BOSS_DROWNER_RASH,100,80,150,50,30,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Defang:1,True,False,True,,,assets/enemies/BOSS_DROWNER_RASH.png
+BOSS_ENDER_RASH,BOSS_ENDER_RASH,100,127,150,50,30,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Rosary:1|res_Defang:1,,False,True,,,assets/enemies/BOSS_ENDER_RASH.png
+XXLBAT,LV128 Golden Bat,128,128,140,10,10,0.1,3,2,,,,True,False,GREENACRES,,assets/enemies/XXLBAT.png
+EX_SCALING_BAT1,EX_SCALING_BAT1,1,0.1,140,5,1,1,3,2,,,,False,False,,,assets/enemies/EX_SCALING_BAT1.png
+EX_SCALING_BAT2,EX_SCALING_BAT2,1,0.5,140,5,1,1,3,2,,,,False,False,,,assets/enemies/EX_SCALING_BAT2.png
+EX_SCALING_BAT3,EX_SCALING_BAT3,1,1.1,140,5,1,1,3,2,,,,False,False,,,assets/enemies/EX_SCALING_BAT3.png
+EX_SCALING_BAT3_YELLOW,EX_SCALING_BAT3_YELLOW,1,4,140,5,2,1,3,2,,,,False,False,,,assets/enemies/EX_SCALING_BAT3_YELLOW.png
+EX_SCALING_BAT3_GREEN,EX_SCALING_BAT3_GREEN,1,7,140,8,3,1,3,2,,,,False,False,,,assets/enemies/EX_SCALING_BAT3_GREEN.png
+EX_SCALING_BAT3_PURPLE,EX_SCALING_BAT3_PURPLE,1,10,140,11,3,1,3,2,,,,False,False,,,assets/enemies/EX_SCALING_BAT3_PURPLE.png
+EX_SCALING_XLBAT,EX_SCALING_XLBAT,10,27,140,10,2.5,0.1,3,2,,,,False,False,,,assets/enemies/EX_SCALING_XLBAT.png
+EX_SCALING_XXLBAT,EX_SCALING_XXLBAT,50,50,140,12,10,0.1,3,2,,,,False,False,,,assets/enemies/EX_SCALING_XXLBAT.png
+EX_AXE_BAT3,EX_AXE_BAT3,1,0.5,300,5,1,1,3,2,,,True,False,False,,,assets/enemies/EX_AXE_BAT3.png
+EX_DIAMOND,EX_DIAMOND,1,5,0,30,5,0,0,0,,res_Defang:1,True,False,False,,,assets/enemies/EX_DIAMOND.png
+EX_DIAMOND_AXE,EX_DIAMOND_AXE,1,5,300,10,5,0,0,0,,res_Defang:1,True,False,False,,,assets/enemies/EX_DIAMOND_AXE.png
+DIRECTER,The Directer,0,-0.1,0,0,0,0,0,0,,res_Freeze:100|res_Rosary:100|res_Debuffs:100|res_Knockback:100|res_Defang:1,True,True,False,,,assets/enemies/DIRECTER.png
+D_WEAK_REAPER_A,D_WEAK_REAPER_A,1,1,140,5,0,1,3,2,HP_x_Level,res_Defang:1,,False,False,,,assets/enemies/D_WEAK_REAPER_A.png
+D_WEAK_REAPER_B,D_WEAK_REAPER_B,1,1,140,5,0,1,3,2,HP_x_Level,res_Defang:1,,False,False,,,assets/enemies/D_WEAK_REAPER_B.png
+D_WEAK_REAPER_C,D_WEAK_REAPER_C,1,1,140,5,0,1,3,2,HP_x_Level,res_Defang:1,,False,False,,,assets/enemies/D_WEAK_REAPER_C.png
+D_WEAK_REAPER_D,D_WEAK_REAPER_D,1,1,140,5,0,1,3,2,HP_x_Level,res_Defang:1,,False,False,,,assets/enemies/D_WEAK_REAPER_D.png
+D_WEAK_REAPER_E,D_WEAK_REAPER_E,1,1,140,5,0,1,3,2,HP_x_Level,res_Defang:1,,False,False,,,assets/enemies/D_WEAK_REAPER_E.png
+D_WEAK_EYE,D_WEAK_EYE,1,0.5,150,10,2,0.2,2,0,HP_x_Level,,,False,False,,,assets/enemies/D_WEAK_EYE.png
+D_SKULL,D_SKULL,30,2,0,1,0,0,0,0,,res_Freeze:100|res_Rosary:100|res_Debuffs:100|res_Knockback:100|res_Defang:1,True,False,False,,,assets/enemies/D_SKULL.png
+D_EYE,D_EYE,30,2,0,1,0,0,0,0,,res_Freeze:100|res_Rosary:100|res_Debuffs:100|res_Knockback:100|res_Defang:1,,False,False,,,assets/enemies/D_EYE.png
+D_MASK_SUN,D_MASK_SUN,30,2,0,1,0,0,0,0,,res_Freeze:100|res_Rosary:100|res_Debuffs:100|res_Knockback:100|res_Defang:1,True,False,False,,,assets/enemies/D_MASK_SUN.png
+D_MASK_MOON,D_MASK_MOON,30,2,0,1,0,0,0,0,,res_Freeze:100|res_Rosary:100|res_Debuffs:100|res_Knockback:100|res_Defang:1,True,False,False,,,assets/enemies/D_MASK_MOON.png
+D_MASK_CITY,D_MASK_CITY,30,2,0,1,0,0,0,0,,res_Freeze:100|res_Rosary:100|res_Debuffs:100|res_Knockback:100|res_Defang:1,True,False,False,,,assets/enemies/D_MASK_CITY.png
+D_MASK_VOLCANO,D_MASK_VOLCANO,30,2,0,1,0,0,0,0,,res_Freeze:100|res_Rosary:100|res_Debuffs:100|res_Knockback:100|res_Defang:1,True,False,False,,,assets/enemies/D_MASK_VOLCANO.png
+D_MASK_WINDS,D_MASK_WINDS,30,2,0,1,0,0,0,0,,res_Freeze:100|res_Rosary:100|res_Debuffs:100|res_Knockback:100|res_Defang:1,True,False,False,,,assets/enemies/D_MASK_WINDS.png
+D_MASK_GREED,D_MASK_GREED,30,2,0,1,0,0,0,0,,res_Freeze:100|res_Rosary:100|res_Debuffs:100|res_Knockback:100|res_Defang:1,True,False,False,,,assets/enemies/D_MASK_GREED.png
+D_MASK_VOID,D_MASK_VOID,30,2,0,1,0,0,0,0,,res_Freeze:100|res_Rosary:100|res_Debuffs:100|res_Knockback:100|res_Defang:1,True,False,False,,,assets/enemies/D_MASK_VOID.png
+D_CLUSTER_COINS,D_CLUSTER_COINS,30,100,0,1,0,0,0,0,,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1|res_Defang:1,True,False,False,,,assets/enemies/D_CLUSTER_COINS.png
+D_CLUSTER_GEMS,D_CLUSTER_GEMS,30,100,0,1,0,0,0,0,,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1|res_Defang:1,True,False,False,,,assets/enemies/D_CLUSTER_GEMS.png
+BULLET_EGG,BULLET_EGG,1,0.1,400,10,0,0,0,0,Fixed_Direction,res_Defang:1,True,False,False,,,assets/enemies/BULLET_EGG.png
+BULLET_EYE,BULLET_EYE,1,0.1,400,10,0,0,0,0,Fixed_Direction,res_Defang:1,True,False,False,,,assets/enemies/BULLET_EYE.png
+UNDEADHEAD,UNDEADHEAD,1,3,100,10,0,0.3,3,2,HP_x_Level,res_Defang:1,,False,False,,,assets/enemies/UNDEADHEAD.png
+UNDEADEYES,UNDEADEYES,1,3,100,10,0,0.3,3,2,HP_x_Level,res_Defang:1,,False,False,,,assets/enemies/UNDEADEYES.png
+BOSS_SHARD_INFERNAS,BOSS_SHARD_INFERNAS,100,128,150,50,0,0,0,0,HP_x_Level,res_Defang:1|res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Rosary:1,,False,True,,,assets/enemies/BOSS_SHARD_INFERNAS.png
+STARDUST_ELEMENTAL,Astral Elemental,1,1,100,1,1,0.3,3,2,,,,True,False,ASTRALSTAIR,STARDUST_SKULL|STARDUST_GHOUL|STARDUST_MUMMY|STARDUST_XLMUMMY|STARDUST_GOLEM,assets/enemies/STARDUST_ELEMENTAL.png
+STARDUST_SKULL,STARDUST_SKULL,1,3,160,6,2.5,0.1,3,1,,,,False,False,,,assets/enemies/STARDUST_SKULL.png
+STARDUST_MUMMY,STARDUST_MUMMY,1,2,140,3,2,1,3,1,,,,False,False,,,assets/enemies/STARDUST_MUMMY.png
+STARDUST_GHOUL,STARDUST_GHOUL,1,4,160,7,2.5,0.1,3,1,,,,False,False,,,assets/enemies/STARDUST_GHOUL.png
+STARDUST_XLMUMMY,STARDUST_XLMUMMY,1,8,180,10,2.5,0.1,3,1,,,,False,False,,,assets/enemies/STARDUST_XLMUMMY.png
+STARDUST_GOLEM,STARDUST_GOLEM,1,12,180,8,2.5,0.1,3,1,,,,False,False,,,assets/enemies/STARDUST_GOLEM.png
+BOSS_STARDUST_XLMUMMY,BOSS_STARDUST_XLMUMMY,15,10,80,20,25,0,1,5,HP_x_Level,res_Freeze:1.1,,False,True,,,assets/enemies/BOSS_STARDUST_XLMUMMY.png
+STARDUST_CHAIR,Astral Chair,1,1,100,7,3,0.3,3,2,HP_x_Level,res_Defang:1,,True,False,ASTRALSTAIR,,assets/enemies/STARDUST_CHAIR.png
+STARDUST_CLOAK,Astral Curtain,1,24,180,10,2.5,0.1,3,1,,,True,True,False,ASTRALSTAIR,,assets/enemies/STARDUST_CLOAK.png
+STARDUST_HEAD,STARDUST_HEAD,1,1,100,10,1,0.2,1,2,HP_x_Level,,,False,False,,,assets/enemies/STARDUST_HEAD.png
+STARDUST_EYES,STARDUST_EYES,1,0.8,100,6,1,0.2,1,2,HP_x_Level,,,False,False,,,assets/enemies/STARDUST_EYES.png
+STARDUST_MUD,Undead Stars,1,1.25,110,1,1,0.3,3,2,,,,True,False,ASTRALSTAIR,STARDUST_HEAD|STARDUST_EYES,assets/enemies/STARDUST_MUD.png
+STARDUST_PORTRAIT_A,Poetrait,1,0.2,120,10,2,0.3,3,2,HP_x_Level,,,True,False,ASTRALSTAIR,STARDUST_PORTRAIT_B|STARDUST_PORTRAIT_C,assets/enemies/STARDUST_PORTRAIT_A.png
+STARDUST_PORTRAIT_B,STARDUST_PORTRAIT_B,1,0.2,120,10,2,0.3,3,2,HP_x_Level,,,False,False,,,assets/enemies/STARDUST_PORTRAIT_B.png
+STARDUST_PORTRAIT_C,STARDUST_PORTRAIT_C,1,0.2,120,10,2,0.3,3,2,HP_x_Level,,,False,False,,,assets/enemies/STARDUST_PORTRAIT_C.png
+STARDUST_JOE,Lord Ghost,1,5,120,10,5,0.3,3,2,HP_x_Level,res_Freeze:100|res_Rosary:100|res_Debuffs:100|res_Knockback:100,True,True,False,ASTRALSTAIR,,assets/enemies/STARDUST_JOE.png
+COSMIC_EGG,Cosmic Egg,1,20,80,10,30,0,0,1,HP_x_Level,res_Freeze:100|res_Rosary:100|res_Debuffs:100|res_Knockback:100|res_Defang:1,True,True,False,ASTRALSTAIR,,assets/enemies/COSMIC_EGG.png
+STARDUST_GHOST,STARDUST_GHOST,1,10,140,7,2.5,0.3,3,2,,,,False,False,,,assets/enemies/STARDUST_GHOST.png
+STARDUST_REDUSA,STARDUST_REDUSA,2,1.5,100,6,2.2,1,3,2,,,,False,False,,,assets/enemies/STARDUST_REDUSA.png
+STARDUST_RELLYFISH,STARDUST_RELLYFISH,4,14,200,6,2.5,0.2,3,2,Fixed_Direction,,True,False,False,,,assets/enemies/STARDUST_RELLYFISH.png
+STARDUST_RELLYFISH_SWARM,STARDUST_RELLYFISH_SWARM,,18,150,10,2.5,0.2,3,2,Fixed_Direction,res_Defang:1,,False,False,,,assets/enemies/STARDUST_RELLYFISH_SWARM.png
+STARDUST_HEMO,STARDUST_HEMO,1,0.5,140,5,1,1,3,1,,,,False,False,,,assets/enemies/STARDUST_HEMO.png
+STARDUST_BLINDER_PATROL,STARDUST_BLINDER_PATROL,10,5,140,10,5,0,0,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Defang:1,,False,False,,,assets/enemies/STARDUST_BLINDER_PATROL.png
+DEVIL_HP_1,---,3,0.5,140,5,1,1,2,1,HP_x_Level,,False,True,False,DEVILROOM,DEVIL_HP_3|DEVIL_HP_4|DEVIL_HP_5|DEVIL_HP_8|DEVIL_HP_9|DEVIL_HP_10|DEVIL_HP_12,assets/enemies/DEVIL_HP_1.png
+DEVIL_HP_2,DEVIL_HP_2,3,1,140,5,1,1,2,1,HP_x_Level,,False,False,False,,,assets/enemies/DEVIL_HP_2.png
+DEVIL_HP_3,DEVIL_HP_3,3,1.5,140,6,1.5,1,2,1,HP_x_Level,,False,False,False,,,assets/enemies/DEVIL_HP_3.png
+DEVIL_HP_4,DEVIL_HP_4,3,2,140,6,1.5,1,2,1,HP_x_Level,,False,False,False,,,assets/enemies/DEVIL_HP_4.png
+DEVIL_HP_5,DEVIL_HP_5,3,2.5,140,7,2,1,2,1,HP_x_Level,,False,False,False,,,assets/enemies/DEVIL_HP_5.png
+DEVIL_HP_6,DEVIL_HP_6,5,3,140,7,2,1,2,1,HP_x_Level,,False,False,False,,,assets/enemies/DEVIL_HP_6.png
+DEVIL_HP_7,---,5,3.5,140,8,2.5,1,2,1,HP_x_Level,,False,True,False,DEVILROOM,EX_IMPERIALPULP,assets/enemies/DEVIL_HP_7.png
+DEVIL_HP_8,DEVIL_HP_8,9,4,140,8,2.5,0,2,1,HP_x_Level,,False,False,False,,,assets/enemies/DEVIL_HP_8.png
+DEVIL_HP_9,DEVIL_HP_9,9,4.5,140,9,3,0,2,1,HP_x_Level,,False,False,False,,,assets/enemies/DEVIL_HP_9.png
+DEVIL_HP_10,DEVIL_HP_10,9,5,140,9,3,0,2,1,HP_x_Level,,False,False,False,,,assets/enemies/DEVIL_HP_10.png
+DEVIL_HP_11,---,9,5,140,9,3.5,0,2,1,HP_x_Level,,False,True,False,DEVILROOM,EX_HELLPUP,assets/enemies/DEVIL_HP_11.png
+DEVIL_HP_12,DEVIL_HP_12,9,5,140,9,3.5,0,2,1,HP_x_Level,,False,False,False,,,assets/enemies/DEVIL_HP_12.png
+DEVIL_HP_13,---,9,5,140,10,4,0,2,1,HP_x_Level,,False,True,False,DEVILROOM,,assets/enemies/DEVIL_HP_13.png
+DEVIL_HP_14,---,9,5,140,10,4,0,2,1,HP_x_Level,,False,True,False,DEVILROOM,EX_BOSS_OGREHEAD,assets/enemies/DEVIL_HP_14.png
+DEVIL_HP_15,---,9,5,140,11,4.5,0,2,1,HP_x_Level,,False,True,False,DEVILROOM,EX_TRUEDEVIL,assets/enemies/DEVIL_HP_15.png
+EX_TRUEDEVIL,EX_TRUEDEVIL,30,8,120,20,25,0,2,1,HP_x_Level,,False,False,False,,,assets/enemies/EX_TRUEDEVIL.png
+EX_DEMON_RED,EX_DEMON_RED,9,50,120,11,3,0,2,1,,,False,False,False,,,assets/enemies/EX_DEMON_RED.png
+EX_HELLPUP,EX_HELLPUP,200,6,180,20,20,1,3,3,HP_x_Level,res_Freeze:1.1|res_Debuffs:1,False,False,False,,,assets/enemies/EX_HELLPUP.png
+EX_IMPERIALPULP,EX_IMPERIALPULP,50,5,120,20,10,1,3,3,,,False,False,False,,,assets/enemies/EX_IMPERIALPULP.png
+EX_BOSS_OGREHEAD,EX_BOSS_OGREHEAD,9,10,100,40,50,0,0,1,HP_x_Level,,True,False,False,,,assets/enemies/EX_BOSS_OGREHEAD.png
+EX_BATGOBLIN,---,9,5,200,10,5,0.1,1,1,HP_x_Level|Fixed_Direction,,True,True,False,DEVILROOM,EX_BATGOBLIN2,assets/enemies/EX_BATGOBLIN.png
+EX_BATGOBLIN2,EX_BATGOBLIN2,9,5,200,10,5,0.1,1,1,HP_x_Level|Fixed_Direction,,True,False,False,,,assets/enemies/EX_BATGOBLIN2.png
+EX_TREASURE_VICIOUSHUNGER,---,7,10,150,15,30,0,1,0,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1,,True,False,DEVILROOM,,assets/enemies/EX_TREASURE_VICIOUSHUNGER.png
+EX_ECTOGOLD,Money Musc,1,0.4,160,2,0,1,3,1,HP_x_Level,,True,True,False,EX_WESTWOODS,,assets/enemies/EX_ECTOGOLD.png
+EX_GOLDPILE,Gold Pile,4,0.6,0,10,0,0,0,1,HP_x_Level,,True,True,False,EX_WESTWOODS,,assets/enemies/EX_GOLDPILE.png
+EX_BULLET_COIN,EX_BULLET_COIN,1,0.1,200,20,0,1,1,1,Fixed_Direction,,True,False,False,,,assets/enemies/EX_BULLET_COIN.png
+EX_JELLYBAG_RED,EX_JELLYBAG_RED,0.2,18,650,10,0,0.2,3,2,Fixed_Direction|HP_x_Level,res_Defang:1,True,True,False,EX_WESTWOODS,EX_JELLYBAG_GREEN|EX_JELLYBAG_PURPLE,assets/enemies/EX_JELLYBAG_RED.png
+EX_JELLYBAG_GREEN,EX_JELLYBAG_GREEN,1,0.6,600,1,0,1,3,1,Medusa|Fixed_Direction|HP_x_Level,,True,False,False,EX_WESTWOODS,,assets/enemies/EX_JELLYBAG_GREEN.png
+EX_JELLYBAG_PURPLE,EX_JELLYBAG_PURPLE,5,1.2,130,14,0,0.1,3,2,HP_x_Level,,True,False,False,EX_WESTWOODS,,assets/enemies/EX_JELLYBAG_PURPLE.png
+EX_XLDRAGON_GOLD,EX_XLDRAGON_GOLD,1,1.6,200,8,0,0.6,3,1,HP_x_Level,,True,False,False,EX_WESTWOODS,,assets/enemies/EX_XLDRAGON_GOLD.png
+EX_XLDRAGON_GOLD_FLAG,EX_XLDRAGON_GOLD_FLAG,1,2,400,6,0,0,0,1,HP_x_Level|Fixed_Direction,,True,False,False,,,assets/enemies/EX_XLDRAGON_GOLD_FLAG.png
+EX_XLMANTIS_GOLD,EX_XLMANTIS_GOLD,15,3,80,20,0,0,1,5,HP_x_Level,res_Freeze:1.1,True,True,False,EX_WESTWOODS,,assets/enemies/EX_XLMANTIS_GOLD.png
+EX_SHOOTING_ENEMIES_COUNTER,EX_SHOOTING_ENEMIES_COUNTER,1,0.1,100,1,0,1,1,1,,,,False,False,,XLMAGIO|PILE1|PILE2|PILE3|EX_CONSTABLEBOT_RANGED|EX_TDCCC_RANGED|EX_BOUNTYHUNTER_RANGED|EX_ER2000_RANGED|EX_RACING_PILE1|EX_RACING_PILE2|EX_RACING_PILE3|PILE4|PILE4_SCALED|ARMOR_SWORD|EX_GOLDPILE|ADV_TRIPOD_GUN|ADV_NDROID_GUN|FB_LEDDER|BOSS_FB_BIGFUZZ|TP_BONEARK|TP_BONEPILLAR|FS_SHOOTER1|FS_SHOOTER2|BULLET_1|BULLET_2|BULLET_3|BOSS_FB_BIGFUZZ|FB_BULLET_FIREBALL|FB_BULLET_EYELASER|FB_BULLET_BOMB|FB_GIGAFLY_SWARM|FB_BULLET|BULLET_SM1|BULLET_SM2|EX_BULLET_COIN|TP_BONE_BULLET,assets/enemies/EX_SHOOTING_ENEMIES_COUNTER.png
+EX_SPADEKNIGHT1,Knight of Spades,23,55,160,20,3,0.5,3,1,,,False,True,False,EX_WESTWOODS,EX_SPADEKNIGHT2|EX_BOSS_SPADEKNIGHT|EX_BOSS_SPADEKNIGHT2|LEM_SPADEKNIGHT1|LEM_SPADEKNIGHT2|LEM_BOSS_SPADEKNIGHT|LEM_BOSS_SPADEKNIGHT2,assets/enemies/EX_SPADEKNIGHT1.png
+EX_SPADEKNIGHT2,Knight of Spades,23,70,120,30,3,0.5,3,1,,,False,False,False,EX_WESTWOODS,,assets/enemies/EX_SPADEKNIGHT2.png
+EX_BOSS_SPADEKNIGHT,Knight of Spades,23,25,180,20,3,0.5,3,1,HP_x_Level,res_Rosary:1|res_Freeze:1,False,False,False,EX_WESTWOODS,,assets/enemies/EX_BOSS_SPADEKNIGHT.png
+EX_BOSS_SPADEKNIGHT2,Knight of Spades,23,40,140,30,3,0.5,3,1,HP_x_Level,res_Rosary:1|res_Freeze:1,False,False,False,EX_WESTWOODS,,assets/enemies/EX_BOSS_SPADEKNIGHT2.png
+EX_BARM,EX_BARM,1,0.4,160,4,1,1,3,1,,,,True,False,EX_WESTWOODS,,assets/enemies/EX_BARM.png
+EX_CASINOGHOUL,EX_CASINOGHOUL,5,0.5,100,7,4,0,1,2,,,,True,False,EX_WESTWOODS,LEM_CASINOGHOUL,assets/enemies/EX_CASINOGHOUL.png
+EX_CLUBBIE,EX_CLUBBIE,1,1,160,4,1,1,3,1,,,,True,False,EX_WESTWOODS,,assets/enemies/EX_CLUBBIE.png
+EX_DANDYBRINE,EX_DANDYBRINE,,5,160,9,30,0,0.5,2,HP_x_Level,res_Freeze:1|res_Rosary:1,True,True,False,EX_WESTWOODS,,assets/enemies/EX_DANDYBRINE.png
+EX_DAIMON,EX_DAIMON,25,10,160,20,30,0.5,1,2,HP_x_Level,res_Defang:1|res_Freeze:1.1|res_Rosary:1|res_Knockback:1,True,True,False,EX_WESTWOODS,,assets/enemies/EX_DAIMON.png
+EX_GAMBERGAR,EX_GAMBERGAR,1,4,140,8,1,1,3,2,,,,True,False,EX_WESTWOODS,,assets/enemies/EX_GAMBERGAR.png
+EX_GAMBLIN,EX_GAMBLIN,1,1.5,140,4,1,1,3,2,,,,True,False,EX_WESTWOODS,EX_GAMBLIN2|LEM_GAMBLIN2,assets/enemies/EX_GAMBLIN.png
+EX_GAMBLIN2,EX_GAMBLIN2,1,2,150,4,1,1,3,2,,,,False,False,EX_WESTWOODS,,assets/enemies/EX_GAMBLIN2.png
+EX_JASTOR,EX_JASTOR,15,22,130,14,3,0.8,3,1,,,True,True,False,EX_WESTWOODS,,assets/enemies/EX_JASTOR.png
+EX_JASTOR_PATROL,EX_JASTOR_PATROL,7,44,200,18,3,0,0,0,,,True,False,False,EX_WESTWOODS,,assets/enemies/EX_JASTOR_PATROL.png
+EX_ROULETTEMUSH,EX_ROULETTEMUSH,1,5,140,10,5,0.1,1,1,HP_x_Level,,True,True,False,EX_WESTWOODS,,assets/enemies/EX_ROULETTEMUSH.png
+EX_TOLL2,EX_TOLL2,1,13,100,8,2,0.3,3,1,,,,True,False,EX_WESTWOODS,,assets/enemies/EX_TOLL2.png
+EX_VALENTINE,EX_VALENTINE,25,15,120,20,30,0.5,1,2,HP_x_Level,res_Defang:1|res_Freeze:1.1|res_Rosary:1,True,True,False,EX_WESTWOODS,,assets/enemies/EX_VALENTINE.png
+EX_SQUILLER_1,EX_SQUILLER_1,1,0.1,800,1,1,1,3,2,Fixed_Direction|HP_x_Level,res_Defang:1,True,True,False,EX_WESTWOODS,EX_SQUILLER_2|EX_SQUILLER_COMBO,assets/enemies/EX_SQUILLER_1.png
+EX_SQUILLER_2,EX_SQUILLER_2,1,0.2,600,2,1,1,3,2,Fixed_Direction|HP_x_Level,res_Defang:1,True,False,False,EX_WESTWOODS,,assets/enemies/EX_SQUILLER_2.png
+EX_SQUILLER_COMBO,EX_SQUILLER_COMBO,1,0.2,700,2,1,1,3,2,Fixed_Direction|HP_x_Level,res_Defang:1,True,False,False,EX_WESTWOODS,,assets/enemies/EX_SQUILLER_COMBO.png
+EX_GEMSTONE_HITS_STATIC,EX_GEMSTONE_HITS_STATIC,1,5,0,10,5,0,0,0,,res_Defang:1|res_Debuffs:1|res_Corridor:1,True,False,False,EX_WESTWOODS,,assets/enemies/EX_GEMSTONE_HITS_STATIC.png
+EX_DICE,EX_DICE,1,5,0,30,5,0,0,0,,res_Defang:1,True,False,False,EX_WESTWOODS,,assets/enemies/EX_DICE.png
+EX_DICE_AGGRO,EX_DICE_AGGRO,1,5,160,10,5,0,1,0,,res_Defang:1|res_Debuffs:1|res_Corridor:1,False,False,False,EX_WESTWOODS,,assets/enemies/EX_DICE_AGGRO.png
+EX_CARDSHARP,EX_CARDSHARP,5,3,130,11,8,0.5,1,2,HP_x_Level,,,True,False,EX_WESTWOODS,,assets/enemies/EX_CARDSHARP.png
+EX_CHARGER,Charging Enemy,5,25,130,10,2.75,0.5,3,3,,,,False,False,EX_MAZERELLA,,assets/enemies/EX_CHARGER.png
+EX_TORINO,EX_TORINO,1,1,130,1,1,0.3,3,2,,,,True,False,EX_MAZERELLA,EX_CHARGER_RED_S|EX_CHARGER_YELLOW_S,assets/enemies/EX_TORINO.png
+EX_JOYATAURO,EX_JOYATAURO,1,4,150,6,2.5,0.1,2,1,,,,True,False,EX_MAZERELLA,EX_CHARGER_RED_M|EX_CHARGER_YELLOW_M,assets/enemies/EX_JOYATAURO.png
+EX_MEANATAUR,EX_MEANATAUR,1,11,120,8,3,0.1,1,1,,,,True,False,EX_MAZERELLA,EX_CHARGER_RED_L|EX_CHARGER_YELLOW_L,assets/enemies/EX_MEANATAUR.png
+EX_17COLOSSUS_BURIED,EX_17COLOSSUS_BURIED,21,50,117,40,50,0,1,1,HP_x_Level,res_Defang:1|res_Freeze:1.1|res_Rosary:1|res_Debuffs:1|res_Corridor:1,True,False,False,EX_MAZERELLA,,assets/enemies/EX_17COLOSSUS_BURIED.png
+EX_17COLOSSUS,EX_17COLOSSUS,1,200,117,40,50,0,1,1,HP_x_Level,res_Defang:1|res_Freeze:1.1|res_Rosary:1|res_Debuffs:1|res_Corridor:1,True,True,False,EX_MAZERELLA,,assets/enemies/EX_17COLOSSUS.png
+EX_CHARGER_RED_S,Red Torino,5,0.8,150,5,1.5,0.5,3,3,HP_x_Level,,,False,False,EX_MAZERELLA,,assets/enemies/EX_CHARGER_RED_S.png
+EX_CHARGER_RED_M,Red Joya Tauro,5,2.5,145,7.5,2,0.5,2,3,HP_x_Level,,,False,False,EX_MAZERELLA,,assets/enemies/EX_CHARGER_RED_M.png
+EX_CHARGER_RED_L,Red Meanataur,5,6,140,10,2.75,0.5,3,3,HP_x_Level,,,False,False,EX_MAZERELLA,,assets/enemies/EX_CHARGER_RED_L.png
+EX_CHARGER_YELLOW_S,Yellow Torino,5,25,110,10,2.75,0.5,2,3,,,,False,False,EX_MAZERELLA,,assets/enemies/EX_CHARGER_YELLOW_S.png
+EX_CHARGER_YELLOW_M,Yellow Joya Tauro,5,25,115,10,2.75,0.25,1.5,3,,,,False,False,EX_MAZERELLA,,assets/enemies/EX_CHARGER_YELLOW_M.png
+EX_CHARGER_YELLOW_L,Yellow Meanataur,5,25,120,10,2.75,0.125,1,3,,,,False,False,EX_MAZERELLA,,assets/enemies/EX_CHARGER_YELLOW_L.png
+EX_MAZERELLA_DANCER,Tarantella,5,25,0,10,2.75,0.25,1.5,3,,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1|res_Defang:1,True,False,False,EX_MAZERELLA,,assets/enemies/EX_MAZERELLA_DANCER.png
+EX_VSBAT1,EX_VSBAT1,1,0.1,140,5,1,1,3,2,,,True,False,False,FOREST|TOWER,,assets/enemies/EX_VSBAT1.png
+EX_BOSS_BATDRAGON_1,.,10,100,110,20,100,0,1,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Defang:1|res_Rosary:1,True,True,False,FOREST|MOLISE,EX_BOSS_BATDRAGON_2,assets/enemies/EX_BOSS_BATDRAGON_1.png
+EX_BOSS_BATDRAGON_2,EX_BOSS_BATDRAGON_2,10,100,110,20,100,0,1,0,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Defang:1|res_Rosary:1,True,False,False,,,assets/enemies/EX_BOSS_BATDRAGON_2.png
+EX_BATDRAKELET,.,1,3,150,8,2,1,2,1,HP_x_Level,,,True,False,FOREST|MOLISE,EX_BATDRAKELET_CIRCLING,assets/enemies/EX_BATDRAKELET.png
+EX_BATDRAKELET_CIRCLING,EX_BATDRAKELET_CIRCLING,1,3,120,8,0,1,2,1,HP_x_Level,res_Freeze:2|res_Knockback:1|res_Debuffs:1|res_Defang:1,True,False,False,,,assets/enemies/EX_BATDRAKELET_CIRCLING.png
+EX_BATDRAKELET_STATIONARY,EX_BATDRAKELET_STATIONARY,1,3,10,8,0,0.5,2,1,HP_x_Level,res_Defang:1,True,False,False,,,assets/enemies/EX_BATDRAKELET_STATIONARY.png
+EX_BATDRAKELET_SHADOW,EX_BATDRAKELET_SHADOW,1,10,1500,1,0,0,0,2,Fixed_Direction|HP_x_Level,res_Defang:1,True,False,False,,,assets/enemies/EX_BATDRAKELET_SHADOW.png
+EX_CRABBINO_MEDUSA,EX_CRABBINO_MEDUSA,1,0.5,120,5,1,0,1,0,Fixed_Direction|HP_x_Level|Medusa,,True,False,False,,,assets/enemies/EX_CRABBINO_MEDUSA.png
+EX_JELLYFISH_MEDUSA,EX_JELLYFISH_MEDUSA,1,0.1,120,3,1,0.2,3,2,Fixed_Direction|Medusa,,,False,False,,,assets/enemies/EX_JELLYFISH_MEDUSA.png
+EX_SALMON_RED_MEDUSA,EX_SALMON_RED_MEDUSA,1,0.1,240,1,1,1,3,1,Medusa|Fixed_Direction,,True,False,False,,,assets/enemies/EX_SALMON_RED_MEDUSA.png
+EX_SALMON_PINK_MEDUSA,EX_SALMON_PINK_MEDUSA,1,0.1,240,1,1,1,3,1,Medusa|Fixed_Direction,,True,False,False,,,assets/enemies/EX_SALMON_PINK_MEDUSA.png
+EX_SALMON_BLUE_MEDUSA,EX_SALMON_BLUE_MEDUSA,1,0.1,240,1,1,1,3,1,Medusa|Fixed_Direction,,True,False,False,,,assets/enemies/EX_SALMON_BLUE_MEDUSA.png
+EX_SEAANGEL_MEDUSA,EX_SEAANGEL_MEDUSA,1,0.3,240,5,1,1,3,2,Fixed_Direction|Medusa,,True,False,False,,,assets/enemies/EX_SEAANGEL_MEDUSA.png
+EX_SEAHORSE_MEDUSA,EX_SEAHORSE_MEDUSA,1,1.6,140,5,1,1,3,5,Fixed_Direction|Medusa,,True,False,False,,,assets/enemies/EX_SEAHORSE_MEDUSA.png
+EX_JELLY_MEDUSA,EX_JELLY_MEDUSA,1,2.5,240,1,1,1,3,1,Medusa|Fixed_Direction,,True,False,False,,,assets/enemies/EX_JELLY_MEDUSA.png
+EX_SEAANGEL,Deep Angel,1,0.3,100,4,1,1,3,2,,,,True,False,EX_LYCAEUM,,assets/enemies/EX_SEAANGEL.png
+EX_SEAPIG,Deep Pig,1,1,100,4,1,0.8,3,4,,,,True,False,EX_LYCAEUM,,assets/enemies/EX_SEAPIG.png
+EX_SEASLUG,Deep Slug,1,1,100,4,1,0.8,3,2,,,,True,False,EX_LYCAEUM,,assets/enemies/EX_SEASLUG.png
+EX_ICHTHYOCENTAUR_01,Ichthyo Centaur,1,7,150,10,2,0.3,3,2,,,,True,False,EX_LYCAEUM,EX_ICHTHYOCENTAUR_01|EX_ICHTHYOCENTAUR_02|EX_ICHTHYOCENTAUR_03|EX_ICHTHYOCENTAUR_04|EX_ICHTHYOCENTAUR_05,assets/enemies/EX_ICHTHYOCENTAUR_01.png
+EX_ICHTHYOCENTAUR_02,EX_ICHTHYOCENTAUR_02,1,15,150,10,2,0.3,3,2,,,,False,False,,,assets/enemies/EX_ICHTHYOCENTAUR_02.png
+EX_ICHTHYOCENTAUR_03,EX_ICHTHYOCENTAUR_03,4,13,150,8,4,1,3,0,,,False,False,False,,,assets/enemies/EX_ICHTHYOCENTAUR_03.png
+EX_ICHTHYOCENTAUR_04,EX_ICHTHYOCENTAUR_04,4,13,150,8,4,1,3,0,,,False,False,False,,,assets/enemies/EX_ICHTHYOCENTAUR_04.png
+EX_ICHTHYOCENTAUR_05,EX_ICHTHYOCENTAUR_05,4,13,150,8,4,1,3,0,,,False,False,False,,,assets/enemies/EX_ICHTHYOCENTAUR_05.png
+EX_TRITONT_01,EX_TRITONT_01,4,15,100,8,3,1,3,2,,,,False,False,,,assets/enemies/EX_TRITONT_01.png
+EX_TRITONT_02,EX_TRITONT_02,4,15,100,8,3,1,3,2,,,,False,False,,,assets/enemies/EX_TRITONT_02.png
+EX_LEAFYSEAHORSE_01,Deep Horse,1,1.2,140,10,1,1,3,5,,,,True,False,EX_LYCAEUM,EX_LEAFYSEAHORSE_02,assets/enemies/EX_LEAFYSEAHORSE_01.png
+EX_LEAFYSEAHORSE_02,EX_LEAFYSEAHORSE_02,1,1.6,140,10,1,1,3,5,,,,False,False,,,assets/enemies/EX_LEAFYSEAHORSE_02.png
+EX_OLM,Deep Olm,5,30,140,11,3.5,0,1,1,,,False,True,False,EX_LYCAEUM,,assets/enemies/EX_OLM.png
+EX_AHUIZOTL,Deep Ahuizotl,5,25,180,10,3,0.5,3,1,,,False,True,False,EX_LYCAEUM,,assets/enemies/EX_AHUIZOTL.png
+EX_BUKAVAC,Bukavac,1,15,100,10,2,1,3,0,,,False,True,False,EX_LYCAEUM,,assets/enemies/EX_BUKAVAC.png
+EX_ARCANA_SALMON,EX_ARCANA_SALMON,1,5,100,10,30,1,3,2,HP_x_Level,,,False,False,,,assets/enemies/EX_ARCANA_SALMON.png
+EX_BOSS_PINKJELLYFISH,Deep Pink,1,5,150,10,30,1,3,2,HP_x_Level,,,True,False,EX_LYCAEUM,,assets/enemies/EX_BOSS_PINKJELLYFISH.png
+EX_BOSS_CRAB_LYCAEUM,EX_BOSS_CRAB_LYCAEUM,30,40,190,30,50,0,1,0,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1,True,False,False,,,assets/enemies/EX_BOSS_CRAB_LYCAEUM.png
+EX_BOSS_ICHTHYOCENTAUR,EX_BOSS_ICHTHYOCENTAUR,100,20,170,20,30,0,0,0,HP_x_Level,res_Knockback:1|res_Debuffs:1,,False,False,,,assets/enemies/EX_BOSS_ICHTHYOCENTAUR.png
+EX_BOSS_SEASPHYNX,Deep Seasphynx,30,60,200,20,50,0,1,1,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Knockback:1|res_Debuffs:1|res_Defang:1,False,True,False,EX_LYCAEUM,,assets/enemies/EX_BOSS_SEASPHYNX.png
+EX_BOSS_SALMONARI,EX_BOSS_SALMONARI,1,1080,220,40,100,1,1,1,Fixed_Direction,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1|res_Defang:1,True,False,False,,,assets/enemies/EX_BOSS_SALMONARI.png
+EX_BOSS_DROWNER_LYCAEUM,EX_BOSS_DROWNER_LYCAEUM,100,255,150,50,0,0,0,0,HP_x_Level,res_Rosary:1.1|res_Defang:1|res_Freeze:2|res_Knockback:1|res_Debuffs:1,True,False,False,,,assets/enemies/EX_BOSS_DROWNER_LYCAEUM.png
+EX_BOSS_TRITON_LYCAEUM,EX_BOSS_TRITON_LYCAEUM,30,20,180,20,50,0,1,1,HP_x_Level,res_Freeze:1.1|res_Rosary:1|res_Debuffs:1,,False,False,,,assets/enemies/EX_BOSS_TRITON_LYCAEUM.png
+EX_SIGRABLU_SWARM,EX_SIGRABLU_SWARM,1,3,600,5,0,1,3,1,Fixed_Direction,res_Defang:1,False,False,False,,,assets/enemies/EX_SIGRABLU_SWARM.png
+EX_SIGRABLU_EXPLO,EX_SIGRABLU_EXPLO,1,1.1,330,3,0,1,3,1,Self_Destruct|HP_x_Level,res_Defang:1,False,False,False,,,assets/enemies/EX_SIGRABLU_EXPLO.png

@@ -1,0 +1,2950 @@
+{
+  "counts": {
+    "weapons": 153,
+    "weaponLevels": 687,
+    "powerups": 26,
+    "evolutions": 40,
+    "specialOnly": 49,
+    "alwaysHidden": 39,
+    "enemies": 579,
+    "bossIds": 70,
+    "bestiaryIncluded": 180
+  },
+  "imageCoverage": {
+    "weapons": 153,
+    "enemies": 579,
+    "missing": 0
+  },
+  "weaponImages": {
+    "WHIP": {
+      "width": 16,
+      "height": 16
+    },
+    "VAMPIRICA": {
+      "width": 16,
+      "height": 16
+    },
+    "MAGIC_MISSILE": {
+      "width": 16,
+      "height": 16
+    },
+    "HOLY_MISSILE": {
+      "width": 16,
+      "height": 16
+    },
+    "KNIFE": {
+      "width": 16,
+      "height": 11
+    },
+    "THOUSAND": {
+      "width": 16,
+      "height": 16
+    },
+    "AXE": {
+      "width": 16,
+      "height": 16
+    },
+    "SCYTHE": {
+      "width": 16,
+      "height": 16
+    },
+    "CROSS": {
+      "width": 16,
+      "height": 16
+    },
+    "HEAVENSWORD": {
+      "width": 16,
+      "height": 16
+    },
+    "HOLYBOOK": {
+      "width": 12,
+      "height": 16
+    },
+    "VESPERS": {
+      "width": 12,
+      "height": 16
+    },
+    "FIREBALL": {
+      "width": 16,
+      "height": 16
+    },
+    "HELLFIRE": {
+      "width": 16,
+      "height": 16
+    },
+    "GARLIC": {
+      "width": 13,
+      "height": 13
+    },
+    "VORTEX": {
+      "width": 14,
+      "height": 15
+    },
+    "HOLYWATER": {
+      "width": 16,
+      "height": 16
+    },
+    "BORA": {
+      "width": 16,
+      "height": 16
+    },
+    "DIAMOND": {
+      "width": 13,
+      "height": 13
+    },
+    "ROCHER": {
+      "width": 16,
+      "height": 16
+    },
+    "LIGHTNING": {
+      "width": 16,
+      "height": 16
+    },
+    "LOOP": {
+      "width": 16,
+      "height": 16
+    },
+    "PENTAGRAM": {
+      "width": 16,
+      "height": 16
+    },
+    "SIRE": {
+      "width": 16,
+      "height": 16
+    },
+    "SILF": {
+      "width": 16,
+      "height": 15
+    },
+    "SILF2": {
+      "width": 16,
+      "height": 15
+    },
+    "SILF3": {
+      "width": 18,
+      "height": 15
+    },
+    "GUNS": {
+      "width": 16,
+      "height": 16
+    },
+    "GUNS2": {
+      "width": 16,
+      "height": 16
+    },
+    "GUNS3": {
+      "width": 16,
+      "height": 16
+    },
+    "GATTI": {
+      "width": 26,
+      "height": 14
+    },
+    "STIGRANGATTI": {
+      "width": 16,
+      "height": 16
+    },
+    "SONG": {
+      "width": 16,
+      "height": 16
+    },
+    "MANNAGGIA": {
+      "width": 16,
+      "height": 16
+    },
+    "TRAPANO": {
+      "width": 14,
+      "height": 16
+    },
+    "TRAPANO2": {
+      "width": 14,
+      "height": 16
+    },
+    "LANCET": {
+      "width": 16,
+      "height": 16
+    },
+    "CORRIDOR": {
+      "width": 16,
+      "height": 16
+    },
+    "LAUREL": {
+      "width": 16,
+      "height": 16
+    },
+    "SHROUD": {
+      "width": 16,
+      "height": 16
+    },
+    "VENTO": {
+      "width": 16,
+      "height": 16
+    },
+    "VENTO2": {
+      "width": 16,
+      "height": 16
+    },
+    "BONE": {
+      "width": 16,
+      "height": 9
+    },
+    "BONE2": {
+      "width": 16,
+      "height": 16
+    },
+    "CHERRY": {
+      "width": 16,
+      "height": 16
+    },
+    "CHERRY2": {
+      "width": 16,
+      "height": 16
+    },
+    "CART2": {
+      "width": 16,
+      "height": 16
+    },
+    "CART2EVO": {
+      "width": 16,
+      "height": 16
+    },
+    "FLOWER": {
+      "width": 16,
+      "height": 16
+    },
+    "FLOWER2": {
+      "width": 16,
+      "height": 16
+    },
+    "ROBBA": {
+      "width": 13,
+      "height": 16
+    },
+    "JUBILEE": {
+      "width": 16,
+      "height": 16
+    },
+    "TRIASSO1": {
+      "width": 14,
+      "height": 14
+    },
+    "TRIASSO2": {
+      "width": 16,
+      "height": 16
+    },
+    "TRIASSO3": {
+      "width": 16,
+      "height": 16
+    },
+    "CANDYBOX": {
+      "width": 16,
+      "height": 16
+    },
+    "CANDYBOX2": {
+      "width": 16,
+      "height": 16
+    },
+    "BATTILIA": {
+      "width": 15,
+      "height": 14
+    },
+    "BATTILIA2": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_AMMO1": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_AMMO2": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_FLIK1": {
+      "width": 14,
+      "height": 16
+    },
+    "EX_FLIK2": {
+      "width": 16,
+      "height": 16
+    },
+    "VICTORY": {
+      "width": 16,
+      "height": 16
+    },
+    "SOLES": {
+      "width": 15,
+      "height": 16
+    },
+    "MISSPELL": {
+      "width": 16,
+      "height": 16
+    },
+    "MISSPELL2": {
+      "width": 16,
+      "height": 16
+    },
+    "ICELANCE": {
+      "width": 16,
+      "height": 16
+    },
+    "ICELANCE2": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_PENSHIN": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_PENSHIN_EVO7": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_PENSHIN_EVO2": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_PENSHIN_EVO3": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_PENSHIN_EVO4": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_PENSHIN_EVO1": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_PENSHIN_EVO6": {
+      "width": 16,
+      "height": 13
+    },
+    "EX_PENSHIN_UNION": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_PENSHIN_STATIC7": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_PENSHIN_STATIC2": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_PENSHIN_STATIC3": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_PENSHIN_STATIC4": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_PENSHIN_STATIC1": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_PENSHIN_STATIC6": {
+      "width": 16,
+      "height": 13
+    },
+    "SANTAJAVELIN": {
+      "width": 16,
+      "height": 16
+    },
+    "SANTAJAVELIN2": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_GAEA1": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_GAEA2": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_MAGISTONE1": {
+      "width": 16,
+      "height": 16
+    },
+    "EX_MAGISTONE2": {
+      "width": 16,
+      "height": 16
+    },
+    "PHASER": {
+      "width": 16,
+      "height": 16
+    },
+    "PHASER2": {
+      "width": 15,
+      "height": 16
+    },
+    "FOLLOWER_KNIFE1": {
+      "width": 12,
+      "height": 12
+    },
+    "FOLLOWER_KNIFE2": {
+      "width": 16,
+      "height": 16
+    },
+    "ARMADIO": {
+      "width": 16,
+      "height": 16
+    },
+    "NDUJA": {
+      "width": 16,
+      "height": 15
+    },
+    "NDUJA_COUNTER": {
+      "width": 16,
+      "height": 15
+    },
+    "CONEOFCOLD": {
+      "width": 15,
+      "height": 16
+    },
+    "CONEOFCOLD_COUNTER": {
+      "width": 15,
+      "height": 16
+    },
+    "FLOOD": {
+      "width": 16,
+      "height": 16
+    },
+    "CART": {
+      "width": 16,
+      "height": 16
+    },
+    "TRAINHAZARD": {
+      "width": 16,
+      "height": 16
+    },
+    "SARABANDE": {
+      "width": 16,
+      "height": 16
+    },
+    "WINDOW": {
+      "width": 16,
+      "height": 16
+    },
+    "WINDOW2": {
+      "width": 11,
+      "height": 14
+    },
+    "FIREEXPLOSION": {
+      "width": 14,
+      "height": 15
+    },
+    "COLDEXPLOSION": {
+      "width": 14,
+      "height": 15
+    },
+    "BLOODLINE": {
+      "width": 14,
+      "height": 15
+    },
+    "ASTRONOMIA": {
+      "width": 14,
+      "height": 15
+    },
+    "D20_JETBLACK": {
+      "width": 14,
+      "height": 15
+    },
+    "D13_MADMOON": {
+      "width": 14,
+      "height": 15
+    },
+    "NOVA_FIRE": {
+      "width": 14,
+      "height": 15
+    },
+    "NOVA_ICEE": {
+      "width": 14,
+      "height": 15
+    },
+    "NOVA_FEAR": {
+      "width": 14,
+      "height": 15
+    },
+    "EX_GROUNDHIT": {
+      "width": 14,
+      "height": 15
+    },
+    "EX_GROUNDHITCENTRAL": {
+      "width": 14,
+      "height": 15
+    },
+    "POWER": {
+      "width": 12,
+      "height": 16
+    },
+    "ARMOR": {
+      "width": 16,
+      "height": 16
+    },
+    "MAXHEALTH": {
+      "width": 16,
+      "height": 15
+    },
+    "REGEN": {
+      "width": 14,
+      "height": 12
+    },
+    "COOLDOWN": {
+      "width": 16,
+      "height": 16
+    },
+    "AREA": {
+      "width": 15,
+      "height": 16
+    },
+    "SPEED": {
+      "width": 16,
+      "height": 16
+    },
+    "DURATION": {
+      "width": 16,
+      "height": 16
+    },
+    "AMOUNT": {
+      "width": 14,
+      "height": 14
+    },
+    "MOVESPEED": {
+      "width": 16,
+      "height": 16
+    },
+    "MAGNET": {
+      "width": 14,
+      "height": 14
+    },
+    "LUCK": {
+      "width": 16,
+      "height": 16
+    },
+    "GROWTH": {
+      "width": 16,
+      "height": 16
+    },
+    "GREED": {
+      "width": 12,
+      "height": 10
+    },
+    "CURSE": {
+      "width": 15,
+      "height": 16
+    },
+    "REVIVAL": {
+      "width": 16,
+      "height": 16
+    },
+    "PANDORA": {
+      "width": 16,
+      "height": 16
+    },
+    "PARMA": {
+      "width": 16,
+      "height": 16
+    },
+    "DOMINION": {
+      "width": 16,
+      "height": 16
+    },
+    "TETRAFORCE": {
+      "width": 16,
+      "height": 16
+    },
+    "SILF_COUNTER": {
+      "width": 16,
+      "height": 15
+    },
+    "SILF2_COUNTER": {
+      "width": 16,
+      "height": 15
+    },
+    "GUNS_COUNTER": {
+      "width": 16,
+      "height": 16
+    },
+    "GUNS2_COUNTER": {
+      "width": 16,
+      "height": 16
+    },
+    "GATTI_COUNTER": {
+      "width": 16,
+      "height": 13
+    },
+    "EX_AMMO1_COUNTER": {
+      "width": 16,
+      "height": 16
+    },
+    "SANTAJAVELINCOUNTER": {
+      "width": 16,
+      "height": 16
+    },
+    "SILVER": {
+      "width": 16,
+      "height": 16
+    },
+    "GOLD": {
+      "width": 16,
+      "height": 16
+    },
+    "LEFT": {
+      "width": 16,
+      "height": 16
+    },
+    "RIGHT": {
+      "width": 16,
+      "height": 16
+    },
+    "FOLLOWER_GARLIC": {
+      "width": 13,
+      "height": 13
+    },
+    "EX_TOHILSTATUE": {
+      "width": 16,
+      "height": 16
+    },
+    "INSATIABLE": {
+      "width": 14,
+      "height": 15
+    },
+    "EX_COINTOSS1": {
+      "width": 12,
+      "height": 12
+    },
+    "EX_RUMBA1": {
+      "width": 16,
+      "height": 11
+    },
+    "BUBBLE_SUPPORT": {
+      "width": 15,
+      "height": 14
+    }
+  },
+  "enemyImages": {
+    "BAT4": {
+      "width": 27,
+      "height": 25
+    },
+    "BAT5": {
+      "width": 27,
+      "height": 25
+    },
+    "ZOMBIE": {
+      "width": 31,
+      "height": 33
+    },
+    "MUDMAN1": {
+      "width": 34,
+      "height": 34
+    },
+    "MUDMAN2": {
+      "width": 34,
+      "height": 34
+    },
+    "WEREWOLF": {
+      "width": 32,
+      "height": 34
+    },
+    "MUD": {
+      "width": 30,
+      "height": 31
+    },
+    "BUER": {
+      "width": 28,
+      "height": 32
+    },
+    "MILK": {
+      "width": 30,
+      "height": 31
+    },
+    "MILK2": {
+      "width": 30,
+      "height": 31
+    },
+    "SHADEBLUE": {
+      "width": 32,
+      "height": 36
+    },
+    "BOSS_COUNT1": {
+      "width": 50,
+      "height": 48
+    },
+    "SKULL2_SCALING": {
+      "width": 28,
+      "height": 34
+    },
+    "SKULL2_EASY": {
+      "width": 28,
+      "height": 34
+    },
+    "SKULL2_SWARM": {
+      "width": 28,
+      "height": 34
+    },
+    "BOSS_SKULL2": {
+      "width": 28,
+      "height": 34
+    },
+    "MUMMY": {
+      "width": 31,
+      "height": 33
+    },
+    "MEDUSA2": {
+      "width": 29,
+      "height": 32
+    },
+    "MEDUSA2_AGGRO": {
+      "width": 29,
+      "height": 32
+    },
+    "MEDUSA2_FAST": {
+      "width": 29,
+      "height": 32
+    },
+    "DULL1": {
+      "width": 33,
+      "height": 34
+    },
+    "DULL2": {
+      "width": 32,
+      "height": 31
+    },
+    "WITCH1": {
+      "width": 28,
+      "height": 34
+    },
+    "WITCH2": {
+      "width": 32,
+      "height": 34
+    },
+    "XLMEDUSA": {
+      "width": 48,
+      "height": 49
+    },
+    "XLBAT": {
+      "width": 50,
+      "height": 39
+    },
+    "XLMANTIS": {
+      "width": 48,
+      "height": 47
+    },
+    "XLMUMMY": {
+      "width": 37,
+      "height": 50
+    },
+    "XLFLOWER": {
+      "width": 51,
+      "height": 50
+    },
+    "BOSS_WEREWOLF": {
+      "width": 32,
+      "height": 34
+    },
+    "BOSS_WEREWOLF2": {
+      "width": 32,
+      "height": 34
+    },
+    "BOSS_XLMUMMY": {
+      "width": 37,
+      "height": 50
+    },
+    "BOSS_XLBAT": {
+      "width": 50,
+      "height": 39
+    },
+    "test": {
+      "width": 48,
+      "height": 47
+    },
+    "BOSS_XLMANTIS": {
+      "width": 48,
+      "height": 47
+    },
+    "BOSS_XLFLOWER": {
+      "width": 51,
+      "height": 50
+    },
+    "BOSS_ECTO": {
+      "width": 31,
+      "height": 34
+    },
+    "BOSS_MUD": {
+      "width": 30,
+      "height": 31
+    },
+    "BOSS_BUER": {
+      "width": 28,
+      "height": 32
+    },
+    "BOSS_XLMEDUSA": {
+      "width": 48,
+      "height": 49
+    },
+    "BOSS_WITCH2": {
+      "width": 32,
+      "height": 34
+    },
+    "FISHMAN_1": {
+      "width": 31,
+      "height": 34
+    },
+    "BULLET_1": {
+      "width": 15,
+      "height": 15
+    },
+    "LIZARD1_2": {
+      "width": 34,
+      "height": 34
+    },
+    "MERMA1_3": {
+      "width": 31,
+      "height": 34
+    },
+    "LIZARD2_3": {
+      "width": 34,
+      "height": 34
+    },
+    "PILE2": {
+      "width": 26,
+      "height": 35
+    },
+    "MERMA2_4": {
+      "width": 33,
+      "height": 34
+    },
+    "JELLYFISH": {
+      "width": 19,
+      "height": 33
+    },
+    "SKELENIN1": {
+      "width": 34,
+      "height": 34
+    },
+    "PILE3": {
+      "width": 29,
+      "height": 33
+    },
+    "BOSS_PILE3": {
+      "width": 29,
+      "height": 33
+    },
+    "BULLET_3": {
+      "width": 15,
+      "height": 15
+    },
+    "BULLET_Z": {
+      "width": 15,
+      "height": 15
+    },
+    "SKELENIN2": {
+      "width": 34,
+      "height": 34
+    },
+    "GOLEM1": {
+      "width": 32,
+      "height": 34
+    },
+    "MIGNO1_5": {
+      "width": 32,
+      "height": 34
+    },
+    "BOSS_MIGNO2_5": {
+      "width": 33,
+      "height": 34
+    },
+    "BOSS_MIGNO2_5_L": {
+      "width": 33,
+      "height": 34
+    },
+    "BOSS_MERMAN": {
+      "width": 33,
+      "height": 34
+    },
+    "BOSS_ARMOR1": {
+      "width": 34,
+      "height": 34
+    },
+    "MIGNO3_5": {
+      "width": 32,
+      "height": 34
+    },
+    "ARMORSPEAR_6": {
+      "width": 34,
+      "height": 35
+    },
+    "ARMOR_6": {
+      "width": 34,
+      "height": 34
+    },
+    "PATROL_ARMOR_6": {
+      "width": 34,
+      "height": 34
+    },
+    "PATROL_WITCH": {
+      "width": 28,
+      "height": 34
+    },
+    "SKELEWING": {
+      "width": 34,
+      "height": 34
+    },
+    "SKELEWING_INO": {
+      "width": 34,
+      "height": 34
+    },
+    "PATROL_SKELEWING": {
+      "width": 34,
+      "height": 34
+    },
+    "XLTRITON": {
+      "width": 46,
+      "height": 50
+    },
+    "XLCHIMERA": {
+      "width": 48,
+      "height": 47
+    },
+    "XLCOCKATRICE": {
+      "width": 50,
+      "height": 42
+    },
+    "XLCOCKATRICE_GOLD": {
+      "width": 50,
+      "height": 42
+    },
+    "XLGOLEM1": {
+      "width": 45,
+      "height": 48
+    },
+    "XLGOLEM2": {
+      "width": 45,
+      "height": 50
+    },
+    "XLARMOR_SWORD": {
+      "width": 47,
+      "height": 51
+    },
+    "PATROL_XLARMOR_SWORD": {
+      "width": 47,
+      "height": 51
+    },
+    "PATROL_SKELEWING_BIG": {
+      "width": 34,
+      "height": 34
+    },
+    "BOSS_XLCOCKATRICE": {
+      "width": 50,
+      "height": 42
+    },
+    "BOSS_XLCHIMERA": {
+      "width": 48,
+      "height": 47
+    },
+    "BOSS_XLTRITON": {
+      "width": 46,
+      "height": 50
+    },
+    "BOSS_XLGOLEM1": {
+      "width": 45,
+      "height": 48
+    },
+    "BOSS_XLGOLEM2": {
+      "width": 45,
+      "height": 50
+    },
+    "BOSS_XLGOLEM1_29": {
+      "width": 45,
+      "height": 48
+    },
+    "BOSS_XLGOLEM2_29": {
+      "width": 45,
+      "height": 50
+    },
+    "BOSS_XLARMOR": {
+      "width": 47,
+      "height": 51
+    },
+    "ADV_XLFLOWER_SMALL": {
+      "width": 51,
+      "height": 50
+    },
+    "EX_FISHMAN_1GREEN": {
+      "width": 33,
+      "height": 34
+    },
+    "EX_MUD_FASTSWARM": {
+      "width": 30,
+      "height": 31
+    },
+    "EX_ECTO2_FASTSWARM": {
+      "width": 31,
+      "height": 34
+    },
+    "BULLET_SM1": {
+      "width": 15,
+      "height": 15
+    },
+    "BULLET_SM2": {
+      "width": 15,
+      "height": 15
+    },
+    "EX_RACING_XLBAT": {
+      "width": 50,
+      "height": 39
+    },
+    "EX_RACING_FISHMAN_1": {
+      "width": 31,
+      "height": 34
+    },
+    "EX_RACING_LIZARD2_3": {
+      "width": 34,
+      "height": 34
+    },
+    "EX_RACING_LIZARD1_2": {
+      "width": 34,
+      "height": 34
+    },
+    "EX_RACING_MERMA1_3": {
+      "width": 31,
+      "height": 34
+    },
+    "EX_RACING_MERMA2_4": {
+      "width": 33,
+      "height": 34
+    },
+    "EX_RACING_PILE2": {
+      "width": 26,
+      "height": 35
+    },
+    "EX_RACING_PILE3": {
+      "width": 29,
+      "height": 33
+    },
+    "EX_RACING_BOSS_PILE3": {
+      "width": 29,
+      "height": 33
+    },
+    "EX_RACING_BOSS_MERMAN": {
+      "width": 33,
+      "height": 34
+    },
+    "EX_RACING_BUER": {
+      "width": 28,
+      "height": 32
+    },
+    "EX_RACING_BOSS_MIGNO2_5": {
+      "width": 33,
+      "height": 34
+    },
+    "EX_BROCCOLI_SCALE": {
+      "width": 31,
+      "height": 34
+    },
+    "SKELENIN_ZONE": {
+      "width": 34,
+      "height": 34
+    },
+    "SKELEWING_ZONE": {
+      "width": 34,
+      "height": 34
+    },
+    "SKETAMARI": {
+      "width": 28,
+      "height": 33
+    },
+    "MOON_SHADEBLUE": {
+      "width": 32,
+      "height": 36
+    },
+    "MOON_MEDUSA2": {
+      "width": 29,
+      "height": 32
+    },
+    "MOON_FISHMAN": {
+      "width": 31,
+      "height": 34
+    },
+    "MOON_JELLYFISH": {
+      "width": 19,
+      "height": 33
+    },
+    "MOON_XLTRITON": {
+      "width": 46,
+      "height": 50
+    },
+    "FANGEL3": {
+      "width": 50,
+      "height": 39
+    },
+    "BOSS_FANGEL3": {
+      "width": 50,
+      "height": 39
+    },
+    "BOSS_GIANT_MIMIC1": {
+      "width": 31,
+      "height": 33
+    },
+    "EX_SCALING_BAT3_YELLOW": {
+      "width": 30,
+      "height": 27
+    },
+    "EX_SCALING_BAT3_GREEN": {
+      "width": 30,
+      "height": 27
+    },
+    "EX_SCALING_BAT3_PURPLE": {
+      "width": 30,
+      "height": 27
+    },
+    "EX_SCALING_XLBAT": {
+      "width": 50,
+      "height": 39
+    },
+    "D_WEAK_REAPER_A": {
+      "width": 43,
+      "height": 50
+    },
+    "UNDEADEYES": {
+      "width": 34,
+      "height": 34
+    },
+    "STARDUST_ELEMENTAL": {
+      "width": 30,
+      "height": 31
+    },
+    "STARDUST_MUMMY": {
+      "width": 31,
+      "height": 33
+    },
+    "STARDUST_GHOUL": {
+      "width": 34,
+      "height": 34
+    },
+    "STARDUST_XLMUMMY": {
+      "width": 37,
+      "height": 50
+    },
+    "STARDUST_GOLEM": {
+      "width": 45,
+      "height": 48
+    },
+    "BOSS_STARDUST_XLMUMMY": {
+      "width": 37,
+      "height": 50
+    },
+    "STARDUST_EYES": {
+      "width": 34,
+      "height": 34
+    },
+    "STARDUST_MUD": {
+      "width": 30,
+      "height": 31
+    },
+    "EX_JELLYFISH_MEDUSA": {
+      "width": 19,
+      "height": 33
+    },
+    "BAT6": {
+      "width": 25,
+      "height": 24
+    },
+    "SKULLINO": {
+      "width": 16,
+      "height": 25
+    },
+    "SKULOROSSO": {
+      "width": 16,
+      "height": 25
+    },
+    "SKELANGUE": {
+      "width": 29,
+      "height": 36
+    },
+    "GHOST2": {
+      "width": 29,
+      "height": 32
+    },
+    "PANTHER": {
+      "width": 33,
+      "height": 33
+    },
+    "XLDRAGON3_FLAG": {
+      "width": 31,
+      "height": 21
+    },
+    "HARPY": {
+      "width": 34,
+      "height": 34
+    },
+    "HARPYV": {
+      "width": 34,
+      "height": 34
+    },
+    "DULL0": {
+      "width": 33,
+      "height": 34
+    },
+    "DEVIL1": {
+      "width": 31,
+      "height": 34
+    },
+    "ARMOR1": {
+      "width": 34,
+      "height": 34
+    },
+    "DEVIL3": {
+      "width": 34,
+      "height": 34
+    },
+    "XLMAGIO": {
+      "width": 40,
+      "height": 49
+    },
+    "XLARMOR1": {
+      "width": 41,
+      "height": 48
+    },
+    "XLARMOR2": {
+      "width": 42,
+      "height": 49
+    },
+    "BOSS_XLLEDA": {
+      "width": 51,
+      "height": 49
+    },
+    "BOSS_HARPY": {
+      "width": 34,
+      "height": 34
+    },
+    "BOSS_PANTHER": {
+      "width": 33,
+      "height": 33
+    },
+    "BOSS_XLDRAGON1": {
+      "width": 49,
+      "height": 47
+    },
+    "BOSS_XLDRAGON2": {
+      "width": 50,
+      "height": 45
+    },
+    "BOSS_XLARMOR1": {
+      "width": 41,
+      "height": 48
+    },
+    "BOSS_XLARMOR2": {
+      "width": 42,
+      "height": 49
+    },
+    "XLGOLEM3": {
+      "width": 47,
+      "height": 49
+    },
+    "XLGOLEM4": {
+      "width": 47,
+      "height": 49
+    },
+    "PATROL_XLARMOR_1": {
+      "width": 41,
+      "height": 48
+    },
+    "BOSS_GALLO": {
+      "width": 31,
+      "height": 34
+    },
+    "BOSS_XLPINCER": {
+      "width": 49,
+      "height": 47
+    },
+    "ADV_MOON_GARLIC_SMALL": {
+      "width": 39,
+      "height": 48
+    },
+    "EX_TRINA_SWARM": {
+      "width": 47,
+      "height": 40
+    },
+    "EX_RACING_IMP": {
+      "width": 31,
+      "height": 34
+    },
+    "EX_RACING_XLDRAGON1": {
+      "width": 49,
+      "height": 47
+    },
+    "SKELEPANTHER": {
+      "width": 34,
+      "height": 33
+    },
+    "XLSKELETON": {
+      "width": 38,
+      "height": 48
+    },
+    "SKELEGLOW": {
+      "width": 30,
+      "height": 33
+    },
+    "BOSS_XLSKELETON": {
+      "width": 38,
+      "height": 48
+    },
+    "MOON_SNEK_GREEN": {
+      "width": 20,
+      "height": 29
+    },
+    "MOON_GARLIC": {
+      "width": 39,
+      "height": 48
+    },
+    "MOON_NIGHTSHADE": {
+      "width": 39,
+      "height": 48
+    },
+    "MOON_BOSS_GARLIC": {
+      "width": 39,
+      "height": 48
+    },
+    "MOON_BOSS_NIGHTSHADE": {
+      "width": 39,
+      "height": 48
+    },
+    "MOON_TRINACRIA": {
+      "width": 47,
+      "height": 40
+    },
+    "MOON_TRINACRIA_X": {
+      "width": 47,
+      "height": 40
+    },
+    "TRINACRIA": {
+      "width": 47,
+      "height": 40
+    },
+    "BOSS_TRINACRIA": {
+      "width": 47,
+      "height": 40
+    },
+    "BOSS_GIANT_MIMIC2": {
+      "width": 31,
+      "height": 34
+    },
+    "UNDEADHEAD": {
+      "width": 44,
+      "height": 47
+    },
+    "STARDUST_SKULL": {
+      "width": 16,
+      "height": 25
+    },
+    "STARDUST_HEAD": {
+      "width": 44,
+      "height": 47
+    },
+    "STARDUST_GHOST": {
+      "width": 29,
+      "height": 32
+    },
+    "DEVIL_HP_1": {
+      "width": 31,
+      "height": 34
+    },
+    "DEVIL_HP_2": {
+      "width": 33,
+      "height": 34
+    },
+    "DEVIL_HP_3": {
+      "width": 31,
+      "height": 34
+    },
+    "DEVIL_HP_4": {
+      "width": 31,
+      "height": 34
+    },
+    "DEVIL_HP_5": {
+      "width": 34,
+      "height": 34
+    },
+    "EX_CRABBINO_MEDUSA": {
+      "width": 50,
+      "height": 45
+    },
+    "EX_BOSS_CRAB_LYCAEUM": {
+      "width": 50,
+      "height": 45
+    },
+    "EX_BOSS_DROWNER_LYCAEUM": {
+      "width": 45,
+      "height": 51
+    },
+    "EX_CONSTABLEBOT": {
+      "width": 33,
+      "height": 33
+    },
+    "EX_TDCCC": {
+      "width": 33,
+      "height": 33
+    },
+    "EX_RETROBOT": {
+      "width": 33,
+      "height": 29
+    },
+    "EX_BOUNTYHUNTER": {
+      "width": 34,
+      "height": 33
+    },
+    "EX_ER2000": {
+      "width": 51,
+      "height": 52
+    },
+    "EX_APEX": {
+      "width": 31,
+      "height": 33
+    },
+    "EX_GYORUNTIN": {
+      "width": 62,
+      "height": 56
+    },
+    "EX_BOSSGYORUNTIN": {
+      "width": 62,
+      "height": 56
+    },
+    "EX_BOSSGYORUNTIN_SOLID": {
+      "width": 62,
+      "height": 56
+    },
+    "EX_RETROBOT_SWARM": {
+      "width": 33,
+      "height": 29
+    },
+    "EX_GYORUNTIN_SWARM": {
+      "width": 62,
+      "height": 56
+    },
+    "EX_CONSTABLEBOT_RANGED": {
+      "width": 33,
+      "height": 33
+    },
+    "EX_TDCCC_RANGED": {
+      "width": 33,
+      "height": 33
+    },
+    "EX_BOUNTYHUNTER_RANGED": {
+      "width": 34,
+      "height": 33
+    },
+    "EX_ER2000_RANGED": {
+      "width": 51,
+      "height": 52
+    },
+    "EX_RACING_RETRO": {
+      "width": 33,
+      "height": 29
+    },
+    "COOP_CHICKEN_SPECIAL": {
+      "width": 33,
+      "height": 33
+    },
+    "COOP_CHICKEN_COUNTER": {
+      "width": 33,
+      "height": 33
+    },
+    "COOP_CHICKEN": {
+      "width": 33,
+      "height": 33
+    },
+    "COOP_CHICKEN_H": {
+      "width": 33,
+      "height": 33
+    },
+    "COOP_CHICKEN_SWARM": {
+      "width": 33,
+      "height": 33
+    },
+    "COOP_COCK": {
+      "width": 33,
+      "height": 33
+    },
+    "COOP_COCK_H": {
+      "width": 33,
+      "height": 33
+    },
+    "COOP_COCK_SWARM": {
+      "width": 33,
+      "height": 33
+    },
+    "COOP_CHIK": {
+      "width": 33,
+      "height": 33
+    },
+    "COOP_CHIK_H": {
+      "width": 33,
+      "height": 33
+    },
+    "COOP_CHIK_SWARM": {
+      "width": 33,
+      "height": 33
+    },
+    "COOP_EGG": {
+      "width": 33,
+      "height": 33
+    },
+    "COOP_EGG_H": {
+      "width": 33,
+      "height": 33
+    },
+    "COOP_EGG_SWARM": {
+      "width": 33,
+      "height": 33
+    },
+    "COOP_ROAST_CHICKEN": {
+      "width": 33,
+      "height": 33
+    },
+    "COOP_ROAST_CHICKEN_H": {
+      "width": 33,
+      "height": 33
+    },
+    "COOP_ROAST_CHICKEN_SWARM": {
+      "width": 33,
+      "height": 33
+    },
+    "COOP_PATROL": {
+      "width": 54,
+      "height": 52
+    },
+    "COOP_ABRAXAS": {
+      "width": 54,
+      "height": 52
+    },
+    "COOP_ABRAXAS_H": {
+      "width": 54,
+      "height": 52
+    },
+    "COOP_ABRAXASCROWN": {
+      "width": 53,
+      "height": 53
+    },
+    "COOP_ABRAXASCROWN_H": {
+      "width": 53,
+      "height": 53
+    },
+    "COOP_ABRAXASHALO": {
+      "width": 54,
+      "height": 54
+    },
+    "COOP_ABRAXASHALO_H": {
+      "width": 54,
+      "height": 54
+    },
+    "COOP_BOSS_ABRAXAS": {
+      "width": 54,
+      "height": 52
+    },
+    "COOP_BOSS_ABRAXASCROWN": {
+      "width": 53,
+      "height": 53
+    },
+    "COOP_BOSS_ABRAXASHALO": {
+      "width": 54,
+      "height": 54
+    },
+    "COOP_BOSS_COCK": {
+      "width": 33,
+      "height": 33
+    },
+    "EX_BATS_COUNTER": {
+      "width": 25,
+      "height": 24
+    },
+    "EX_BATSPACE_ALL4": {
+      "width": 25,
+      "height": 24
+    },
+    "EX_BATSPACE_A": {
+      "width": 25,
+      "height": 24
+    },
+    "EX_BATSPACE_B": {
+      "width": 25,
+      "height": 24
+    },
+    "EX_BATSPACE_C": {
+      "width": 25,
+      "height": 24
+    },
+    "EX_BATSPACE_D": {
+      "width": 25,
+      "height": 24
+    },
+    "EX_BATSPACE_SWARM": {
+      "width": 25,
+      "height": 24
+    },
+    "EX_BATSPACE_HP": {
+      "width": 25,
+      "height": 24
+    },
+    "EX_RABBIT_SWARM": {
+      "width": 35,
+      "height": 35
+    },
+    "EX_RABBIT_SWARM_H": {
+      "width": 35,
+      "height": 35
+    },
+    "EX_DUCK_SWARM": {
+      "width": 35,
+      "height": 35
+    },
+    "EX_DUCK_SWARM_H": {
+      "width": 35,
+      "height": 35
+    },
+    "EX_ANT": {
+      "width": 39,
+      "height": 39
+    },
+    "EX_ANT_SCALE": {
+      "width": 39,
+      "height": 39
+    },
+    "EX_ANTBRAIN": {
+      "width": 41,
+      "height": 51
+    },
+    "EX_ANTBRAIN_SCALE": {
+      "width": 41,
+      "height": 51
+    },
+    "EX_PICKLE": {
+      "width": 37,
+      "height": 36
+    },
+    "EX_PICKLE_SCALE": {
+      "width": 37,
+      "height": 36
+    },
+    "EX_PHALIEN_XL": {
+      "width": 48,
+      "height": 42
+    },
+    "EX_PHALIEN_L": {
+      "width": 31,
+      "height": 28
+    },
+    "EX_PHALIEN": {
+      "width": 18,
+      "height": 19
+    },
+    "EX_PHALIEN_XL_BOSS": {
+      "width": 48,
+      "height": 42
+    },
+    "EX_PHALIEN_L_BOSS": {
+      "width": 31,
+      "height": 28
+    },
+    "EX_PHALIEN_BOSS": {
+      "width": 18,
+      "height": 19
+    },
+    "EX_CUBE_HITS_STATIC": {
+      "width": 43,
+      "height": 50
+    },
+    "EX_CUBE_HITS_AXE": {
+      "width": 43,
+      "height": 50
+    },
+    "EX_CUBE_HITS_AGGRO": {
+      "width": 43,
+      "height": 50
+    },
+    "EX_CUBE_HITS_PATH": {
+      "width": 43,
+      "height": 50
+    },
+    "EX_CUBE_HITS_MEDUSA": {
+      "width": 43,
+      "height": 50
+    },
+    "EX_CUBE_HITS_FACING": {
+      "width": 43,
+      "height": 50
+    },
+    "EX_CUBE_HITS_STERILE": {
+      "width": 43,
+      "height": 50
+    },
+    "DEVIL_HP_7": {
+      "width": 33,
+      "height": 33
+    },
+    "DEVIL_HP_11": {
+      "width": 63,
+      "height": 36
+    },
+    "DEVIL_HP_13": {
+      "width": 58,
+      "height": 68
+    },
+    "DEVIL_HP_14": {
+      "width": 58,
+      "height": 54
+    },
+    "DEVIL_HP_15": {
+      "width": 53,
+      "height": 56
+    },
+    "EX_TRUEDEVIL": {
+      "width": 53,
+      "height": 56
+    },
+    "EX_HELLPUP": {
+      "width": 63,
+      "height": 36
+    },
+    "EX_IMPERIALPULP": {
+      "width": 33,
+      "height": 33
+    },
+    "EX_BOSS_OGREHEAD": {
+      "width": 58,
+      "height": 54
+    },
+    "EX_SHOOTING_ENEMIES_COUNTER": {
+      "width": 33,
+      "height": 33
+    },
+    "EX_GEMSTONE_HITS_STATIC": {
+      "width": 43,
+      "height": 50
+    },
+    "EX_SKELEGEM": {
+      "width": 28,
+      "height": 38
+    },
+    "EX_HARPY2": {
+      "width": 30,
+      "height": 38
+    },
+    "EX_ECTOGOLD": {
+      "width": 37,
+      "height": 38
+    },
+    "EX_GOLDPILE": {
+      "width": 36,
+      "height": 43
+    },
+    "EX_BULLET_COIN": {
+      "width": 18,
+      "height": 22
+    },
+    "EX_JELLYBAG_RED": {
+      "width": 22,
+      "height": 37
+    },
+    "EX_JELLYBAG_GREEN": {
+      "width": 22,
+      "height": 37
+    },
+    "EX_JELLYBAG_PURPLE": {
+      "width": 22,
+      "height": 40
+    },
+    "EX_XLDRAGON_GOLD": {
+      "width": 128,
+      "height": 16
+    },
+    "EX_XLDRAGON_GOLD_FLAG": {
+      "width": 38,
+      "height": 25
+    },
+    "EX_XLMANTIS_GOLD": {
+      "width": 58,
+      "height": 56
+    },
+    "EX_SPADEKNIGHT1": {
+      "width": 60,
+      "height": 51
+    },
+    "EX_SPADEKNIGHT2": {
+      "width": 60,
+      "height": 51
+    },
+    "EX_BOSS_SPADEKNIGHT": {
+      "width": 60,
+      "height": 51
+    },
+    "EX_BOSS_SPADEKNIGHT2": {
+      "width": 60,
+      "height": 51
+    },
+    "EX_BARM": {
+      "width": 30,
+      "height": 25
+    },
+    "EX_CASINOGHOUL": {
+      "width": 40,
+      "height": 40
+    },
+    "EX_CLUBBIE": {
+      "width": 30,
+      "height": 38
+    },
+    "EX_DANDYBRINE": {
+      "width": 47,
+      "height": 47
+    },
+    "EX_DAIMON": {
+      "width": 38,
+      "height": 42
+    },
+    "EX_GAMBERGAR": {
+      "width": 28,
+      "height": 36
+    },
+    "EX_GAMBLIN": {
+      "width": 36,
+      "height": 37
+    },
+    "EX_GAMBLIN2": {
+      "width": 37,
+      "height": 37
+    },
+    "EX_JASTOR": {
+      "width": 37,
+      "height": 40
+    },
+    "EX_JASTOR_PATROL": {
+      "width": 37,
+      "height": 40
+    },
+    "EX_ROULETTEMUSH": {
+      "width": 32,
+      "height": 36
+    },
+    "EX_TOLL2": {
+      "width": 30,
+      "height": 27
+    },
+    "EX_VALENTINE": {
+      "width": 55,
+      "height": 57
+    },
+    "EX_SQUILLER_1": {
+      "width": 35,
+      "height": 20
+    },
+    "EX_SQUILLER_2": {
+      "width": 36,
+      "height": 23
+    },
+    "EX_SQUILLER_COMBO": {
+      "width": 36,
+      "height": 23
+    },
+    "EX_DICE": {
+      "width": 30,
+      "height": 30
+    },
+    "EX_DICE_AGGRO": {
+      "width": 30,
+      "height": 30
+    },
+    "EX_CARDSHARP": {
+      "width": 40,
+      "height": 44
+    },
+    "EX_CHARGER": {
+      "width": 40,
+      "height": 39
+    },
+    "EX_TORINO": {
+      "width": 32,
+      "height": 29
+    },
+    "EX_JOYATAURO": {
+      "width": 40,
+      "height": 38
+    },
+    "EX_MEANATAUR": {
+      "width": 48,
+      "height": 51
+    },
+    "EX_17COLOSSUS_BURIED": {
+      "width": 128,
+      "height": 128
+    },
+    "EX_17COLOSSUS": {
+      "width": 128,
+      "height": 128
+    },
+    "EX_CHARGER_RED_S": {
+      "width": 31,
+      "height": 30
+    },
+    "EX_CHARGER_RED_M": {
+      "width": 40,
+      "height": 38
+    },
+    "EX_CHARGER_RED_L": {
+      "width": 49,
+      "height": 50
+    },
+    "EX_CHARGER_YELLOW_S": {
+      "width": 32,
+      "height": 29
+    },
+    "EX_CHARGER_YELLOW_M": {
+      "width": 40,
+      "height": 38
+    },
+    "EX_CHARGER_YELLOW_L": {
+      "width": 49,
+      "height": 51
+    },
+    "EX_MAZERELLA_DANCER": {
+      "width": 40,
+      "height": 38
+    },
+    "EX_VSBAT1": {
+      "width": 24,
+      "height": 20
+    },
+    "EX_BOSS_BATDRAGON_1": {
+      "width": 97,
+      "height": 99
+    },
+    "EX_BOSS_BATDRAGON_2": {
+      "width": 97,
+      "height": 99
+    },
+    "EX_BATDRAKELET": {
+      "width": 74,
+      "height": 54
+    },
+    "EX_BATDRAKELET_CIRCLING": {
+      "width": 74,
+      "height": 51
+    },
+    "EX_BATDRAKELET_STATIONARY": {
+      "width": 74,
+      "height": 54
+    },
+    "EX_BATDRAKELET_SHADOW": {
+      "width": 74,
+      "height": 51
+    },
+    "EX_SALMON_RED_MEDUSA": {
+      "width": 29,
+      "height": 22
+    },
+    "EX_SALMON_PINK_MEDUSA": {
+      "width": 32,
+      "height": 20
+    },
+    "EX_SALMON_BLUE_MEDUSA": {
+      "width": 33,
+      "height": 22
+    },
+    "EX_SEAANGEL_MEDUSA": {
+      "width": 25,
+      "height": 22
+    },
+    "EX_SEAHORSE_MEDUSA": {
+      "width": 55,
+      "height": 48
+    },
+    "EX_JELLY_MEDUSA": {
+      "width": 30,
+      "height": 35
+    },
+    "EX_SEAANGEL": {
+      "width": 25,
+      "height": 22
+    },
+    "EX_SEAPIG": {
+      "width": 36,
+      "height": 26
+    },
+    "EX_SEASLUG": {
+      "width": 29,
+      "height": 28
+    },
+    "EX_ICHTHYOCENTAUR_01": {
+      "width": 41,
+      "height": 48
+    },
+    "EX_ICHTHYOCENTAUR_02": {
+      "width": 42,
+      "height": 47
+    },
+    "EX_ICHTHYOCENTAUR_03": {
+      "width": 42,
+      "height": 46
+    },
+    "EX_ICHTHYOCENTAUR_04": {
+      "width": 42,
+      "height": 48
+    },
+    "EX_ICHTHYOCENTAUR_05": {
+      "width": 40,
+      "height": 48
+    },
+    "EX_TRITONT_01": {
+      "width": 54,
+      "height": 57
+    },
+    "EX_TRITONT_02": {
+      "width": 56,
+      "height": 56
+    },
+    "EX_LEAFYSEAHORSE_01": {
+      "width": 56,
+      "height": 47
+    },
+    "EX_LEAFYSEAHORSE_02": {
+      "width": 55,
+      "height": 48
+    },
+    "EX_OLM": {
+      "width": 46,
+      "height": 41
+    },
+    "EX_AHUIZOTL": {
+      "width": 46,
+      "height": 42
+    },
+    "EX_BUKAVAC": {
+      "width": 41,
+      "height": 36
+    },
+    "EX_ARCANA_SALMON": {
+      "width": 30,
+      "height": 25
+    },
+    "EX_BOSS_PINKJELLYFISH": {
+      "width": 30,
+      "height": 35
+    },
+    "EX_BOSS_ICHTHYOCENTAUR": {
+      "width": 41,
+      "height": 48
+    },
+    "EX_BOSS_SEASPHYNX": {
+      "width": 50,
+      "height": 51
+    },
+    "EX_BOSS_SALMONARI": {
+      "width": 33,
+      "height": 22
+    },
+    "EX_BOSS_TRITON_LYCAEUM": {
+      "width": 56,
+      "height": 56
+    },
+    "EX_SIGRABLU_SWARM": {
+      "width": 33,
+      "height": 33
+    },
+    "EX_SIGRABLU_EXPLO": {
+      "width": 33,
+      "height": 33
+    },
+    "BOSS_COUNT2": {
+      "width": 42,
+      "height": 50
+    },
+    "BOSS_XLTRICKSTER": {
+      "width": 45,
+      "height": 52
+    },
+    "BOSS_NOOB": {
+      "width": 42,
+      "height": 50
+    },
+    "EX_YTRAINEE_SWARM": {
+      "width": 34,
+      "height": 34
+    },
+    "EX_EXPLOANGEL_SWARM": {
+      "width": 32,
+      "height": 33
+    },
+    "EX_CART_TRICKSTER": {
+      "width": 45,
+      "height": 52
+    },
+    "EX_CART_MADDENER": {
+      "width": 45,
+      "height": 50
+    },
+    "MOON_SNEK": {
+      "width": 20,
+      "height": 29
+    },
+    "MOON_SNEK_RED": {
+      "width": 20,
+      "height": 29
+    },
+    "BOSS_XLMADDENER": {
+      "width": 45,
+      "height": 50
+    },
+    "TRAINEE": {
+      "width": 34,
+      "height": 34
+    },
+    "TRAINEE_Y": {
+      "width": 34,
+      "height": 34
+    },
+    "TRAINEE_B": {
+      "width": 34,
+      "height": 34
+    },
+    "TRAINEE_G": {
+      "width": 34,
+      "height": 34
+    },
+    "TRAINEE_P": {
+      "width": 34,
+      "height": 34
+    },
+    "TRAINEE_R": {
+      "width": 34,
+      "height": 34
+    },
+    "TRAINEE_ANY": {
+      "width": 34,
+      "height": 34
+    },
+    "KALI1": {
+      "width": 32,
+      "height": 35
+    },
+    "ARMOR_SWORD": {
+      "width": 29,
+      "height": 34
+    },
+    "KALI2": {
+      "width": 32,
+      "height": 34
+    },
+    "ARMOR_FIRE": {
+      "width": 34,
+      "height": 34
+    },
+    "SUCCUBUS": {
+      "width": 31,
+      "height": 33
+    },
+    "KALI2_FAST": {
+      "width": 32,
+      "height": 34
+    },
+    "XLARMOR_GREEN": {
+      "width": 47,
+      "height": 50
+    },
+    "DEMON": {
+      "width": 22,
+      "height": 37
+    },
+    "DEMON_FAST": {
+      "width": 22,
+      "height": 37
+    },
+    "ANGEL1": {
+      "width": 26,
+      "height": 25
+    },
+    "ANGEL2": {
+      "width": 32,
+      "height": 33
+    },
+    "ANGEL3": {
+      "width": 47,
+      "height": 46
+    },
+    "XLARMOR_GOLD": {
+      "width": 49,
+      "height": 50
+    },
+    "XLDEMON": {
+      "width": 40,
+      "height": 47
+    },
+    "XLDEMON2": {
+      "width": 42,
+      "height": 50
+    },
+    "XLARCHDEMON": {
+      "width": 44,
+      "height": 49
+    },
+    "BOSS_SUCCUBUS": {
+      "width": 31,
+      "height": 33
+    },
+    "BOSS_XLARMOR_GREEN": {
+      "width": 47,
+      "height": 50
+    },
+    "BOSS_XLARCHDEMON": {
+      "width": 44,
+      "height": 49
+    },
+    "STAGEKILLER": {
+      "width": 32,
+      "height": 33
+    },
+    "STAGEKILLER2": {
+      "width": 32,
+      "height": 33
+    },
+    "POLTER_GEM_STATIC": {
+      "width": 13,
+      "height": 15
+    },
+    "POLTER_GEM": {
+      "width": 13,
+      "height": 15
+    },
+    "BOSS_TRICKSTER_NORMAL": {
+      "width": 45,
+      "height": 52
+    },
+    "BOSS_MADDENER_NORMAL": {
+      "width": 45,
+      "height": 50
+    },
+    "BOSS_ENDER": {
+      "width": 50,
+      "height": 51
+    },
+    "BULLET_SCYTHE": {
+      "width": 31,
+      "height": 30
+    },
+    "BOSS_GIANT_MIMIC3": {
+      "width": 32,
+      "height": 35
+    },
+    "BOSS_DRAGOGION": {
+      "width": 50,
+      "height": 50
+    },
+    "BRIDGE_TRAINEE": {
+      "width": 34,
+      "height": 34
+    },
+    "BRIDGE_TETRA": {
+      "width": 32,
+      "height": 35
+    },
+    "BRIDGE_ARMOR": {
+      "width": 47,
+      "height": 50
+    },
+    "BOSS_ENDER_RASH": {
+      "width": 50,
+      "height": 51
+    },
+    "D_WEAK_REAPER_B": {
+      "width": 45,
+      "height": 52
+    },
+    "D_WEAK_REAPER_E": {
+      "width": 45,
+      "height": 50
+    },
+    "DEVIL_HP_6": {
+      "width": 22,
+      "height": 37
+    },
+    "DEVIL_HP_8": {
+      "width": 40,
+      "height": 47
+    },
+    "DEVIL_HP_9": {
+      "width": 40,
+      "height": 47
+    },
+    "DEVIL_HP_10": {
+      "width": 42,
+      "height": 50
+    },
+    "DEVIL_HP_12": {
+      "width": 44,
+      "height": 49
+    },
+    "EX_DEMON_RED": {
+      "width": 44,
+      "height": 49
+    },
+    "BAT1": {
+      "width": 19,
+      "height": 21
+    },
+    "BAT2": {
+      "width": 25,
+      "height": 24
+    },
+    "BAT3": {
+      "width": 30,
+      "height": 27
+    },
+    "BATSWARM": {
+      "width": 19,
+      "height": 21
+    },
+    "SKELETON": {
+      "width": 28,
+      "height": 33
+    },
+    "SKELETON2": {
+      "width": 28,
+      "height": 33
+    },
+    "SKELETON3": {
+      "width": 28,
+      "height": 33
+    },
+    "SKELETON4": {
+      "width": 28,
+      "height": 33
+    },
+    "FLOWER": {
+      "width": 26,
+      "height": 26
+    },
+    "GHOST": {
+      "width": 29,
+      "height": 32
+    },
+    "GHOSTSWARM": {
+      "width": 29,
+      "height": 32
+    },
+    "XLDRAGON1": {
+      "width": 49,
+      "height": 47
+    },
+    "XLDRAGON1_FLAG": {
+      "width": 31,
+      "height": 21
+    },
+    "XLDRAGON2": {
+      "width": 50,
+      "height": 45
+    },
+    "XLDRAGON2_FLAG": {
+      "width": 33,
+      "height": 23
+    },
+    "SHADERED": {
+      "width": 32,
+      "height": 34
+    },
+    "POLTER_DEST": {
+      "width": 20,
+      "height": 41
+    },
+    "POLTER": {
+      "width": 20,
+      "height": 41
+    },
+    "MEDUSA1": {
+      "width": 21,
+      "height": 26
+    },
+    "MEDUSA1_FAST": {
+      "width": 21,
+      "height": 26
+    },
+    "ECTO1": {
+      "width": 20,
+      "height": 31
+    },
+    "ECTO2": {
+      "width": 31,
+      "height": 34
+    },
+    "IMP": {
+      "width": 31,
+      "height": 34
+    },
+    "BOSS_XLSTALKER": {
+      "width": 41,
+      "height": 48
+    },
+    "BOSS_XLDROWNER": {
+      "width": 45,
+      "height": 51
+    },
+    "BOSS_MEDUSA1": {
+      "width": 21,
+      "height": 26
+    },
+    "PILE1": {
+      "width": 23,
+      "height": 35
+    },
+    "BULLET_2": {
+      "width": 15,
+      "height": 15
+    },
+    "JELLYFISH2": {
+      "width": 19,
+      "height": 33
+    },
+    "JELLYFISH2_SWARM": {
+      "width": 19,
+      "height": 33
+    },
+    "MIGNO_3_5SWARM": {
+      "width": 32,
+      "height": 34
+    },
+    "PATROL_MIGNO_3_5SWARM": {
+      "width": 32,
+      "height": 34
+    },
+    "BOSS_XLCRAB": {
+      "width": 50,
+      "height": 45
+    },
+    "ADV_MOLISANI": {
+      "width": 33,
+      "height": 33
+    },
+    "ADV_MOLISANI_MOVING": {
+      "width": 33,
+      "height": 33
+    },
+    "ADV_MOLISANI_SWARM": {
+      "width": 33,
+      "height": 33
+    },
+    "ADV_MOLISANI_MOVING2": {
+      "width": 29,
+      "height": 63
+    },
+    "ADV_MOLISANI_MOVING3": {
+      "width": 34,
+      "height": 66
+    },
+    "MOLISANO_BASE": {
+      "width": 33,
+      "height": 33
+    },
+    "MOLISANO_GIALLO": {
+      "width": 32,
+      "height": 29
+    },
+    "MOLISANO_SECCO": {
+      "width": 34,
+      "height": 64
+    },
+    "MOLISANO_BELLO": {
+      "width": 32,
+      "height": 65
+    },
+    "MOLISANO_GROSSO": {
+      "width": 33,
+      "height": 61
+    },
+    "MOLISANO_ROSSO": {
+      "width": 29,
+      "height": 63
+    },
+    "MOLISANO_FAGIOLO": {
+      "width": 34,
+      "height": 66
+    },
+    "MOLISANO_COLONNA": {
+      "width": 28,
+      "height": 66
+    },
+    "MOLISANO_VECCHIO": {
+      "width": 27,
+      "height": 31
+    },
+    "MOLISANO_ANFORA": {
+      "width": 33,
+      "height": 36
+    },
+    "MOLISANO_ANFORA_GOLD": {
+      "width": 33,
+      "height": 36
+    },
+    "EX_FROST": {
+      "width": 29,
+      "height": 32
+    },
+    "EX_COSMICEYE": {
+      "width": 27,
+      "height": 27
+    },
+    "EX_COSMICEYE_SWARM": {
+      "width": 27,
+      "height": 27
+    },
+    "EX_JELLYFISH2_FASTSWARM": {
+      "width": 19,
+      "height": 33
+    },
+    "EX_RACING_BAT3": {
+      "width": 30,
+      "height": 27
+    },
+    "EX_RACING_PILE1": {
+      "width": 23,
+      "height": 35
+    },
+    "EX_CART_REAPER": {
+      "width": 43,
+      "height": 50
+    },
+    "EX_CART_STALKER": {
+      "width": 41,
+      "height": 48
+    },
+    "EX_CART_DROWNER": {
+      "width": 45,
+      "height": 51
+    },
+    "PILE4": {
+      "width": 26,
+      "height": 34
+    },
+    "PILE4_SCALED": {
+      "width": 26,
+      "height": 34
+    },
+    "SKULLNOAURA": {
+      "width": 26,
+      "height": 32
+    },
+    "SKELETONE": {
+      "width": 28,
+      "height": 33
+    },
+    "MASK_GOLD": {
+      "width": 40,
+      "height": 46
+    },
+    "MASK_SILVER": {
+      "width": 40,
+      "height": 46
+    },
+    "MASK_LEFT": {
+      "width": 40,
+      "height": 46
+    },
+    "MASK_RIGHT": {
+      "width": 40,
+      "height": 46
+    },
+    "MOON_MASK3": {
+      "width": 40,
+      "height": 46
+    },
+    "MOON_GHOST": {
+      "width": 29,
+      "height": 32
+    },
+    "MOON_MEDUSA1": {
+      "width": 21,
+      "height": 26
+    },
+    "MOON_CRABBINO": {
+      "width": 50,
+      "height": 45
+    },
+    "MOON_BOSS_CRABBINO": {
+      "width": 50,
+      "height": 45
+    },
+    "MOON_ANFORA": {
+      "width": 33,
+      "height": 36
+    },
+    "MOON_MASK1": {
+      "width": 40,
+      "height": 46
+    },
+    "MOON_MASK2": {
+      "width": 40,
+      "height": 46
+    },
+    "MOON_MASK4": {
+      "width": 40,
+      "height": 46
+    },
+    "MOON_MASK5": {
+      "width": 40,
+      "height": 46
+    },
+    "MOON_BAT": {
+      "width": 30,
+      "height": 27
+    },
+    "MOON_BAT_PROJECTILE": {
+      "width": 30,
+      "height": 27
+    },
+    "MOON_SHADE": {
+      "width": 32,
+      "height": 34
+    },
+    "MOON_EYE1": {
+      "width": 27,
+      "height": 27
+    },
+    "MOON_EYE2": {
+      "width": 27,
+      "height": 27
+    },
+    "MOON_EYE3": {
+      "width": 27,
+      "height": 27
+    },
+    "MOON_EYE1S": {
+      "width": 27,
+      "height": 27
+    },
+    "MOON_EYE2S": {
+      "width": 27,
+      "height": 27
+    },
+    "MOON_EYE3S": {
+      "width": 27,
+      "height": 27
+    },
+    "FS_ANFORA_HP": {
+      "width": 33,
+      "height": 36
+    },
+    "FANGEL1": {
+      "width": 30,
+      "height": 27
+    },
+    "FANGEL2": {
+      "width": 30,
+      "height": 27
+    },
+    "BOSS_EYE2": {
+      "width": 27,
+      "height": 27
+    },
+    "BOSS_XLDEATH": {
+      "width": 43,
+      "height": 50
+    },
+    "BOSS_XLDEATH2": {
+      "width": 43,
+      "height": 50
+    },
+    "BOSS_STALKER_NORMAL": {
+      "width": 41,
+      "height": 48
+    },
+    "BOSS_DROWNER_NORMAL": {
+      "width": 45,
+      "height": 51
+    },
+    "BOSS_XLCRAB_RASH": {
+      "width": 50,
+      "height": 45
+    },
+    "BOSS_DROWNER_RASH": {
+      "width": 45,
+      "height": 51
+    },
+    "EX_SCALING_BAT1": {
+      "width": 19,
+      "height": 21
+    },
+    "EX_SCALING_BAT2": {
+      "width": 25,
+      "height": 24
+    },
+    "EX_SCALING_BAT3": {
+      "width": 30,
+      "height": 27
+    },
+    "EX_AXE_BAT3": {
+      "width": 30,
+      "height": 27
+    },
+    "D_WEAK_REAPER_C": {
+      "width": 41,
+      "height": 48
+    },
+    "D_WEAK_REAPER_D": {
+      "width": 45,
+      "height": 51
+    },
+    "D_WEAK_EYE": {
+      "width": 27,
+      "height": 27
+    },
+    "D_EYE": {
+      "width": 27,
+      "height": 27
+    },
+    "BULLET_EYE": {
+      "width": 27,
+      "height": 27
+    },
+    "STARDUST_CLOAK": {
+      "width": 40,
+      "height": 46
+    },
+    "EX_BATGOBLIN": {
+      "width": 28,
+      "height": 25
+    },
+    "EX_BATGOBLIN2": {
+      "width": 27,
+      "height": 26
+    },
+    "EX_TREASURE_VICIOUSHUNGER": {
+      "width": 27,
+      "height": 27
+    },
+    "BOSS_THICKTREE": {
+      "width": 32,
+      "height": 65
+    },
+    "EX_SNOWMAN_HAUNTED": {
+      "width": 33,
+      "height": 34
+    },
+    "EX_SNOWMAN_HAUNTED2": {
+      "width": 33,
+      "height": 58
+    },
+    "EX_SNOWMAN_HAUNTED3": {
+      "width": 33,
+      "height": 34
+    },
+    "EX_SNOWMAN": {
+      "width": 33,
+      "height": 34
+    },
+    "EX_SPIRIT1": {
+      "width": 29,
+      "height": 34
+    },
+    "EX_SNOWELEM": {
+      "width": 31,
+      "height": 33
+    },
+    "EX_SNOWELEM2": {
+      "width": 31,
+      "height": 33
+    },
+    "EX_GOLEM_ICE": {
+      "width": 47,
+      "height": 49
+    },
+    "EX_GOLEM_SNOW": {
+      "width": 48,
+      "height": 52
+    },
+    "MS_ADV_MADDONNAS1": {
+      "width": 27,
+      "height": 35
+    },
+    "MS_ADV_MADDONNAS2": {
+      "width": 27,
+      "height": 35
+    },
+    "MS_ADV_MADDONNAS3": {
+      "width": 27,
+      "height": 35
+    },
+    "EX_ILLUSION": {
+      "width": 27,
+      "height": 35
+    },
+    "EX_ILLUSION2": {
+      "width": 27,
+      "height": 35
+    },
+    "EX_BOSS_KITSUNE": {
+      "width": 51,
+      "height": 47
+    },
+    "EX_BOSS_KITSUNE_TAIL": {
+      "width": 31,
+      "height": 37
+    },
+    "EX_FOXFIRE": {
+      "width": 31,
+      "height": 37
+    },
+    "EX_CART_BLINDER": {
+      "width": 43,
+      "height": 45
+    },
+    "BOSS_BLINDER_NORMAL": {
+      "width": 43,
+      "height": 45
+    },
+    "BRIDGE_MINION": {
+      "width": 32,
+      "height": 31
+    },
+    "XLSWORDIAN_V": {
+      "width": 20,
+      "height": 52
+    },
+    "XLSWORDIAN_AGGRO": {
+      "width": 20,
+      "height": 52
+    },
+    "BOSS_XLSWORDIAN": {
+      "width": 20,
+      "height": 52
+    },
+    "BOSS_XLSWORDIAN_2": {
+      "width": 20,
+      "height": 52
+    },
+    "BRIDGE_BOSS": {
+      "width": 48,
+      "height": 48
+    },
+    "XXLBAT": {
+      "width": 66,
+      "height": 40
+    },
+    "EX_SCALING_XXLBAT": {
+      "width": 66,
+      "height": 40
+    },
+    "EX_DIAMOND": {
+      "width": 30,
+      "height": 31
+    },
+    "EX_DIAMOND_AXE": {
+      "width": 30,
+      "height": 31
+    },
+    "DIRECTER": {
+      "width": 32,
+      "height": 32
+    },
+    "D_SKULL": {
+      "width": 21,
+      "height": 26
+    },
+    "D_MASK_SUN": {
+      "width": 32,
+      "height": 32
+    },
+    "D_MASK_MOON": {
+      "width": 31,
+      "height": 32
+    },
+    "D_MASK_CITY": {
+      "width": 26,
+      "height": 28
+    },
+    "D_MASK_VOLCANO": {
+      "width": 32,
+      "height": 24
+    },
+    "D_MASK_WINDS": {
+      "width": 32,
+      "height": 28
+    },
+    "D_MASK_GREED": {
+      "width": 20,
+      "height": 22
+    },
+    "D_MASK_VOID": {
+      "width": 26,
+      "height": 26
+    },
+    "D_CLUSTER_COINS": {
+      "width": 29,
+      "height": 30
+    },
+    "D_CLUSTER_GEMS": {
+      "width": 29,
+      "height": 32
+    },
+    "BULLET_EGG": {
+      "width": 15,
+      "height": 16
+    },
+    "BOSS_SHARD_INFERNAS": {
+      "width": 33,
+      "height": 34
+    },
+    "STARDUST_CHAIR": {
+      "width": 34,
+      "height": 65
+    },
+    "STARDUST_PORTRAIT_A": {
+      "width": 34,
+      "height": 62
+    },
+    "STARDUST_PORTRAIT_B": {
+      "width": 34,
+      "height": 62
+    },
+    "STARDUST_PORTRAIT_C": {
+      "width": 34,
+      "height": 61
+    },
+    "STARDUST_JOE": {
+      "width": 29,
+      "height": 34
+    },
+    "COSMIC_EGG": {
+      "width": 40,
+      "height": 49
+    },
+    "STARDUST_REDUSA": {
+      "width": 29,
+      "height": 32
+    },
+    "STARDUST_RELLYFISH": {
+      "width": 19,
+      "height": 33
+    },
+    "STARDUST_RELLYFISH_SWARM": {
+      "width": 19,
+      "height": 33
+    },
+    "STARDUST_HEMO": {
+      "width": 20,
+      "height": 31
+    },
+    "STARDUST_BLINDER_PATROL": {
+      "width": 43,
+      "height": 45
+    },
+    "BULLET_W": {
+      "width": 1,
+      "height": 1
+    }
+  }
+}

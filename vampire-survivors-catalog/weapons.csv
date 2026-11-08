@@ -1,0 +1,688 @@
+﻿id,name,category,level_count,special_only,always_hidden,is_unlocked,evo_into,requires,level,interval_ms,duration_ms,repeat_interval_ms,power,secondary_power,area,speed,amount,penetrating,crit_chance,crit_multiplier,knockback,rarity,pool_limit,image
+WHIP,Whip,weapon,8,False,False,True,VAMPIRICA,,1,1350,,100,1,,1,1,1,,0.2,2,,100,30,assets/weapons/WHIP.png
+WHIP,Whip,weapon,8,False,False,True,VAMPIRICA,,2,1350,,100,1,,1,1,2,,0.2,2,,100,30,assets/weapons/WHIP.png
+WHIP,Whip,weapon,8,False,False,True,VAMPIRICA,,3,1350,,100,1.5,,1,1,2,,0.2,2,,100,30,assets/weapons/WHIP.png
+WHIP,Whip,weapon,8,False,False,True,VAMPIRICA,,4,1350,,100,2,,1.1,1,2,,0.2,2,,100,30,assets/weapons/WHIP.png
+WHIP,Whip,weapon,8,False,False,True,VAMPIRICA,,5,1350,,100,2.5,,1.1,1,2,,0.2,2,,100,30,assets/weapons/WHIP.png
+WHIP,Whip,weapon,8,False,False,True,VAMPIRICA,,6,1350,,100,3,,1.2,1,2,,0.2,2,,100,30,assets/weapons/WHIP.png
+WHIP,Whip,weapon,8,False,False,True,VAMPIRICA,,7,1350,,100,3.5,,1.2,1,2,,0.2,2,,100,30,assets/weapons/WHIP.png
+WHIP,Whip,weapon,8,False,False,True,VAMPIRICA,,8,1350,,100,4,,1.2,1,2,,0.2,2,,100,30,assets/weapons/WHIP.png
+VAMPIRICA,Bloody Tear,evolution,1,False,False,True,VENTO2,MAXHEALTH,1,1350,,100,4,,1.3,1,2,,0.1,2,,1,30,assets/weapons/VAMPIRICA.png
+MAGIC_MISSILE,Magic Wand,weapon,8,False,False,True,HOLY_MISSILE,,1,1200,,100,1,,1,1,1,1,,,,100,60,assets/weapons/MAGIC_MISSILE.png
+MAGIC_MISSILE,Magic Wand,weapon,8,False,False,True,HOLY_MISSILE,,2,1200,,100,1,,1,1,2,1,,,,100,60,assets/weapons/MAGIC_MISSILE.png
+MAGIC_MISSILE,Magic Wand,weapon,8,False,False,True,HOLY_MISSILE,,3,1000,,100,1,,1,1,2,1,,,,100,60,assets/weapons/MAGIC_MISSILE.png
+MAGIC_MISSILE,Magic Wand,weapon,8,False,False,True,HOLY_MISSILE,,4,1000,,100,1,,1,1,3,1,,,,100,60,assets/weapons/MAGIC_MISSILE.png
+MAGIC_MISSILE,Magic Wand,weapon,8,False,False,True,HOLY_MISSILE,,5,1000,,100,2,,1,1,3,1,,,,100,60,assets/weapons/MAGIC_MISSILE.png
+MAGIC_MISSILE,Magic Wand,weapon,8,False,False,True,HOLY_MISSILE,,6,1000,,100,2,,1,1,4,1,,,,100,60,assets/weapons/MAGIC_MISSILE.png
+MAGIC_MISSILE,Magic Wand,weapon,8,False,False,True,HOLY_MISSILE,,7,1000,,100,2,,1,1,4,2,,,,100,60,assets/weapons/MAGIC_MISSILE.png
+MAGIC_MISSILE,Magic Wand,weapon,8,False,False,True,HOLY_MISSILE,,8,1000,,100,3,,1,1,4,2,,,,100,60,assets/weapons/MAGIC_MISSILE.png
+HOLY_MISSILE,Holy Wand,evolution,1,False,False,,,COOLDOWN,1,500,,100,3,,1,2,4,2,,,,1,60,assets/weapons/HOLY_MISSILE.png
+KNIFE,Knife,weapon,8,False,False,True,THOUSAND,,1,1000,,100,0.65,,1,1,1,1,0.3,3,0.5,100,70,assets/weapons/KNIFE.png
+KNIFE,Knife,weapon,8,False,False,True,THOUSAND,,2,1000,,100,0.65,,1,1,2,1,0.3,3,0.5,100,70,assets/weapons/KNIFE.png
+KNIFE,Knife,weapon,8,False,False,True,THOUSAND,,3,1000,,100,1.15,,1,1,3,1,0.3,3,0.5,100,70,assets/weapons/KNIFE.png
+KNIFE,Knife,weapon,8,False,False,True,THOUSAND,,4,1000,,80,1.15,,1,1,4,1,0.3,3,0.5,100,70,assets/weapons/KNIFE.png
+KNIFE,Knife,weapon,8,False,False,True,THOUSAND,,5,1000,,80,1.15,,1,1,4,2,0.3,3,0.5,100,70,assets/weapons/KNIFE.png
+KNIFE,Knife,weapon,8,False,False,True,THOUSAND,,6,1000,,60,1.15,,1,1,5,2,0.3,3,0.5,100,70,assets/weapons/KNIFE.png
+KNIFE,Knife,weapon,8,False,False,True,THOUSAND,,7,1000,,60,1.65,,1,1,6,2,0.3,3,0.5,100,70,assets/weapons/KNIFE.png
+KNIFE,Knife,weapon,8,False,False,True,THOUSAND,,8,1000,,40,1.65,,1,1,6,3,0.3,3,0.5,100,70,assets/weapons/KNIFE.png
+THOUSAND,Thousand Edge,evolution,1,False,False,,,SPEED,1,350,,50,1.65,,1,1.5,6,3,0.3,3,0.5,1,70,assets/weapons/THOUSAND.png
+AXE,Axe,weapon,8,False,False,True,SCYTHE,,1,4000,2000,200,2,,1,1,1,3,0.3,2,,100,70,assets/weapons/AXE.png
+AXE,Axe,weapon,8,False,False,True,SCYTHE,,2,4000,2000,200,2,,1,1,2,3,0.3,2,,100,70,assets/weapons/AXE.png
+AXE,Axe,weapon,8,False,False,True,SCYTHE,,3,4000,2000,200,4,,1,1,2,3,0.3,2,,100,70,assets/weapons/AXE.png
+AXE,Axe,weapon,8,False,False,True,SCYTHE,,4,4000,2000,200,4,,1,1,2,5,0.3,2,,100,70,assets/weapons/AXE.png
+AXE,Axe,weapon,8,False,False,True,SCYTHE,,5,4000,2000,200,4,,1,1,3,5,0.3,2,,100,70,assets/weapons/AXE.png
+AXE,Axe,weapon,8,False,False,True,SCYTHE,,6,4000,2000,200,6,,1,1,3,5,0.3,2,,100,70,assets/weapons/AXE.png
+AXE,Axe,weapon,8,False,False,True,SCYTHE,,7,4000,2000,200,6,,1,1,3,7,0.3,2,,100,70,assets/weapons/AXE.png
+AXE,Axe,weapon,8,False,False,True,SCYTHE,,8,4000,2000,200,8,,1,1,3,7,0.3,2,,100,70,assets/weapons/AXE.png
+SCYTHE,Death Spiral,evolution,1,False,False,,,AREA,1,4000,,50,6,,1.2,0.8,9,1000,0.3,2,,1,50,assets/weapons/SCYTHE.png
+CROSS,Cross,weapon,8,False,False,False,HEAVENSWORD,,1,2000,,100,0.5,,1,1,1,,,,,80,100,assets/weapons/CROSS.png
+CROSS,Cross,weapon,8,False,False,False,HEAVENSWORD,,2,2000,,100,1.5,,1,1,1,,,,,80,100,assets/weapons/CROSS.png
+CROSS,Cross,weapon,8,False,False,False,HEAVENSWORD,,3,2000,,100,1.5,,1.1,1.25,1,,,,,80,100,assets/weapons/CROSS.png
+CROSS,Cross,weapon,8,False,False,False,HEAVENSWORD,,4,2000,,100,1.5,,1.1,1.25,2,,,,,80,100,assets/weapons/CROSS.png
+CROSS,Cross,weapon,8,False,False,False,HEAVENSWORD,,5,2000,,100,2.5,,1.1,1.25,2,,,,,80,100,assets/weapons/CROSS.png
+CROSS,Cross,weapon,8,False,False,False,HEAVENSWORD,,6,2000,,100,2.5,,1.2,1.5,2,,,,,80,100,assets/weapons/CROSS.png
+CROSS,Cross,weapon,8,False,False,False,HEAVENSWORD,,7,2000,,100,2.5,,1.2,1.5,3,,,,,80,100,assets/weapons/CROSS.png
+CROSS,Cross,weapon,8,False,False,False,HEAVENSWORD,,8,2000,,100,3.5,,1.2,1.5,3,,,,,80,100,assets/weapons/CROSS.png
+HEAVENSWORD,Heaven Sword,evolution,1,False,False,False,,LUCK,1,3300,,500,7.7,,1.2,2,1,,0.1,2.5,6,1,20,assets/weapons/HEAVENSWORD.png
+HOLYBOOK,King Bible,weapon,8,False,False,True,VESPERS,,1,3000,3000,0,1,,1,1,1,,,,,80,50,assets/weapons/HOLYBOOK.png
+HOLYBOOK,King Bible,weapon,8,False,False,True,VESPERS,,2,3000,3000,0,1,,1,1,2,,,,,80,50,assets/weapons/HOLYBOOK.png
+HOLYBOOK,King Bible,weapon,8,False,False,True,VESPERS,,3,3000,3000,0,1,,1.25,1.3,2,,,,,80,50,assets/weapons/HOLYBOOK.png
+HOLYBOOK,King Bible,weapon,8,False,False,True,VESPERS,,4,3000,3500,0,2,,1.25,1.3,2,,,,,80,50,assets/weapons/HOLYBOOK.png
+HOLYBOOK,King Bible,weapon,8,False,False,True,VESPERS,,5,3000,3500,0,2,,1.25,1.3,3,,,,,80,50,assets/weapons/HOLYBOOK.png
+HOLYBOOK,King Bible,weapon,8,False,False,True,VESPERS,,6,3000,3500,0,2,,1.5,1.6,3,,,,,80,50,assets/weapons/HOLYBOOK.png
+HOLYBOOK,King Bible,weapon,8,False,False,True,VESPERS,,7,3000,4000,0,3,,1.5,1.6,3,,,,,80,50,assets/weapons/HOLYBOOK.png
+HOLYBOOK,King Bible,weapon,8,False,False,True,VESPERS,,8,3000,4000,0,3,,1.5,1.6,4,,,,,80,50,assets/weapons/HOLYBOOK.png
+VESPERS,Unholy Vespers,evolution,1,False,False,,,DURATION,1,3000,3000,0,3,,1.75,1.5,4,,,,4,1,50,assets/weapons/VESPERS.png
+FIREBALL,Fire Wand,weapon,8,False,False,False,HELLFIRE,,1,3000,100,20,2,,1,0.75,3,,,,,80,30,assets/weapons/FIREBALL.png
+FIREBALL,Fire Wand,weapon,8,False,False,False,HELLFIRE,,2,3000,100,20,3,,1,0.75,3,,,,,80,30,assets/weapons/FIREBALL.png
+FIREBALL,Fire Wand,weapon,8,False,False,False,HELLFIRE,,3,3000,100,20,4,,1,0.95,3,,,,,80,30,assets/weapons/FIREBALL.png
+FIREBALL,Fire Wand,weapon,8,False,False,False,HELLFIRE,,4,3000,100,20,5,,1,0.95,3,,,,,80,30,assets/weapons/FIREBALL.png
+FIREBALL,Fire Wand,weapon,8,False,False,False,HELLFIRE,,5,3000,100,20,6,,1,1.15,3,,,,,80,30,assets/weapons/FIREBALL.png
+FIREBALL,Fire Wand,weapon,8,False,False,False,HELLFIRE,,6,3000,100,20,7,,1,1.15,3,,,,,80,30,assets/weapons/FIREBALL.png
+FIREBALL,Fire Wand,weapon,8,False,False,False,HELLFIRE,,7,3000,100,20,8,,1,1.35,3,,,,,80,30,assets/weapons/FIREBALL.png
+FIREBALL,Fire Wand,weapon,8,False,False,False,HELLFIRE,,8,3000,100,20,9,,1,1.35,3,,,,,80,30,assets/weapons/FIREBALL.png
+HELLFIRE,Hellfire,evolution,1,False,False,,,POWER,1,3000,100,200,10,,1,1,2,,,,,1,20,assets/weapons/HELLFIRE.png
+GARLIC,Garlic,weapon,8,False,False,False,VORTEX,,1,1300,1300,0,0.5,,1,1,1,,,,0,70,50,assets/weapons/GARLIC.png
+GARLIC,Garlic,weapon,8,False,False,False,VORTEX,,2,1300,1300,0,0.7,,1.4,1,1,,,,0,70,50,assets/weapons/GARLIC.png
+GARLIC,Garlic,weapon,8,False,False,False,VORTEX,,3,1200,1300,0,0.8,,1.4,1,1,,,,0,70,50,assets/weapons/GARLIC.png
+GARLIC,Garlic,weapon,8,False,False,False,VORTEX,,4,1200,1300,0,0.9,,1.6,1,1,,,,0,70,50,assets/weapons/GARLIC.png
+GARLIC,Garlic,weapon,8,False,False,False,VORTEX,,5,1100,1300,0,1.1,,1.6,1,1,,,,0,70,50,assets/weapons/GARLIC.png
+GARLIC,Garlic,weapon,8,False,False,False,VORTEX,,6,1100,1300,0,1.2,,1.8,1,1,,,,0,70,50,assets/weapons/GARLIC.png
+GARLIC,Garlic,weapon,8,False,False,False,VORTEX,,7,1000,1300,0,1.3,,1.8,1,1,,,,0,70,50,assets/weapons/GARLIC.png
+GARLIC,Garlic,weapon,8,False,False,False,VORTEX,,8,1000,1300,0,1.5,,2,1,1,,,,0,70,50,assets/weapons/GARLIC.png
+VORTEX,Soul Eater,evolution,1,False,False,False,,REGEN,1,1000,1300,0,2,,3,1,1,,,,0,1,50,assets/weapons/VORTEX.png
+HOLYWATER,Santa Water,weapon,8,False,False,True,BORA,,1,4500,2000,300,1,,1,1,1,,,,0,100,20,assets/weapons/HOLYWATER.png
+HOLYWATER,Santa Water,weapon,8,False,False,True,BORA,,2,4500,2000,300,1,,1.2,1,2,,,,0,100,20,assets/weapons/HOLYWATER.png
+HOLYWATER,Santa Water,weapon,8,False,False,True,BORA,,3,4500,2500,300,2,,1.2,1,2,,,,0,100,20,assets/weapons/HOLYWATER.png
+HOLYWATER,Santa Water,weapon,8,False,False,True,BORA,,4,4500,2500,300,2,,1.4,1,3,,,,0,100,20,assets/weapons/HOLYWATER.png
+HOLYWATER,Santa Water,weapon,8,False,False,True,BORA,,5,4500,2750,300,3,,1.4,1,3,,,,0,100,20,assets/weapons/HOLYWATER.png
+HOLYWATER,Santa Water,weapon,8,False,False,True,BORA,,6,4500,2750,300,3,,1.6,1,4,,,,0,100,20,assets/weapons/HOLYWATER.png
+HOLYWATER,Santa Water,weapon,8,False,False,True,BORA,,7,4500,3000,300,3.5,,1.6,1,4,,,,0,100,20,assets/weapons/HOLYWATER.png
+HOLYWATER,Santa Water,weapon,8,False,False,True,BORA,,8,4500,3000,300,4,,1.8,1,4,,,,0,100,20,assets/weapons/HOLYWATER.png
+BORA,La Borra,evolution,1,False,False,False,,MAGNET,1,4000,4000,300,4,,2,1,4,,,,0,1,30,assets/weapons/BORA.png
+DIAMOND,Runetracer,weapon,8,False,False,False,ROCHER,,1,3000,2250,200,1,,1,1,1,,,,,80,50,assets/weapons/DIAMOND.png
+DIAMOND,Runetracer,weapon,8,False,False,False,ROCHER,,2,3000,2250,200,1.5,,1,1.2,1,,,,,80,50,assets/weapons/DIAMOND.png
+DIAMOND,Runetracer,weapon,8,False,False,False,ROCHER,,3,3000,2500,200,2,,1,1.2,1,,,,,80,50,assets/weapons/DIAMOND.png
+DIAMOND,Runetracer,weapon,8,False,False,False,ROCHER,,4,3000,2500,200,2,,1,1.2,2,,,,,80,50,assets/weapons/DIAMOND.png
+DIAMOND,Runetracer,weapon,8,False,False,False,ROCHER,,5,3000,2500,200,2.5,,1,1.4,2,,,,,80,50,assets/weapons/DIAMOND.png
+DIAMOND,Runetracer,weapon,8,False,False,False,ROCHER,,6,3000,2750,200,3,,1,1.4,2,,,,,80,50,assets/weapons/DIAMOND.png
+DIAMOND,Runetracer,weapon,8,False,False,False,ROCHER,,7,3000,2750,200,3,,1,1.4,3,,,,,80,50,assets/weapons/DIAMOND.png
+DIAMOND,Runetracer,weapon,8,False,False,False,ROCHER,,8,3000,3250,200,3,,1,1.4,3,,,,,80,50,assets/weapons/DIAMOND.png
+ROCHER,NO FUTURE,evolution,1,False,False,False,,ARMOR,1,1000,3000,0,3,,1,2.8,1,,,,,1,50,assets/weapons/ROCHER.png
+LIGHTNING,Lightning Ring,weapon,8,False,False,False,LOOP,,1,4500,,50,1.5,,1,1,2,,,,,80,50,assets/weapons/LIGHTNING.png
+LIGHTNING,Lightning Ring,weapon,8,False,False,False,LOOP,,2,4500,,50,1.5,,1,1,3,,,,,80,50,assets/weapons/LIGHTNING.png
+LIGHTNING,Lightning Ring,weapon,8,False,False,False,LOOP,,3,4500,,50,2.5,,2,1,3,,,,,80,50,assets/weapons/LIGHTNING.png
+LIGHTNING,Lightning Ring,weapon,8,False,False,False,LOOP,,4,4500,,50,2.5,,2,1,4,,,,,80,50,assets/weapons/LIGHTNING.png
+LIGHTNING,Lightning Ring,weapon,8,False,False,False,LOOP,,5,4500,,50,4.5,,3,1,4,,,,,80,50,assets/weapons/LIGHTNING.png
+LIGHTNING,Lightning Ring,weapon,8,False,False,False,LOOP,,6,4500,,50,4.5,,3,1,5,,,,,80,50,assets/weapons/LIGHTNING.png
+LIGHTNING,Lightning Ring,weapon,8,False,False,False,LOOP,,7,4500,,50,6.5,,4,1,5,,,,,80,50,assets/weapons/LIGHTNING.png
+LIGHTNING,Lightning Ring,weapon,8,False,False,False,LOOP,,8,4500,,50,6.5,,4,1,6,,,,,80,50,assets/weapons/LIGHTNING.png
+LOOP,Thunder Loop,evolution,1,False,False,False,,AMOUNT,1,4500,,0,6.5,,4,1,6,,,,,1,70,assets/weapons/LOOP.png
+PENTAGRAM,Pentagram,weapon,8,False,False,False,SIRE,,1,90000,1000,0,0,,1,1,1,,,,-2,60,10,assets/weapons/PENTAGRAM.png
+PENTAGRAM,Pentagram,weapon,8,False,False,False,SIRE,,2,80000,1000,0,0,,1,1,1,,,,-2,60,10,assets/weapons/PENTAGRAM.png
+PENTAGRAM,Pentagram,weapon,8,False,False,False,SIRE,,3,80000,1000,0,0,,1,1,1,,,,-2,60,10,assets/weapons/PENTAGRAM.png
+PENTAGRAM,Pentagram,weapon,8,False,False,False,SIRE,,4,70000,1000,0,0,,1,1,1,,,,-2,60,10,assets/weapons/PENTAGRAM.png
+PENTAGRAM,Pentagram,weapon,8,False,False,False,SIRE,,5,70000,1000,0,0,,1,1,1,,,,-2,60,10,assets/weapons/PENTAGRAM.png
+PENTAGRAM,Pentagram,weapon,8,False,False,False,SIRE,,6,65000,1000,0,0,,1,1,1,,,,-2,60,10,assets/weapons/PENTAGRAM.png
+PENTAGRAM,Pentagram,weapon,8,False,False,False,SIRE,,7,65000,1000,0,0,,1,1,1,,,,-2,60,10,assets/weapons/PENTAGRAM.png
+PENTAGRAM,Pentagram,weapon,8,False,False,False,SIRE,,8,60000,1000,0,0,,1,1,1,,,,-2,60,10,assets/weapons/PENTAGRAM.png
+SIRE,Gorgeous Moon,evolution,1,False,False,True,,GROWTH,1,60000,1000,0,0,,1,1,1,,,,1,1,,assets/weapons/SIRE.png
+SILF,Peachone,weapon,8,False,False,False,SILF3,,1,1000,4000,25,1,,1,0.8,4,,,,2,50,60,assets/weapons/SILF.png
+SILF,Peachone,weapon,8,False,False,False,SILF3,,2,1000,4000,25,1,,1.4,0.8,5,,,,2,50,60,assets/weapons/SILF.png
+SILF,Peachone,weapon,8,False,False,False,SILF3,,3,1000,4000,25,2,,1.4,0.8,6,,,,2,50,60,assets/weapons/SILF.png
+SILF,Peachone,weapon,8,False,False,False,SILF3,,4,750,4000,25,2,,1.4,0.8,7,,,,2,50,60,assets/weapons/SILF.png
+SILF,Peachone,weapon,8,False,False,False,SILF3,,5,750,4000,25,2,,1.8,0.8,8,,,,2,50,60,assets/weapons/SILF.png
+SILF,Peachone,weapon,8,False,False,False,SILF3,,6,750,4000,25,3,,1.8,0.8,9,,,,2,50,60,assets/weapons/SILF.png
+SILF,Peachone,weapon,8,False,False,False,SILF3,,7,500,4000,25,3,,1.8,0.8,10,,,,2,50,60,assets/weapons/SILF.png
+SILF,Peachone,weapon,8,False,False,False,SILF3,,8,500,4000,25,3,,2.2,0.8,11,,,,2,50,60,assets/weapons/SILF.png
+SILF2,Ebony Wings,weapon,8,False,False,False,SILF3,,1,1000,4000,25,1,,1,0.8,4,,,,2,50,60,assets/weapons/SILF2.png
+SILF2,Ebony Wings,weapon,8,False,False,False,SILF3,,2,1000,4000,25,1,,1.4,0.8,5,,,,2,50,60,assets/weapons/SILF2.png
+SILF2,Ebony Wings,weapon,8,False,False,False,SILF3,,3,1000,4000,25,2,,1.4,0.8,6,,,,2,50,60,assets/weapons/SILF2.png
+SILF2,Ebony Wings,weapon,8,False,False,False,SILF3,,4,750,4000,25,2,,1.4,0.8,7,,,,2,50,60,assets/weapons/SILF2.png
+SILF2,Ebony Wings,weapon,8,False,False,False,SILF3,,5,750,4000,25,2,,1.8,0.8,8,,,,2,50,60,assets/weapons/SILF2.png
+SILF2,Ebony Wings,weapon,8,False,False,False,SILF3,,6,750,4000,25,3,,1.8,0.8,9,,,,2,50,60,assets/weapons/SILF2.png
+SILF2,Ebony Wings,weapon,8,False,False,False,SILF3,,7,500,4000,25,3,,1.8,0.8,10,,,,2,50,60,assets/weapons/SILF2.png
+SILF2,Ebony Wings,weapon,8,False,False,False,SILF3,,8,500,4000,25,3,,2.2,0.8,11,,,,2,50,60,assets/weapons/SILF2.png
+SILF3,Vandalier,evolution,8,False,False,False,,,1,1000,4000,25,2.8,,2.2,1,20,,,,2,1,100,assets/weapons/SILF3.png
+SILF3,Vandalier,evolution,8,False,False,False,,,2,1000,4000,25,2.8,,2.4,1,20,,,,2,1,100,assets/weapons/SILF3.png
+SILF3,Vandalier,evolution,8,False,False,False,,,3,750,4000,25,2.8,,2.4,1,20,,,,2,1,100,assets/weapons/SILF3.png
+SILF3,Vandalier,evolution,8,False,False,False,,,4,750,4000,25,2.8,,2.6,1,20,,,,2,1,100,assets/weapons/SILF3.png
+SILF3,Vandalier,evolution,8,False,False,False,,,5,500,4000,25,2.8,,2.6,1,20,,,,2,1,100,assets/weapons/SILF3.png
+SILF3,Vandalier,evolution,8,False,False,False,,,6,500,4000,25,2.8,,2.8,1,20,,,,2,1,100,assets/weapons/SILF3.png
+SILF3,Vandalier,evolution,8,False,False,False,,,7,250,4000,25,2.8,,2.8,1,20,,,,2,1,100,assets/weapons/SILF3.png
+SILF3,Vandalier,evolution,8,False,False,False,,,8,250,4000,25,2.8,,3,1,20,,,,2,1,100,assets/weapons/SILF3.png
+GUNS,Phiera Der Tuphello,weapon,8,False,False,False,GUNS3,,1,1400,,200,0.5,,1,1,1,1,0.1,2,0.1,50,100,assets/weapons/GUNS.png
+GUNS,Phiera Der Tuphello,weapon,8,False,False,False,GUNS3,,2,1400,,200,0.5,,1,1,2,1,0.1,2,0.1,50,100,assets/weapons/GUNS.png
+GUNS,Phiera Der Tuphello,weapon,8,False,False,False,GUNS3,,3,1400,,200,0.5,,1,1,2,3,0.1,2,0.1,50,100,assets/weapons/GUNS.png
+GUNS,Phiera Der Tuphello,weapon,8,False,False,False,GUNS3,,4,1400,,200,0.5,,1,1,3,3,0.1,2,0.1,50,100,assets/weapons/GUNS.png
+GUNS,Phiera Der Tuphello,weapon,8,False,False,False,GUNS3,,5,1400,,200,1,,1,1,3,3,0.1,2,0.1,50,100,assets/weapons/GUNS.png
+GUNS,Phiera Der Tuphello,weapon,8,False,False,False,GUNS3,,6,1400,,200,1,,1,1,3,5,0.1,2,0.1,50,100,assets/weapons/GUNS.png
+GUNS,Phiera Der Tuphello,weapon,8,False,False,False,GUNS3,,7,1400,,200,1.5,,1,1.5,3,5,0.1,2,0.1,50,100,assets/weapons/GUNS.png
+GUNS,Phiera Der Tuphello,weapon,8,False,False,False,GUNS3,,8,1400,,200,1.5,,1,1.5,3,7,0.1,2,0.1,50,100,assets/weapons/GUNS.png
+GUNS2,Eight The Sparrow,weapon,8,False,False,False,GUNS3,,1,1400,,200,0.5,,1,1,1,1,0.1,2,0.1,50,100,assets/weapons/GUNS2.png
+GUNS2,Eight The Sparrow,weapon,8,False,False,False,GUNS3,,2,1400,,200,0.5,,1,1,2,1,0.1,2,0.1,50,100,assets/weapons/GUNS2.png
+GUNS2,Eight The Sparrow,weapon,8,False,False,False,GUNS3,,3,1400,,200,0.5,,1,1,2,3,0.1,2,0.1,50,100,assets/weapons/GUNS2.png
+GUNS2,Eight The Sparrow,weapon,8,False,False,False,GUNS3,,4,1400,,200,0.5,,1,1,3,3,0.1,2,0.1,50,100,assets/weapons/GUNS2.png
+GUNS2,Eight The Sparrow,weapon,8,False,False,False,GUNS3,,5,1400,,200,1,,1,1,3,3,0.1,2,0.1,50,100,assets/weapons/GUNS2.png
+GUNS2,Eight The Sparrow,weapon,8,False,False,False,GUNS3,,6,1400,,200,1,,1,1,3,5,0.1,2,0.1,50,100,assets/weapons/GUNS2.png
+GUNS2,Eight The Sparrow,weapon,8,False,False,False,GUNS3,,7,1400,,200,1.5,,1,1.5,3,5,0.1,2,0.1,50,100,assets/weapons/GUNS2.png
+GUNS2,Eight The Sparrow,weapon,8,False,False,False,GUNS3,,8,1400,,200,1.5,,1,1.5,3,7,0.1,2,0.1,50,100,assets/weapons/GUNS2.png
+GUNS3,Phieraggi,evolution,1,False,False,False,,REVIVAL,1,1400,,100,1.5,,1,1,4,7,0.1,2,0.05,1,200,assets/weapons/GUNS3.png
+GATTI,Gatti Amari,weapon,8,False,False,False,STIGRANGATTI,,1,5000,5000,300,1,,1,0.4,1,,,,0.1,50,30,assets/weapons/GATTI.png
+GATTI,Gatti Amari,weapon,8,False,False,False,STIGRANGATTI,,2,5000,5000,300,1,,1,0.6,1,,,,0.1,50,30,assets/weapons/GATTI.png
+GATTI,Gatti Amari,weapon,8,False,False,False,STIGRANGATTI,,3,5000,6500,300,1,,1,0.6,1,,,,0.1,50,30,assets/weapons/GATTI.png
+GATTI,Gatti Amari,weapon,8,False,False,False,STIGRANGATTI,,4,5000,6500,300,1,,1,0.8,1,,,,0.1,50,30,assets/weapons/GATTI.png
+GATTI,Gatti Amari,weapon,8,False,False,False,STIGRANGATTI,,5,5000,6500,300,1,,1,0.8,2,,,,0.1,50,30,assets/weapons/GATTI.png
+GATTI,Gatti Amari,weapon,8,False,False,False,STIGRANGATTI,,6,5000,8000,300,1,,1,0.8,2,,,,0.1,50,30,assets/weapons/GATTI.png
+GATTI,Gatti Amari,weapon,8,False,False,False,STIGRANGATTI,,7,5000,8000,300,1,,1,1,2,,,,0.1,50,30,assets/weapons/GATTI.png
+GATTI,Gatti Amari,weapon,8,False,False,False,STIGRANGATTI,,8,5000,8000,300,1,,1,1,3,,,,0.1,50,30,assets/weapons/GATTI.png
+STIGRANGATTI,Vicious Hunger,evolution,1,False,False,False,,GREED,1,8000,7000,300,3,,1,1,2,,,,0.1,1,60,assets/weapons/STIGRANGATTI.png
+SONG,Song of Mana,weapon,8,False,False,False,MANNAGGIA,,1,2000,500,50,1,,1,1,1,,,,,50,30,assets/weapons/SONG.png
+SONG,Song of Mana,weapon,8,False,False,False,MANNAGGIA,,2,2000,500,50,1,,2,1,1,,,,,50,30,assets/weapons/SONG.png
+SONG,Song of Mana,weapon,8,False,False,False,MANNAGGIA,,3,2750,1000,50,1,,2,1,1,,,,,50,30,assets/weapons/SONG.png
+SONG,Song of Mana,weapon,8,False,False,False,MANNAGGIA,,4,2750,1000,50,2,,2.25,1,1,,,,,50,30,assets/weapons/SONG.png
+SONG,Song of Mana,weapon,8,False,False,False,MANNAGGIA,,5,3500,1500,50,2,,2.25,1,1,,,,,50,30,assets/weapons/SONG.png
+SONG,Song of Mana,weapon,8,False,False,False,MANNAGGIA,,6,3500,1500,50,3,,2.5,1,1,,,,,50,30,assets/weapons/SONG.png
+SONG,Song of Mana,weapon,8,False,False,False,MANNAGGIA,,7,4250,2000,50,3,,2.5,1,1,,,,,50,30,assets/weapons/SONG.png
+SONG,Song of Mana,weapon,8,False,False,False,MANNAGGIA,,8,4250,2000,50,4,,2.75,1,1,,,,,50,30,assets/weapons/SONG.png
+MANNAGGIA,Mannajja,evolution,1,False,False,False,,CURSE,1,4500,2000,0,4,,6,1,1,,,,,1,30,assets/weapons/MANNAGGIA.png
+TRAPANO,Shadow Pinion,weapon,8,False,False,False,TRAPANO2,,1,6000,1000,300,1,,1,1,1,,,,,50,200,assets/weapons/TRAPANO.png
+TRAPANO,Shadow Pinion,weapon,8,False,False,False,TRAPANO2,,2,6000,1000,300,1,,1,1,2,,,,,50,200,assets/weapons/TRAPANO.png
+TRAPANO,Shadow Pinion,weapon,8,False,False,False,TRAPANO2,,3,6000,1000,300,1.5,,1,1,2,,,,,50,200,assets/weapons/TRAPANO.png
+TRAPANO,Shadow Pinion,weapon,8,False,False,False,TRAPANO2,,4,6000,1250,300,1.5,,1,1,2,,,,,50,200,assets/weapons/TRAPANO.png
+TRAPANO,Shadow Pinion,weapon,8,False,False,False,TRAPANO2,,5,6000,1250,300,2,,1,1,2,,,,,50,200,assets/weapons/TRAPANO.png
+TRAPANO,Shadow Pinion,weapon,8,False,False,False,TRAPANO2,,6,6000,1500,300,2,,1,1,2,,,,,50,200,assets/weapons/TRAPANO.png
+TRAPANO,Shadow Pinion,weapon,8,False,False,False,TRAPANO2,,7,6000,1500,300,2.5,,1,1,2,,,,,50,200,assets/weapons/TRAPANO.png
+TRAPANO,Shadow Pinion,weapon,8,False,False,False,TRAPANO2,,8,6000,1750,300,2.5,,1,1,2,,,,,50,200,assets/weapons/TRAPANO.png
+TRAPANO2,Valkyrie Turner,evolution,1,False,False,False,,MOVESPEED,1,6000,2000,300,3.5,,1.4,3.5,1,,,,,1,200,assets/weapons/TRAPANO2.png
+LANCET,Clock Lancet,weapon,7,False,False,False,,,1,2000,2000,0,0,,1,1,1,,,,0,70,10,assets/weapons/LANCET.png
+LANCET,Clock Lancet,weapon,7,False,False,False,,,2,2000,3000,0,0,,1,1,1,,,,0,70,10,assets/weapons/LANCET.png
+LANCET,Clock Lancet,weapon,7,False,False,False,,,3,1500,3000,0,0,,1,1,1,,,,0,70,10,assets/weapons/LANCET.png
+LANCET,Clock Lancet,weapon,7,False,False,False,,,4,1500,4000,0,0,,1,1,1,,,,0,70,10,assets/weapons/LANCET.png
+LANCET,Clock Lancet,weapon,7,False,False,False,,,5,1500,5000,0,0,,1,1,1,,,,0,70,10,assets/weapons/LANCET.png
+LANCET,Clock Lancet,weapon,7,False,False,False,,,6,1000,5000,0,0,,1,1,1,,,,0,70,10,assets/weapons/LANCET.png
+LANCET,Clock Lancet,weapon,7,False,False,False,,,7,1000,6000,0,0,,1,1,1,,,,0,70,10,assets/weapons/LANCET.png
+CORRIDOR,Infinite Corridor,evolution,1,False,False,False,,SILVER|GOLD,1,1000,6000,0,0,,1,1,1,,,,0,1,10,assets/weapons/CORRIDOR.png
+LAUREL,Laurel,weapon,7,False,False,True,,,1,10000,5000,0,1,,1,1,1,,,,,60,5,assets/weapons/LAUREL.png
+LAUREL,Laurel,weapon,7,False,False,True,,,2,9500,5000,0,1,,1,1,1,,,,,60,5,assets/weapons/LAUREL.png
+LAUREL,Laurel,weapon,7,False,False,True,,,3,9000,5000,0,1,,1,1,1,,,,,60,5,assets/weapons/LAUREL.png
+LAUREL,Laurel,weapon,7,False,False,True,,,4,9000,5000,0,1,,1,1,1,,,,,60,5,assets/weapons/LAUREL.png
+LAUREL,Laurel,weapon,7,False,False,True,,,5,8500,5000,0,1,,1,1,1,,,,,60,5,assets/weapons/LAUREL.png
+LAUREL,Laurel,weapon,7,False,False,True,,,6,8000,5000,0,1,,1,1,1,,,,,60,5,assets/weapons/LAUREL.png
+LAUREL,Laurel,weapon,7,False,False,True,,,7,8000,5000,0,1,,1,1,1,,,,,60,5,assets/weapons/LAUREL.png
+SHROUD,Crimson Shroud,evolution,1,False,False,False,,LEFT|RIGHT,1,8000,,100,0,,2,1,1,,,,20,1,50,assets/weapons/SHROUD.png
+VENTO,Vento Sacro,weapon,8,False,False,False,VENTO2,,1,2000,400,50,0.2,,1.4,1,4,,0.05,2,0.1,50,120,assets/weapons/VENTO.png
+VENTO,Vento Sacro,weapon,8,False,False,False,VENTO2,,2,2000,400,50,0.3,,1.4,1,4,,0.05,2,0.1,50,120,assets/weapons/VENTO.png
+VENTO,Vento Sacro,weapon,8,False,False,False,VENTO2,,3,2000,400,50,0.3,,1.6,1,5,,0.05,2,0.1,50,120,assets/weapons/VENTO.png
+VENTO,Vento Sacro,weapon,8,False,False,False,VENTO2,,4,2000,400,50,0.4,,1.6,1,5,,0.05,2,0.1,50,120,assets/weapons/VENTO.png
+VENTO,Vento Sacro,weapon,8,False,False,False,VENTO2,,5,2000,400,50,0.4,,1.8,1,6,,0.05,2,0.1,50,120,assets/weapons/VENTO.png
+VENTO,Vento Sacro,weapon,8,False,False,False,VENTO2,,6,2000,400,50,0.5,,1.8,1,6,,0.05,2,0.1,50,120,assets/weapons/VENTO.png
+VENTO,Vento Sacro,weapon,8,False,False,False,VENTO2,,7,2000,400,50,0.5,,2,1,7,,0.05,2,0.1,50,120,assets/weapons/VENTO.png
+VENTO,Vento Sacro,weapon,8,False,False,False,VENTO2,,8,2000,400,50,0.6,,2,1,7,,0.05,2,0.1,50,120,assets/weapons/VENTO.png
+VENTO2,Fuwalafuwaloo,evolution,1,False,False,True,,VAMPIRICA,1,2000,400,50,2,,2,1,8,,0.05,2,0.2,1,120,assets/weapons/VENTO2.png
+BONE,Bone,weapon,8,False,False,False,,,1,3000,2000,0,0.5,,1.2,0.75,1,,,,,1,50,assets/weapons/BONE.png
+BONE,Bone,weapon,8,False,False,False,,,2,3000,2200,0,0.5,,1.4,0.75,1,,,,,1,50,assets/weapons/BONE.png
+BONE,Bone,weapon,8,False,False,False,,,3,3000,2200,0,2.5,,1.4,0.75,2,,,,,1,50,assets/weapons/BONE.png
+BONE,Bone,weapon,8,False,False,False,,,4,3000,2200,0,2.5,,1.6,1.25,2,,,,,1,50,assets/weapons/BONE.png
+BONE,Bone,weapon,8,False,False,False,,,5,3000,2200,0,4.5,,1.6,1.25,3,,,,,1,50,assets/weapons/BONE.png
+BONE,Bone,weapon,8,False,False,False,,,6,3000,2400,0,4.5,,1.6,1.25,3,,,,,1,50,assets/weapons/BONE.png
+BONE,Bone,weapon,8,False,False,False,,,7,3000,2400,0,6.5,,1.6,1.25,3,,,,,1,50,assets/weapons/BONE.png
+BONE,Bone,weapon,8,False,False,False,,,8,3000,2600,0,6.5,,1.6,1.75,3,,,,,1,50,assets/weapons/BONE.png
+BONE2,Anima of Mortaccio,evolution,1,True,True,False,,,1,3000,2600,0,6.5,,1.6,1.75,3,,,,,1,80,assets/weapons/BONE2.png
+CHERRY,Cherry Bomb,weapon,8,False,False,False,,,1,3000,2000,300,1,,1,1,1,,,,,1,50,assets/weapons/CHERRY.png
+CHERRY,Cherry Bomb,weapon,8,False,False,False,,,2,3000,2000,300,1,,1.25,1.3,1,,,,,1,50,assets/weapons/CHERRY.png
+CHERRY,Cherry Bomb,weapon,8,False,False,False,,,3,3000,2000,300,1,,1.25,1.3,1,,,,,1,50,assets/weapons/CHERRY.png
+CHERRY,Cherry Bomb,weapon,8,False,False,False,,,4,3000,2000,300,1,,1.25,1.3,2,,,,,1,50,assets/weapons/CHERRY.png
+CHERRY,Cherry Bomb,weapon,8,False,False,False,,,5,3000,2000,300,1.5,,1.5,1.3,2,,,,,1,50,assets/weapons/CHERRY.png
+CHERRY,Cherry Bomb,weapon,8,False,False,False,,,6,3000,2000,300,1.5,,1.5,1.3,2,,,,,1,50,assets/weapons/CHERRY.png
+CHERRY,Cherry Bomb,weapon,8,False,False,False,,,7,3000,2000,300,1.5,,1.75,1.6,2,,,,,1,50,assets/weapons/CHERRY.png
+CHERRY,Cherry Bomb,weapon,8,False,False,False,,,8,3000,2000,300,2,,2,1.6,2,,,,,1,50,assets/weapons/CHERRY.png
+CHERRY2,Yatta Daikarin,evolution,1,True,True,False,,,1,3000,2600,300,2,,2,1.6,2,,,,,1,80,assets/weapons/CHERRY2.png
+CART2,Carréllo,weapon,8,False,False,False,,,1,5500,,,1,,0.6,1,2,,,,,1,50,assets/weapons/CART2.png
+CART2,Carréllo,weapon,8,False,False,False,,,2,5500,,,1,,0.8,1,2,,,,,1,50,assets/weapons/CART2.png
+CART2,Carréllo,weapon,8,False,False,False,,,3,5800,,,4,,0.8,1,2,,,,,1,50,assets/weapons/CART2.png
+CART2,Carréllo,weapon,8,False,False,False,,,4,5800,,,4,,0.8,1.5,2,,,,,1,50,assets/weapons/CART2.png
+CART2,Carréllo,weapon,8,False,False,False,,,5,6100,,,7,,0.8,1.5,2,,,,,1,50,assets/weapons/CART2.png
+CART2,Carréllo,weapon,8,False,False,False,,,6,6100,,,7,,1,1.5,2,,,,,1,50,assets/weapons/CART2.png
+CART2,Carréllo,weapon,8,False,False,False,,,7,6400,,,10,,1,1.5,2,,,,,1,50,assets/weapons/CART2.png
+CART2,Carréllo,weapon,8,False,False,False,,,8,6400,,,10,,1,2,2,,,,,1,50,assets/weapons/CART2.png
+CART2EVO,Carozza!,evolution,1,True,True,False,,,1,12800,,0,15,,1,10,3,,,,,1,50,assets/weapons/CART2EVO.png
+FLOWER,Celestial Dusting,weapon,8,False,False,False,,,1,6000,500,100,0.5,,1,0.7,1,,,,0.1,1,100,assets/weapons/FLOWER.png
+FLOWER,Celestial Dusting,weapon,8,False,False,False,,,2,6000,1500,100,0.5,,1,0.7,1,,,,0.1,1,100,assets/weapons/FLOWER.png
+FLOWER,Celestial Dusting,weapon,8,False,False,False,,,3,6000,1500,100,0.5,,1,1,1,,,,0.1,1,100,assets/weapons/FLOWER.png
+FLOWER,Celestial Dusting,weapon,8,False,False,False,,,4,6000,1500,100,1,,1,1,1,,,,0.1,1,100,assets/weapons/FLOWER.png
+FLOWER,Celestial Dusting,weapon,8,False,False,False,,,5,6000,1500,100,1,,1,1.3,1,,,,0.1,1,100,assets/weapons/FLOWER.png
+FLOWER,Celestial Dusting,weapon,8,False,False,False,,,6,6000,1500,100,1,,1,1.3,2,,,,0.1,1,100,assets/weapons/FLOWER.png
+FLOWER,Celestial Dusting,weapon,8,False,False,False,,,7,6000,1500,100,1,,1,1.6,2,,,,0.1,1,100,assets/weapons/FLOWER.png
+FLOWER,Celestial Dusting,weapon,8,False,False,False,,,8,6000,1500,100,1,,1,1.6,2,,,,0.1,1,100,assets/weapons/FLOWER.png
+FLOWER2,Profusione D'Amore,evolution,1,True,True,False,,,1,6000,1500,0,1,,1,1.4,2,,,,0.1,1,100,assets/weapons/FLOWER2.png
+ROBBA,La Robba,weapon,8,False,False,False,,,1,4500,2000,300,1,,1,1,3,,,,0.1,1,50,assets/weapons/ROBBA.png
+ROBBA,La Robba,weapon,8,False,False,False,,,2,4500,2250,300,1,,1,1,4,,,,0.1,1,50,assets/weapons/ROBBA.png
+ROBBA,La Robba,weapon,8,False,False,False,,,3,4500,2250,300,2,,1,1,4,,,,0.1,1,50,assets/weapons/ROBBA.png
+ROBBA,La Robba,weapon,8,False,False,False,,,4,4500,2500,300,2,,1,1,5,,,,0.1,1,50,assets/weapons/ROBBA.png
+ROBBA,La Robba,weapon,8,False,False,False,,,5,4500,2500,300,3,,1,1.5,5,,,,0.1,1,50,assets/weapons/ROBBA.png
+ROBBA,La Robba,weapon,8,False,False,False,,,6,4500,2750,300,3,,1,1.5,6,,,,0.1,1,50,assets/weapons/ROBBA.png
+ROBBA,La Robba,weapon,8,False,False,False,,,7,4500,2750,300,4,,1,1.5,6,,,,0.1,1,50,assets/weapons/ROBBA.png
+ROBBA,La Robba,weapon,8,False,False,False,,,8,4500,3000,300,4,,1,1.5,7,,,,0.1,1,50,assets/weapons/ROBBA.png
+JUBILEE,Greatest Jubilee,weapon,9,False,False,False,,,1,3000,100,200,1,,1,1,1,,0.05,2,0.1,20,100,assets/weapons/JUBILEE.png
+JUBILEE,Greatest Jubilee,weapon,9,False,False,False,,,2,3000,100,200,1,,1,1,2,,0.05,2,0.1,20,100,assets/weapons/JUBILEE.png
+JUBILEE,Greatest Jubilee,weapon,9,False,False,False,,,3,2500,100,200,2,,1,1,2,,0.05,2,0.1,20,100,assets/weapons/JUBILEE.png
+JUBILEE,Greatest Jubilee,weapon,9,False,False,False,,,4,2500,100,200,2,,1,1,3,,0.05,2,0.1,20,100,assets/weapons/JUBILEE.png
+JUBILEE,Greatest Jubilee,weapon,9,False,False,False,,,5,2500,100,200,3,,1.25,1,3,,0.05,2,0.1,20,100,assets/weapons/JUBILEE.png
+JUBILEE,Greatest Jubilee,weapon,9,False,False,False,,,6,2500,100,200,3,,1.25,1,4,,0.05,2,0.1,20,100,assets/weapons/JUBILEE.png
+JUBILEE,Greatest Jubilee,weapon,9,False,False,False,,,7,2000,100,200,3,,1.5,1,4,,0.05,2,0.1,20,100,assets/weapons/JUBILEE.png
+JUBILEE,Greatest Jubilee,weapon,9,False,False,False,,,8,2000,100,200,3,,1.5,1,5,,0.05,2,0.1,20,100,assets/weapons/JUBILEE.png
+JUBILEE,Greatest Jubilee,weapon,9,False,False,False,,,9,2000,100,200,3,,1.5,1,5,,0.05,2,0.1,20,100,assets/weapons/JUBILEE.png
+TRIASSO1,Bracelet,weapon,6,False,False,False,TRIASSO2,,1,1400,400,40,1,,0.9,1.5,3,1,,,,40,80,assets/weapons/TRIASSO1.png
+TRIASSO1,Bracelet,weapon,6,False,False,False,TRIASSO2,,2,1400,400,40,2,,0.9,1.5,3,1,,,,40,80,assets/weapons/TRIASSO1.png
+TRIASSO1,Bracelet,weapon,6,False,False,False,TRIASSO2,,3,1400,400,40,2,,0.9,1.5,3,2,,,,40,80,assets/weapons/TRIASSO1.png
+TRIASSO1,Bracelet,weapon,6,False,False,False,TRIASSO2,,4,1400,400,40,2,,1,1.5,4,2,,,,40,80,assets/weapons/TRIASSO1.png
+TRIASSO1,Bracelet,weapon,6,False,False,False,TRIASSO2,,5,1400,400,40,2,,1,1.5,4,3,,,,40,80,assets/weapons/TRIASSO1.png
+TRIASSO1,Bracelet,weapon,6,False,False,False,TRIASSO2,,6,1400,400,40,3,,1,1.5,4,3,,,,40,80,assets/weapons/TRIASSO1.png
+TRIASSO2,Bi-Bracelet,evolution,6,False,False,True,TRIASSO3,TRIASSO1,1,1400,600,40,3,,1,1.5,4,5,,,,20,80,assets/weapons/TRIASSO2.png
+TRIASSO2,Bi-Bracelet,evolution,6,False,False,True,TRIASSO3,TRIASSO1,2,1400,600,40,3,,1,1.5,4,6,,,,20,80,assets/weapons/TRIASSO2.png
+TRIASSO2,Bi-Bracelet,evolution,6,False,False,True,TRIASSO3,TRIASSO1,3,1400,600,40,3,,1.1,1.5,5,6,,,,20,80,assets/weapons/TRIASSO2.png
+TRIASSO2,Bi-Bracelet,evolution,6,False,False,True,TRIASSO3,TRIASSO1,4,1200,800,40,3,,1.1,1.5,5,6,,,,20,80,assets/weapons/TRIASSO2.png
+TRIASSO2,Bi-Bracelet,evolution,6,False,False,True,TRIASSO3,TRIASSO1,5,1200,800,40,3,,1.2,1.5,6,6,,,,20,80,assets/weapons/TRIASSO2.png
+TRIASSO2,Bi-Bracelet,evolution,6,False,False,True,TRIASSO3,TRIASSO1,6,1200,800,40,3,,1.2,1.5,6,7,,,,20,80,assets/weapons/TRIASSO2.png
+TRIASSO3,Tri-Bracelet,evolution,6,False,False,True,,TRIASSO2,1,1200,1000,40,3,,1.2,1.5,6,7,,,,20,80,assets/weapons/TRIASSO3.png
+TRIASSO3,Tri-Bracelet,evolution,6,False,False,True,,TRIASSO2,2,1200,1000,40,3,,1.3,1.5,7,7,,,,20,80,assets/weapons/TRIASSO3.png
+TRIASSO3,Tri-Bracelet,evolution,6,False,False,True,,TRIASSO2,3,1000,1200,40,3,,1.3,1.5,7,7,,,,20,80,assets/weapons/TRIASSO3.png
+TRIASSO3,Tri-Bracelet,evolution,6,False,False,True,,TRIASSO2,4,1000,1200,40,5,,1.3,1.5,8,7,,,,20,80,assets/weapons/TRIASSO3.png
+TRIASSO3,Tri-Bracelet,evolution,6,False,False,True,,TRIASSO2,5,800,1400,40,5,,1.3,1.5,8,7,,,,20,80,assets/weapons/TRIASSO3.png
+TRIASSO3,Tri-Bracelet,evolution,6,False,False,True,,TRIASSO2,6,800,1400,40,5,,1.4,1.5,9,7,,,,20,80,assets/weapons/TRIASSO3.png
+CANDYBOX,Candybox,weapon,1,False,False,False,,,1,9007199254740991,0,9007199254740991,0,,0,0,0,,,,,2,0,assets/weapons/CANDYBOX.png
+CANDYBOX2,Super Candybox II Turbo,evolution,1,False,False,False,,,1,9007199254740991,0,9007199254740991,0,,0,0,0,,,,,0.1,0,assets/weapons/CANDYBOX2.png
+BATTILIA,Pako Battilia,weapon,8,False,False,False,BATTILIA2,,1,8000,,0,2,,1,0.4,10,2,0.2,2,,60,200,assets/weapons/BATTILIA.png
+BATTILIA,Pako Battilia,weapon,8,False,False,False,BATTILIA2,,2,8000,,0,2,,1,0.7,10,3,0.2,2,,60,200,assets/weapons/BATTILIA.png
+BATTILIA,Pako Battilia,weapon,8,False,False,False,BATTILIA2,,3,7500,,0,2,,1,0.7,11,3,0.2,2,,60,200,assets/weapons/BATTILIA.png
+BATTILIA,Pako Battilia,weapon,8,False,False,False,BATTILIA2,,4,7500,,0,3,,1,0.7,12,3,0.2,2,,60,200,assets/weapons/BATTILIA.png
+BATTILIA,Pako Battilia,weapon,8,False,False,False,BATTILIA2,,5,7500,,0,3,,1,1,12,5,0.2,2,,60,200,assets/weapons/BATTILIA.png
+BATTILIA,Pako Battilia,weapon,8,False,False,False,BATTILIA2,,6,7000,,0,3,,1,1,13,5,0.2,2,,60,200,assets/weapons/BATTILIA.png
+BATTILIA,Pako Battilia,weapon,8,False,False,False,BATTILIA2,,7,7000,,0,3,,1,1,14,8,0.2,2,,60,200,assets/weapons/BATTILIA.png
+BATTILIA,Pako Battilia,weapon,8,False,False,False,BATTILIA2,,8,7000,,0,4,,1,1,15,8,0.2,2,,60,200,assets/weapons/BATTILIA.png
+BATTILIA2,Mazzo Familiar,evolution,1,False,False,True,,MAXHEALTH,1,7000,,30,4,,1,1,16,20,0.05,2,,1,100,assets/weapons/BATTILIA2.png
+EX_AMMO1,Ammo Appalate,weapon,8,False,False,False,EX_AMMO2,,1,2000,,100,0.5,,1,1,3,0,0.05,2,,60,200,assets/weapons/EX_AMMO1.png
+EX_AMMO1,Ammo Appalate,weapon,8,False,False,False,EX_AMMO2,,2,2000,,100,0.5,,1.1,1,3,3,0.05,2,,60,200,assets/weapons/EX_AMMO1.png
+EX_AMMO1,Ammo Appalate,weapon,8,False,False,False,EX_AMMO2,,3,2000,,100,0.6,,1.1,1,4,3,0.05,2,,60,200,assets/weapons/EX_AMMO1.png
+EX_AMMO1,Ammo Appalate,weapon,8,False,False,False,EX_AMMO2,,4,2000,,100,0.7,,1.1,1,5,3,0.05,2,,60,200,assets/weapons/EX_AMMO1.png
+EX_AMMO1,Ammo Appalate,weapon,8,False,False,False,EX_AMMO2,,5,2000,,100,0.7,,1.2,1,5,6,0.05,2,,60,200,assets/weapons/EX_AMMO1.png
+EX_AMMO1,Ammo Appalate,weapon,8,False,False,False,EX_AMMO2,,6,2000,,100,0.8,,1.2,1,6,6,0.05,2,,60,200,assets/weapons/EX_AMMO1.png
+EX_AMMO1,Ammo Appalate,weapon,8,False,False,False,EX_AMMO2,,7,2000,,100,1.1,,1.2,1,6,6,0.05,2,,60,200,assets/weapons/EX_AMMO1.png
+EX_AMMO1,Ammo Appalate,weapon,8,False,False,False,EX_AMMO2,,8,2000,,100,1.1,,1.2,1,8,6,0.05,2,,60,200,assets/weapons/EX_AMMO1.png
+EX_AMMO2,Gunastrophe,evolution,1,False,False,True,,SPEED,1,6000,3000,200,0.65,,1,1,1,0,0.05,2,,1,60,assets/weapons/EX_AMMO2.png
+EX_FLIK1,Unearthly Bolt,weapon,8,False,False,False,EX_FLIK2,,1,4000,100,100,1,,1,1,1,,0.05,1,,70,100,assets/weapons/EX_FLIK1.png
+EX_FLIK1,Unearthly Bolt,weapon,8,False,False,False,EX_FLIK2,,2,4000,100,90,1,,1,1,2,,0.05,1,,70,100,assets/weapons/EX_FLIK1.png
+EX_FLIK1,Unearthly Bolt,weapon,8,False,False,False,EX_FLIK2,,3,4000,100,80,1,,1.1,1,3,,0.05,1,,70,100,assets/weapons/EX_FLIK1.png
+EX_FLIK1,Unearthly Bolt,weapon,8,False,False,False,EX_FLIK2,,4,3900,100,80,1.5,,1.1,1,3,,0.05,1,,70,100,assets/weapons/EX_FLIK1.png
+EX_FLIK1,Unearthly Bolt,weapon,8,False,False,False,EX_FLIK2,,5,3900,100,70,1.5,,1.1,1,4,,0.05,1,,70,100,assets/weapons/EX_FLIK1.png
+EX_FLIK1,Unearthly Bolt,weapon,8,False,False,False,EX_FLIK2,,6,3900,100,60,1.5,,1.2,1,5,,0.05,1,,70,100,assets/weapons/EX_FLIK1.png
+EX_FLIK1,Unearthly Bolt,weapon,8,False,False,False,EX_FLIK2,,7,3900,100,50,1.5,,1.2,1,6,,0.05,1,,70,100,assets/weapons/EX_FLIK1.png
+EX_FLIK1,Unearthly Bolt,weapon,8,False,False,False,EX_FLIK2,,8,3800,100,50,2,,1.2,1,6,,0.05,1,,70,100,assets/weapons/EX_FLIK1.png
+EX_FLIK2,Spirit Disturbance,evolution,1,False,False,True,,REVIVAL,1,4000,100,100,1,,1,2,3,,0.05,1,,1,50,assets/weapons/EX_FLIK2.png
+VICTORY,Victory Sword,weapon,12,False,False,False,SOLES,,1,1850,,100,0.5,,1.4,1,2,,0.1,2,,30,100,assets/weapons/VICTORY.png
+VICTORY,Victory Sword,weapon,12,False,False,False,SOLES,,2,1850,,100,0.5,,1.4,1,3,,0.1,2,,30,100,assets/weapons/VICTORY.png
+VICTORY,Victory Sword,weapon,12,False,False,False,SOLES,,3,1850,,100,1,,1.6,1,3,,0.1,2,,30,100,assets/weapons/VICTORY.png
+VICTORY,Victory Sword,weapon,12,False,False,False,SOLES,,4,1850,,100,1,,1.6,1,4,,0.1,2,,30,100,assets/weapons/VICTORY.png
+VICTORY,Victory Sword,weapon,12,False,False,False,SOLES,,5,1850,,100,2,,1.8,1,4,,0.1,2,,30,100,assets/weapons/VICTORY.png
+VICTORY,Victory Sword,weapon,12,False,False,False,SOLES,,6,1850,,100,2,,1.8,1,5,,0.1,2,,30,100,assets/weapons/VICTORY.png
+VICTORY,Victory Sword,weapon,12,False,False,False,SOLES,,7,1850,,100,3,,2,1,5,,0.1,2,,30,100,assets/weapons/VICTORY.png
+VICTORY,Victory Sword,weapon,12,False,False,False,SOLES,,8,1850,,100,3,,2,1,5,,0.1,2,,30,100,assets/weapons/VICTORY.png
+VICTORY,Victory Sword,weapon,12,False,False,False,SOLES,,9,1850,,100,4,,2,1,5,,0.1,2,,30,100,assets/weapons/VICTORY.png
+VICTORY,Victory Sword,weapon,12,False,False,False,SOLES,,10,1600,,100,4,,2,1,5,,0.1,2,,30,100,assets/weapons/VICTORY.png
+VICTORY,Victory Sword,weapon,12,False,False,False,SOLES,,11,1350,,100,4,,2,1,5,,0.1,2,,30,100,assets/weapons/VICTORY.png
+VICTORY,Victory Sword,weapon,12,False,False,False,SOLES,,12,1100,,100,4,,2,1,5,,0.1,2,,30,100,assets/weapons/VICTORY.png
+SOLES,Sole Solution,evolution,1,False,False,True,,VICTORY,1,20000,10000,100,1,,1,1,1,,,,0,1,100,assets/weapons/SOLES.png
+MISSPELL,Flames of Misspell,weapon,8,False,False,False,MISSPELL2,,1,4000,400,40,1,,1,1,12,,,,,30,100,assets/weapons/MISSPELL.png
+MISSPELL,Flames of Misspell,weapon,8,False,False,False,MISSPELL2,,2,4000,400,40,1,,1,1.25,12,,,,,30,100,assets/weapons/MISSPELL.png
+MISSPELL,Flames of Misspell,weapon,8,False,False,False,MISSPELL2,,3,4000,400,40,2,,1,1.25,12,,,,,30,100,assets/weapons/MISSPELL.png
+MISSPELL,Flames of Misspell,weapon,8,False,False,False,MISSPELL2,,4,3500,400,40,2,,1.5,1.25,12,,,,,30,100,assets/weapons/MISSPELL.png
+MISSPELL,Flames of Misspell,weapon,8,False,False,False,MISSPELL2,,5,3500,400,40,2,,1.5,1.5,12,,,,,30,100,assets/weapons/MISSPELL.png
+MISSPELL,Flames of Misspell,weapon,8,False,False,False,MISSPELL2,,6,3500,400,40,3,,1.5,1.5,12,,,,,30,100,assets/weapons/MISSPELL.png
+MISSPELL,Flames of Misspell,weapon,8,False,False,False,MISSPELL2,,7,3000,400,40,3,,2,1.5,12,,,,,30,100,assets/weapons/MISSPELL.png
+MISSPELL,Flames of Misspell,weapon,8,False,False,False,MISSPELL2,,8,2500,400,40,3,,2,1.5,12,,,,,30,100,assets/weapons/MISSPELL.png
+MISSPELL2,Ashes of Muspell,evolution,1,False,False,True,,PANDORA,1,2000,400,40,5,,2,1.5,12,,,,,1,200,assets/weapons/MISSPELL2.png
+ICELANCE,Glass Fandango,weapon,8,False,False,False,ICELANCE2,,1,1400,,30,1,,0.7,1,1,,0.05,2,,50,100,assets/weapons/ICELANCE.png
+ICELANCE,Glass Fandango,weapon,8,False,False,False,ICELANCE2,,2,1400,,30,1.25,,0.8,1,1,,0.05,2,,50,100,assets/weapons/ICELANCE.png
+ICELANCE,Glass Fandango,weapon,8,False,False,False,ICELANCE2,,3,1400,,30,1.25,,0.8,1,2,,0.05,2,,50,100,assets/weapons/ICELANCE.png
+ICELANCE,Glass Fandango,weapon,8,False,False,False,ICELANCE2,,4,1400,,30,1.5,,0.9,1,2,,0.05,2,,50,100,assets/weapons/ICELANCE.png
+ICELANCE,Glass Fandango,weapon,8,False,False,False,ICELANCE2,,5,1400,,30,1.5,,0.9,1,3,,0.05,2,,50,100,assets/weapons/ICELANCE.png
+ICELANCE,Glass Fandango,weapon,8,False,False,False,ICELANCE2,,6,1400,,30,1.75,,1,1,3,,0.05,2,,50,100,assets/weapons/ICELANCE.png
+ICELANCE,Glass Fandango,weapon,8,False,False,False,ICELANCE2,,7,1400,,30,1.75,,1,1,4,,0.05,2,,50,100,assets/weapons/ICELANCE.png
+ICELANCE,Glass Fandango,weapon,8,False,False,False,ICELANCE2,,8,1400,,30,2,,1,1,5,,0.05,2,,50,100,assets/weapons/ICELANCE.png
+ICELANCE2,Celestial Voulge,evolution,1,False,False,True,,MOVESPEED,1,1400,,30,2,,1.1,6,6,,0.05,2,,1,100,assets/weapons/ICELANCE2.png
+EX_PENSHIN,Penshin Facha,weapon,1,False,False,False,,,1,9007199254740991,0,9007199254740991,0,,0,0,0,,,,,50,,assets/weapons/EX_PENSHIN.png
+EX_PENSHIN_SELECTOR_EVO,Penshin Facha,evolution,1,False,True,True,,,1,9007199254740991,0,9007199254740991,0,,0,0,0,,,,,50,,assets/weapons/EX_PENSHIN_SELECTOR_EVO.png
+EX_PENSHIN_EVO7,Tonno Subito,weapon,6,False,False,,,,1,1200,200,200,1,,1,0.8,1,1,,,,50,50,assets/weapons/EX_PENSHIN_EVO7.png
+EX_PENSHIN_EVO7,Tonno Subito,weapon,6,False,False,,,,2,1200,200,200,1,,1,0.9,1,1,,,,50,50,assets/weapons/EX_PENSHIN_EVO7.png
+EX_PENSHIN_EVO7,Tonno Subito,weapon,6,False,False,,,,3,1200,200,200,2,,1,0.9,1,1,,,,50,50,assets/weapons/EX_PENSHIN_EVO7.png
+EX_PENSHIN_EVO7,Tonno Subito,weapon,6,False,False,,,,4,1200,200,200,2,,1,1,1,1,,,,50,50,assets/weapons/EX_PENSHIN_EVO7.png
+EX_PENSHIN_EVO7,Tonno Subito,weapon,6,False,False,,,,5,1200,200,200,2,,1,1,2,1,,,,50,50,assets/weapons/EX_PENSHIN_EVO7.png
+EX_PENSHIN_EVO7,Tonno Subito,weapon,6,False,False,,,,6,1200,200,200,2,,1,1.2,2,1,,,,50,50,assets/weapons/EX_PENSHIN_EVO7.png
+EX_PENSHIN_EVO2,Tonnado,weapon,6,False,False,,,,1,4000,1750,250,1,,1,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_EVO2.png
+EX_PENSHIN_EVO2,Tonnado,weapon,6,False,False,,,,2,4000,2000,250,1,,1,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_EVO2.png
+EX_PENSHIN_EVO2,Tonnado,weapon,6,False,False,,,,3,4000,2000,250,2,,1,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_EVO2.png
+EX_PENSHIN_EVO2,Tonnado,weapon,6,False,False,,,,4,4000,2250,250,2,,1,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_EVO2.png
+EX_PENSHIN_EVO2,Tonnado,weapon,6,False,False,,,,5,4000,2250,250,2,,1,1.1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_EVO2.png
+EX_PENSHIN_EVO2,Tonnado,weapon,6,False,False,,,,6,4000,2750,250,2,,1,1.1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_EVO2.png
+EX_PENSHIN_EVO3,Tonn'omoto,weapon,6,False,False,,,,1,4000,1750,100,1,,1,1,1,,,,5,50,50,assets/weapons/EX_PENSHIN_EVO3.png
+EX_PENSHIN_EVO3,Tonn'omoto,weapon,6,False,False,,,,2,3800,1750,100,1,,1,1,1,,,,5,50,50,assets/weapons/EX_PENSHIN_EVO3.png
+EX_PENSHIN_EVO3,Tonn'omoto,weapon,6,False,False,,,,3,3800,1750,100,2,,1,1,1,,,,5,50,50,assets/weapons/EX_PENSHIN_EVO3.png
+EX_PENSHIN_EVO3,Tonn'omoto,weapon,6,False,False,,,,4,3600,1750,100,2,,1,1,1,,,,5,50,50,assets/weapons/EX_PENSHIN_EVO3.png
+EX_PENSHIN_EVO3,Tonn'omoto,weapon,6,False,False,,,,5,3600,2000,100,2,,1,1,1,,,,5,50,50,assets/weapons/EX_PENSHIN_EVO3.png
+EX_PENSHIN_EVO3,Tonn'omoto,weapon,6,False,False,,,,6,3200,2000,100,2,,1,1,1,,,,5,50,50,assets/weapons/EX_PENSHIN_EVO3.png
+EX_PENSHIN_EVO4,Tonn'oddeo,weapon,6,False,False,,,,1,4000,1750,100,1,,1,1,2,,,,2,50,50,assets/weapons/EX_PENSHIN_EVO4.png
+EX_PENSHIN_EVO4,Tonn'oddeo,weapon,6,False,False,,,,2,4000,1750,100,1,,1,1,3,,,,2,50,50,assets/weapons/EX_PENSHIN_EVO4.png
+EX_PENSHIN_EVO4,Tonn'oddeo,weapon,6,False,False,,,,3,4000,1750,100,2,,1,1,3,,,,2,50,50,assets/weapons/EX_PENSHIN_EVO4.png
+EX_PENSHIN_EVO4,Tonn'oddeo,weapon,6,False,False,,,,4,4000,1750,100,2,,1,1,4,,,,2,50,50,assets/weapons/EX_PENSHIN_EVO4.png
+EX_PENSHIN_EVO4,Tonn'oddeo,weapon,6,False,False,,,,5,4000,1750,100,2,,1.1,1,4,,,,2,50,50,assets/weapons/EX_PENSHIN_EVO4.png
+EX_PENSHIN_EVO4,Tonn'oddeo,weapon,6,False,False,,,,6,4000,1750,100,2,,1.1,1,6,,,,2,50,50,assets/weapons/EX_PENSHIN_EVO4.png
+EX_PENSHIN_EVO1,Tonne,weapon,6,False,False,,,,1,4000,1750,0,1.5,,1,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_EVO1.png
+EX_PENSHIN_EVO1,Tonne,weapon,6,False,False,,,,2,4000,1750,0,1.5,,1.1,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_EVO1.png
+EX_PENSHIN_EVO1,Tonne,weapon,6,False,False,,,,3,4000,2000,0,1.5,,1.1,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_EVO1.png
+EX_PENSHIN_EVO1,Tonne,weapon,6,False,False,,,,4,4000,2000,0,1.5,,1.2,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_EVO1.png
+EX_PENSHIN_EVO1,Tonne,weapon,6,False,False,,,,5,4000,2000,0,2.5,,1.2,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_EVO1.png
+EX_PENSHIN_EVO1,Tonne,weapon,6,False,False,,,,6,4000,2000,0,2.5,,1.4,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_EVO1.png
+EX_PENSHIN_EVO6,Unsurpassed,weapon,6,False,False,,,,1,4000,1750,250,1,,1,1,2,,,,5,50,50,assets/weapons/EX_PENSHIN_EVO6.png
+EX_PENSHIN_EVO6,Unsurpassed,weapon,6,False,False,,,,2,4000,1750,250,2,,1,1,2,,,,5,50,50,assets/weapons/EX_PENSHIN_EVO6.png
+EX_PENSHIN_EVO6,Unsurpassed,weapon,6,False,False,,,,3,4000,1750,250,2,,1,1.1,2,,,,5,50,50,assets/weapons/EX_PENSHIN_EVO6.png
+EX_PENSHIN_EVO6,Unsurpassed,weapon,6,False,False,,,,4,4000,1750,250,3,,1,1.1,2,,,,5,50,50,assets/weapons/EX_PENSHIN_EVO6.png
+EX_PENSHIN_EVO6,Unsurpassed,weapon,6,False,False,,,,5,3800,1750,250,3,,1,1.1,2,,,,5,50,50,assets/weapons/EX_PENSHIN_EVO6.png
+EX_PENSHIN_EVO6,Unsurpassed,weapon,6,False,False,,,,6,3800,1750,250,5,,1,1.1,2,,,,5,50,50,assets/weapons/EX_PENSHIN_EVO6.png
+EX_PENSHIN_UNION,Miracle of Multiplication,evolution,1,False,False,,,,1,1000,,0,1,,1,1,1,,,,5,50,50,assets/weapons/EX_PENSHIN_UNION.png
+EX_PENSHIN_STATIC7,Tonno Subito,weapon,6,True,True,False,,,1,4000,1000,150,1,,1,1,1,,,,5,50,50,assets/weapons/EX_PENSHIN_STATIC7.png
+EX_PENSHIN_STATIC7,Tonno Subito,weapon,6,True,True,False,,,2,4000,1000,150,1,,1,1.1,1,,,,5,50,50,assets/weapons/EX_PENSHIN_STATIC7.png
+EX_PENSHIN_STATIC7,Tonno Subito,weapon,6,True,True,False,,,3,4000,1000,150,2,,1,1.1,1,,,,5,50,50,assets/weapons/EX_PENSHIN_STATIC7.png
+EX_PENSHIN_STATIC7,Tonno Subito,weapon,6,True,True,False,,,4,4000,1000,150,2,,1,1.2,1,,,,5,50,50,assets/weapons/EX_PENSHIN_STATIC7.png
+EX_PENSHIN_STATIC7,Tonno Subito,weapon,6,True,True,False,,,5,4000,1000,150,2,,1,1.2,2,,,,5,50,50,assets/weapons/EX_PENSHIN_STATIC7.png
+EX_PENSHIN_STATIC7,Tonno Subito,weapon,6,True,True,False,,,6,4000,1000,150,2,,1,1.4,2,,,,5,50,50,assets/weapons/EX_PENSHIN_STATIC7.png
+EX_PENSHIN_STATIC2,Tonnado,weapon,6,True,True,False,,,1,4000,1750,250,1,,1,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_STATIC2.png
+EX_PENSHIN_STATIC2,Tonnado,weapon,6,True,True,False,,,2,4000,2000,250,1,,1,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_STATIC2.png
+EX_PENSHIN_STATIC2,Tonnado,weapon,6,True,True,False,,,3,4000,2000,250,2,,1,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_STATIC2.png
+EX_PENSHIN_STATIC2,Tonnado,weapon,6,True,True,False,,,4,4000,2250,250,2,,1,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_STATIC2.png
+EX_PENSHIN_STATIC2,Tonnado,weapon,6,True,True,False,,,5,4000,2250,250,2,,1,1.1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_STATIC2.png
+EX_PENSHIN_STATIC2,Tonnado,weapon,6,True,True,False,,,6,4000,2750,250,2,,1,1.1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_STATIC2.png
+EX_PENSHIN_STATIC3,Tonn'omoto,weapon,6,True,True,False,,,1,4000,1750,100,1,,1,1,1,,,,5,50,50,assets/weapons/EX_PENSHIN_STATIC3.png
+EX_PENSHIN_STATIC3,Tonn'omoto,weapon,6,True,True,False,,,2,3800,1750,100,1,,1,1,1,,,,5,50,50,assets/weapons/EX_PENSHIN_STATIC3.png
+EX_PENSHIN_STATIC3,Tonn'omoto,weapon,6,True,True,False,,,3,3800,1750,100,2,,1,1,1,,,,5,50,50,assets/weapons/EX_PENSHIN_STATIC3.png
+EX_PENSHIN_STATIC3,Tonn'omoto,weapon,6,True,True,False,,,4,3600,1750,100,2,,1,1,1,,,,5,50,50,assets/weapons/EX_PENSHIN_STATIC3.png
+EX_PENSHIN_STATIC3,Tonn'omoto,weapon,6,True,True,False,,,5,3600,2000,100,2,,1,1,1,,,,5,50,50,assets/weapons/EX_PENSHIN_STATIC3.png
+EX_PENSHIN_STATIC3,Tonn'omoto,weapon,6,True,True,False,,,6,3200,2000,100,2,,1,1,1,,,,5,50,50,assets/weapons/EX_PENSHIN_STATIC3.png
+EX_PENSHIN_STATIC4,Tonn'oddeo,weapon,6,True,True,False,,,1,4000,1750,100,1,,1,1,2,,,,2,50,50,assets/weapons/EX_PENSHIN_STATIC4.png
+EX_PENSHIN_STATIC4,Tonn'oddeo,weapon,6,True,True,False,,,2,4000,1750,100,1,,1,1,3,,,,2,50,50,assets/weapons/EX_PENSHIN_STATIC4.png
+EX_PENSHIN_STATIC4,Tonn'oddeo,weapon,6,True,True,False,,,3,4000,1750,100,2,,1,1,3,,,,2,50,50,assets/weapons/EX_PENSHIN_STATIC4.png
+EX_PENSHIN_STATIC4,Tonn'oddeo,weapon,6,True,True,False,,,4,4000,1750,100,2,,1,1,4,,,,2,50,50,assets/weapons/EX_PENSHIN_STATIC4.png
+EX_PENSHIN_STATIC4,Tonn'oddeo,weapon,6,True,True,False,,,5,4000,1750,100,2,,1.1,1,4,,,,2,50,50,assets/weapons/EX_PENSHIN_STATIC4.png
+EX_PENSHIN_STATIC4,Tonn'oddeo,weapon,6,True,True,False,,,6,4000,1750,100,2,,1.1,1,6,,,,2,50,50,assets/weapons/EX_PENSHIN_STATIC4.png
+EX_PENSHIN_STATIC1,Tonne,weapon,6,True,True,False,,,1,4000,1750,0,1.5,,1,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_STATIC1.png
+EX_PENSHIN_STATIC1,Tonne,weapon,6,True,True,False,,,2,4000,1750,0,1.5,,1.1,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_STATIC1.png
+EX_PENSHIN_STATIC1,Tonne,weapon,6,True,True,False,,,3,4000,2000,0,1.5,,1.1,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_STATIC1.png
+EX_PENSHIN_STATIC1,Tonne,weapon,6,True,True,False,,,4,4000,2000,0,1.5,,1.2,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_STATIC1.png
+EX_PENSHIN_STATIC1,Tonne,weapon,6,True,True,False,,,5,4000,2000,0,2.5,,1.2,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_STATIC1.png
+EX_PENSHIN_STATIC1,Tonne,weapon,6,True,True,False,,,6,4000,2000,0,2.5,,1.4,1,1,,,,2,50,50,assets/weapons/EX_PENSHIN_STATIC1.png
+EX_PENSHIN_STATIC6,Unsurpassed,weapon,6,True,True,False,,,1,4000,1750,250,1,,1,1,2,,,,5,50,50,assets/weapons/EX_PENSHIN_STATIC6.png
+EX_PENSHIN_STATIC6,Unsurpassed,weapon,6,True,True,False,,,2,4000,1750,250,2,,1,1,2,,,,5,50,50,assets/weapons/EX_PENSHIN_STATIC6.png
+EX_PENSHIN_STATIC6,Unsurpassed,weapon,6,True,True,False,,,3,4000,1750,250,2,,1,1.1,2,,,,5,50,50,assets/weapons/EX_PENSHIN_STATIC6.png
+EX_PENSHIN_STATIC6,Unsurpassed,weapon,6,True,True,False,,,4,4000,1750,250,3,,1,1.1,2,,,,5,50,50,assets/weapons/EX_PENSHIN_STATIC6.png
+EX_PENSHIN_STATIC6,Unsurpassed,weapon,6,True,True,False,,,5,3800,1750,250,3,,1,1.1,2,,,,5,50,50,assets/weapons/EX_PENSHIN_STATIC6.png
+EX_PENSHIN_STATIC6,Unsurpassed,weapon,6,True,True,False,,,6,3800,1750,250,5,,1,1.1,2,,,,5,50,50,assets/weapons/EX_PENSHIN_STATIC6.png
+SANTAJAVELIN,Santa Javelin,weapon,8,False,False,False,SANTAJAVELIN2,,1,6500,1000,125,2,,1,1,1,,0.05,2,0,60,200,assets/weapons/SANTAJAVELIN.png
+SANTAJAVELIN,Santa Javelin,weapon,8,False,False,False,SANTAJAVELIN2,,2,6500,1000,125,2,,1.5,1,1,,0.05,2,0,60,200,assets/weapons/SANTAJAVELIN.png
+SANTAJAVELIN,Santa Javelin,weapon,8,False,False,False,SANTAJAVELIN2,,3,6000,1000,125,2,,1.5,1,2,,0.05,2,0,60,200,assets/weapons/SANTAJAVELIN.png
+SANTAJAVELIN,Santa Javelin,weapon,8,False,False,False,SANTAJAVELIN2,,4,6000,1000,125,3,,1.5,1,2,,0.05,2,0,60,200,assets/weapons/SANTAJAVELIN.png
+SANTAJAVELIN,Santa Javelin,weapon,8,False,False,False,SANTAJAVELIN2,,5,5500,1000,125,3,,2,1,2,,0.05,2,0,60,200,assets/weapons/SANTAJAVELIN.png
+SANTAJAVELIN,Santa Javelin,weapon,8,False,False,False,SANTAJAVELIN2,,6,5500,1000,125,3,,2,1,3,,0.05,2,0,60,200,assets/weapons/SANTAJAVELIN.png
+SANTAJAVELIN,Santa Javelin,weapon,8,False,False,False,SANTAJAVELIN2,,7,5000,1000,125,4,,2,1,3,,0.05,2,0,60,200,assets/weapons/SANTAJAVELIN.png
+SANTAJAVELIN,Santa Javelin,weapon,8,False,False,False,SANTAJAVELIN2,,8,5000,1000,125,7,,2,1,3,,0.05,2,0,60,200,assets/weapons/SANTAJAVELIN.png
+SANTAJAVELIN2,Seraphic Cry,evolution,1,False,False,False,,LUCK,1,5000,1000,200,7,,1.5,1,3,,0.05,2,,1,200,assets/weapons/SANTAJAVELIN2.png
+EX_GAEA1,Gaze of Gaea,weapon,8,False,False,False,EX_GAEA2,,1,2000,200,200,0.5,,0.5,1,1,,,,,50,100,assets/weapons/EX_GAEA1.png
+EX_GAEA1,Gaze of Gaea,weapon,8,False,False,False,EX_GAEA2,,2,2000,200,200,0.5,,0.5,1,2,,,,,50,100,assets/weapons/EX_GAEA1.png
+EX_GAEA1,Gaze of Gaea,weapon,8,False,False,False,EX_GAEA2,,3,2000,200,200,1,,0.5,1,2,,,,,50,100,assets/weapons/EX_GAEA1.png
+EX_GAEA1,Gaze of Gaea,weapon,8,False,False,False,EX_GAEA2,,4,2000,400,200,1,,0.5,1,2,,,,,50,100,assets/weapons/EX_GAEA1.png
+EX_GAEA1,Gaze of Gaea,weapon,8,False,False,False,EX_GAEA2,,5,2000,400,200,1,,0.65,1,2,,,,,50,100,assets/weapons/EX_GAEA1.png
+EX_GAEA1,Gaze of Gaea,weapon,8,False,False,False,EX_GAEA2,,6,2000,400,200,1,,0.65,1,3,,,,,50,100,assets/weapons/EX_GAEA1.png
+EX_GAEA1,Gaze of Gaea,weapon,8,False,False,False,EX_GAEA2,,7,2000,600,200,1,,0.65,1,3,,,,,50,100,assets/weapons/EX_GAEA1.png
+EX_GAEA1,Gaze of Gaea,weapon,8,False,False,False,EX_GAEA2,,8,2000,600,200,1,,0.8,1,3,,,,,50,100,assets/weapons/EX_GAEA1.png
+EX_GAEA2,Embrace of Gaea,evolution,1,False,False,True,,PARMA,1,3000,800,100,4,,1,1,1,,,,,1,100,assets/weapons/EX_GAEA2.png
+EX_MAGISTONE1,Magi-Stones,weapon,8,False,False,,EX_MAGISTONE2,,1,3500,,200,1,,1,1.2,1,,,,1,60,50,assets/weapons/EX_MAGISTONE1.png
+EX_MAGISTONE1,Magi-Stones,weapon,8,False,False,,EX_MAGISTONE2,,2,3500,,200,1,,1,1.2,2,,,,1,60,50,assets/weapons/EX_MAGISTONE1.png
+EX_MAGISTONE1,Magi-Stones,weapon,8,False,False,,EX_MAGISTONE2,,3,3500,,200,1,,1.1,1.2,2,,,,1,60,50,assets/weapons/EX_MAGISTONE1.png
+EX_MAGISTONE1,Magi-Stones,weapon,8,False,False,,EX_MAGISTONE2,,4,3300,,160,1,,1.1,1.4,2,,,,1,60,50,assets/weapons/EX_MAGISTONE1.png
+EX_MAGISTONE1,Magi-Stones,weapon,8,False,False,,EX_MAGISTONE2,,5,3300,,160,1,,1.1,1.4,3,,,,1,60,50,assets/weapons/EX_MAGISTONE1.png
+EX_MAGISTONE1,Magi-Stones,weapon,8,False,False,,EX_MAGISTONE2,,6,3300,,160,1,,1.2,1.4,3,,,,1,60,50,assets/weapons/EX_MAGISTONE1.png
+EX_MAGISTONE1,Magi-Stones,weapon,8,False,False,,EX_MAGISTONE2,,7,3100,,120,1,,1.2,1.6,3,,,,1,60,50,assets/weapons/EX_MAGISTONE1.png
+EX_MAGISTONE1,Magi-Stones,weapon,8,False,False,,EX_MAGISTONE2,,8,3100,,120,1,,1.4,1.6,3,,,,1,60,50,assets/weapons/EX_MAGISTONE1.png
+EX_MAGISTONE2,Kyra-Stones,evolution,1,False,False,False,,DOMINION,1,3000,,100,1,,1.5,1.8,4,,,,1,1,50,assets/weapons/EX_MAGISTONE2.png
+PHASER,Phas3r,weapon,8,False,False,False,PHASER2,,1,5000,,100,0.5,,1,1,1,,0.05,2,,50,200,assets/weapons/PHASER.png
+PHASER,Phas3r,weapon,8,False,False,False,PHASER2,,2,5000,,100,0.5,,1,1,2,,0.05,2,,50,200,assets/weapons/PHASER.png
+PHASER,Phas3r,weapon,8,False,False,False,PHASER2,,3,5000,,100,0.8,,1.5,1,2,,0.05,2,,50,200,assets/weapons/PHASER.png
+PHASER,Phas3r,weapon,8,False,False,False,PHASER2,,4,5000,,100,0.8,,1.5,1,3,,0.05,2,,50,200,assets/weapons/PHASER.png
+PHASER,Phas3r,weapon,8,False,False,False,PHASER2,,5,5000,,100,1.1,,2,1,3,,0.05,2,,50,200,assets/weapons/PHASER.png
+PHASER,Phas3r,weapon,8,False,False,False,PHASER2,,6,5000,,100,1.1,,2,1,4,,0.05,2,,50,200,assets/weapons/PHASER.png
+PHASER,Phas3r,weapon,8,False,False,False,PHASER2,,7,5000,,100,1.5,,2.5,1,4,,0.05,2,,50,200,assets/weapons/PHASER.png
+PHASER,Phas3r,weapon,8,False,False,False,PHASER2,,8,5000,,100,1.5,,2.5,1,5,,0.05,2,,50,200,assets/weapons/PHASER.png
+PHASER2,Photonstorm,evolution,1,False,False,True,,COOLDOWN,1,5000,,60,2.5,,2.5,1,6,,0.025,2,,1,200,assets/weapons/PHASER2.png
+FOLLOWER_KNIFE1,Grant Knife,weapon,8,False,False,False,FOLLOWER_KNIFE2,,1,3000,,250,1,,1,1,1,1,,,,40,50,assets/weapons/FOLLOWER_KNIFE1.png
+FOLLOWER_KNIFE1,Grant Knife,weapon,8,False,False,False,FOLLOWER_KNIFE2,,2,3000,,250,1,,1,1,2,1,,,,40,50,assets/weapons/FOLLOWER_KNIFE1.png
+FOLLOWER_KNIFE1,Grant Knife,weapon,8,False,False,False,FOLLOWER_KNIFE2,,3,3000,,250,1,,1,1,2,2,,,,40,50,assets/weapons/FOLLOWER_KNIFE1.png
+FOLLOWER_KNIFE1,Grant Knife,weapon,8,False,False,False,FOLLOWER_KNIFE2,,4,3000,,250,1,,1,1,3,2,,,,40,50,assets/weapons/FOLLOWER_KNIFE1.png
+FOLLOWER_KNIFE1,Grant Knife,weapon,8,False,False,False,FOLLOWER_KNIFE2,,5,3000,,250,2,,1,1,3,2,,,,40,50,assets/weapons/FOLLOWER_KNIFE1.png
+FOLLOWER_KNIFE1,Grant Knife,weapon,8,False,False,False,FOLLOWER_KNIFE2,,6,3000,,250,2,,1,1,4,2,,,,40,50,assets/weapons/FOLLOWER_KNIFE1.png
+FOLLOWER_KNIFE1,Grant Knife,weapon,8,False,False,False,FOLLOWER_KNIFE2,,7,3000,,250,2,,1,1,4,3,,,,40,50,assets/weapons/FOLLOWER_KNIFE1.png
+FOLLOWER_KNIFE1,Grant Knife,weapon,8,False,False,False,FOLLOWER_KNIFE2,,8,3000,,250,3,,1,1,4,3,,,,40,50,assets/weapons/FOLLOWER_KNIFE1.png
+FOLLOWER_KNIFE2,.,evolution,1,False,False,False,,DURATION,1,3000,300,250,2.5,,1,1,3,3,,,,1,100,assets/weapons/FOLLOWER_KNIFE2.png
+ARMADIO,Arma Dio,weapon,1,False,False,False,,,1,9007199254740991,0,9007199254740991,0,,0,0,0,,,,,30,0,assets/weapons/ARMADIO.png
+NDUJA,Nduja Fritta,weapon,1,True,True,False,,,1,500,1000,40,3,,2,3,12,,,,,0,50,assets/weapons/NDUJA.png
+NDUJA_COUNTER,Nduja Fritta,weapon,1,True,True,False,,,1,500,1000,40,3,,2,3,12,,,,,0,50,assets/weapons/NDUJA_COUNTER.png
+CONEOFCOLD,Sorbetto,weapon,1,True,True,False,,,1,500,1000,40,1,,2,3,12,,,,,0,50,assets/weapons/CONEOFCOLD.png
+CONEOFCOLD_COUNTER,Sorbetto,weapon,1,True,True,False,,,1,500,1000,40,1,,2,3,12,,,,,0,50,assets/weapons/CONEOFCOLD_COUNTER.png
+FLOOD,Acquazzone,weapon,1,True,True,False,,,1,5000,1000,500,1,,1,1,1,,,,,0,50,assets/weapons/FLOOD.png
+CART,Dairy Cart,weapon,1,True,True,False,,,1,20000,10000,100,10,,1,2,1,,,,,0,10,assets/weapons/CART.png
+TRAINHAZARD,Take Us Away,weapon,1,True,True,False,,,1,20000,10000,0,20,,1,4,4,,,,,0,100,assets/weapons/TRAINHAZARD.png
+SARABANDE,Sarabande of Healing,weapon,1,True,True,False,,,1,500,300,50,0,,4,1,1,,,,,0,50,assets/weapons/SARABANDE.png
+WINDOW,Stained Glass,weapon,1,True,True,False,,,1,5000,1000,5000,13,,1.25,1,1,,,,,0,50,assets/weapons/WINDOW.png
+WINDOW2,Game Killer,weapon,1,True,True,False,,,1,5000,1000,5000,1,,1,1,1,,,,,0,300,assets/weapons/WINDOW2.png
+FIREEXPLOSION,Heart of Fire,weapon,1,True,True,False,,,1,500,300,50,1,,1,1,1,,,,,0,50,assets/weapons/FIREEXPLOSION.png
+COLDEXPLOSION,Out of Bounds,weapon,1,True,True,False,,,1,500,300,50,1,,1,1,1,,,,,0,300,assets/weapons/COLDEXPLOSION.png
+BLOODLINE,Divine Bloodline,weapon,1,True,True,False,,,1,500,300,50,0,,1,1,1,,,,,0,50,assets/weapons/BLOODLINE.png
+ASTRONOMIA,Blood Astronomia,weapon,1,True,True,False,,,1,2000,,0,0.5,,1,1,1,,,,0,1,150,assets/weapons/ASTRONOMIA.png
+D20_JETBLACK,Wandering the Jet Black,weapon,1,True,True,False,,,1,2000,10000,80,1,,1,1,1,,,,0,1,150,assets/weapons/D20_JETBLACK.png
+D13_MADMOON,Wandering the Jet Black,weapon,1,True,True,False,,,1,2000,10000,80,1,,1,1,1,,,,0,1,150,assets/weapons/D13_MADMOON.png
+NOVA_FIRE,Fire Nova,weapon,1,True,True,False,,,1,500,300,50,1,,1,1,1,,,,,0,100,assets/weapons/NOVA_FIRE.png
+NOVA_ICEE,Ice Nova,weapon,1,True,True,False,,,1,500,300,50,1,,1,1,1,,,,,0,100,assets/weapons/NOVA_ICEE.png
+NOVA_FEAR,Fear Nova,weapon,1,True,True,False,,,1,500,300,50,1,,1,1,1,,,,3,0,100,assets/weapons/NOVA_FEAR.png
+EX_GROUNDHIT,Ground Hit,weapon,1,True,True,False,,,1,500,300,50,1,,1,1,1,,,,,0,100,assets/weapons/EX_GROUNDHIT.png
+EX_GROUNDHITCENTRAL,Ground Hit,weapon,1,True,True,False,,,1,500,300,50,1,,1,1,1,,,,,0,100,assets/weapons/EX_GROUNDHITCENTRAL.png
+POWER,Spinach,powerup,5,False,False,True,HELLFIRE,,1,,,,0.1,,,,,,,,,100,,assets/weapons/POWER.png
+POWER,Spinach,powerup,5,False,False,True,HELLFIRE,,2,,,,0.2,,,,,,,,,100,,assets/weapons/POWER.png
+POWER,Spinach,powerup,5,False,False,True,HELLFIRE,,3,,,,0.3,,,,,,,,,100,,assets/weapons/POWER.png
+POWER,Spinach,powerup,5,False,False,True,HELLFIRE,,4,,,,0.4,,,,,,,,,100,,assets/weapons/POWER.png
+POWER,Spinach,powerup,5,False,False,True,HELLFIRE,,5,,,,0.5,,,,,,,,,100,,assets/weapons/POWER.png
+ARMOR,Armor,powerup,5,False,False,True,ROCHER,,1,,,,,,,,,,,,,100,,assets/weapons/ARMOR.png
+ARMOR,Armor,powerup,5,False,False,True,ROCHER,,2,,,,,,,,,,,,,100,,assets/weapons/ARMOR.png
+ARMOR,Armor,powerup,5,False,False,True,ROCHER,,3,,,,,,,,,,,,,100,,assets/weapons/ARMOR.png
+ARMOR,Armor,powerup,5,False,False,True,ROCHER,,4,,,,,,,,,,,,,100,,assets/weapons/ARMOR.png
+ARMOR,Armor,powerup,5,False,False,True,ROCHER,,5,,,,,,,,,,,,,100,,assets/weapons/ARMOR.png
+MAXHEALTH,Hollow Heart,powerup,5,False,False,False,VAMPIRICA,,1,,,,,,,,,,,,,90,,assets/weapons/MAXHEALTH.png
+MAXHEALTH,Hollow Heart,powerup,5,False,False,False,VAMPIRICA,,2,,,,,,,,,,,,,90,,assets/weapons/MAXHEALTH.png
+MAXHEALTH,Hollow Heart,powerup,5,False,False,False,VAMPIRICA,,3,,,,,,,,,,,,,90,,assets/weapons/MAXHEALTH.png
+MAXHEALTH,Hollow Heart,powerup,5,False,False,False,VAMPIRICA,,4,,,,,,,,,,,,,90,,assets/weapons/MAXHEALTH.png
+MAXHEALTH,Hollow Heart,powerup,5,False,False,False,VAMPIRICA,,5,,,,,,,,,,,,,90,,assets/weapons/MAXHEALTH.png
+REGEN,Pummarola,powerup,5,False,False,False,VORTEX,,1,,,,,,,,,,,,,90,,assets/weapons/REGEN.png
+REGEN,Pummarola,powerup,5,False,False,False,VORTEX,,2,,,,,,,,,,,,,90,,assets/weapons/REGEN.png
+REGEN,Pummarola,powerup,5,False,False,False,VORTEX,,3,,,,,,,,,,,,,90,,assets/weapons/REGEN.png
+REGEN,Pummarola,powerup,5,False,False,False,VORTEX,,4,,,,,,,,,,,,,90,,assets/weapons/REGEN.png
+REGEN,Pummarola,powerup,5,False,False,False,VORTEX,,5,,,,,,,,,,,,,90,,assets/weapons/REGEN.png
+COOLDOWN,Empty Tome,powerup,5,False,False,False,HOLY_MISSILE,,1,,,,,,,,,,,,,50,,assets/weapons/COOLDOWN.png
+COOLDOWN,Empty Tome,powerup,5,False,False,False,HOLY_MISSILE,,2,,,,,,,,,,,,,50,,assets/weapons/COOLDOWN.png
+COOLDOWN,Empty Tome,powerup,5,False,False,False,HOLY_MISSILE,,3,,,,,,,,,,,,,50,,assets/weapons/COOLDOWN.png
+COOLDOWN,Empty Tome,powerup,5,False,False,False,HOLY_MISSILE,,4,,,,,,,,,,,,,50,,assets/weapons/COOLDOWN.png
+COOLDOWN,Empty Tome,powerup,5,False,False,False,HOLY_MISSILE,,5,,,,,,,,,,,,,50,,assets/weapons/COOLDOWN.png
+AREA,Candelabrador,powerup,5,False,False,False,SCYTHE,,1,,,,,,0.1,,,,,,,100,,assets/weapons/AREA.png
+AREA,Candelabrador,powerup,5,False,False,False,SCYTHE,,2,,,,,,0.2,,,,,,,100,,assets/weapons/AREA.png
+AREA,Candelabrador,powerup,5,False,False,False,SCYTHE,,3,,,,,,0.3,,,,,,,100,,assets/weapons/AREA.png
+AREA,Candelabrador,powerup,5,False,False,False,SCYTHE,,4,,,,,,0.4,,,,,,,100,,assets/weapons/AREA.png
+AREA,Candelabrador,powerup,5,False,False,False,SCYTHE,,5,,,,,,0.5,,,,,,,100,,assets/weapons/AREA.png
+SPEED,Bracer,powerup,5,False,False,False,THOUSAND,,1,,,,,,,0.1,,,,,,100,,assets/weapons/SPEED.png
+SPEED,Bracer,powerup,5,False,False,False,THOUSAND,,2,,,,,,,0.2,,,,,,100,,assets/weapons/SPEED.png
+SPEED,Bracer,powerup,5,False,False,False,THOUSAND,,3,,,,,,,0.3,,,,,,100,,assets/weapons/SPEED.png
+SPEED,Bracer,powerup,5,False,False,False,THOUSAND,,4,,,,,,,0.4,,,,,,100,,assets/weapons/SPEED.png
+SPEED,Bracer,powerup,5,False,False,False,THOUSAND,,5,,,,,,,0.5,,,,,,100,,assets/weapons/SPEED.png
+DURATION,Spellbinder,powerup,5,False,False,False,VESPERS,,1,,0.1,,,,,,,,,,,100,,assets/weapons/DURATION.png
+DURATION,Spellbinder,powerup,5,False,False,False,VESPERS,,2,,0.2,,,,,,,,,,,100,,assets/weapons/DURATION.png
+DURATION,Spellbinder,powerup,5,False,False,False,VESPERS,,3,,0.3,,,,,,,,,,,100,,assets/weapons/DURATION.png
+DURATION,Spellbinder,powerup,5,False,False,False,VESPERS,,4,,0.4,,,,,,,,,,,100,,assets/weapons/DURATION.png
+DURATION,Spellbinder,powerup,5,False,False,False,VESPERS,,5,,0.5,,,,,,,,,,,100,,assets/weapons/DURATION.png
+AMOUNT,Duplicator,powerup,2,False,False,False,LOOP,,1,,,,,,,,1,,,,,50,,assets/weapons/AMOUNT.png
+AMOUNT,Duplicator,powerup,2,False,False,False,LOOP,,2,,,,,,,,2,,,,,50,,assets/weapons/AMOUNT.png
+MOVESPEED,Wings,powerup,5,False,False,False,TRAPANO2,,1,,,,,,,,,,,,,50,,assets/weapons/MOVESPEED.png
+MOVESPEED,Wings,powerup,5,False,False,False,TRAPANO2,,2,,,,,,,,,,,,,50,,assets/weapons/MOVESPEED.png
+MOVESPEED,Wings,powerup,5,False,False,False,TRAPANO2,,3,,,,,,,,,,,,,50,,assets/weapons/MOVESPEED.png
+MOVESPEED,Wings,powerup,5,False,False,False,TRAPANO2,,4,,,,,,,,,,,,,50,,assets/weapons/MOVESPEED.png
+MOVESPEED,Wings,powerup,5,False,False,False,TRAPANO2,,5,,,,,,,,,,,,,50,,assets/weapons/MOVESPEED.png
+MAGNET,Attractorb,powerup,5,False,False,False,BORA,,1,,,,,,,,,,,,,100,,assets/weapons/MAGNET.png
+MAGNET,Attractorb,powerup,5,False,False,False,BORA,,2,,,,,,,,,,,,,100,,assets/weapons/MAGNET.png
+MAGNET,Attractorb,powerup,5,False,False,False,BORA,,3,,,,,,,,,,,,,100,,assets/weapons/MAGNET.png
+MAGNET,Attractorb,powerup,5,False,False,False,BORA,,4,,,,,,,,,,,,,100,,assets/weapons/MAGNET.png
+MAGNET,Attractorb,powerup,5,False,False,False,BORA,,5,,,,,,,,,,,,,100,,assets/weapons/MAGNET.png
+LUCK,Clover,powerup,5,False,False,False,HEAVENSWORD,,1,,,,,,,,,,,,,100,,assets/weapons/LUCK.png
+LUCK,Clover,powerup,5,False,False,False,HEAVENSWORD,,2,,,,,,,,,,,,,100,,assets/weapons/LUCK.png
+LUCK,Clover,powerup,5,False,False,False,HEAVENSWORD,,3,,,,,,,,,,,,,100,,assets/weapons/LUCK.png
+LUCK,Clover,powerup,5,False,False,False,HEAVENSWORD,,4,,,,,,,,,,,,,100,,assets/weapons/LUCK.png
+LUCK,Clover,powerup,5,False,False,False,HEAVENSWORD,,5,,,,,,,,,,,,,100,,assets/weapons/LUCK.png
+GROWTH,Crown,powerup,5,False,False,,SIRE,,1,,,,,,,,,,,,,70,,assets/weapons/GROWTH.png
+GROWTH,Crown,powerup,5,False,False,,SIRE,,2,,,,,,,,,,,,,70,,assets/weapons/GROWTH.png
+GROWTH,Crown,powerup,5,False,False,,SIRE,,3,,,,,,,,,,,,,70,,assets/weapons/GROWTH.png
+GROWTH,Crown,powerup,5,False,False,,SIRE,,4,,,,,,,,,,,,,70,,assets/weapons/GROWTH.png
+GROWTH,Crown,powerup,5,False,False,,SIRE,,5,,,,,,,,,,,,,70,,assets/weapons/GROWTH.png
+GREED,Stone Mask,powerup,5,False,False,False,STIGRANGATTI,,1,,,,,,,,,,,,,70,,assets/weapons/GREED.png
+GREED,Stone Mask,powerup,5,False,False,False,STIGRANGATTI,,2,,,,,,,,,,,,,70,,assets/weapons/GREED.png
+GREED,Stone Mask,powerup,5,False,False,False,STIGRANGATTI,,3,,,,,,,,,,,,,70,,assets/weapons/GREED.png
+GREED,Stone Mask,powerup,5,False,False,False,STIGRANGATTI,,4,,,,,,,,,,,,,70,,assets/weapons/GREED.png
+GREED,Stone Mask,powerup,5,False,False,False,STIGRANGATTI,,5,,,,,,,,,,,,,70,,assets/weapons/GREED.png
+CURSE,Skull O'Maniac,powerup,5,False,False,False,MANNAGGIA,,1,,,,,,,,,,,,,40,,assets/weapons/CURSE.png
+CURSE,Skull O'Maniac,powerup,5,False,False,False,MANNAGGIA,,2,,,,,,,,,,,,,40,,assets/weapons/CURSE.png
+CURSE,Skull O'Maniac,powerup,5,False,False,False,MANNAGGIA,,3,,,,,,,,,,,,,40,,assets/weapons/CURSE.png
+CURSE,Skull O'Maniac,powerup,5,False,False,False,MANNAGGIA,,4,,,,,,,,,,,,,40,,assets/weapons/CURSE.png
+CURSE,Skull O'Maniac,powerup,5,False,False,False,MANNAGGIA,,5,,,,,,,,,,,,,40,,assets/weapons/CURSE.png
+REVIVAL,Tiragisú,powerup,2,False,False,False,GUNS3,,1,,,,,,,,,,,,,40,,assets/weapons/REVIVAL.png
+REVIVAL,Tiragisú,powerup,2,False,False,False,GUNS3,,2,,,,,,,,,,,,,40,,assets/weapons/REVIVAL.png
+PANDORA,Torrona's Box,powerup,9,False,False,False,SOLES,,1,,0.04,,0.04,,0.04,0.04,,,,,,40,,assets/weapons/PANDORA.png
+PANDORA,Torrona's Box,powerup,9,False,False,False,SOLES,,2,,0.07,,0.07,,0.07,0.07,,,,,,40,,assets/weapons/PANDORA.png
+PANDORA,Torrona's Box,powerup,9,False,False,False,SOLES,,3,,0.1,,0.1,,0.1,0.1,,,,,,40,,assets/weapons/PANDORA.png
+PANDORA,Torrona's Box,powerup,9,False,False,False,SOLES,,4,,0.13,,0.13,,0.13,0.13,,,,,,40,,assets/weapons/PANDORA.png
+PANDORA,Torrona's Box,powerup,9,False,False,False,SOLES,,5,,0.16,,0.16,,0.16,0.16,,,,,,40,,assets/weapons/PANDORA.png
+PANDORA,Torrona's Box,powerup,9,False,False,False,SOLES,,6,,0.19,,0.19,,0.19,0.19,,,,,,40,,assets/weapons/PANDORA.png
+PANDORA,Torrona's Box,powerup,9,False,False,False,SOLES,,7,,0.22,,0.22,,0.22,0.22,,,,,,40,,assets/weapons/PANDORA.png
+PANDORA,Torrona's Box,powerup,9,False,False,False,SOLES,,8,,0.25,,0.25,,0.25,0.25,,,,,,40,,assets/weapons/PANDORA.png
+PANDORA,Torrona's Box,powerup,9,False,False,False,SOLES,,9,,0.25,,0.25,,0.25,0.25,,,,,,40,,assets/weapons/PANDORA.png
+PARMA,Parm Aegis ,powerup,5,False,False,False,,,1,,,,,,,,,,,,,40,,assets/weapons/PARMA.png
+PARMA,Parm Aegis ,powerup,5,False,False,False,,,2,,,,,,,,,,,,,40,,assets/weapons/PARMA.png
+PARMA,Parm Aegis ,powerup,5,False,False,False,,,3,,,,,,,,,,,,,40,,assets/weapons/PARMA.png
+PARMA,Parm Aegis ,powerup,5,False,False,False,,,4,,,,,,,,,,,,,40,,assets/weapons/PARMA.png
+PARMA,Parm Aegis ,powerup,5,False,False,False,,,5,,,,,,,,,,,,,40,,assets/weapons/PARMA.png
+DOMINION,Karoma's Mana,powerup,5,False,False,False,,,1,,,,,,,,,,,,,40,,assets/weapons/DOMINION.png
+DOMINION,Karoma's Mana,powerup,5,False,False,False,,,2,,,,,,,,,,,,,40,,assets/weapons/DOMINION.png
+DOMINION,Karoma's Mana,powerup,5,False,False,False,,,3,,,,,,,,,,,,,40,,assets/weapons/DOMINION.png
+DOMINION,Karoma's Mana,powerup,5,False,False,False,,,4,,,,,,,,,,,,,40,,assets/weapons/DOMINION.png
+DOMINION,Karoma's Mana,powerup,5,False,False,False,,,5,,,,,,,,,,,,,40,,assets/weapons/DOMINION.png
+TETRAFORCE,Tetraforce,powerup,1,True,True,False,,,1,,,,,,,,,,,,,20,,assets/weapons/TETRAFORCE.png
+SILF_COUNTER,Cygnus,weapon,8,True,False,False,,,1,1000,4000,25,1,,1,0.8,4,,,,2,50,60,assets/weapons/SILF_COUNTER.png
+SILF_COUNTER,Cygnus,weapon,8,True,False,False,,,2,1000,4000,25,1,,1.4,0.8,5,,,,2,50,60,assets/weapons/SILF_COUNTER.png
+SILF_COUNTER,Cygnus,weapon,8,True,False,False,,,3,1000,4000,25,2,,1.4,0.8,6,,,,2,50,60,assets/weapons/SILF_COUNTER.png
+SILF_COUNTER,Cygnus,weapon,8,True,False,False,,,4,750,4000,25,2,,1.4,0.8,7,,,,2,50,60,assets/weapons/SILF_COUNTER.png
+SILF_COUNTER,Cygnus,weapon,8,True,False,False,,,5,750,4000,25,2,,1.8,0.8,8,,,,2,50,60,assets/weapons/SILF_COUNTER.png
+SILF_COUNTER,Cygnus,weapon,8,True,False,False,,,6,750,4000,25,3,,1.8,0.8,9,,,,2,50,60,assets/weapons/SILF_COUNTER.png
+SILF_COUNTER,Cygnus,weapon,8,True,False,False,,,7,500,4000,25,3,,1.8,0.8,10,,,,2,50,60,assets/weapons/SILF_COUNTER.png
+SILF_COUNTER,Cygnus,weapon,8,True,False,False,,,8,500,4000,25,3,,2.2,0.8,11,,,,2,50,60,assets/weapons/SILF_COUNTER.png
+SILF2_COUNTER,Zhar Ptytsia,weapon,8,True,False,False,,,1,1000,4000,25,1,,1,0.8,4,,,,2,50,60,assets/weapons/SILF2_COUNTER.png
+SILF2_COUNTER,Zhar Ptytsia,weapon,8,True,False,False,,,2,1000,4000,25,1,,1.4,0.8,5,,,,2,50,60,assets/weapons/SILF2_COUNTER.png
+SILF2_COUNTER,Zhar Ptytsia,weapon,8,True,False,False,,,3,1000,4000,25,2,,1.4,0.8,6,,,,2,50,60,assets/weapons/SILF2_COUNTER.png
+SILF2_COUNTER,Zhar Ptytsia,weapon,8,True,False,False,,,4,750,4000,25,2,,1.4,0.8,7,,,,2,50,60,assets/weapons/SILF2_COUNTER.png
+SILF2_COUNTER,Zhar Ptytsia,weapon,8,True,False,False,,,5,750,4000,25,2,,1.8,0.8,8,,,,2,50,60,assets/weapons/SILF2_COUNTER.png
+SILF2_COUNTER,Zhar Ptytsia,weapon,8,True,False,False,,,6,750,4000,25,3,,1.8,0.8,9,,,,2,50,60,assets/weapons/SILF2_COUNTER.png
+SILF2_COUNTER,Zhar Ptytsia,weapon,8,True,False,False,,,7,500,4000,25,3,,1.8,0.8,10,,,,2,50,60,assets/weapons/SILF2_COUNTER.png
+SILF2_COUNTER,Zhar Ptytsia,weapon,8,True,False,False,,,8,500,4000,25,3,,2.2,0.8,11,,,,2,50,60,assets/weapons/SILF2_COUNTER.png
+GUNS_COUNTER,Red Muscle,weapon,8,True,False,False,,,1,1400,,200,0.5,,1,1,1,1,0.1,2,0.1,50,100,assets/weapons/GUNS_COUNTER.png
+GUNS_COUNTER,Red Muscle,weapon,8,True,False,False,,,2,1400,,200,0.5,,1,1,2,1,0.1,2,0.1,50,100,assets/weapons/GUNS_COUNTER.png
+GUNS_COUNTER,Red Muscle,weapon,8,True,False,False,,,3,1400,,200,0.5,,1,1,2,3,0.1,2,0.1,50,100,assets/weapons/GUNS_COUNTER.png
+GUNS_COUNTER,Red Muscle,weapon,8,True,False,False,,,4,1400,,200,0.5,,1,1,3,3,0.1,2,0.1,50,100,assets/weapons/GUNS_COUNTER.png
+GUNS_COUNTER,Red Muscle,weapon,8,True,False,False,,,5,1400,,200,1,,1,1,3,3,0.1,2,0.1,50,100,assets/weapons/GUNS_COUNTER.png
+GUNS_COUNTER,Red Muscle,weapon,8,True,False,False,,,6,1400,,200,1,,1,1,3,5,0.1,2,0.1,50,100,assets/weapons/GUNS_COUNTER.png
+GUNS_COUNTER,Red Muscle,weapon,8,True,False,False,,,7,1400,,200,1.5,,1,1.5,3,5,0.1,2,0.1,50,100,assets/weapons/GUNS_COUNTER.png
+GUNS_COUNTER,Red Muscle,weapon,8,True,False,False,,,8,1400,,200,1.5,,1,1.5,3,7,0.1,2,0.1,50,100,assets/weapons/GUNS_COUNTER.png
+GUNS2_COUNTER,Twice Upon a Time,weapon,8,True,False,False,,,1,1400,,200,0.5,,1,1,1,1,0.1,2,0.1,50,100,assets/weapons/GUNS2_COUNTER.png
+GUNS2_COUNTER,Twice Upon a Time,weapon,8,True,False,False,,,2,1400,,200,0.5,,1,1,2,1,0.1,2,0.1,50,100,assets/weapons/GUNS2_COUNTER.png
+GUNS2_COUNTER,Twice Upon a Time,weapon,8,True,False,False,,,3,1400,,200,0.5,,1,1,2,3,0.1,2,0.1,50,100,assets/weapons/GUNS2_COUNTER.png
+GUNS2_COUNTER,Twice Upon a Time,weapon,8,True,False,False,,,4,1400,,200,0.5,,1,1,3,3,0.1,2,0.1,50,100,assets/weapons/GUNS2_COUNTER.png
+GUNS2_COUNTER,Twice Upon a Time,weapon,8,True,False,False,,,5,1400,,200,1,,1,1,3,3,0.1,2,0.1,50,100,assets/weapons/GUNS2_COUNTER.png
+GUNS2_COUNTER,Twice Upon a Time,weapon,8,True,False,False,,,6,1400,,200,1,,1,1,3,5,0.1,2,0.1,50,100,assets/weapons/GUNS2_COUNTER.png
+GUNS2_COUNTER,Twice Upon a Time,weapon,8,True,False,False,,,7,1400,,200,1.5,,1,1.5,3,5,0.1,2,0.1,50,100,assets/weapons/GUNS2_COUNTER.png
+GUNS2_COUNTER,Twice Upon a Time,weapon,8,True,False,False,,,8,1400,,200,1.5,,1,1.5,3,7,0.1,2,0.1,50,100,assets/weapons/GUNS2_COUNTER.png
+GATTI_COUNTER,Flock Destroyer,weapon,8,True,False,False,,,1,5000,5000,300,1,,1,0.4,1,,,,0.1,50,30,assets/weapons/GATTI_COUNTER.png
+GATTI_COUNTER,Flock Destroyer,weapon,8,True,False,False,,,2,5000,5000,300,1,,1,0.6,1,,,,0.1,50,30,assets/weapons/GATTI_COUNTER.png
+GATTI_COUNTER,Flock Destroyer,weapon,8,True,False,False,,,3,5000,6500,300,1,,1,0.6,1,,,,0.1,50,30,assets/weapons/GATTI_COUNTER.png
+GATTI_COUNTER,Flock Destroyer,weapon,8,True,False,False,,,4,5000,6500,300,1,,1,0.8,1,,,,0.1,50,30,assets/weapons/GATTI_COUNTER.png
+GATTI_COUNTER,Flock Destroyer,weapon,8,True,False,False,,,5,5000,6500,300,1,,1,0.8,2,,,,0.1,50,30,assets/weapons/GATTI_COUNTER.png
+GATTI_COUNTER,Flock Destroyer,weapon,8,True,False,False,,,6,5000,8000,300,1,,1,0.8,2,,,,0.1,50,30,assets/weapons/GATTI_COUNTER.png
+GATTI_COUNTER,Flock Destroyer,weapon,8,True,False,False,,,7,5000,8000,300,1,,1,1,2,,,,0.1,50,30,assets/weapons/GATTI_COUNTER.png
+GATTI_COUNTER,Flock Destroyer,weapon,8,True,False,False,,,8,5000,8000,300,1,,1,1,3,,,,0.1,50,30,assets/weapons/GATTI_COUNTER.png
+EX_AMMO1_COUNTER,Ammo Appalate,weapon,8,True,False,False,,,1,2000,,100,0.5,,1,1,3,0,0.05,2,,60,200,assets/weapons/EX_AMMO1_COUNTER.png
+EX_AMMO1_COUNTER,Ammo Appalate,weapon,8,True,False,False,,,2,2000,,100,0.5,,1.1,1,3,3,0.05,2,,60,200,assets/weapons/EX_AMMO1_COUNTER.png
+EX_AMMO1_COUNTER,Ammo Appalate,weapon,8,True,False,False,,,3,2000,,100,0.6,,1.1,1,4,3,0.05,2,,60,200,assets/weapons/EX_AMMO1_COUNTER.png
+EX_AMMO1_COUNTER,Ammo Appalate,weapon,8,True,False,False,,,4,2000,,100,0.7,,1.1,1,5,3,0.05,2,,60,200,assets/weapons/EX_AMMO1_COUNTER.png
+EX_AMMO1_COUNTER,Ammo Appalate,weapon,8,True,False,False,,,5,2000,,100,0.7,,1.2,1,5,6,0.05,2,,60,200,assets/weapons/EX_AMMO1_COUNTER.png
+EX_AMMO1_COUNTER,Ammo Appalate,weapon,8,True,False,False,,,6,2000,,100,0.8,,1.2,1,6,6,0.05,2,,60,200,assets/weapons/EX_AMMO1_COUNTER.png
+EX_AMMO1_COUNTER,Ammo Appalate,weapon,8,True,False,False,,,7,2000,,100,1.1,,1.2,1,6,6,0.05,2,,60,200,assets/weapons/EX_AMMO1_COUNTER.png
+EX_AMMO1_COUNTER,Ammo Appalate,weapon,8,True,False,False,,,8,2000,,100,1.1,,1.2,1,8,6,0.05,2,,60,200,assets/weapons/EX_AMMO1_COUNTER.png
+SANTAJAVELINCOUNTER,Levelin'EEE,weapon,8,True,False,False,,,1,6500,1000,125,2,,1,1,1,,0.05,2,0,60,200,assets/weapons/SANTAJAVELINCOUNTER.png
+SANTAJAVELINCOUNTER,Levelin'EEE,weapon,8,True,False,False,,,2,6500,1000,125,2,,1.5,1,1,,0.05,2,0,60,200,assets/weapons/SANTAJAVELINCOUNTER.png
+SANTAJAVELINCOUNTER,Levelin'EEE,weapon,8,True,False,False,,,3,6000,1000,125,2,,1.5,1,2,,0.05,2,0,60,200,assets/weapons/SANTAJAVELINCOUNTER.png
+SANTAJAVELINCOUNTER,Levelin'EEE,weapon,8,True,False,False,,,4,6000,1000,125,3,,1.5,1,2,,0.05,2,0,60,200,assets/weapons/SANTAJAVELINCOUNTER.png
+SANTAJAVELINCOUNTER,Levelin'EEE,weapon,8,True,False,False,,,5,5500,1000,125,3,,2,1,2,,0.05,2,0,60,200,assets/weapons/SANTAJAVELINCOUNTER.png
+SANTAJAVELINCOUNTER,Levelin'EEE,weapon,8,True,False,False,,,6,5500,1000,125,3,,2,1,3,,0.05,2,0,60,200,assets/weapons/SANTAJAVELINCOUNTER.png
+SANTAJAVELINCOUNTER,Levelin'EEE,weapon,8,True,False,False,,,7,5000,1000,125,4,,2,1,3,,0.05,2,0,60,200,assets/weapons/SANTAJAVELINCOUNTER.png
+SANTAJAVELINCOUNTER,Levelin'EEE,weapon,8,True,False,False,,,8,5000,1000,125,7,,2,1,3,,0.05,2,0,60,200,assets/weapons/SANTAJAVELINCOUNTER.png
+SILVER,Silver Ring,powerup,9,True,False,False,CORRIDOR,,1,,,,,,,,,,,,,10,,assets/weapons/SILVER.png
+SILVER,Silver Ring,powerup,9,True,False,False,CORRIDOR,,2,,0.05,,,,0.05,,,,,,,10,,assets/weapons/SILVER.png
+SILVER,Silver Ring,powerup,9,True,False,False,CORRIDOR,,3,,0.1,,,,0.1,,,,,,,10,,assets/weapons/SILVER.png
+SILVER,Silver Ring,powerup,9,True,False,False,CORRIDOR,,4,,0.15,,,,0.15,,,,,,,10,,assets/weapons/SILVER.png
+SILVER,Silver Ring,powerup,9,True,False,False,CORRIDOR,,5,,0.2,,,,0.2,,,,,,,10,,assets/weapons/SILVER.png
+SILVER,Silver Ring,powerup,9,True,False,False,CORRIDOR,,6,,0.25,,,,0.25,,,,,,,10,,assets/weapons/SILVER.png
+SILVER,Silver Ring,powerup,9,True,False,False,CORRIDOR,,7,,0.3,,,,0.3,,,,,,,10,,assets/weapons/SILVER.png
+SILVER,Silver Ring,powerup,9,True,False,False,CORRIDOR,,8,,0.35,,,,0.35,,,,,,,10,,assets/weapons/SILVER.png
+SILVER,Silver Ring,powerup,9,True,False,False,CORRIDOR,,9,,0.4,,,,0.4,,,,,,,10,,assets/weapons/SILVER.png
+GOLD,Gold Ring,powerup,9,True,False,False,CORRIDOR,,1,,,,,,,,,,,,,10,,assets/weapons/GOLD.png
+GOLD,Gold Ring,powerup,9,True,False,False,CORRIDOR,,2,,,,,,,,,,,,,10,,assets/weapons/GOLD.png
+GOLD,Gold Ring,powerup,9,True,False,False,CORRIDOR,,3,,,,,,,,,,,,,10,,assets/weapons/GOLD.png
+GOLD,Gold Ring,powerup,9,True,False,False,CORRIDOR,,4,,,,,,,,,,,,,10,,assets/weapons/GOLD.png
+GOLD,Gold Ring,powerup,9,True,False,False,CORRIDOR,,5,,,,,,,,,,,,,10,,assets/weapons/GOLD.png
+GOLD,Gold Ring,powerup,9,True,False,False,CORRIDOR,,6,,,,,,,,,,,,,10,,assets/weapons/GOLD.png
+GOLD,Gold Ring,powerup,9,True,False,False,CORRIDOR,,7,,,,,,,,,,,,,10,,assets/weapons/GOLD.png
+GOLD,Gold Ring,powerup,9,True,False,False,CORRIDOR,,8,,,,,,,,,,,,,10,,assets/weapons/GOLD.png
+GOLD,Gold Ring,powerup,9,True,False,False,CORRIDOR,,9,,,,,,,,,,,,,10,,assets/weapons/GOLD.png
+LEFT,Metaglio Left,powerup,9,True,False,False,SHROUD,,1,,,,,,,,,,,,,10,,assets/weapons/LEFT.png
+LEFT,Metaglio Left,powerup,9,True,False,False,SHROUD,,2,,,,,,,,,,,,,10,,assets/weapons/LEFT.png
+LEFT,Metaglio Left,powerup,9,True,False,False,SHROUD,,3,,,,,,,,,,,,,10,,assets/weapons/LEFT.png
+LEFT,Metaglio Left,powerup,9,True,False,False,SHROUD,,4,,,,,,,,,,,,,10,,assets/weapons/LEFT.png
+LEFT,Metaglio Left,powerup,9,True,False,False,SHROUD,,5,,,,,,,,,,,,,10,,assets/weapons/LEFT.png
+LEFT,Metaglio Left,powerup,9,True,False,False,SHROUD,,6,,,,,,,,,,,,,10,,assets/weapons/LEFT.png
+LEFT,Metaglio Left,powerup,9,True,False,False,SHROUD,,7,,,,,,,,,,,,,10,,assets/weapons/LEFT.png
+LEFT,Metaglio Left,powerup,9,True,False,False,SHROUD,,8,,,,,,,,,,,,,10,,assets/weapons/LEFT.png
+LEFT,Metaglio Left,powerup,9,True,False,False,SHROUD,,9,,,,,,,,,,,,,10,,assets/weapons/LEFT.png
+RIGHT,Metaglio Right,powerup,9,True,False,False,SHROUD,,1,,,,,,,,,,,,,10,,assets/weapons/RIGHT.png
+RIGHT,Metaglio Right,powerup,9,True,False,False,SHROUD,,2,,,,,,,,,,,,,10,,assets/weapons/RIGHT.png
+RIGHT,Metaglio Right,powerup,9,True,False,False,SHROUD,,3,,,,,,,,,,,,,10,,assets/weapons/RIGHT.png
+RIGHT,Metaglio Right,powerup,9,True,False,False,SHROUD,,4,,,,,,,,,,,,,10,,assets/weapons/RIGHT.png
+RIGHT,Metaglio Right,powerup,9,True,False,False,SHROUD,,5,,,,,,,,,,,,,10,,assets/weapons/RIGHT.png
+RIGHT,Metaglio Right,powerup,9,True,False,False,SHROUD,,6,,,,,,,,,,,,,10,,assets/weapons/RIGHT.png
+RIGHT,Metaglio Right,powerup,9,True,False,False,SHROUD,,7,,,,,,,,,,,,,10,,assets/weapons/RIGHT.png
+RIGHT,Metaglio Right,powerup,9,True,False,False,SHROUD,,8,,,,,,,,,,,,,10,,assets/weapons/RIGHT.png
+RIGHT,Metaglio Right,powerup,9,True,False,False,SHROUD,,9,,,,,,,,,,,,,10,,assets/weapons/RIGHT.png
+FOLLOWER_GARLIC,Garlic,weapon,8,True,True,False,,,1,1300,1300,0,0.5,,1,1,1,,,,0,0,50,assets/weapons/FOLLOWER_GARLIC.png
+FOLLOWER_GARLIC,Garlic,weapon,8,True,True,False,,,2,1300,1300,0,0.7,,1,1,1,,,,0,0,50,assets/weapons/FOLLOWER_GARLIC.png
+FOLLOWER_GARLIC,Garlic,weapon,8,True,True,False,,,3,1200,1300,0,0.8,,1,1,1,,,,0,0,50,assets/weapons/FOLLOWER_GARLIC.png
+FOLLOWER_GARLIC,Garlic,weapon,8,True,True,False,,,4,1200,1300,0,0.9,,1,1,1,,,,0,0,50,assets/weapons/FOLLOWER_GARLIC.png
+FOLLOWER_GARLIC,Garlic,weapon,8,True,True,False,,,5,1100,1300,0,1.1,,1,1,1,,,,0,0,50,assets/weapons/FOLLOWER_GARLIC.png
+FOLLOWER_GARLIC,Garlic,weapon,8,True,True,False,,,6,1100,1300,0,1.2,,1,1,1,,,,0,0,50,assets/weapons/FOLLOWER_GARLIC.png
+FOLLOWER_GARLIC,Garlic,weapon,8,True,True,False,,,7,1000,1300,0,1.3,,1,1,1,,,,0,0,50,assets/weapons/FOLLOWER_GARLIC.png
+FOLLOWER_GARLIC,Garlic,weapon,8,True,True,False,,,8,1000,1300,0,1.5,,1,1,1,,,,0,0,50,assets/weapons/FOLLOWER_GARLIC.png
+EX_TOHILSTATUE,Tohil Idol,weapon,1,True,True,False,,,1,5000,1000,5000,4,,3,1,1,,,,,0,100,assets/weapons/EX_TOHILSTATUE.png
+INSATIABLE,Insatiable,weapon,1,True,True,False,,,1,2000,,0,1,,1,1,1,,,,0,1,150,assets/weapons/INSATIABLE.png
+EX_COINTOSS1,Sossoldi,powerup,8,True,True,False,,,1,2000,,180,0.65,,1,1,1,1,0.0,1,0.5,1,100,assets/weapons/EX_COINTOSS1.png
+EX_COINTOSS1,Sossoldi,powerup,8,True,True,False,,,2,2000,,160,0.65,,1,1,2,1,0.0,1,0.5,1,100,assets/weapons/EX_COINTOSS1.png
+EX_COINTOSS1,Sossoldi,powerup,8,True,True,False,,,3,2000,,140,0.65,,1,1,3,1,0.0,1,0.5,1,100,assets/weapons/EX_COINTOSS1.png
+EX_COINTOSS1,Sossoldi,powerup,8,True,True,False,,,4,2000,,120,0.65,,1,1,4,1,0.0,1,0.5,1,100,assets/weapons/EX_COINTOSS1.png
+EX_COINTOSS1,Sossoldi,powerup,8,True,True,False,,,5,2000,,100,0.65,,1,1,4,3,0.0,1,0.5,1,100,assets/weapons/EX_COINTOSS1.png
+EX_COINTOSS1,Sossoldi,powerup,8,True,True,False,,,6,2000,,80,0.65,,1,1,5,3,0.0,1,0.5,1,100,assets/weapons/EX_COINTOSS1.png
+EX_COINTOSS1,Sossoldi,powerup,8,True,True,False,,,7,2000,,60,0.65,,1,1,6,3,0.0,1,0.5,1,100,assets/weapons/EX_COINTOSS1.png
+EX_COINTOSS1,Sossoldi,powerup,8,True,True,False,,,8,2000,,40,0.65,,1,1,6,5,0.0,1,0.5,1,100,assets/weapons/EX_COINTOSS1.png
+EX_RUMBA1,Rumba,powerup,1,True,True,True,,,1,100,200,100,0,,1,1,1,1,0,1,0,0,70,assets/weapons/EX_RUMBA1.png
+BUBBLE_SUPPORT,Water Veil,weapon,8,True,True,False,,,1,2600,2000,100,0.5,,0.5,1,5,,,,0.1,1,140,assets/weapons/BUBBLE_SUPPORT.png
+BUBBLE_SUPPORT,Water Veil,weapon,8,True,True,False,,,2,2600,2000,100,0.5,,0.6,1,7,,,,0.1,1,140,assets/weapons/BUBBLE_SUPPORT.png
+BUBBLE_SUPPORT,Water Veil,weapon,8,True,True,False,,,3,2300,2000,100,0.7,,0.6,1,7,,,,0.1,1,140,assets/weapons/BUBBLE_SUPPORT.png
+BUBBLE_SUPPORT,Water Veil,weapon,8,True,True,False,,,4,2300,2500,100,0.7,,0.6,1,9,,,,0.1,1,140,assets/weapons/BUBBLE_SUPPORT.png
+BUBBLE_SUPPORT,Water Veil,weapon,8,True,True,False,,,5,1700,2500,100,0.9,,0.6,1,9,,,,0.1,1,140,assets/weapons/BUBBLE_SUPPORT.png
+BUBBLE_SUPPORT,Water Veil,weapon,8,True,True,False,,,6,1700,2500,100,0.9,,0.7,1,11,,,,0.1,1,140,assets/weapons/BUBBLE_SUPPORT.png
+BUBBLE_SUPPORT,Water Veil,weapon,8,True,True,False,,,7,1700,3000,100,1.1,,0.7,1,11,,,,0.1,1,140,assets/weapons/BUBBLE_SUPPORT.png
+BUBBLE_SUPPORT,Water Veil,weapon,8,True,True,False,,,8,1700,3000,100,1.1,,0.8,1,14,,,,0.1,1,140,assets/weapons/BUBBLE_SUPPORT.png

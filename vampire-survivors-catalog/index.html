@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Vampire Survivors 本体武器、强化与怪物图鉴，包含原始 Sprite 图片、逐等级数值、技能和抗性。">
+  <title>Vampire Survivors 数据图鉴</title>
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <link rel="stylesheet" href="styles.css?v=20261109">
+  <script defer src="data/catalog.js?v=20261109"></script>
+  <script defer src="app.js?v=20261109"></script>
+</head>
+<body>
+  <div class="app-shell" id="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="图鉴导航">
+      <div class="product">
+        <img src="assets/weapons/WHIP.png" alt="" width="34" height="34">
+        <div>
+          <strong>VS 数据图鉴</strong>
+          <span>本体内容研究库</span>
+        </div>
+      </div>
+      <div class="scope">Unity 6000.0.62f1<br>未合并 DLC 数据</div>
+      <nav class="nav-list">
+        <button class="nav-item is-active" type="button" data-view="weapons" aria-current="page">
+          <span>武器与强化</span><span class="nav-count">153</span>
+        </button>
+        <button class="nav-item" type="button" data-view="enemies">
+          <span>怪物图鉴</span><span class="nav-count">579</span>
+        </button>
+        <button class="nav-item" type="button" data-view="notes">
+          <span>数据说明</span>
+        </button>
+      </nav>
+      <div class="sidebar-footer">
+        <span class="coverage-dot" aria-hidden="true"></span>
+        图片匹配率 100%
+      </div>
+    </aside>
+
+    <header class="topbar">
+      <button class="menu-button" id="menu-button" type="button" aria-label="打开导航" aria-expanded="false">菜单</button>
+      <span class="mobile-title">VS 数据图鉴</span>
+      <label class="search-field">
+        <span class="sr-only">搜索当前图鉴</span>
+        <input id="global-search" type="search" placeholder="搜索名称、ID、描述或标签" autocomplete="off">
+      </label>
+      <a class="csv-link" id="top-csv" href="weapons.csv" download>下载 CSV</a>
+    </header>
+
+    <main class="sheet">
+      <section id="catalog-view" aria-labelledby="page-title">
+        <div class="title-row">
+          <div>
+            <h1 id="page-title">武器与强化</h1>
+            <p id="page-subtitle">153 个类型，687 条等级配置，全部附带原始 Sprite。</p>
+          </div>
+          <a class="secondary-action" id="title-csv" href="weapons.csv" download>导出当前清单</a>
+        </div>
+
+        <div class="summary-strip" aria-label="当前图鉴概况">
+          <div><span>当前结果</span><strong class="num" id="visible-count">153</strong></div>
+          <div><span>图片覆盖</span><strong class="num">100%</strong></div>
+          <div><span id="third-metric-label">等级配置</span><strong class="num" id="third-metric">687</strong></div>
+        </div>
+
+        <div class="filter-row">
+          <label>类别
+            <select id="category-filter"></select>
+          </label>
+          <label>排序
+            <select id="sort-order">
+              <option value="original">原始数据顺序</option>
+              <option value="name">名称 A–Z</option>
+              <option value="power">Power 从高到低</option>
+              <option value="interval">攻击间隔从短到长</option>
+              <option value="rarity">稀有度从低到高</option>
+            </select>
+          </label>
+          <button class="text-action" id="reset-filters" type="button">重置筛选</button>
+        </div>
+
+        <div class="catalog-layout">
+          <section class="results-region" aria-label="图鉴结果">
+            <div class="results-meta" aria-live="polite">
+              <span id="range-label">显示 1–60，共 153 项</span>
+              <span>点击项目查看完整数值</span>
+            </div>
+            <div class="result-grid" id="result-grid"></div>
+            <div class="empty-state" id="empty-state" hidden>
+              <strong>没有匹配的内容</strong>
+              <span>尝试缩短关键词或重置类别筛选。</span>
+              <button class="secondary-action" id="empty-reset" type="button">查看全部</button>
+            </div>
+            <button class="load-more" id="load-more" type="button">显示更多</button>
+          </section>
+
+          <button class="detail-backdrop" id="detail-backdrop" type="button" aria-label="关闭详情" hidden></button>
+          <aside class="detail-panel" id="detail-panel" aria-label="项目详情">
+            <div class="detail-topbar">
+              <span>详细数据</span>
+              <button id="close-detail" type="button" aria-label="关闭详情">关闭</button>
+            </div>
+            <div id="detail-content"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="notes-view" id="notes-view" aria-labelledby="notes-title" hidden>
+        <div class="title-row">
+          <div>
+            <h1 id="notes-title">数据说明</h1>
+            <p>清单来自当前安装包中的基础游戏 JSON，不混入 DLC 扩展内容。</p>
+          </div>
+        </div>
+        <div class="notes-grid">
+          <section>
+            <h2>范围与数量</h2>
+            <p>武器与强化共 153 个类型、687 条等级配置，其中 26 个被动强化、40 个进化类型。49 个类型带特殊获取标记，39 个类型带永久隐藏标记，分类之间可以重叠。</p>
+            <p>怪物共 579 个类型，每个类型在当前本体 JSON 中只有一条基础配置。180 个类型标记为图鉴收录，70 个类型使用 BOSS 前缀 ID；“BOSS 前缀”只是筛选条件，不等同于完整的 Boss 行为分类。</p>
+          </section>
+          <section>
+            <h2>数值口径</h2>
+            <p>所有数值均来自原始配置，不等于加入角色、被动、Arcana、难度和局内修正后的最终结果。空白显示为“—”，它与显式配置的 0 不同。</p>
+            <p>武器后续等级是升级补丁，已验证 DataHelper.UpgradeJsonData 对数值字段执行加法。页面和 weapons.csv 按数组顺序累计合并，非数值字段替换；weapon-level-patches.csv 保留未合并的原始补丁。</p>
+            <p>武器的 interval、duration、repeatInterval 和 hitBoxDelay 以毫秒数值展示，例如 1350 表示 1.35 秒。power、maxHp、speed、area 等字段保留游戏自己的数值尺度，不擅自换算成最终伤害或移动单位。</p>
+          </section>
+          <section>
+            <h2>图片与详情</h2>
+            <p>图片由 Unity Sprite 资源按“图集名称 + 帧名”提取，153 个武器/强化和 579 个怪物全部匹配成功。页面展示原始 PNG 并以像素方式放大，怪物选择其 frameNames 的第一帧。</p>
+            <p>武器详情提供等级切换、核心成长表和全部原始字段；怪物详情提供技能、抗性、出现关卡、图鉴变体和全部原始字段。</p>
+          </section>
+          <section>
+            <h2>下载与复用</h2>
+            <div class="download-list">
+              <a href="weapons.csv" download>武器逐等级累计数值 CSV</a>
+              <a href="weapon-level-patches.csv" download>武器原始升级补丁 CSV</a>
+              <a href="enemies.csv" download>怪物基础数值 CSV</a>
+              <a href="data/catalog.json" download>完整结构化 JSON</a>
+              <a href="data/manifest.json" download>图片尺寸与覆盖清单</a>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </div>
+  <button class="sidebar-backdrop" id="sidebar-backdrop" type="button" aria-label="关闭导航" hidden></button>
+</body>
+</html>
