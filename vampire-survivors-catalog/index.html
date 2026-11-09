@@ -6,9 +6,9 @@
   <meta name="description" content="Vampire Survivors 本体武器、强化与怪物图鉴，包含原始 Sprite 图片、逐等级数值、技能和抗性。">
   <title>Vampire Survivors 数据图鉴</title>
   <link rel="stylesheet" href="assets/fonts/fonts.css">
-  <link rel="stylesheet" href="styles.css?v=20261109">
-  <script defer src="data/catalog.js?v=20261109"></script>
-  <script defer src="app.js?v=20261109"></script>
+  <link rel="stylesheet" href="styles.css?v=20261109-5">
+  <script defer src="data/catalog.js?v=20261109-5"></script>
+  <script defer src="app.js?v=20261109-5"></script>
 </head>
 <body>
   <div class="app-shell" id="app-shell">
@@ -27,6 +27,12 @@
         </button>
         <button class="nav-item" type="button" data-view="enemies">
           <span>怪物图鉴</span><span class="nav-count">579</span>
+        </button>
+        <button class="nav-item" type="button" data-view="stages">
+          <span>地图设计</span><span class="nav-count">24</span>
+        </button>
+        <button class="nav-item" type="button" data-view="downloads">
+          <span>素材资源包</span><span class="nav-count">6</span>
         </button>
         <button class="nav-item" type="button" data-view="notes">
           <span>数据说明</span>
@@ -49,15 +55,15 @@
     </header>
 
     <main class="sheet">
-      <section id="catalog-view" aria-labelledby="page-title">
-        <div class="title-row">
-          <div>
-            <h1 id="page-title">武器与强化</h1>
-            <p id="page-subtitle">153 个类型，687 条等级配置，全部附带原始 Sprite。</p>
-          </div>
-          <a class="secondary-action" id="title-csv" href="weapons.csv" download>导出当前清单</a>
+      <div class="title-row">
+        <div>
+          <h1 id="page-title">武器与强化</h1>
+          <p id="page-subtitle">153 个类型，687 条等级配置，全部附带原始 Sprite。</p>
         </div>
+        <a class="secondary-action" id="title-csv" href="weapons.csv" download>导出当前清单</a>
+      </div>
 
+      <section id="catalog-view" aria-labelledby="page-title">
         <div class="summary-strip" aria-label="当前图鉴概况">
           <div><span>当前结果</span><strong class="num" id="visible-count">153</strong></div>
           <div><span>图片覆盖</span><strong class="num">100%</strong></div>
@@ -106,18 +112,13 @@
         </div>
       </section>
 
-      <section class="notes-view" id="notes-view" aria-labelledby="notes-title" hidden>
-        <div class="title-row">
-          <div>
-            <h1 id="notes-title">数据说明</h1>
-            <p>清单来自当前安装包中的基础游戏 JSON，不混入 DLC 扩展内容。</p>
-          </div>
-        </div>
+      <section class="notes-view" id="notes-view" aria-labelledby="page-title" hidden>
         <div class="notes-grid">
           <section>
             <h2>范围与数量</h2>
             <p>武器与强化共 153 个类型、687 条等级配置，其中 26 个被动强化、40 个进化类型。49 个类型带特殊获取标记，39 个类型带永久隐藏标记，分类之间可以重叠。</p>
             <p>怪物共 579 个类型，每个类型在当前本体 JSON 中只有一条基础配置。180 个类型标记为图鉴收录，70 个类型使用 BOSS 前缀 ID；“BOSS 前缀”只是筛选条件，不等同于完整的 Boss 行为分类。</p>
+            <p>地图共 24 个关卡配置、535 条逐分钟配置。17 个关卡声明循环图块，2 个关卡带详细地图图片。地图详情同时包含图标、背景、图块、模式修正、敌群与解锁数据。</p>
           </section>
           <section>
             <h2>数值口径</h2>
@@ -136,11 +137,59 @@
               <a href="weapons.csv" download>武器逐等级累计数值 CSV</a>
               <a href="weapon-level-patches.csv" download>武器原始升级补丁 CSV</a>
               <a href="enemies.csv" download>怪物基础数值 CSV</a>
+              <a href="characters.csv" download>角色基础属性 CSV</a>
+              <a href="items.csv" download>物品权重与解锁 CSV</a>
+              <a href="stages.csv" download>地图基础数值 CSV</a>
+              <a href="stage-schedules.csv" download>全部关卡逐分钟配置 CSV</a>
+              <a href="stage-unlocks.csv" download>地图解锁条件 CSV</a>
+              <a href="forest-spawn-schedule.csv" download>Mad Forest 分钟表 CSV</a>
               <a href="data/catalog.json" download>完整结构化 JSON</a>
               <a href="data/manifest.json" download>图片尺寸与覆盖清单</a>
+              <a href="downloads/manifest.json" download>独立资源包与 SHA-256 清单</a>
             </div>
           </section>
         </div>
+      </section>
+
+      <section class="downloads-view" id="downloads-view" aria-labelledby="page-title" hidden>
+        <div class="package-grid">
+          <article class="package-item">
+            <h2>武器与强化</h2>
+            <p>153 张 Sprite、687 条累计等级和原始升级补丁。</p>
+            <a href="downloads/weapons.zip" download>下载 weapons.zip</a>
+          </article>
+          <article class="package-item">
+            <h2>怪物</h2>
+            <p>579 张怪物 Sprite、基础数值、技能、抗性与变体。</p>
+            <a href="downloads/enemies.zip" download>下载 enemies.zip</a>
+          </article>
+          <article class="package-item">
+            <h2>角色</h2>
+            <p>70 张世界贴图、65 张已配置肖像、初始武器和属性。</p>
+            <a href="downloads/characters.zip" download>下载 characters.zip</a>
+          </article>
+          <article class="package-item">
+            <h2>物品</h2>
+            <p>106 张物品图标、权重和解锁数据，另记录 1 个缺失帧。</p>
+            <a href="downloads/items.zip" download>下载 items.zip</a>
+          </article>
+          <article class="package-item">
+            <h2>地图</h2>
+            <p>24 张图标、24 张背景、2 张详细地图和 535 条分钟配置。</p>
+            <a href="downloads/maps.zip" download>下载 maps.zip</a>
+          </article>
+          <article class="package-item">
+            <h2>研究与数据</h2>
+            <p>结构化 JSON、全部 CSV，以及架构、机制与地图研究报告。</p>
+            <a href="downloads/research.zip" download>下载 research.zip</a>
+          </article>
+        </div>
+        <section class="download-notes">
+          <h2>使用与来源</h2>
+          <p>素材提取自本地 Unity 安装包，仅供学习和研究，不包含可执行文件、完整原始资源包或音频。游戏数据与 Sprite 的相关权利归原作者及发行方，二次发布前请自行确认许可。</p>
+          <p>每个 ZIP 中的 manifest.json 记录文件大小、SHA-256、数量和来源。角色包覆盖 70/70 世界贴图与 65/65 已配置肖像；物品包对缺失和空帧均有明确记录，不使用替代假图。</p>
+          <a class="secondary-action" href="downloads/manifest.json" download>下载全部资源包清单</a>
+        </section>
       </section>
     </main>
   </div>

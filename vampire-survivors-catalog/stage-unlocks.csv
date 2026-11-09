@@ -1,0 +1,23 @@
+﻿achievement_id,description,stage_to_unlock,hyper_to_unlock,requires_item,conditions_json
+ReachLV20InMadForest,Reach Level 20 in the Mad Forest.,LIBRARY,,,"[{""AchievementUnlockType"": ""ReachedXLevel"", ""RequiredLevel"": 20}, {""AchievementUnlockType"": ""PlayInStage"", ""RequiredStageType"": ""FOREST""}]"
+ReachLV40InLibrary,Reach Level 40 in the Inlaid Library.,WAREHOUSE,,,"[{""AchievementUnlockType"": ""ReachedXLevel"", ""RequiredLevel"": 40}, {""AchievementUnlockType"": ""PlayInStage"", ""RequiredStageType"": ""LIBRARY""}]"
+ReachLV60InDairyPlant,Reach Level 60 in the Dairy Plant.,TOWER,,,"[{""AchievementUnlockType"": ""ReachedXLevel"", ""RequiredLevel"": 60}, {""AchievementUnlockType"": ""PlayInStage"", ""RequiredStageType"": ""WAREHOUSE""}]"
+FindYellowSignS5,Reach Level 80 in the Gallo Tower.,CHAPEL,,,"[{""AchievementUnlockType"": ""ReachedXLevel"", ""RequiredLevel"": 80}, {""AchievementUnlockType"": ""PlayInStage"", ""RequiredStageType"": ""TOWER""}]"
+ReachLV80InverseForest,Reach Level 80 in Inverse Mad Forest.,BATCOUNTRY,BATCOUNTRY,RELIC_MIRROR,"[{""AchievementUnlockType"": ""ReachedXLevel"", ""RequiredLevel"": 80}, {""AchievementUnlockType"": ""PlayInStage"", ""RequiredStageType"": ""FOREST""}, {""AchievementUnlockType"": ""HaveModifiers"", ""RequiredMofiers"": [""Inverse""]}]"
+ReachLV80InverseLibrary,Reach Level 80 in Inverse Inlaid Library.,ASTRALSTAIR,ASTRALSTAIR,RELIC_MIRROR,"[{""AchievementUnlockType"": ""ReachedXLevel"", ""RequiredLevel"": 80}, {""AchievementUnlockType"": ""PlayInStage"", ""RequiredStageType"": ""LIBRARY""}, {""AchievementUnlockType"": ""HaveModifiers"", ""RequiredMofiers"": [""Inverse""]}]"
+ReachLV80InverseWarehouse,Reach Level 80 in Inverse Dairy Plant.,EX_MAZERELLA,EX_MAZERELLA,RELIC_MIRROR,"[{""AchievementUnlockType"": ""ReachedXLevel"", ""RequiredLevel"": 80}, {""AchievementUnlockType"": ""PlayInStage"", ""RequiredStageType"": ""WAREHOUSE""}, {""AchievementUnlockType"": ""HaveModifiers"", ""RequiredMofiers"": [""Inverse""]}]"
+ReachLV80InverseTower,Reach Level 80 in Inverse Gallo Tower.,TOWERBRIDGE,TOWERBRIDGE,RELIC_MIRROR,"[{""AchievementUnlockType"": ""ReachedXLevel"", ""RequiredLevel"": 80}, {""AchievementUnlockType"": ""PlayInStage"", ""RequiredStageType"": ""TOWER""}, {""AchievementUnlockType"": ""HaveModifiers"", ""RequiredMofiers"": [""Inverse""]}]"
+FindManyOrologions,Find 20 Orologions.,WHITEOUT,WHITEOUT,RELIC_MAP,"[{""AchievementUnlockType"": ""FindXNumberOfItems"", ""RequiredNumberOfItems"": 20, ""RequiredItems"": [""OROLOGION""]}]"
+FindManyVacuums,Find 50 Vacuums.,EX_LYCAEUM,EX_LYCAEUM,RELIC_MAP,"[{""AchievementUnlockType"": ""FindXNumberOfItems"", ""RequiredNumberOfItems"": 50, ""RequiredItems"": [""VACUUM""]}]"
+FindManyRosaries,Find 33 Rosaries.,LABORRATORY,LABORRATORY,RELIC_MAP,"[{""AchievementUnlockType"": ""FindXNumberOfItems"", ""RequiredNumberOfItems"": 33, ""RequiredItems"": [""ROSARY""]}]"
+FindManyChickens,Find 500 Floor Chickens.,COOP,COOP,RELIC_MAP,"[{""AchievementUnlockType"": ""FindXNumberOfItems"", ""RequiredNumberOfItems"": 500, ""RequiredItems"": [""ROAST""]}]"
+FindManyClovers,Find 20 Little Clovers.,EX_WESTWOODS,EX_WESTWOODS,,"[{""AchievementUnlockType"": ""FindXNumberOfItems"", ""RequiredNumberOfItems"": 23, ""RequiredItems"": [""CLOVER""]}]"
+FindManyGoldenFinger,Find 5 Golden Fingers.,SPAZIE,SPAZIE,RELIC_MAP,"[{""AchievementUnlockType"": ""FindXNumberOfItems"", ""RequiredNumberOfItems"": 5, ""RequiredItems"": [""GOLDFINGER""]}]"
+HitManyEnemiesWithTrain,Hit a total of 2512 enemies with a train.,CARLOCART,CARLOCART,,null
+ObtainAllRelics,Obtain all standard relics from all stages.,MACHINE,,,null
+Unlock3Hypers,Unlock Hyper mode for any normal stage.,MOLISE,MOLISE,,null
+Unlock2Hypers,Unlock Hyper mode for 2 normal stages.,GREENACRES,GREENACRES,,null
+Unlock3Hypers_Correct,Unlock Hyper mode for 3 normal stages.,BONEZONE,BONEZONE,,null
+Unlock4Hypers,Unlock Hyper mode for 4 normal stages.,SINKING,SINKING,,null
+Unlock5Hypers,Unlock Hyper mode for all 5 normal stages.,RASH,RASH,,null
+CastForbiddenBox,Dare to cast the spell 'forbiddenbox'.,DEVILROOM,,RELIC_SECRETS,"[{""AchievementUnlockType"": ""PlayInStage"", ""RequiredStageType"": ""DEVILROOM""}]"

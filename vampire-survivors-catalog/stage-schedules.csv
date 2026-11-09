@@ -1,0 +1,536 @@
+﻿stage_id,minute,minimum,frequency_ms,outer_batch_entries,enemies,bosses,mods_json,events_json
+FOREST,0,15,1000,1,BAT3,,"{""TimeLimit"": 1800, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.1, ""EnemySpeed"": 1.1, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1}",null
+FOREST,1,30,1000,2,ZOMBIE|BAT1,BAT4,null,null
+FOREST,2,50,500,3,BAT1|BAT2|BAT3,,null,"[{""eventType"": ""BAT_SWARM"", ""delay"": 5000, ""repeat"": 2}]"
+FOREST,3,40,250,1,SKELETON,BAT4,null,"[{""eventType"": ""BAT_SWARM"", ""delay"": 5000, ""repeat"": 1, ""chance"": 10}]"
+FOREST,4,30,500,2,SKELETON|GHOST,,null,"[{""eventType"": ""BAT_SWARM"", ""delay"": 5000, ""repeat"": 1, ""chance"": 10}]"
+FOREST,5,10,1000,1,MUDMAN2,XLMANTIS,null,"[{""eventType"": ""FLOWER_WALL"", ""chance"": 0, ""duration"": 30000}]"
+FOREST,6,20,500,2,ZOMBIE|MUDMAN2,,null,"[{""eventType"": ""BAT_SWARM"", ""delay"": 5000, ""repeat"": 1, ""chance"": 10}]"
+FOREST,7,80,500,3,BAT2|BAT3|MUDMAN1,BAT4,null,"[{""eventType"": ""BAT_SWARM"", ""delay"": 5000, ""chance"": 80, ""repeat"": 5}]"
+FOREST,8,100,1500,1,ZOMBIE,XLBAT,null,"[{""eventType"": ""BAT_SWARM"", ""delay"": 15000, ""chance"": 80, ""repeat"": 2}]"
+FOREST,9,30,500,2,XLBAT|ZOMBIE,BAT5,null,"[{""eventType"": ""BAT_SWARM"", ""delay"": 15000, ""chance"": 70, ""repeat"": 2}]"
+FOREST,10,10,500,2,MUDMAN1|MUDMAN2,BOSS_XLMANTIS,null,"[{""eventType"": ""FLOWER_WALL""}]"
+FOREST,11,300,100,1,SKELETON,,null,"[{""eventType"": ""BAT_SWARM"", ""delay"": 5000, ""repeat"": 1, ""chance"": 10}]"
+FOREST,12,20,250,3,WEREWOLF|GHOST|SKELETON,BAT4,null,"[{""eventType"": ""BAT_SWARM"", ""delay"": 5000, ""repeat"": 1, ""chance"": 10}]"
+FOREST,13,150,500,3,WEREWOLF|GHOST|GHOST,,null,"[{""eventType"": ""GHOST_SWARM"", ""delay"": 1200, ""chance"": 70, ""repeat"": 20}, {""eventType"": ""GHOST_SWARM"", ""delay"": 2300, ""chance"": 70, ""repeat"": 20}]"
+FOREST,14,20,100,2,XLBAT|WEREWOLF,BAT5,null,null
+FOREST,15,100,100,3,WEREWOLF|XLBAT|MUDMAN2,BOSS_WEREWOLF,null,"[{""eventType"": ""FLOWER_WALL"", ""chance"": 80}]"
+FOREST,16,100,100,3,XLMANTIS|MUDMAN1|MUDMAN2,BAT4,null,null
+FOREST,17,20,1000,1,XLMUMMY,,null,null
+FOREST,18,60,500,2,XLMUMMY|MUDMAN1,BAT5,null,null
+FOREST,19,100,500,2,XLMUMMY|MUDMAN1,,null,null
+FOREST,20,100,100,3,XLMUMMY|MUDMAN2|XLBAT,BOSS_XLMUMMY,null,"[{""eventType"": ""BAT_SWARM"", ""delay"": 1200, ""chance"": 70, ""repeat"": 20}, {""eventType"": ""BAT_SWARM"", ""delay"": 2300, ""chance"": 70, ""repeat"": 20}]"
+FOREST,21,300,100,1,FLOWER,XLFLOWER,null,null
+FOREST,22,200,100,2,FLOWER|XLMUMMY,BAT4,null,null
+FOREST,23,300,100,2,FLOWER|XLMUMMY,BAT5,null,null
+FOREST,24,300,100,2,FLOWER|XLMUMMY,XLFLOWER,null,null
+FOREST,25,100,100,1,XLFLOWER,BOSS_XLFLOWER,null,"[{""eventType"": ""FLOWER_WALL"", ""delay"": 10000, ""repeat"": 5, ""duration"": 10000}]"
+FOREST,26,150,100,2,XLFLOWER|FLOWER,,null,null
+FOREST,27,300,100,3,XLMUMMY|MUDMAN1|MUDMAN2,BAT4,null,"[{""eventType"": ""GHOST_SWARM""}, {""eventType"": ""GHOST_SWARM"", ""delay"": 3000, ""repeat"": 19}]"
+FOREST,28,300,100,2,XLBAT|BAT4,,null,null
+FOREST,29,300,100,2,BAT4|BAT5,BAT4,null,"[{""eventType"": ""BAT_SWARM""}, {""eventType"": ""BAT_SWARM"", ""delay"": 3000, ""repeat"": 19}]"
+FOREST,30,1,10000,0,,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+LIBRARY,0,50,3000,1,MUD,,"{""TimeLimit"": 1800, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.25, ""EnemySpeed"": 1.25, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1}","[{""eventType"": ""SHADE_BOMB_RED"", ""delay"": 100, ""moreX"": 1}]"
+LIBRARY,1,80,3000,1,MUD,,null,null
+LIBRARY,2,100,4000,2,MUD|ECTO1,,null,"[{""eventType"": ""MEDUSA_WALL"", ""moreX"": 6, ""moreY"": ""MEDUSA1""}, {""eventType"": ""MEDUSA_SWARM"", ""moreX"": 12, ""moreY"": ""MEDUSA1"", ""delay"": 5000, ""chance"": 70, ""repeat"": 4}]"
+LIBRARY,3,60,4000,1,MUMMY,XLMUMMY,null,null
+LIBRARY,4,110,4000,2,MUD|MUMMY,,null,null
+LIBRARY,5,100,4000,1,MUMMY,XLMUMMY,null,[]
+LIBRARY,6,30,2000,2,DULL1|ECTO1,,null,"[{""eventType"": ""SHADE_BOMB_RED"", ""delay"": 10000, ""chance"": 50, ""repeat"": 4, ""moreX"": 1}]"
+LIBRARY,7,80,2000,3,DULL1|ECTO1|ECTO2,,null,"[{""eventType"": ""SHADE_BOMB_RED"", ""delay"": 5000, ""chance"": 80, ""repeat"": 8, ""moreX"": 1}]"
+LIBRARY,8,80,1000,2,ECTO2|GHOST,BOSS_ECTO,null,null
+LIBRARY,9,200,500,2,MUMMY|GHOST,,null,"[{""eventType"": ""SHADE_BOMB_RED"", ""delay"": 20000, ""chance"": 50, ""repeat"": 2, ""moreX"": 2}]"
+LIBRARY,10,100,500,1,ECTO2,BOSS_BUER,null,"[{""eventType"": ""SHADE_BOMB_RED"", ""moreX"": 1}, {""eventType"": ""SHADE_BOMB_RED"", ""delay"": 10000, ""chance"": 80, ""repeat"": 3, ""moreX"": 2}]"
+LIBRARY,11,120,2000,2,MEDUSA2|BUER,BOSS_MEDUSA1,null,null
+LIBRARY,12,80,1000,2,MEDUSA2|DULL1,BAT4,null,"[{""eventType"": ""MEDUSA_SWARM"", ""moreX"": 12, ""moreY"": ""MEDUSA1_FAST""}, {""eventType"": ""MEDUSA_WALL"", ""moreX"": 12, ""moreY"": ""MEDUSA1"", ""delay"": 5000, ""chance"": 70, ""repeat"": 5}]"
+LIBRARY,13,120,500,2,MUMMY|DULL1,BOSS_MUD,null,null
+LIBRARY,14,300,100,3,MUMMY|MEDUSA2|ECTO2,BAT5,null,null
+LIBRARY,15,100,100,1,MEDUSA2_AGGRO,BOSS_XLMEDUSA,null,"[{""eventType"": ""MEDUSA_WALL"", ""moreX"": 12, ""moreY"": ""MEDUSA1_FAST""}, {""eventType"": ""MEDUSA_WALL"", ""moreX"": 6, ""moreY"": ""MEDUSA2"", ""delay"": 13000}, {""eventType"": ""MEDUSA_SWARM"", ""moreX"": 12, ""moreY"": ""MEDUSA1_FAST"", ""delay"": 2000, ""chance"": 90, ""repeat"": 25}]"
+LIBRARY,16,100,1000,3,WITCH1|DULL1|DULL2,BAT4,null,null
+LIBRARY,17,200,1000,3,WITCH1|ECTO2|ECTO1,,null,"[{""eventType"": ""SHADE_BOMB_RED"", ""delay"": 5000, ""chance"": 50, ""repeat"": 4, ""moreX"": 3}]"
+LIBRARY,18,60,500,2,WITCH1|BUER,BOSS_WITCH2,null,null
+LIBRARY,19,120,500,2,WITCH1|DULL2,,null,null
+LIBRARY,20,100,100,2,BUER|DULL2,BOSS_COUNT2,null,"[{""eventType"": ""SHADE_BOMB_RED"", ""delay"": 2000, ""chance"": 50, ""repeat"": 25, ""moreX"": 2}, {""eventType"": ""SKULL_SWARM"", ""moreX"": 1}, {""eventType"": ""SKULL_SWARM"", ""delay"": 5000, ""moreX"": 2}, {""eventType"": ""SKULL_SWARM"", ""delay"": 15000, ""moreX"": 4}, {""eventType"": ""SKULL_SWARM"", ""delay"": 25000, ""moreX"": 8}, {""eventType"": ""SKULL_SWARM"", ""delay"": 35000, ""moreX"": 16}, {""eventType"": ""SKULL_SWARM"", ""delay"": 45000, ""moreX"": 32}, {""eventType"": ""SKULL_SWARM"", ""delay"": 55000, ""moreX"": 32}]"
+LIBRARY,21,100,100,1,BUER,,null,null
+LIBRARY,22,80,1000,2,WITCH2|BUER,BAT4,null,"[{""eventType"": ""SHADE_BOMB_RED"", ""delay"": 2000, ""chance"": 50, ""repeat"": 25, ""moreX"": 3}]"
+LIBRARY,23,120,100,3,DULL1|DULL2|WITCH2,BOSS_BUER,null,null
+LIBRARY,24,300,100,1,WITCH2,,null,null
+LIBRARY,25,300,100,3,SKULL2_SCALING|WITCH2|XLBAT,BOSS_COUNT1,null,"[{""eventType"": ""BAT_SWARM""}, {""eventType"": ""SKULL_SWARM"", ""moreX"": 1}, {""eventType"": ""SKULL_SWARM"", ""delay"": 5000, ""moreX"": 2}, {""eventType"": ""SKULL_SWARM"", ""delay"": 15000, ""moreX"": 4}, {""eventType"": ""SKULL_SWARM"", ""delay"": 25000, ""moreX"": 8}, {""eventType"": ""SKULL_SWARM"", ""delay"": 35000, ""moreX"": 16}, {""eventType"": ""SKULL_SWARM"", ""delay"": 45000, ""moreX"": 32}, {""eventType"": ""SKULL_SWARM"", ""delay"": 55000, ""moreX"": 32}]"
+LIBRARY,26,100,100,1,XLMEDUSA,BOSS_XLMEDUSA,null,null
+LIBRARY,27,300,100,2,MEDUSA2|XLMEDUSA,BOSS_XLMEDUSA,null,"[{""eventType"": ""MEDUSA_SWARM"", ""moreX"": 12, ""moreY"": ""MEDUSA2_FAST""}, {""eventType"": ""MEDUSA_WALL"", ""moreX"": 12, ""moreY"": ""MEDUSA2_FAST"", ""delay"": 2000, ""chance"": 90, ""repeat"": 25}]"
+LIBRARY,28,250,100,2,WITCH1|BOSS_MEDUSA1,BOSS_XLMEDUSA,null,null
+LIBRARY,29,250,100,4,BOSS_MUD|BOSS_ECTO|BOSS_BUER|BOSS_MEDUSA1,,null,"[{""eventType"": ""SHADE_BOMB_RED"", ""delay"": 1000, ""chance"": 60, ""repeat"": 50, ""moreX"": 4}]"
+LIBRARY,30,1,10000,0,,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+WAREHOUSE,0,20,1000,1,FISHMAN_1,,"{""TimeLimit"": 1800, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.25, ""EnemySpeed"": 1.25, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1.2, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1}","[{""eventType"": ""STALKER"", ""duration"": 120000, ""chance"": 1}]"
+WAREHOUSE,1,30,1000,1,FISHMAN_1,LIZARD2_3,null,"[{""eventType"": ""PILE_ASSAULT"", ""duration"": 5000, ""moreX"": 20, ""moreY"": ""PILE1"", ""moreZ"": 0.7}, {""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 25, ""moreY"": ""MILK"", ""delay"": 15000, ""repeat"": 3}]"
+WAREHOUSE,2,40,500,2,FISHMAN_1|LIZARD1_2,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 25, ""moreY"": ""MILK"", ""delay"": 15000, ""repeat"": 2}]"
+WAREHOUSE,3,40,250,3,LIZARD1_2|MILK|FISHMAN_1,BOSS_MIGNO2_5,null,"[{""eventType"": ""JELLY_WALL"", ""duration"": 30000}]"
+WAREHOUSE,4,25,250,3,LIZARD1_2|FISHMAN_1|MILK,,null,"[{""eventType"": ""PILE_ASSAULT"", ""duration"": 5000, ""moreX"": 20, ""moreY"": ""PILE1"", ""moreZ"": 0.7, ""chance"": 50}]"
+WAREHOUSE,5,10,1000,2,LIZARD2_3|MILK2,BOSS_MIGNO2_5,null,"[{""eventType"": ""PILE_ASSAULT"", ""duration"": 60000, ""moreX"": 20, ""moreY"": ""PILE1"", ""moreZ"": 0.7}, {""eventType"": ""PILE_ASSAULT"", ""duration"": 30000, ""moreX"": 20, ""moreY"": ""PILE1"", ""moreZ"": 0.7, ""delay"": 30000}]"
+WAREHOUSE,6,30,500,2,FISHMAN_1|LIZARD2_3,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 50, ""moreY"": ""MILK2"", ""delay"": 30000}]"
+WAREHOUSE,7,60,500,3,MERMA1_3|LIZARD1_2|FISHMAN_1,BOSS_MERMAN,null,"[{""eventType"": ""JELLY_WALL"", ""duration"": 30000, ""moreX"": 40, ""chance"": 80}, {""eventType"": ""JELLY_WALL"", ""duration"": 30000, ""delay"": 2000, ""moreX"": 40, ""chance"": 80}]"
+WAREHOUSE,8,50,1500,4,SKELENIN1|SKELETON|SKELETON2|SKELETON3,,null,"[{""eventType"": ""STALKER"", ""duration"": 60000, ""chance"": 30}, {""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 50, ""moreY"": ""SKELETON4"", ""delay"": 30000}]"
+WAREHOUSE,9,30,500,2,MIGNO1_5|MILK2,BOSS_MIGNO2_5,null,"[{""eventType"": ""MINO_RUSH"", ""duration"": 15000, ""moreX"": 50}, {""eventType"": ""MINO_RUSH"", ""duration"": 15000, ""moreX"": 50, ""delay"": 16000, ""chance"": 60}]"
+WAREHOUSE,10,20,500,3,MIGNO1_5|PILE2|MILK2,BOSS_MIGNO2_5_L,null,"[{""eventType"": ""MINO_RUSH"", ""duration"": 15000, ""moreX"": 25, ""delay"": 5000, ""repeat"": 6, ""chance"": 50}, {""eventType"": ""PILE_ASSAULT"", ""duration"": 20000, ""moreX"": 10, ""moreY"": ""PILE2"", ""moreZ"": 0.7, ""delay"": 10000, ""repeat"": 4, ""chance"": 50}]"
+WAREHOUSE,11,100,500,3,SKELENIN1|SKELETON|SKELETON2,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 50, ""moreY"": ""SKELETON4"", ""delay"": 10000, ""repeat"": 4}]"
+WAREHOUSE,12,20,1000,3,SKELENIN2|PILE1|PILE2,BOSS_PILE3,null,"[{""eventType"": ""PILE_ASSAULT"", ""duration"": 20000, ""moreX"": 10, ""moreY"": ""PILE3"", ""moreZ"": 0.7, ""delay"": 10000, ""repeat"": 3, ""chance"": 50}, {""eventType"": ""STALKER"", ""duration"": 60000, ""chance"": 30}, {""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 50, ""moreY"": ""SKELETON4"", ""delay"": 5000, ""repeat"": 10}]"
+WAREHOUSE,13,200,100,3,MERMA2_4|LIZARD2_3|LIZARD1_2,,null,null
+WAREHOUSE,14,150,500,2,MERMA2_4|GOLEM1,,null,null
+WAREHOUSE,15,50,500,3,ARMOR_6|GOLEM1|PILE3,,null,null
+WAREHOUSE,16,80,500,2,GOLEM1|ARMORSPEAR_6,BOSS_XLTRITON,null,null
+WAREHOUSE,17,40,100,2,ARMORSPEAR_6|MIGNO3_5,,null,null
+WAREHOUSE,18,90,500,2,ARMOR_6|MIGNO3_5,BOSS_ARMOR1,null,"[{""eventType"": ""JELLY_WALL"", ""duration"": 30000, ""moreX"": 40, ""chance"": 80, ""delay"": 12000}, {""eventType"": ""JELLY_WALL"", ""duration"": 30000, ""delay"": 14000, ""moreX"": 40, ""chance"": 80}]"
+WAREHOUSE,19,80,500,2,ARMORSPEAR_6|XLTRITON,,null,"[{""eventType"": ""JELLY_SWARM"", ""duration"": 10000, ""moreX"": 50, ""chance"": 80}, {""eventType"": ""JELLY_SWARM"", ""duration"": 10000, ""delay"": 10000, ""moreX"": 50, ""chance"": 80, ""repeat"": 2}]"
+WAREHOUSE,20,100,100,3,XLGOLEM1|XLTRITON|JELLYFISH2,BOSS_XLGOLEM2,null,"[{""eventType"": ""PILE_ASSAULT"", ""duration"": 30000, ""moreX"": 20, ""moreY"": ""PILE2"", ""moreZ"": 0.7, ""delay"": 5000, ""repeat"": 6, ""chance"": 80}]"
+WAREHOUSE,21,200,100,4,SKELENIN1|SKELENIN2|SKELEWING|PILE3,,null,null
+WAREHOUSE,22,200,100,1,GOLEM1,BOSS_XLGOLEM1,null,null
+WAREHOUSE,23,200,100,2,MIGNO1_5|MIGNO3_5,BOSS_MIGNO2_5_L,null,"[{""eventType"": ""MINO_RUSH"", ""duration"": 10000, ""moreX"": 25, ""delay"": 5000, ""repeat"": 5, ""chance"": 60}, {""eventType"": ""MINO_RUSH"", ""duration"": 10000, ""moreX"": 25, ""chance"": 60}]"
+WAREHOUSE,24,200,100,3,ARMOR_6|ARMORSPEAR_6|GOLEM1,XLARMOR_SWORD,null,null
+WAREHOUSE,25,100,100,1,XLARMOR_SWORD,BOSS_XLARMOR,null,null
+WAREHOUSE,26,150,100,2,XLCOCKATRICE|MIGNO3_5,,null,null
+WAREHOUSE,27,150,100,2,XLCOCKATRICE|XLARMOR_SWORD,BOSS_XLCOCKATRICE,null,null
+WAREHOUSE,28,10,100,2,BOSS_MERMAN|BOSS_MIGNO2_5_L,,null,null
+WAREHOUSE,29,10,100,2,BOSS_XLGOLEM1_29|BOSS_XLGOLEM2_29,,null,null
+WAREHOUSE,30,1,10000,0,,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+TOWER,0,50,3000,1,SKULLINO,,"{""TimeLimit"": 1800, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.25, ""EnemySpeed"": 1.25, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1.3, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1}","[{""eventType"": ""SHOOTING_STAR"", ""delay"": 5000, ""moreX"": 2, ""moreY"": 1000, ""moreZ"": 1}]"
+TOWER,1,80,3000,2,SKULLINO|SKULOROSSO,SKELANGUE,null,null
+TOWER,2,100,4000,2,SKULLINO|BAT3,,null,"[{""eventType"": ""DRAGON_SWARM"", ""moreX"": 1, ""moreY"": ""XLDRAGON1_FLAG"", ""duration"": 30000}, {""eventType"": ""DRAGON_SWARM"", ""moreX"": 3, ""moreY"": ""XLDRAGON1_FLAG"", ""duration"": 30000, ""delay"": 5000, ""chance"": 70, ""repeat"": 4}]"
+TOWER,3,60,4000,1,SKELANGUE,DEVIL3,null,null
+TOWER,4,110,4000,2,SKULLINO|SKELETON,XLMAGIO,null,"[{""eventType"": ""SHOOTING_STAR"", ""chance"": 50, ""moreX"": 2, ""moreY"": 1000, ""moreZ"": 1}, {""eventType"": ""SHOOTING_STAR"", ""delay"": 10000, ""chance"": 50, ""repeat"": 2, ""moreX"": 2, ""moreY"": 1000, ""moreZ"": 1}]"
+TOWER,5,100,4000,2,SKULL2_EASY|SKELANGUE,DEVIL3,null,"[{""eventType"": ""DRAGON_SWARM"", ""moreX"": 12, ""moreY"": ""XLDRAGON1_FLAG"", ""duration"": 30000}, {""eventType"": ""DRAGON_SWARM"", ""moreX"": 12, ""moreY"": ""XLDRAGON1_FLAG"", ""duration"": 30000, ""delay"": 5000, ""chance"": 70, ""repeat"": 5}]"
+TOWER,6,60,2000,2,DULL0|SKULOROSSO,,null,"[{""eventType"": ""DRAGONSTREAM"", ""delay"": 10000, ""chance"": 70, ""moreX"": 45, ""moreZ"": 5}]"
+TOWER,7,80,2000,3,DEVIL1|BAT6|BAT3,,null,"[{""eventType"": ""DRAGONSTREAM"", ""delay"": 5000, ""chance"": 70, ""moreX"": 45, ""moreZ"": 5}]"
+TOWER,8,80,1000,2,SKULOROSSO|GHOST2,BOSS_SKULL2,null,null
+TOWER,9,200,500,2,DULL0|GHOST2,,null,"[{""eventType"": ""PILE_ASSAULT"", ""duration"": 30000, ""delay"": 20000, ""chance"": 80, ""moreX"": 12, ""moreY"": ""XLMAGIO"", ""moreZ"": 0.4}]"
+TOWER,10,100,500,1,IMP,BOSS_HARPY,null,"[{""eventType"": ""PILE_ASSAULT"", ""duration"": 30000, ""delay"": 10000, ""moreX"": 6, ""moreY"": ""XLMAGIO"", ""moreZ"": 0.4}, {""eventType"": ""PILE_ASSAULT"", ""duration"": 30000, ""delay"": 20000, ""chance"": 60, ""moreX"": 6, ""moreY"": ""XLMAGIO"", ""moreZ"": 0.4}]"
+TOWER,11,60,2000,2,HARPYV|XLDRAGON1,,null,null
+TOWER,12,80,1000,2,HARPYV|DEVIL1,DEVIL3,null,"[{""eventType"": ""DRAGON_SWARM"", ""moreX"": 12, ""moreY"": ""XLDRAGON1_FLAG"", ""duration"": 30000}, {""eventType"": ""DRAGON_SWARM"", ""moreX"": 12, ""moreY"": ""XLDRAGON1_FLAG"", ""duration"": 20000, ""delay"": 5000, ""chance"": 70, ""repeat"": 5}]"
+TOWER,13,120,500,2,HARPY|DEVIL1,BOSS_XLDRAGON1,null,null
+TOWER,14,300,100,3,DULL0|HARPYV|GHOST2,DEVIL3,null,null
+TOWER,15,100,100,1,HARPY,BOSS_GALLO,null,"[{""eventType"": ""DRAGONSTREAM"", ""moreX"": 60, ""moreZ"": 5}, {""eventType"": ""SHOOTING_STAR"", ""moreX"": 12, ""moreY"": 100, ""moreZ"": 0.5}, {""eventType"": ""SHOOTING_STAR"", ""delay"": 5000, ""chance"": 70, ""repeat"": 6, ""moreX"": 3, ""moreY"": 100, ""moreZ"": 1}]"
+TOWER,16,100,1000,1,XLMAGIO,DEVIL3,null,"[{""eventType"": ""DRAGON_SWARM"", ""moreX"": 12, ""moreY"": ""XLDRAGON2_FLAG"", ""duration"": 30000}, {""eventType"": ""DRAGON_SWARM"", ""moreX"": 6, ""moreY"": ""XLDRAGON2_FLAG"", ""duration"": 30000, ""delay"": 13000}, {""eventType"": ""DRAGON_SWARM"", ""moreX"": 3, ""moreY"": ""XLDRAGON2_FLAG"", ""duration"": 20000, ""delay"": 2000, ""chance"": 90, ""repeat"": 12}]"
+TOWER,17,100,800,2,XLMAGIO|XLDRAGON2,,null,null
+TOWER,18,60,500,2,SKELEWING_INO|XLDRAGON2,BOSS_XLARMOR2,null,null
+TOWER,19,200,500,1,SKELANGUE,,null,null
+TOWER,20,100,500,2,XLDRAGON1|DULL0,BOSS_XLDRAGON2,null,null
+TOWER,21,100,100,1,XLARMOR1,,null,null
+TOWER,22,80,1000,2,XLARMOR2|XLARMOR1,DEVIL3,null,"[{""eventType"": ""SHOOTING_STAR"", ""delay"": 2000, ""repeat"": 25, ""moreX"": 3, ""moreY"": 100, ""moreZ"": 1}]"
+TOWER,23,100,100,2,XLCOCKATRICE|HARPY,BOSS_XLCOCKATRICE,null,null
+TOWER,24,60,100,1,XLCHIMERA,,null,null
+TOWER,25,300,100,1,SKULOROSSO,BOSS_XLCRAB,null,null
+TOWER,26,100,100,1,XLGOLEM3,BOSS_XLCOCKATRICE,null,null
+TOWER,27,100,1000,2,XLGOLEM4|XLCHIMERA,BOSS_XLCHIMERA,null,"[{""eventType"": ""DRAGON_SWARM"", ""moreX"": 12, ""moreY"": ""XLDRAGON2_FLAG""}, {""eventType"": ""DRAGON_SWARM"", ""moreX"": 6, ""moreY"": ""XLDRAGON2_FLAG"", ""duration"": 20000, ""delay"": 2000, ""chance"": 90, ""repeat"": 10}]"
+TOWER,28,100,1000,2,XLGOLEM3|XLGOLEM4,BOSS_XLCHIMERA,null,null
+TOWER,29,50,1000,2,BOSS_XLDRAGON1|BOSS_XLDRAGON2,,null,"[{""eventType"": ""DRAGON_SWARM"", ""moreX"": 12, ""moreY"": ""XLDRAGON2_FLAG"", ""duration"": 30000}, {""eventType"": ""DRAGON_SWARM"", ""moreX"": 2, ""moreY"": ""XLDRAGON2_FLAG"", ""duration"": 20000, ""delay"": 1100, ""chance"": 90, ""repeat"": 50}, {""eventType"": ""DRAGON_SWARM"", ""moreX"": 2, ""moreY"": ""XLDRAGON1_FLAG"", ""duration"": 20000, ""delay"": 1000, ""chance"": 90, ""repeat"": 50}]"
+TOWER,30,1,10000,0,,BOSS_XLDEATH|BOSS_XLDROWNER,null,"[{""eventType"": ""CYCLE_COMPLETE""}, {""eventType"": ""SHOOTING_STAR"", ""moreX"": 1, ""moreY"": 100, ""moreZ"": 1}, {""eventType"": ""SHOOTING_STAR"", ""delay"": 200, ""moreX"": 5, ""moreY"": 0, ""moreZ"": 0.5, ""repeat"": 50}]"
+TOWER,31,1,10000,0,,BOSS_XLDEATH,null,null
+CHAPEL,0,20,1000,1,FANGEL1,,"{""TimeLimit"": 1800, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.4, ""EnemySpeed"": 1.4, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1.4, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1}",null
+CHAPEL,1,30,1000,1,FANGEL1,FANGEL3,null,null
+CHAPEL,2,40,500,2,FANGEL1|FANGEL2,,null,null
+CHAPEL,3,40,250,3,TRAINEE_Y|FANGEL1|FANGEL2,BOSS_EYE2,null,null
+CHAPEL,4,25,250,3,TRAINEE_Y|FANGEL1|FANGEL2,,null,null
+CHAPEL,5,10,1000,2,TRAINEE_Y|FANGEL3,BOSS_FANGEL3,null,null
+CHAPEL,6,30,500,2,TRAINEE_B|FANGEL3,,null,null
+CHAPEL,7,60,500,3,KALI1|FANGEL2|TRAINEE_B,BOSS_EYE2,null,null
+CHAPEL,8,50,1500,4,KALI2|TRAINEE_B|TRAINEE_Y|TRAINEE,,null,null
+CHAPEL,9,30,500,2,SUCCUBUS|TRAINEE_B,BOSS_EYE2,null,null
+CHAPEL,10,20,500,3,SUCCUBUS|TRAINEE_B|KALI2,BOSS_SUCCUBUS,null,null
+CHAPEL,11,100,500,2,ARMOR_SWORD|TRAINEE_G,,null,null
+CHAPEL,12,20,1000,2,ARMOR_FIRE|ARMOR_SWORD,BOSS_EYE2,null,null
+CHAPEL,13,200,100,1,ARMOR_FIRE,,null,null
+CHAPEL,14,150,500,2,TRAINEE_G|XLARMOR_GREEN,,null,null
+CHAPEL,15,50,500,2,XLARMOR_GOLD|XLARMOR_GREEN,BOSS_XLARMOR_GREEN,null,null
+CHAPEL,16,80,500,2,DEMON|XLDEMON,,null,null
+CHAPEL,17,40,100,2,XLDEMON|DEMON_FAST,,null,null
+CHAPEL,18,90,500,3,XLDEMON|DEMON_FAST|TRAINEE_P,BOSS_ARMOR1,null,null
+CHAPEL,19,80,500,2,XLDEMON|XLDEMON2,,null,null
+CHAPEL,20,100,100,3,XLARCHDEMON|XLDEMON2|TRAINEE_P,BOSS_XLARCHDEMON,null,null
+CHAPEL,21,200,20,1,STAGEKILLER,,null,null
+CHAPEL,22,200,100,1,ANGEL1,BOSS_EYE2,null,null
+CHAPEL,23,200,100,1,ANGEL2,BOSS_EYE2,null,null
+CHAPEL,24,200,100,1,ANGEL3,BOSS_EYE2,null,null
+CHAPEL,25,100,100,3,ANGEL1|ANGEL2|ANGEL3,BOSS_TRINACRIA,null,null
+CHAPEL,26,250,20,1,STAGEKILLER2,,null,null
+CHAPEL,27,150,100,1,TRINACRIA,BOSS_EYE2,null,null
+CHAPEL,28,10,100,4,BOSS_FANGEL3|BOSS_SUCCUBUS|BOSS_XLARMOR_GREEN|BOSS_XLARCHDEMON,,null,null
+CHAPEL,29,40,100,1,TRAINEE_ANY,,null,null
+CHAPEL,30,100,100,1,TRAINEE_R,BOSS_XLDEATH2,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+MOLISE,0,500,100,1,MOLISANO_BASE,,"{""TimeLimit"": 900, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.25, ""EnemySpeed"": 1.25, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1}",null
+MOLISE,1,,,2,MOLISANO_BASE|MOLISANO_SECCO,MOLISANO_ANFORA,null,null
+MOLISE,2,,,1,MOLISANO_SECCO,MOLISANO_ANFORA,null,null
+MOLISE,3,,,3,MOLISANO_SECCO|MOLISANO_BELLO|MOLISANO_BASE,MOLISANO_ANFORA,null,null
+MOLISE,4,,,3,MOLISANO_BELLO|MOLISANO_GROSSO|MOLISANO_BASE,MOLISANO_ANFORA,null,null
+MOLISE,5,,,2,MOLISANO_GROSSO|MOLISANO_GIALLO,MOLISANO_ANFORA,null,null
+MOLISE,6,,,3,MOLISANO_GROSSO|MOLISANO_GIALLO|MOLISANO_BELLO,MOLISANO_ANFORA,null,null
+MOLISE,7,,,2,MOLISANO_ROSSO|MOLISANO_GIALLO,MOLISANO_ANFORA,null,null
+MOLISE,8,,,1,MOLISANO_ROSSO,MOLISANO_ANFORA,null,null
+MOLISE,9,,,2,MOLISANO_ROSSO|MOLISANO_FAGIOLO,MOLISANO_ANFORA,null,null
+MOLISE,10,,,2,MOLISANO_FAGIOLO|MOLISANO_BASE,MOLISANO_VECCHIO,null,null
+MOLISE,11,,,1,MOLISANO_FAGIOLO,MOLISANO_VECCHIO,null,null
+MOLISE,12,,,2,MOLISANO_COLONNA|MOLISANO_SECCO,MOLISANO_ANFORA,null,null
+MOLISE,13,,,2,MOLISANO_COLONNA|MOLISANO_VECCHIO,MOLISANO_VECCHIO,null,null
+MOLISE,14,,,8,MOLISANO_ANFORA|MOLISANO_BELLO|MOLISANO_GROSSO|MOLISANO_GIALLO|MOLISANO_ROSSO|MOLISANO_FAGIOLO|MOLISANO_COLONNA|MOLISANO_VECCHIO,,null,null
+MOLISE,15,1,200,1,MOLISANO_ANFORA,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+MOLISE,16,,200,1,MOLISANO_ANFORA,BOSS_XLDEATH,null,null
+MOLISE,17,,200,1,MOLISANO_ANFORA,BOSS_XLDEATH,null,null
+MOLISE,18,,200,1,MOLISANO_ANFORA,BOSS_XLDEATH,null,null
+MOLISE,19,,200,1,MOLISANO_ANFORA,BOSS_XLDEATH,null,null
+MOLISE,20,,10000,0,,BOSS_XLDEATH,null,null
+MOLISE,21,,200,1,MOLISANO_ANFORA,BOSS_XLDEATH,null,null
+MOLISE,22,,10000,0,,BOSS_XLDEATH,null,null
+SINKING,0,50,3000,1,MOON_JELLYFISH,,"{""TimeLimit"": 900, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.35, ""EnemySpeed"": 1.35, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1}",null
+SINKING,1,80,3000,1,MOON_MEDUSA1,,null,null
+SINKING,2,90,4000,1,MOON_SNEK,,null,null
+SINKING,3,120,4000,1,MOON_MEDUSA1,MOON_BOSS_CRABBINO,null,null
+SINKING,4,120,4000,2,MOON_JELLYFISH|MOON_MEDUSA1,,null,null
+SINKING,5,120,4000,1,MOON_SNEK,MOON_BOSS_CRABBINO,null,null
+SINKING,6,80,2000,1,MOON_GHOST,,null,null
+SINKING,7,80,2000,2,MOON_GHOST|MOON_SHADEBLUE,,null,null
+SINKING,8,80,1000,1,MOON_FISHMAN,MOON_BOSS_CRABBINO,null,null
+SINKING,9,200,500,1,MOON_SNEK_GREEN,,null,null
+SINKING,10,120,500,1,MOON_CRABBINO,MOON_BOSS_CRABBINO,null,null
+SINKING,11,120,2000,2,MOON_NIGHTSHADE|MOON_GARLIC,MOON_BOSS_NIGHTSHADE,null,null
+SINKING,12,200,1000,1,MOON_EYE1,MOON_EYE2|MOON_EYE2,null,null
+SINKING,13,120,500,2,MOON_EYE2|MOON_EYE1,MOON_EYE3|MOON_EYE3,null,null
+SINKING,14,200,100,1,MOON_SNEK_RED,,null,null
+SINKING,15,1,10000,0,,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+GREENACRES,0,1,1000,1,BAT3,,"{""TimeLimit"": 1800, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.25, ""EnemySpeed"": 1.25, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1, ""EnemyHealthMultiplier"": 1.5, ""LuckBonus"": 0, ""XPBonus"": 1}",null
+GREENACRES,1,1,10000,0,,,null,[]
+GREENACRES,2,1,10000,0,,,null,[]
+GREENACRES,3,,,0,,,null,null
+GREENACRES,4,,,0,,,null,null
+GREENACRES,5,,,0,,,null,null
+GREENACRES,6,,,0,,,null,null
+GREENACRES,7,,,0,,,null,null
+GREENACRES,8,,,0,,,null,null
+GREENACRES,9,,,0,,,null,null
+GREENACRES,10,,,0,,,null,null
+GREENACRES,11,,,0,,,null,null
+GREENACRES,12,,,0,,,null,null
+GREENACRES,13,,,0,,,null,null
+GREENACRES,14,,,0,,,null,null
+GREENACRES,15,,,0,,,null,null
+GREENACRES,16,,,0,,,null,null
+GREENACRES,17,,,0,,,null,null
+GREENACRES,18,,,0,,,null,null
+GREENACRES,19,,,0,,,null,null
+GREENACRES,20,,,0,,,null,null
+GREENACRES,21,,,0,,,null,null
+GREENACRES,22,,,0,,,null,null
+GREENACRES,23,,,0,,,null,null
+GREENACRES,24,,,0,,,null,null
+GREENACRES,25,,,0,,,null,null
+GREENACRES,26,,,0,,,null,null
+GREENACRES,27,,,0,,,null,null
+GREENACRES,28,,,0,,,null,null
+GREENACRES,29,,,0,,,null,null
+GREENACRES,30,1,10000,0,,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+BONEZONE,0,20,1000,1,SKULLINO,,"{""TimeLimit"": 1800, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.25, ""EnemySpeed"": 1.25, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1.5, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1, ""TimeMods"": {""start"": 0, ""hpPerMinute"": 0.15, ""speedPerMinute"": 0.025}}",null
+BONEZONE,1,20,1000,2,SKULLINO|SKELETON,,null,"[{""eventType"": ""SKULL_SWARM"", ""moreX"": 2}]"
+BONEZONE,2,40,1000,2,SKULOROSSO|SKELETON,,null,"[{""eventType"": ""SKULL_SWARM"", ""moreX"": 4}]"
+BONEZONE,3,40,1000,1,SKELETON,SKELEGLOW,null,"[{""eventType"": ""SKULL_SWARM"", ""moreX"": 8}]"
+BONEZONE,4,60,1000,2,SKELETON|SKELANGUE,,null,"[{""eventType"": ""SKULL_SWARM"", ""moreX"": 16}]"
+BONEZONE,5,40,1000,2,SKELETON|PILE4,SKELEGLOW,null,"[{""eventType"": ""SKULL_SWARM"", ""moreX"": 32}]"
+BONEZONE,6,80,1000,2,SKULLINO|SKULLNOAURA,,null,"[{""eventType"": ""SKULL_SWARM"", ""moreX"": 32}]"
+BONEZONE,7,120,1000,5,SKELETON|SKELETON2|SKELETON3|SKELETON4|PILE2,,null,"[{""eventType"": ""SKULL_SWARM"", ""moreX"": 32}]"
+BONEZONE,8,40,500,5,SKELETON|SKELETON2|SKELETON3|SKELETON4|SKELEPANTHER,SKELEGLOW,null,"[{""eventType"": ""SKULL_SWARM"", ""moreX"": 32}]"
+BONEZONE,9,200,100,1,SKELETON,,null,"[{""eventType"": ""SKULL_SWARM"", ""moreX"": 32}]"
+BONEZONE,10,80,500,5,SKELETON|SKELETON2|SKELETON3|SKELETON4|SKELENIN_ZONE,BOSS_XLSKELETON,null,"[{""eventType"": ""STALKER"", ""duration"": 60000, ""moreX"": 0.8}]"
+BONEZONE,11,100,500,2,SKELETON|SKULLINO,,null,null
+BONEZONE,12,150,500,2,SKULLNOAURA|PILE4,,null,"[{""eventType"": ""SKELESTREAM"", ""duration"": 10000, ""chance"": 100, ""moreZ"": 2}]"
+BONEZONE,13,100,500,2,SKULLNOAURA|SKELEPANTHER,SKELEGLOW,null,"[{""eventType"": ""SKELESTREAM"", ""duration"": 10000, ""chance"": 100, ""moreZ"": 4}]"
+BONEZONE,14,150,100,1,SKULLNOAURA,,null,"[{""eventType"": ""SKELESTREAM"", ""duration"": 10000, ""chance"": 100, ""moreZ"": 8}]"
+BONEZONE,15,100,100,2,SKULLNOAURA|SKULOROSSO,SKELEGLOW,null,"[{""eventType"": ""SKELESTREAM"", ""duration"": 5000, ""chance"": 100, ""moreZ"": 4}, {""eventType"": ""SKELESTREAM"", ""duration"": 5000, ""chance"": 100, ""delay"": 5100, ""moreZ"": 8}, {""eventType"": ""SKELESTREAM"", ""duration"": 5000, ""chance"": 100, ""delay"": 11000, ""moreZ"": 12}]"
+BONEZONE,16,150,1000,2,SKULLNOAURA|SKELENIN_ZONE,,null,"[{""eventType"": ""SKELESTREAM"", ""duration"": 5000, ""chance"": 100, ""moreZ"": 4}, {""eventType"": ""SKELESTREAM"", ""duration"": 5000, ""chance"": 100, ""delay"": 5100, ""moreZ"": 8}, {""eventType"": ""SKELESTREAM"", ""duration"": 5000, ""chance"": 100, ""delay"": 11000, ""moreZ"": 12}]"
+BONEZONE,17,100,1000,2,SKULLNOAURA|SKELEPANTHER,SKELEGLOW,null,"[{""eventType"": ""SKELESTREAM"", ""duration"": 5000, ""chance"": 100, ""moreZ"": 4}, {""eventType"": ""SKELESTREAM"", ""duration"": 5000, ""chance"": 100, ""delay"": 5100, ""moreZ"": 8}, {""eventType"": ""SKELESTREAM"", ""duration"": 5000, ""chance"": 100, ""delay"": 11000, ""moreZ"": 12}]"
+BONEZONE,18,150,500,2,SKULLNOAURA|SKELEWING_ZONE,,null,"[{""eventType"": ""SKELESTREAM"", ""duration"": 5000, ""chance"": 100, ""moreZ"": 4}, {""eventType"": ""SKELESTREAM"", ""duration"": 5000, ""chance"": 100, ""delay"": 5100, ""moreZ"": 8}, {""eventType"": ""SKELESTREAM"", ""duration"": 5000, ""chance"": 100, ""delay"": 11000, ""moreZ"": 12}]"
+BONEZONE,19,200,500,1,SKULLNOAURA,SKELEGLOW,null,"[{""eventType"": ""SKELESTREAM"", ""duration"": 5000, ""chance"": 100, ""moreZ"": 4}, {""eventType"": ""SKELESTREAM"", ""duration"": 5000, ""chance"": 100, ""delay"": 5100, ""moreZ"": 8}, {""eventType"": ""SKELESTREAM"", ""duration"": 5000, ""chance"": 100, ""delay"": 11000, ""moreZ"": 12}]"
+BONEZONE,20,150,100,1,SKULLNOAURA,BOSS_XLSKELETON,null,"[{""eventType"": ""DROWNER"", ""duration"": 60000}]"
+BONEZONE,21,150,100,2,SKELETON|SKELENIN_ZONE,,null,null
+BONEZONE,22,200,1000,2,SKELANGUE|SKULOROSSO,,null,"[{""eventType"": ""TWINS_PILES"", ""moreX"": 1}]"
+BONEZONE,23,150,100,2,PILE3|SKELANGUE,SKELEGLOW,null,null
+BONEZONE,24,200,100,2,SKELANGUE|SKELEWING_ZONE,,null,"[{""eventType"": ""TWINS_PILES"", ""moreX"": 2}]"
+BONEZONE,25,150,1000,2,SKELEWING_ZONE|SKELENIN_ZONE,SKELEGLOW,null,null
+BONEZONE,26,100,1000,1,XLSKELETON,,null,"[{""eventType"": ""TWINS_PILES"", ""moreX"": 3}]"
+BONEZONE,27,150,1000,2,XLSKELETON|SKULLINO,SKELEGLOW,null,null
+BONEZONE,28,200,1000,1,XLSKELETON,SKELEGLOW,null,null
+BONEZONE,29,150,50,1,SKELETONE,,null,null
+BONEZONE,30,1,10000,0,,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+RASH,0,1,1000,1,BAT3,BOSS_XLBAT|BOSS_XLMUMMY,"{""TimeLimit"": 900, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.25, ""EnemySpeed"": 1.25, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1, ""EnemyHealthMultiplier"": 1.5, ""LuckBonus"": 0, ""XPBonus"": 1}",null
+RASH,1,1,1000,1,BAT3,BOSS_WEREWOLF|BOSS_WEREWOLF2|BOSS_XLMANTIS|BOSS_XLFLOWER,null,"[{""eventType"": ""BAT_SWARM"", ""delay"": 15000, ""chance"": 70, ""repeat"": 2}]"
+RASH,2,1,1000,1,MUD,BOSS_ECTO|BOSS_MUD|BOSS_BUER,null,null
+RASH,3,1,1000,1,MEDUSA1,BOSS_XLMEDUSA|BOSS_MEDUSA1|BOSS_WITCH2|BOSS_COUNT2,null,null
+RASH,4,1,1000,1,MEDUSA1,BOSS_COUNT1|BOSS_SUCCUBUS|BOSS_XLARCHDEMON,null,"[{""eventType"": ""SKULL_SWARM"", ""moreX"": 1}, {""eventType"": ""SKULL_SWARM"", ""delay"": 5000, ""moreX"": 2}, {""eventType"": ""SKULL_SWARM"", ""delay"": 15000, ""moreX"": 4}, {""eventType"": ""SKULL_SWARM"", ""delay"": 25000, ""moreX"": 8}, {""eventType"": ""SKULL_SWARM"", ""delay"": 35000, ""moreX"": 16}]"
+RASH,5,1,1000,1,SKELETON,BOSS_SKULL2|BOSS_XLSKELETON|BOSS_XLDRAGON1|BOSS_XLDRAGON2,null,"[{""eventType"": ""GHOST_SWARM"", ""delay"": 1200, ""chance"": 70, ""repeat"": 2}]"
+RASH,6,1,1000,1,HARPY,BOSS_HARPY|BOSS_XLCOCKATRICE|BOSS_PANTHER|BOSS_XLCHIMERA,null,null
+RASH,7,1,1000,1,MILK,BOSS_MIGNO2_5_L|BOSS_MERMAN|BOSS_XLTRITON|BOSS_XLCRAB_RASH|MOON_BOSS_CRABBINO,null,"[{""eventType"": ""JELLY_SWARM"", ""duration"": 10000, ""moreX"": 50, ""chance"": 80}]"
+RASH,8,1,1000,1,ARMOR_SWORD,BOSS_ARMOR1|BOSS_XLARMOR|BOSS_XLARMOR1|BOSS_XLARMOR2|BOSS_XLARMOR_GREEN,null,"[{""eventType"": ""DRAGON_SWARM"", ""moreX"": 12, ""moreY"": ""XLDRAGON2_FLAG"", ""duration"": 20000}, {""eventType"": ""DRAGON_SWARM"", ""moreX"": 6, ""moreY"": ""XLDRAGON2_FLAG"", ""duration"": 20000, ""delay"": 2000, ""chance"": 60, ""repeat"": 10}]"
+RASH,9,1,1000,1,MOON_EYE2,MOON_BOSS_NIGHTSHADE|MOON_BOSS_GARLIC|BOSS_TRINACRIA|BOSS_EYE2,null,null
+RASH,10,1,10000,0,,BOSS_ENDER_RASH,null,null
+RASH,11,1,1000,1,BAT3,BOSS_STALKER_NORMAL|BOSS_DROWNER_RASH|BOSS_TRICKSTER_NORMAL|BOSS_MADDENER_NORMAL,null,null
+RASH,12,20,1000,2,BOSS_XLGOLEM1_29|BOSS_XLGOLEM2_29,BOSS_XLGOLEM1|BOSS_XLGOLEM2,null,null
+RASH,13,20,1000,1,BAT3,BOSS_GIANT_MIMIC1|BOSS_GIANT_MIMIC2|BOSS_GIANT_MIMIC3,null,null
+RASH,14,20,1000,1,BOSS_DRAGOGION,BOSS_DRAGOGION,null,null
+RASH,15,1,10000,0,,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+MACHINE,0,20,1000,0,,,"{""TimeLimit"": 5940, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.5, ""EnemySpeed"": 1.5, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1}",null
+STAGEX,0,50,3000,1,MOON_BAT,,"{""TimeLimit"": 120, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.25, ""EnemySpeed"": 1.25, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1}",null
+STAGEX,30,50,3000,1,MOON_BAT,,null,null
+STAGEX,30,1,10000,0,,BOSS_XLDEATH|BOSS_XLDROWNER,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+STAGEX,31,1,10000,0,,BOSS_XLDEATH,null,null
+WHITEOUT,0,15,1000,1,EX_SPIRIT1,,"{""TimeLimit"": 1200, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.35, ""EnemySpeed"": 0.9, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1.2, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1}",null
+WHITEOUT,1,30,1000,2,EX_SPIRIT1|EX_SNOWELEM,,null,null
+WHITEOUT,2,50,500,3,EX_SPIRIT1|EX_SNOWELEM|EX_SNOWELEM2,,null,"[{""eventType"": ""DIAMOND_MAZE"", ""duration"": 60000, ""moreY"": ""EX_SNOWMAN""}]"
+WHITEOUT,3,40,250,1,EX_FROST,BAT5,null,null
+WHITEOUT,4,30,500,2,GHOST|EX_FROST,,null,null
+WHITEOUT,5,10,1000,1,EX_ILLUSION2,,null,"[{""eventType"": ""DIAMOND_MAZE"", ""duration"": 60000, ""moreY"": ""EX_SNOWMAN""}]"
+WHITEOUT,6,20,500,2,EX_ILLUSION2|EX_SNOWELEM,BAT5,null,null
+WHITEOUT,7,80,500,2,EX_ILLUSION|EX_SPIRIT1,,null,null
+WHITEOUT,8,100,1500,2,EX_SNOWELEM|EX_SNOWELEM2,,null,"[{""eventType"": ""DIAMOND_MAZE"", ""duration"": 60000, ""moreY"": ""EX_SNOWMAN""}]"
+WHITEOUT,9,30,500,2,EX_GOLEM_ICE|EX_SNOWELEM2,BAT5,null,null
+WHITEOUT,10,20,1000,2,EX_ILLUSION|EX_ILLUSION2,,null,null
+WHITEOUT,11,300,500,1,EX_FROST,,null,"[{""eventType"": ""DIAMOND_MAZE"", ""duration"": 60000, ""moreY"": ""EX_SNOWMAN""}]"
+WHITEOUT,12,20,500,3,EX_GOLEM_SNOW|GHOST|EX_FROST,BAT5,null,null
+WHITEOUT,13,150,500,1,EX_GOLEM_SNOW,,null,null
+WHITEOUT,14,20,500,2,EX_GOLEM_SNOW|EX_GOLEM_ICE,,null,"[{""eventType"": ""DIAMOND_MAZE"", ""duration"": 60000, ""moreY"": ""EX_SNOWMAN""}]"
+WHITEOUT,15,60,500,1,EX_FOXFIRE,EX_BOSS_KITSUNE,null,null
+WHITEOUT,16,60,500,1,EX_FOXFIRE,EX_BOSS_KITSUNE,null,null
+WHITEOUT,17,20,500,1,EX_SNOWMAN_HAUNTED,,null,"[{""eventType"": ""DIAMOND_MAZE"", ""duration"": 60000, ""moreY"": ""EX_SNOWMAN""}]"
+WHITEOUT,18,60,500,2,EX_SNOWMAN_HAUNTED|EX_SNOWMAN_HAUNTED2,BAT5,null,null
+WHITEOUT,19,100,500,1,EX_SNOWMAN_HAUNTED3,,null,"[{""eventType"": ""DIAMOND_MAZE"", ""duration"": 60000, ""moreY"": ""EX_SNOWMAN""}]"
+WHITEOUT,20,1,10000,0,,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+EX_LYCAEUM,0,20,1000,1,EX_SEAANGEL,,"{""TimeLimit"": 1200, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1, ""EnemySpeed"": 1, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1.2, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1}","[{""eventType"": ""GENERIC_SWARM"", ""duration"": 20000, ""delay"": 23000, ""moreX"": 20, ""repeat"": 4, ""moreY"": ""EX_SEAANGEL_MEDUSA"", ""moreZ"": 0.45}]"
+EX_LYCAEUM,1,30,1000,2,EX_SEAANGEL|EX_SEAPIG,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 20000, ""delay"": 23000, ""moreX"": 20, ""repeat"": 4, ""moreY"": ""EX_CRABBINO_MEDUSA"", ""moreZ"": 0.45}]"
+EX_LYCAEUM,2,50,500,2,EX_SEAPIG|EX_SEASLUG,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 20000, ""delay"": 23000, ""moreX"": 20, ""repeat"": 4, ""moreY"": ""EX_SALMON_RED_MEDUSA"", ""moreZ"": 0.45}]"
+EX_LYCAEUM,3,40,250,2,EX_LEAFYSEAHORSE_01|EX_SEASLUG,EX_BOSS_PINKJELLYFISH,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 23000, ""moreX"": 20, ""repeat"": 4, ""moreY"": ""EX_SALMON_BLUE_MEDUSA"", ""moreZ"": 0.45}]"
+EX_LYCAEUM,4,30,500,2,EX_LEAFYSEAHORSE_01|EX_ICHTHYOCENTAUR_01,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 20000, ""delay"": 23000, ""moreX"": 20, ""repeat"": 4, ""moreY"": ""EX_SALMON_PINK_MEDUSA"", ""moreZ"": 0.45}]"
+EX_LYCAEUM,5,40,750,2,EX_ICHTHYOCENTAUR_01|EX_ICHTHYOCENTAUR_02,EX_BOSS_PINKJELLYFISH,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 20000, ""delay"": 23000, ""moreX"": 20, ""repeat"": 4, ""moreY"": ""EX_JELLY_MEDUSA"", ""moreZ"": 0.45}]"
+EX_LYCAEUM,6,40,500,2,EX_ICHTHYOCENTAUR_02|EX_SEAPIG,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 20000, ""delay"": 23000, ""moreX"": 20, ""repeat"": 4, ""moreY"": ""EX_SALMON_RED_MEDUSA"", ""moreZ"": 0.45}]"
+EX_LYCAEUM,7,80,500,2,EX_ICHTHYOCENTAUR_03|EX_SEAANGEL,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 20000, ""delay"": 23000, ""moreX"": 20, ""repeat"": 4, ""moreY"": ""EX_SEAANGEL_MEDUSA"", ""moreZ"": 0.45}]"
+EX_LYCAEUM,8,100,1500,2,EX_ICHTHYOCENTAUR_03|EX_SEASLUG,EX_BOSS_PINKJELLYFISH,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 20000, ""delay"": 23000, ""moreX"": 20, ""repeat"": 4, ""moreY"": ""EX_SEAHORSE_MEDUSA"", ""moreZ"": 0.45}]"
+EX_LYCAEUM,9,40,500,3,EX_ICHTHYOCENTAUR_05|EX_LEAFYSEAHORSE_01|EX_SEAANGEL,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 20000, ""delay"": 23000, ""moreX"": 20, ""repeat"": 4, ""moreY"": ""EX_SALMON_BLUE_MEDUSA"", ""moreZ"": 0.45}]"
+EX_LYCAEUM,10,30,500,3,EX_ICHTHYOCENTAUR_05|EX_AHUIZOTL|EX_SEAPIG,EX_BOSS_PINKJELLYFISH,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 20000, ""delay"": 23000, ""moreX"": 20, ""repeat"": 4, ""moreY"": ""EX_SALMON_PINK_MEDUSA"", ""moreZ"": 0.45}]"
+EX_LYCAEUM,11,100,500,3,EX_AHUIZOTL|EX_BUKAVAC|EX_SEASLUG,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 20000, ""delay"": 23000, ""moreX"": 20, ""repeat"": 4, ""moreY"": ""EX_SEAANGEL_MEDUSA"", ""moreZ"": 0.45}]"
+EX_LYCAEUM,12,20,1000,3,EX_TRITONT_02|EX_BUKAVAC|EX_SEASLUG,EX_BOSS_PINKJELLYFISH,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 20000, ""delay"": 23000, ""moreX"": 20, ""repeat"": 4, ""moreY"": ""EX_JELLY_MEDUSA"", ""moreZ"": 0.45}]"
+EX_LYCAEUM,13,120,200,2,EX_TRITONT_01|EX_TRITONT_02,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 20000, ""delay"": 23000, ""moreX"": 20, ""repeat"": 4, ""moreY"": ""EX_SALMON_RED_MEDUSA"", ""moreZ"": 0.45}]"
+EX_LYCAEUM,14,150,500,2,EX_ICHTHYOCENTAUR_04|EX_LEAFYSEAHORSE_02,,null,null
+EX_LYCAEUM,15,50,500,2,EX_LEAFYSEAHORSE_01|EX_LEAFYSEAHORSE_02,EX_BOSS_SEASPHYNX,null,null
+EX_LYCAEUM,16,80,500,2,EX_OLM|EX_ICHTHYOCENTAUR_04,,null,null
+EX_LYCAEUM,17,40,100,2,EX_OLM|EX_LEAFYSEAHORSE_02,EX_BOSS_SEASPHYNX,null,null
+EX_LYCAEUM,18,90,500,2,EX_OLM|EX_BOSS_PINKJELLYFISH,,null,null
+EX_LYCAEUM,19,20,500,1,EX_BOSS_ICHTHYOCENTAUR,,null,null
+EX_LYCAEUM,20,1,10000,0,,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+COOP,0,100,100,1,COOP_CHICKEN,COOP_CHICKEN_SPECIAL,"{""TimeLimit"": 1200, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.35, ""EnemySpeed"": 1, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 0.35, ""TimeMods"": {""start"": 0, ""hpPerMinute"": 0.25, ""speedPerMinute"": 0}}",null
+COOP,1,70,500,4,COOP_CHICKEN_H|COOP_COCK_H|COOP_CHIK_H|COOP_EGG_H,,null,null
+COOP,2,200,50,2,COOP_CHICKEN|COOP_CHIK_H,,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 10000, ""moreX"": 40, ""repeat"": 1, ""moreY"": ""COOP_EGG_SWARM""}]"
+COOP,3,70,400,3,COOP_CHICKEN_H|COOP_CHIK|COOP_CHICKEN,COOP_BOSS_ABRAXAS,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 10000, ""moreX"": 30, ""repeat"": 1, ""moreY"": ""COOP_EGG_SWARM""}]"
+COOP,4,200,50,3,COOP_CHIK|COOP_EGG_H|COOP_COCK,,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 5000, ""moreX"": 15, ""repeat"": 4, ""moreY"": ""COOP_CHICKEN_SWARM""}, {""eventType"": ""GENERIC_SWARM"", ""delay"": 8000, ""moreX"": 3, ""moreY"": ""COOP_ROAST_CHICKEN_SWARM""}]"
+COOP,5,60,250,3,COOP_CHIK|COOP_EGG|COOP_COCK_H,COOP_BOSS_ABRAXAS,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 5000, ""moreX"": 20, ""repeat"": 3, ""moreY"": ""COOP_CHICKEN_SWARM""}]"
+COOP,6,70,200,3,COOP_EGG_H|COOP_COCK|COOP_CHICKEN,COOP_BOSS_ABRAXAS,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 5000, ""moreX"": 30, ""repeat"": 3, ""moreY"": ""COOP_CHIK_SWARM""}]"
+COOP,7,70,100,4,COOP_ROAST_CHICKEN_H|COOP_CHICKEN|COOP_COCK|COOP_EGG_H,,null,null
+COOP,8,90,50,3,COOP_ROAST_CHICKEN|COOP_COCK|COOP_CHIK_H,COOP_BOSS_ABRAXAS,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 10000, ""moreX"": 40, ""repeat"": 3, ""moreY"": ""COOP_CHICKEN_SWARM""}]"
+COOP,9,100,50,2,COOP_CHICKEN_H|COOP_CHICKEN,,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 6000, ""moreX"": 30, ""repeat"": 3, ""moreY"": ""COOP_EGG_SWARM""}, {""eventType"": ""GENERIC_SWARM"", ""delay"": 10000, ""moreX"": 40, ""repeat"": 4, ""moreY"": ""COOP_CHIK_SWARM""}]"
+COOP,10,50,1000,3,COOP_EGG_H|COOP_CHIK_H|COOP_ABRAXAS,COOP_BOSS_ABRAXASCROWN,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 10000, ""moreX"": 40, ""repeat"": 2, ""moreY"": ""COOP_CHICKEN_SWARM""}]"
+COOP,11,80,500,3,COOP_ABRAXAS|COOP_CHICKEN_H|COOP_CHIK,,null,null
+COOP,12,100,1000,2,COOP_COCK|COOP_ROAST_CHICKEN_H,COOP_BOSS_ABRAXASCROWN,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 8000, ""moreX"": 30, ""repeat"": 3, ""moreY"": ""COOP_CHICKEN_SWARM""}]"
+COOP,13,90,800,2,COOP_ABRAXAS|COOP_CHICKEN,COOP_BOSS_ABRAXASCROWN,null,null
+COOP,14,130,500,2,COOP_ABRAXAS_H|COOP_COCK,,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 8000, ""moreX"": 30, ""repeat"": 3, ""moreY"": ""COOP_CHICKEN_SWARM""}, {""eventType"": ""GENERIC_SWARM"", ""delay"": 12000, ""moreX"": 10, ""repeat"": 2, ""moreY"": ""COOP_ROAST_CHICKEN_SWARM""}]"
+COOP,15,150,800,2,COOP_CHICKEN_H|COOP_COCK,COOP_BOSS_ABRAXASHALO,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 8000, ""moreX"": 10, ""repeat"": 3, ""moreY"": ""COOP_ROAST_CHICKEN_SWARM""}, {""eventType"": ""GENERIC_SWARM"", ""delay"": 12000, ""moreX"": 60, ""repeat"": 2, ""moreY"": ""COOP_EGG_SWARM""}]"
+COOP,16,160,1000,3,COOP_ABRAXAS|COOP_COCK_H|COOP_CHICKEN,COOP_BOSS_ABRAXASCROWN,null,null
+COOP,17,90,1000,3,COOP_ABRAXAS_H|COOP_COCK|COOP_ABRAXASCROWN_H,COOP_BOSS_ABRAXASHALO,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 8000, ""moreX"": 20, ""repeat"": 3, ""moreY"": ""COOP_ROAST_CHICKEN_SWARM""}, {""eventType"": ""GENERIC_SWARM"", ""delay"": 12000, ""moreX"": 50, ""repeat"": 4, ""moreY"": ""COOP_CHICKEN_SWARM""}]"
+COOP,18,100,600,3,COOP_ABRAXAS|COOP_ABRAXASCROWN|COOP_CHIK_H,COOP_BOSS_ABRAXASHALO,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 10000, ""moreX"": 20, ""repeat"": 3, ""moreY"": ""COOP_ROAST_CHICKEN_SWARM""}, {""eventType"": ""GENERIC_SWARM"", ""delay"": 12000, ""moreX"": 60, ""repeat"": 2, ""moreY"": ""COOP_CHICKEN_SWARM""}]"
+COOP,19,150,1000,3,COOP_ABRAXAS_H|COOP_ABRAXASCROWN_H|COOP_ABRAXASHALO_H,,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 12000, ""moreX"": 60, ""repeat"": 3, ""moreY"": ""COOP_CHICKEN_SWARM""}]"
+COOP,20,1,10000,0,,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+SPAZIE,0,50,3000,1,ECTO1,,"{""TimeLimit"": 1200, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.25, ""EnemySpeed"": 1.25, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1.3, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1}","[{""eventType"": ""INVADERS"", ""duration"": 30000, ""moreX"": 8, ""moreY"": [""EX_BATSPACE_A"", ""EX_BATSPACE_B"", ""EX_BATSPACE_C"", ""EX_BATSPACE_D""], ""moreZ"": 500}]"
+SPAZIE,1,40,3000,1,EX_DUCK_SWARM_H,,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 8000, ""moreX"": 20, ""repeat"": 3, ""moreY"": ""EX_DUCK_SWARM""}]"
+SPAZIE,2,50,4000,3,ECTO1|ECTO2|EX_PICKLE,EX_PHALIEN_XL_BOSS,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 8000, ""chance"": 80, ""moreX"": 30, ""repeat"": 3, ""moreY"": ""EX_BATSPACE_SWARM""}]"
+SPAZIE,3,60,4000,3,ECTO1|ECTO2|EX_PICKLE,,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 8000, ""chance"": 80, ""moreX"": 40, ""repeat"": 3, ""moreY"": ""EX_BATSPACE_SWARM""}]"
+SPAZIE,4,110,4000,2,EX_DUCK_SWARM_H|EX_RABBIT_SWARM_H,,null,"[{""eventType"": ""GENERIC_SWARM"", ""delay"": 4000, ""moreX"": 40, ""moreY"": ""EX_RABBIT_SWARM""}, {""eventType"": ""GENERIC_SWARM"", ""delay"": 8000, ""moreX"": 40, ""moreY"": ""EX_DUCK_SWARM""}, {""eventType"": ""GENERIC_SWARM"", ""delay"": 12000, ""moreX"": 40, ""moreY"": ""EX_RABBIT_SWARM""}, {""eventType"": ""GENERIC_SWARM"", ""delay"": 16000, ""moreX"": 40, ""moreY"": ""EX_DUCK_SWARM""}, {""eventType"": ""GENERIC_SWARM"", ""delay"": 20000, ""moreX"": 40, ""moreY"": ""EX_RABBIT_SWARM""}, {""eventType"": ""GENERIC_SWARM"", ""delay"": 24000, ""moreX"": 40, ""moreY"": ""EX_DUCK_SWARM""}]"
+SPAZIE,5,100,4000,2,EX_BROCCOLI_SCALE|EX_PICKLE,EX_PHALIEN_XL_BOSS,null,"[{""eventType"": ""MEDUSA_SWARM"", ""delay"": 8000, ""chance"": 80, ""repeat"": 1, ""moreX"": 12, ""moreY"": ""EX_CUBE_HITS_MEDUSA""}]"
+SPAZIE,6,30,2000,3,ECTO2|ECTO1|EX_ANT,,null,"[{""eventType"": ""MEDUSA_SWARM"", ""delay"": 8000, ""chance"": 80, ""repeat"": 2, ""moreX"": 12, ""moreY"": ""EX_CUBE_HITS_MEDUSA""}]"
+SPAZIE,7,80,2000,2,EX_BROCCOLI_SCALE|EX_ANT,,null,"[{""eventType"": ""MEDUSA_SWARM"", ""delay"": 8000, ""chance"": 80, ""repeat"": 3, ""moreX"": 12, ""moreY"": ""EX_CUBE_HITS_MEDUSA""}]"
+SPAZIE,8,80,1000,2,EX_ANTBRAIN|EX_ANT,EX_PHALIEN_XL_BOSS,null,"[{""eventType"": ""MONSTER_DANCE"", ""moreX"": 36, ""moreY"": ""EX_CUBE_HITS_AXE"", ""moreZ"": 0}]"
+SPAZIE,9,200,500,3,EX_ANTBRAIN|EX_ANT|EX_BROCCOLI_SCALE,,null,"[{""eventType"": ""MONSTER_DANCE"", ""moreX"": 36, ""moreY"": ""EX_CUBE_HITS_AXE"", ""moreZ"": 0}]"
+SPAZIE,10,200,500,1,EX_PHALIEN,,null,"[{""eventType"": ""INVADERS"", ""duration"": 30000, ""moreX"": 40, ""moreY"": [""EX_BATSPACE_HP""], ""moreZ"": 500}]"
+SPAZIE,11,50,3000,1,EX_PHALIEN_L,,null,"[{""eventType"": ""DIAMOND_MAZE"", ""duration"": 60000, ""moreY"": ""EX_CUBE_HITS_STATIC""}]"
+SPAZIE,12,40,2000,1,EX_PHALIEN_XL,EX_PHALIEN_XL_BOSS,null,null
+SPAZIE,13,120,1000,4,EX_ANT_SCALE|EX_ANTBRAIN_SCALE|EX_PICKLE_SCALE|EX_BROCCOLI_SCALE,,null,null
+SPAZIE,14,110,100,3,EX_ANT_SCALE|EX_ANTBRAIN_SCALE|EX_PICKLE_SCALE,EX_PHALIEN_XL_BOSS,null,null
+SPAZIE,15,300,4000,1,EX_BATSPACE_ALL4,,null,"[{""eventType"": ""INVADERS"", ""duration"": 30000, ""moreX"": 40, ""moreY"": [""EX_CUBE_HITS_PATH""], ""moreZ"": 500}]"
+SPAZIE,16,100,500,3,EX_PHALIEN|EX_PHALIEN_L|EX_PHALIEN_XL,,null,null
+SPAZIE,17,100,500,1,EX_PHALIEN_XL,EX_PHALIEN_XL_BOSS,null,null
+SPAZIE,18,100,500,1,EX_CUBE_HITS_AGGRO,,null,null
+SPAZIE,19,100,500,1,EX_CUBE_HITS_FACING,,null,null
+SPAZIE,20,300,100,1,EX_CUBE_HITS_STERILE,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+CARLOCART,0,20,1000,1,EX_RACING_FISHMAN_1,,"{""TimeLimit"": 900, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.25, ""EnemySpeed"": 1.25, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1.2, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1}",null
+CARLOCART,1,30,1000,2,EX_RACING_BAT3|EX_RACING_FISHMAN_1,EX_RACING_LIZARD2_3,null,[]
+CARLOCART,2,40,500,2,EX_RACING_FISHMAN_1|EX_RACING_LIZARD1_2,EX_RACING_RETRO,null,"[{""eventType"": ""SPAWN_TIMED_ENEMY"", ""duration"": 60000, ""moreY"": ""EX_CART_TRICKSTER""}]"
+CARLOCART,3,40,250,3,EX_RACING_LIZARD1_2|EX_RACING_IMP|EX_RACING_FISHMAN_1,EX_RACING_BOSS_MIGNO2_5,null,null
+CARLOCART,4,25,250,3,EX_RACING_LIZARD1_2|EX_RACING_FISHMAN_1|EX_RACING_IMP,,null,null
+CARLOCART,5,10,1000,2,EX_RACING_LIZARD2_3|EX_RACING_BAT3,EX_RACING_BOSS_MIGNO2_5,null,null
+CARLOCART,6,30,500,2,EX_RACING_FISHMAN_1|EX_RACING_LIZARD2_3,,null,null
+CARLOCART,7,60,500,3,EX_RACING_MERMA1_3|EX_RACING_LIZARD1_2|EX_RACING_FISHMAN_1,EX_RACING_BOSS_MERMAN,null,[]
+CARLOCART,8,50,1500,2,EX_RACING_RETRO|EX_RACING_BAT3,,null,"[{""eventType"": ""SPAWN_TIMED_ENEMY"", ""duration"": 60000, ""moreY"": ""EX_CART_STALKER""}]"
+CARLOCART,9,30,500,3,EX_RACING_XLBAT|EX_RACING_BAT3|EX_RACING_RETRO,EX_RACING_BOSS_MIGNO2_5,null,"[{""eventType"": ""SPAWN_TIMED_ENEMY"", ""duration"": 60000, ""moreY"": ""EX_CART_DROWNER""}]"
+CARLOCART,10,20,500,2,EX_RACING_BUER|EX_RACING_BAT3,EX_RACING_BOSS_MIGNO2_5,null,"[{""eventType"": ""SPAWN_TIMED_ENEMY"", ""duration"": 60000, ""moreY"": ""EX_CART_MADDENER""}]"
+CARLOCART,11,100,500,3,EX_RACING_XLBAT|EX_RACING_BAT3|EX_RACING_BUER,,null,"[{""eventType"": ""SPAWN_TIMED_ENEMY"", ""duration"": 60000, ""moreY"": ""EX_CART_BLINDER""}]"
+CARLOCART,12,20,1000,2,EX_RACING_RETRO|EX_RACING_PILE1,EX_RACING_BOSS_PILE3,null,[]
+CARLOCART,13,200,100,3,EX_RACING_MERMA2_4|EX_RACING_LIZARD2_3|EX_RACING_PILE2,,null,null
+CARLOCART,14,150,500,2,EX_RACING_IMP|EX_RACING_PILE3,EX_CART_TRICKSTER|EX_CART_STALKER|EX_CART_DROWNER|EX_CART_MADDENER,null,null
+CARLOCART,15,5,5000,0,,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+LABORRATORY,0,20,1000,2,FISHMAN_1|EX_FISHMAN_1GREEN,,"{""TimeLimit"": 1200, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.25, ""EnemySpeed"": 1.25, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1.2, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1}",null
+LABORRATORY,1,30,1000,1,FISHMAN_1,BOSS_MERMAN,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 5000, ""moreX"": 10, ""moreY"": ""EX_CONSTABLEBOT"", ""moreZ"": 0.7}, {""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 25, ""moreY"": ""MUD"", ""delay"": 15000, ""repeat"": 3}]"
+LABORRATORY,2,40,500,3,FISHMAN_1|LIZARD1_2|EX_FISHMAN_1GREEN,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 25, ""moreY"": ""MUD"", ""delay"": 15000, ""repeat"": 2}]"
+LABORRATORY,3,40,250,3,LIZARD1_2|MUD|FISHMAN_1,EX_GYORUNTIN,null,"[{""eventType"": ""JELLY_WALL"", ""duration"": 30000}]"
+LABORRATORY,4,25,250,3,LIZARD1_2|FISHMAN_1|EX_FISHMAN_1GREEN,,null,"[{""eventType"": ""PILE_ASSAULT"", ""duration"": 5000, ""moreX"": 20, ""moreY"": ""EX_TDCCC"", ""moreZ"": 0.7, ""chance"": 50}]"
+LABORRATORY,5,10,1000,2,LIZARD2_3|MUD,EX_GYORUNTIN,null,"[{""eventType"": ""PILE_ASSAULT"", ""duration"": 60000, ""moreX"": 20, ""moreY"": ""EX_CONSTABLEBOT"", ""moreZ"": 0.7}, {""eventType"": ""PILE_ASSAULT"", ""duration"": 30000, ""moreX"": 20, ""moreY"": ""EX_CONSTABLEBOT"", ""moreZ"": 0.7, ""delay"": 30000}]"
+LABORRATORY,6,30,500,2,EX_FISHMAN_1GREEN|LIZARD2_3,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 50, ""moreY"": ""MUD"", ""delay"": 30000}]"
+LABORRATORY,7,60,500,3,MERMA1_3|LIZARD1_2|FISHMAN_1,BOSS_MERMAN,null,"[{""eventType"": ""JELLY_WALL"", ""duration"": 30000, ""moreX"": 40, ""chance"": 80}, {""eventType"": ""JELLY_WALL"", ""duration"": 30000, ""delay"": 2000, ""moreX"": 40, ""chance"": 80}]"
+LABORRATORY,8,50,1500,3,EX_BOUNTYHUNTER|EX_TDCCC|MUD,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 50, ""moreY"": ""ECTO2"", ""delay"": 30000}]"
+LABORRATORY,9,30,500,2,EX_CONSTABLEBOT|MUD,BOSS_MERMAN,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 15000, ""moreX"": 50, ""moreY"": ""EX_RETROBOT_SWARM""}, {""eventType"": ""GENERIC_SWARM"", ""duration"": 15000, ""moreX"": 50, ""moreY"": ""EX_RETROBOT_SWARM"", ""delay"": 16000, ""chance"": 60}]"
+LABORRATORY,10,20,500,2,EX_CONSTABLEBOT|MUD,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 15000, ""moreX"": 25, ""delay"": 5000, ""repeat"": 6, ""chance"": 50, ""moreY"": ""EX_RETROBOT_SWARM""}, {""eventType"": ""PILE_ASSAULT"", ""duration"": 20000, ""moreX"": 10, ""moreY"": ""EX_BOUNTYHUNTER_RANGED"", ""moreZ"": 0.7, ""delay"": 10000, ""repeat"": 4, ""chance"": 50}]"
+LABORRATORY,11,100,500,2,EX_BOUNTYHUNTER|EX_TDCCC,BOSS_MIGNO2_5_L,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 10, ""moreY"": ""EX_GYORUNTIN_SWARM"", ""delay"": 10000, ""repeat"": 4}]"
+LABORRATORY,12,20,1000,2,EX_BOUNTYHUNTER|MERMA2_4,BOSS_PILE3,null,"[{""eventType"": ""PILE_ASSAULT"", ""duration"": 20000, ""moreX"": 10, ""moreY"": ""EX_BOUNTYHUNTER_RANGED"", ""moreZ"": 0.7, ""delay"": 10000, ""repeat"": 3, ""chance"": 50}, {""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 10, ""moreY"": ""EX_GYORUNTIN_SWARM"", ""delay"": 5000, ""repeat"": 10}]"
+LABORRATORY,13,200,100,3,MERMA2_4|LIZARD2_3|LIZARD1_2,,null,null
+LABORRATORY,14,150,500,2,MERMA2_4|EX_RETROBOT,,null,null
+LABORRATORY,15,50,500,2,EX_APEX|EX_RETROBOT,,null,null
+LABORRATORY,16,80,500,1,EX_RETROBOT,EX_ER2000,null,null
+LABORRATORY,17,40,100,2,EX_APEX|EX_GYORUNTIN,,null,null
+LABORRATORY,18,90,500,2,EX_APEX|EX_GYORUNTIN,EX_BOSSGYORUNTIN,null,"[{""eventType"": ""JELLY_WALL"", ""duration"": 30000, ""moreX"": 40, ""chance"": 80, ""delay"": 12000}, {""eventType"": ""JELLY_WALL"", ""duration"": 30000, ""delay"": 14000, ""moreX"": 40, ""chance"": 80}]"
+LABORRATORY,19,20,500,1,EX_BOSSGYORUNTIN_SOLID,,null,"[{""eventType"": ""JELLY_SWARM"", ""duration"": 10000, ""moreX"": 50, ""chance"": 80}, {""eventType"": ""JELLY_SWARM"", ""duration"": 10000, ""delay"": 10000, ""moreX"": 50, ""chance"": 80, ""repeat"": 2}]"
+LABORRATORY,20,1,10000,0,,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+EX_WESTWOODS,0,30,2500,2,EX_BARM|EX_SQUILLER_1,,"{""TimeLimit"": 1200, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.25, ""EnemySpeed"": 1.2, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1.2, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1}","[{""eventType"": ""GENERIC_SWARM"", ""duration"": 5000, ""moreX"": 1, ""moreY"": ""EX_SQUILLER_1"", ""delay"": 10000, ""repeat"": 7}, {""eventType"": ""GENERIC_CIRCLE"", ""duration"": 60000, ""moreX"": 30, ""moreY"": ""EX_GEMSTONE_HITS_STATIC"", ""moreZ"": 0.6, ""delay"": 3000}, {""eventType"": ""GENERIC_CIRCLE"", ""duration"": 60000, ""moreX"": 40, ""moreY"": ""EX_GEMSTONE_HITS_STATIC"", ""moreZ"": 0.7, ""delay"": 2000}, {""eventType"": ""GENERIC_CIRCLE"", ""duration"": 60000, ""moreX"": 50, ""moreY"": ""EX_GEMSTONE_HITS_STATIC"", ""moreZ"": 0.8, ""delay"": 1000}]"
+EX_WESTWOODS,1,25,800,3,EX_BARM|EX_CLUBBIE|EX_SQUILLER_2,EX_DANDYBRINE,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 5000, ""moreX"": 1, ""moreY"": ""EX_SQUILLER_1"", ""delay"": 5000, ""moreZ"": 200, ""repeat"": 10}]"
+EX_WESTWOODS,2,20,1100,3,EX_CLUBBIE|HARPY|EX_SQUILLER_2,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 1, ""moreY"": ""EX_SQUILLER_2"", ""delay"": 15000, ""repeat"": 7}]"
+EX_WESTWOODS,3,50,400,1,EX_BARM,EX_DANDYBRINE,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 15000, ""moreX"": 1, ""moreY"": ""EX_SQUILLER_1"", ""delay"": 9000, ""repeat"": 5}]"
+EX_WESTWOODS,4,25,250,2,HARPY|EX_CLUBBIE,,null,"[{""eventType"": ""PILE_ASSAULT"", ""duration"": 20000, ""moreX"": 6, ""moreY"": ""EX_GOLDPILE"", ""moreZ"": 0.7, ""delay"": 10000, ""repeat"": 0}, {""eventType"": ""DIAMOND_ROAD"", ""duration"": 60000, ""moreX"": 1, ""moreY"": ""EX_GEMSTONE_HITS_STATIC""}]"
+EX_WESTWOODS,5,30,800,2,EX_BARM|EX_GAMBLIN,EX_DANDYBRINE,null,null
+EX_WESTWOODS,6,70,1000,3,EX_CLUBBIE|EX_GAMBLIN|EX_SQUILLER_2,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 20, ""moreY"": ""EX_SQUILLER_COMBO"", ""delay"": 10000}, {""eventType"": ""GENERIC_CIRCLE"", ""duration"": 60000, ""moreX"": 30, ""moreY"": ""EX_GEMSTONE_HITS_STATIC"", ""moreZ"": 0.6, ""delay"": 3000}, {""eventType"": ""GENERIC_CIRCLE"", ""duration"": 60000, ""moreX"": 40, ""moreY"": ""EX_GEMSTONE_HITS_STATIC"", ""moreZ"": 0.7, ""delay"": 2000}, {""eventType"": ""GENERIC_CIRCLE"", ""duration"": 60000, ""moreX"": 50, ""moreY"": ""EX_GEMSTONE_HITS_STATIC"", ""moreZ"": 0.8, ""delay"": 1000}]"
+EX_WESTWOODS,7,60,500,2,DEVIL1|EX_CASINOGHOUL,EX_DAIMON,null,null
+EX_WESTWOODS,8,90,900,2,EX_GAMBLIN|HARPY,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 1, ""moreY"": ""EX_SQUILLER_1"", ""delay"": 5000, ""repeat"": 10}]"
+EX_WESTWOODS,9,40,700,2,EX_GAMBERGAR|EX_GAMBLIN,EX_DAIMON,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 15000, ""moreX"": 30, ""moreY"": ""EX_SQUILLER_COMBO"", ""repeat"": 2, ""delay"": 12000}, {""eventType"": ""DIAMOND_ROAD"", ""duration"": 60000, ""moreX"": 1, ""moreY"": ""EX_GEMSTONE_HITS_STATIC""}]"
+EX_WESTWOODS,10,40,500,3,EX_TOLL2|EX_BARM|EX_CARDSHARP,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 15000, ""moreX"": 12, ""delay"": 5000, ""repeat"": 5, ""chance"": 50, ""moreY"": ""EX_SQUILLER_1""}, {""eventType"": ""PILE_ASSAULT"", ""duration"": 20000, ""moreX"": 10, ""moreY"": ""EX_GOLDPILE"", ""moreZ"": 0.7, ""delay"": 10000, ""repeat"": 2, ""chance"": 50}]"
+EX_WESTWOODS,11,100,500,3,EX_GAMBLIN|EX_GAMBERGAR|HARPY,EX_DAIMON,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 20, ""moreY"": ""EX_SQUILLER_COMBO"", ""delay"": 10000, ""repeat"": 4}]"
+EX_WESTWOODS,12,40,800,2,EX_CASINOGHOUL|EX_TOLL2,EX_DAIMON,null,"[{""eventType"": ""PILE_ASSAULT"", ""duration"": 20000, ""moreX"": 10, ""moreY"": ""EX_GOLDPILE"", ""delay"": 10000, ""repeat"": 3, ""chance"": 50}, {""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 1, ""moreY"": ""EX_SQUILLER_2"", ""delay"": 5000, ""repeat"": 10}, {""eventType"": ""GENERIC_CIRCLE"", ""duration"": 60000, ""moreX"": 30, ""moreY"": ""EX_GEMSTONE_HITS_STATIC"", ""moreZ"": 0.6, ""delay"": 3000}, {""eventType"": ""GENERIC_CIRCLE"", ""duration"": 60000, ""moreX"": 40, ""moreY"": ""EX_GEMSTONE_HITS_STATIC"", ""moreZ"": 0.7, ""delay"": 2000}, {""eventType"": ""GENERIC_CIRCLE"", ""duration"": 60000, ""moreX"": 50, ""moreY"": ""EX_GEMSTONE_HITS_STATIC"", ""moreZ"": 0.8, ""delay"": 1000}]"
+EX_WESTWOODS,13,120,300,3,EX_GAMBLIN|EX_GAMBERGAR|EX_CARDSHARP,,null,null
+EX_WESTWOODS,14,150,500,1,EX_TOLL2,,null,null
+EX_WESTWOODS,15,80,300,3,EX_GAMBERGAR|EX_GAMBLIN|EX_CASINOGHOUL,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 20, ""moreY"": ""EX_SQUILLER_COMBO"", ""delay"": 10000}]"
+EX_WESTWOODS,16,80,600,2,EX_CASINOGHOUL|DEVIL1,EX_BOSS_SPADEKNIGHT|EX_BOSS_SPADEKNIGHT2,null,null
+EX_WESTWOODS,17,30,200,3,EX_DANDYBRINE|EX_GAMBERGAR|EX_SQUILLER_COMBO,,null,null
+EX_WESTWOODS,18,40,800,3,EX_DANDYBRINE|EX_DAIMON|EX_GAMBERGAR,EX_VALENTINE,null,null
+EX_WESTWOODS,19,90,500,3,EX_VALENTINE|DEVIL1|EX_SQUILLER_COMBO,,null,null
+EX_WESTWOODS,20,1,10000,0,,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+BATCOUNTRY,0,200,9000,1,EX_SCALING_BAT1,,"{""TimeLimit"": 1200, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.25, ""EnemySpeed"": 1.25, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1.3, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 0.25, ""TimeMods"": {""start"": 0, ""hpPerMinute"": 0.1, ""speedPerMinute"": 0.0125}}","[{""eventType"": ""MONSTER_DANCE"", ""moreX"": 24, ""moreY"": ""EX_AXE_BAT3"", ""moreZ"": 0}]"
+BATCOUNTRY,1,300,9000,2,EX_SCALING_BAT1|EX_SCALING_BAT2,BAT4,null,"[{""eventType"": ""MONSTER_DANCE"", ""moreX"": 12, ""moreY"": ""EX_DIAMOND_AXE"", ""moreZ"": 0}]"
+BATCOUNTRY,2,300,8000,3,EX_SCALING_BAT1|EX_SCALING_BAT2|EX_SCALING_BAT3,BAT4,null,"[{""eventType"": ""MONSTER_DANCE"", ""moreX"": 24, ""moreY"": ""EX_DIAMOND_AXE"", ""moreZ"": 0}]"
+BATCOUNTRY,3,300,7000,1,EX_SCALING_BAT3,BAT4,null,"[{""eventType"": ""DIAMOND_ROAD"", ""moreX"": 1}]"
+BATCOUNTRY,4,300,6000,2,EX_SCALING_BAT3|EX_SCALING_BAT3,,null,"[{""eventType"": ""MONSTER_DANCE"", ""moreX"": 12, ""moreY"": ""EX_DIAMOND_AXE"", ""moreZ"": 0}]"
+BATCOUNTRY,5,300,5000,2,EX_SCALING_BAT3|EX_SCALING_BAT3,,null,"[{""eventType"": ""DIAMOND_SQUARE"", ""moreX"": 1}]"
+BATCOUNTRY,6,300,4000,2,BAT3|BAT3,BAT4,null,"[{""eventType"": ""MONSTER_DANCE"", ""delay"": 10000, ""repeat"": 4, ""moreX"": 6, ""moreY"": ""EX_DIAMOND_AXE"", ""moreZ"": 0}]"
+BATCOUNTRY,7,300,3000,2,BAT3|BAT3,BAT4,null,"[{""eventType"": ""DIAMOND_MAZE"", ""duration"": 60000}]"
+BATCOUNTRY,8,300,2000,2,EX_SCALING_BAT3_YELLOW|EX_SCALING_BAT3,,null,null
+BATCOUNTRY,9,300,1000,1,EX_SCALING_BAT3_YELLOW,BAT4,null,null
+BATCOUNTRY,10,300,500,2,EX_SCALING_BAT3_GREEN|EX_SCALING_BAT3_YELLOW,,null,"[{""eventType"": ""MONSTER_DANCE"", ""delay"": 15000, ""repeat"": 2, ""moreX"": 12, ""moreY"": ""EX_DIAMOND_AXE"", ""moreZ"": 0}]"
+BATCOUNTRY,11,300,400,1,EX_SCALING_BAT3_GREEN,,null,"[{""eventType"": ""MONSTER_DANCE"", ""delay"": 15000, ""repeat"": 2, ""moreX"": 12, ""moreY"": ""EX_DIAMOND_AXE"", ""moreZ"": 0}]"
+BATCOUNTRY,12,300,300,2,EX_SCALING_BAT3_PURPLE|EX_SCALING_BAT3_GREEN,BAT4,null,"[{""eventType"": ""DIAMOND_ROAD"", ""moreX"": 2}]"
+BATCOUNTRY,13,300,200,1,EX_SCALING_BAT3_PURPLE,BAT4,null,"[{""eventType"": ""MONSTER_DANCE"", ""delay"": 10000, ""repeat"": 3, ""moreX"": 12, ""moreY"": ""EX_DIAMOND_AXE"", ""moreZ"": 0}]"
+BATCOUNTRY,14,300,100,2,EX_SCALING_XLBAT|EX_SCALING_BAT3_PURPLE,,null,"[{""eventType"": ""DIAMOND_SQUARE"", ""moreX"": 2}]"
+BATCOUNTRY,15,300,100,4,EX_SCALING_XLBAT|EX_SCALING_BAT1|EX_SCALING_BAT2|EX_SCALING_BAT3,BAT4,null,"[{""eventType"": ""MONSTER_DANCE"", ""delay"": 10000, ""repeat"": 2, ""moreX"": 24, ""moreY"": ""EX_DIAMOND_AXE"", ""moreZ"": 0}]"
+BATCOUNTRY,16,300,100,5,EX_SCALING_XLBAT|EX_SCALING_BAT3_PURPLE|EX_SCALING_BAT3_PURPLE|EX_SCALING_BAT3_GREEN|EX_SCALING_BAT3,BAT4,null,"[{""eventType"": ""DIAMOND_MAZE"", ""duration"": 60000}]"
+BATCOUNTRY,17,300,100,1,EX_SCALING_XLBAT,,null,null
+BATCOUNTRY,18,300,100,5,EX_SCALING_XLBAT|EX_SCALING_BAT3_PURPLE|EX_SCALING_BAT3_PURPLE|EX_SCALING_BAT3_GREEN|EX_SCALING_BAT3,BAT4,null,null
+BATCOUNTRY,19,300,100,1,EX_SCALING_XXLBAT,,null,null
+BATCOUNTRY,20,1,10000,0,,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+ASTRALSTAIR,0,30,300,1,STARDUST_ELEMENTAL,,"{""TimeLimit"": 1200, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.25, ""EnemySpeed"": 1.25, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1.3, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1, ""TimeMods"": {""start"": 0, ""hpPerMinute"": 0.1, ""speedPerMinute"": 0.001}}",null
+ASTRALSTAIR,1,40,300,1,STARDUST_ELEMENTAL,STARDUST_JOE,null,"[{""eventType"": ""SHADE_BOMB_RED"", ""delay"": 100, ""moreX"": 1}]"
+ASTRALSTAIR,2,50,300,2,STARDUST_ELEMENTAL|STARDUST_HEMO,STARDUST_JOE,null,"[{""eventType"": ""MEDUSA_WALL"", ""moreX"": 6, ""moreY"": ""STARDUST_REDUSA""}, {""eventType"": ""MEDUSA_SWARM"", ""moreX"": 12, ""moreY"": ""STARDUST_REDUSA"", ""delay"": 5000, ""chance"": 70, ""repeat"": 4}]"
+ASTRALSTAIR,3,50,300,1,STARDUST_MUD,STARDUST_XLMUMMY,null,null
+ASTRALSTAIR,4,50,300,2,STARDUST_MUMMY|STARDUST_MUD,,null,"[{""eventType"": ""SHOOTING_STAR"", ""delay"": 5000, ""moreX"": 4, ""moreY"": 411, ""moreZ"": 0.1}, {""eventType"": ""SHOOTING_STAR2"", ""delay"": 5000, ""moreX"": 4, ""moreY"": 411, ""moreZ"": 0.1}]"
+ASTRALSTAIR,5,50,300,1,STARDUST_MUMMY,BOSS_STARDUST_XLMUMMY,null,"[{""eventType"": ""MEDUSA_WALL"", ""moreX"": 12, ""moreY"": ""STARDUST_REDUSA""}, {""eventType"": ""MEDUSA_SWARM"", ""moreX"": 12, ""moreY"": ""STARDUST_REDUSA"", ""delay"": 5000, ""chance"": 70, ""repeat"": 5}]"
+ASTRALSTAIR,6,50,300,1,STARDUST_GHOST,STARDUST_JOE,null,"[{""eventType"": ""SHOOTING_STAR"", ""delay"": 5000, ""moreX"": 6, ""moreY"": 411, ""moreZ"": 0.1}, {""eventType"": ""SHOOTING_STAR2"", ""delay"": 5000, ""moreX"": 6, ""moreY"": 411, ""moreZ"": 0.1}]"
+ASTRALSTAIR,7,50,300,2,STARDUST_GHOST|STARDUST_SKULL,STARDUST_JOE,null,null
+ASTRALSTAIR,8,50,300,1,STARDUST_SKULL,,null,"[{""eventType"": ""SHOOTING_STAR"", ""delay"": 5000, ""moreX"": 8, ""moreY"": 411, ""moreZ"": 0.1}, {""eventType"": ""SHOOTING_STAR2"", ""delay"": 5000, ""moreX"": 8, ""moreY"": 411, ""moreZ"": 0.1}]"
+ASTRALSTAIR,9,50,300,2,STARDUST_SKULL|STARDUST_MUD,STARDUST_JOE,null,"[{""eventType"": ""SHADE_BOMB_RED"", ""moreX"": 1}, {""eventType"": ""SHADE_BOMB_RED"", ""delay"": 10000, ""chance"": 80, ""repeat"": 3, ""moreX"": 2}]"
+ASTRALSTAIR,10,50,300,1,STARDUST_GHOUL,,null,"[{""eventType"": ""SHOOTING_STAR2"", ""delay"": 1000, ""chance"": 90, ""repeat"": 25, ""moreX"": 4, ""moreY"": 422, ""moreZ"": 0.6}, {""eventType"": ""SHOOTING_STAR"", ""delay"": 1000, ""chance"": 90, ""repeat"": 25, ""moreX"": 4, ""moreY"": 422, ""moreZ"": 0.6}]"
+ASTRALSTAIR,11,50,300,2,STARDUST_GHOUL|STARDUST_EYES,,null,null
+ASTRALSTAIR,12,50,300,2,STARDUST_EYES|STARDUST_HEAD,STARDUST_JOE,null,"[{""eventType"": ""SHOOTING_STAR"", ""delay"": 5000, ""moreX"": 12, ""moreY"": 411, ""moreZ"": 0.1}, {""eventType"": ""SHOOTING_STAR2"", ""delay"": 5000, ""moreX"": 12, ""moreY"": 411, ""moreZ"": 0.1}]"
+ASTRALSTAIR,13,40,300,1,STARDUST_HEAD,STARDUST_JOE,null,"[{""eventType"": ""SHADE_BOMB_RED"", ""delay"": 2000, ""chance"": 50, ""repeat"": 25, ""moreX"": 2}]"
+ASTRALSTAIR,14,40,300,2,STARDUST_HEAD|STARDUST_GOLEM,,null,"[{""eventType"": ""SHOOTING_STAR"", ""delay"": 5000, ""moreX"": 14, ""moreY"": 411, ""moreZ"": 0.1}, {""eventType"": ""SHOOTING_STAR2"", ""delay"": 5000, ""moreX"": 14, ""moreY"": 411, ""moreZ"": 0.1}]"
+ASTRALSTAIR,15,40,300,1,STARDUST_GOLEM,COSMIC_EGG,null,null
+ASTRALSTAIR,16,50,300,6,STARDUST_XLMUMMY|STARDUST_MUMMY|STARDUST_GHOUL|STARDUST_SKULL|STARDUST_ELEMENTAL|STARDUST_GOLEM,STARDUST_JOE,null,"[{""eventType"": ""SHOOTING_STAR"", ""delay"": 5000, ""moreX"": 16, ""moreY"": 411, ""moreZ"": 0.1}, {""eventType"": ""SHOOTING_STAR2"", ""delay"": 5000, ""moreX"": 16, ""moreY"": 411, ""moreZ"": 0.1}]"
+ASTRALSTAIR,17,100,300,2,STARDUST_CLOAK|STARDUST_XLMUMMY,,null,"[{""eventType"": ""SHADE_BOMB_RED"", ""delay"": 2000, ""chance"": 50, ""repeat"": 25, ""moreX"": 3}]"
+ASTRALSTAIR,18,50,300,3,STARDUST_HEAD|STARDUST_EYES|STARDUST_MUD,COSMIC_EGG,null,"[{""eventType"": ""SHOOTING_STAR"", ""delay"": 5000, ""moreX"": 18, ""moreY"": 411, ""moreZ"": 0.1}, {""eventType"": ""SHOOTING_STAR2"", ""delay"": 5000, ""moreX"": 18, ""moreY"": 411, ""moreZ"": 0.1}]"
+ASTRALSTAIR,19,2,5000,1,COSMIC_EGG,,null,null
+ASTRALSTAIR,20,1,10000,0,,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+EX_MAZERELLA,0,25,300,1,EX_TORINO,,"{""TimeLimit"": 1200, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.25, ""EnemySpeed"": 1.25, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1.3, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1, ""TimeMods"": {""start"": 0, ""hpPerMinute"": 0.1, ""speedPerMinute"": 0.001}}",null
+EX_MAZERELLA,1,30,500,1,EX_TORINO,BOSS_MIGNO2_5,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 30, ""moreY"": ""MILK"", ""delay"": 15000, ""repeat"": 3}]"
+EX_MAZERELLA,2,40,400,1,MILK,BOSS_MIGNO2_5_L,null,"[{""eventType"": ""MEDUSA_WALL"", ""moreX"": 5, ""moreY"": ""MEDUSA1""}, {""eventType"": ""MEDUSA_SWARM"", ""moreX"": 10, ""moreY"": ""MEDUSA1"", ""delay"": 7500, ""chance"": 75, ""repeat"": 3}]"
+EX_MAZERELLA,3,45,500,1,EX_HARPY2,BOSS_MIGNO2_5,null,null
+EX_MAZERELLA,4,55,600,1,EX_TORINO,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 20000, ""moreX"": 20, ""moreY"": ""MILK"", ""delay"": 15000, ""repeat"": 5}]"
+EX_MAZERELLA,5,50,300,1,MILK2,BOSS_MIGNO2_5_L,null,"[{""eventType"": ""MEDUSA_WALL"", ""moreX"": 10, ""moreY"": ""MEDUSA1""}, {""eventType"": ""MEDUSA_SWARM"", ""moreX"": 20, ""moreY"": ""MEDUSA1"", ""delay"": 16000, ""chance"": 80, ""repeat"": 4}]"
+EX_MAZERELLA,6,45,500,2,EX_JOYATAURO|HARPY,BOSS_MIGNO2_5,null,null
+EX_MAZERELLA,7,40,400,2,EX_JOYATAURO|MEDUSA2,BOSS_MIGNO2_5_L,null,null
+EX_MAZERELLA,8,80,800,1,MILK2,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 20000, ""moreX"": 15, ""moreY"": ""MIGNO_3_5SWARM"", ""delay"": 15000, ""repeat"": 4}]"
+EX_MAZERELLA,9,40,400,2,MEDUSA2|EX_HARPY2,BOSS_MIGNO2_5,null,null
+EX_MAZERELLA,10,40,400,1,EX_JOYATAURO,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 20000, ""moreX"": 15, ""moreY"": ""MIGNO_3_5SWARM"", ""delay"": 15000, ""repeat"": 4}]"
+EX_MAZERELLA,11,60,400,2,EX_HARPY2|MILK2,,null,null
+EX_MAZERELLA,12,30,300,2,EX_JOYATAURO|MEDUSA2,BOSS_XLARMOR2,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 20000, ""moreX"": 6, ""moreY"": ""MIGNO_3_5SWARM"", ""delay"": 26000, ""repeat"": 6}]"
+EX_MAZERELLA,13,60,300,2,HARPYV|MILK2,BOSS_MIGNO2_5_L,null,null
+EX_MAZERELLA,14,40,300,2,EX_HARPY2|EX_JOYATAURO,,null,"[{""eventType"": ""MEDUSA_WALL"", ""moreX"": 10, ""moreY"": ""MEDUSA1""}, {""eventType"": ""MEDUSA_SWARM"", ""moreX"": 20, ""moreY"": ""MEDUSA1"", ""delay"": 16000, ""chance"": 80, ""repeat"": 4}]"
+EX_MAZERELLA,15,30,600,1,EX_MEANATAUR,BOSS_XLCHIMERA,null,null
+EX_MAZERELLA,16,50,300,3,EX_MEANATAUR|HARPYV|MEDUSA1,BOSS_XLARMOR2,null,null
+EX_MAZERELLA,17,100,300,2,MIGNO1_5|MILK2,,null,"[{""eventType"": ""GENERIC_SWARM"", ""duration"": 30000, ""moreX"": 30, ""moreY"": ""MILK"", ""delay"": 15000, ""repeat"": 3}]"
+EX_MAZERELLA,18,50,300,2,MIGNO1_5|EX_MEANATAUR,BOSS_XLCHIMERA,null,null
+EX_MAZERELLA,19,50,1000,2,XLCHIMERA|XLARMOR2,,null,null
+EX_MAZERELLA,20,1,10000,0,,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+TOWERBRIDGE,0,30,300,1,BRIDGE_TRAINEE,,"{""TimeLimit"": 1200, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.25, ""EnemySpeed"": 1.25, ""ProjectileSpeed"": 1, ""GoldMultiplier"": 1.3, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1, ""TimeMods"": {""start"": 0, ""hpPerMinute"": 0.1, ""speedPerMinute"": 0.0125}}",null
+TOWERBRIDGE,1,40,300,2,SKULLINO|BRIDGE_TRAINEE,BOSS_XLSWORDIAN,null,null
+TOWERBRIDGE,2,50,300,2,IMP|SKULLINO,BOSS_XLSWORDIAN,null,"[{""eventType"": ""SHOOTING_STAR"", ""delay"": 5000, ""moreX"": 2, ""moreY"": 1000, ""moreZ"": 0.1}]"
+TOWERBRIDGE,3,50,300,1,IMP,BOSS_XLSWORDIAN,null,null
+TOWERBRIDGE,4,50,200,2,IMP|SKULL2_EASY,,null,"[{""eventType"": ""SHOOTING_STAR"", ""delay"": 5000, ""moreX"": 4, ""moreY"": 1000, ""moreZ"": 0.1}]"
+TOWERBRIDGE,5,50,200,2,GHOST2|SKULL2_EASY,,null,"[{""eventType"": ""MONSTER_RAIN"", ""duration"": 15000, ""moreX"": 12, ""moreY"": ""XLSWORDIAN_V""}]"
+TOWERBRIDGE,6,50,200,2,GHOST2|HARPY,BOSS_XLSWORDIAN,null,"[{""eventType"": ""SHOOTING_STAR"", ""delay"": 5000, ""moreX"": 6, ""moreY"": 1000, ""moreZ"": 0.1}]"
+TOWERBRIDGE,7,50,200,2,MEDUSA2_AGGRO|HARPY,BOSS_XLSWORDIAN,null,null
+TOWERBRIDGE,8,50,200,2,MEDUSA2_AGGRO|BRIDGE_MINION,,null,"[{""eventType"": ""SHOOTING_STAR"", ""delay"": 5000, ""moreX"": 8, ""moreY"": 1000, ""moreZ"": 0.1}]"
+TOWERBRIDGE,9,50,200,1,BRIDGE_MINION,BOSS_XLSWORDIAN,null,"[{""eventType"": ""MONSTER_RAIN"", ""duration"": 15000, ""moreX"": 14, ""moreY"": ""XLSWORDIAN_V""}]"
+TOWERBRIDGE,10,50,200,2,KALI1|BRIDGE_MINION,,null,"[{""eventType"": ""SHOOTING_STAR"", ""delay"": 5000, ""moreX"": 10, ""moreY"": 500, ""moreZ"": 0.1}]"
+TOWERBRIDGE,11,50,200,1,BRIDGE_TETRA,,null,null
+TOWERBRIDGE,12,50,100,2,SKELEWING_INO|BRIDGE_TETRA,BOSS_XLSWORDIAN,null,"[{""eventType"": ""SHOOTING_STAR"", ""delay"": 5000, ""moreX"": 12, ""moreY"": 500, ""moreZ"": 0.1}]"
+TOWERBRIDGE,13,50,100,2,SKELEWING_INO|BRIDGE_TETRA,BOSS_XLSWORDIAN,null,"[{""eventType"": ""MONSTER_RAIN"", ""duration"": 15000, ""moreX"": 18, ""moreY"": ""XLSWORDIAN_V""}]"
+TOWERBRIDGE,14,50,100,2,XLBAT|BAT3,,null,"[{""eventType"": ""SHOOTING_STAR"", ""delay"": 5000, ""moreX"": 14, ""moreY"": 400, ""moreZ"": 0.1}]"
+TOWERBRIDGE,15,50,100,2,XLBAT|BRIDGE_ARMOR,BOSS_XLSWORDIAN,null,null
+TOWERBRIDGE,16,50,100,1,BRIDGE_ARMOR,BOSS_XLSWORDIAN,null,"[{""eventType"": ""SHOOTING_STAR"", ""delay"": 5000, ""moreX"": 16, ""moreY"": 300, ""moreZ"": 0.1}]"
+TOWERBRIDGE,17,100,100,2,BRIDGE_ARMOR|SKELEWING,,null,"[{""eventType"": ""MONSTER_RAIN"", ""duration"": 15000, ""moreX"": 24, ""moreY"": ""XLSWORDIAN_V""}]"
+TOWERBRIDGE,18,50,100,1,XLCOCKATRICE_GOLD,BOSS_XLSWORDIAN,null,"[{""eventType"": ""SHOOTING_STAR"", ""delay"": 5000, ""moreX"": 18, ""moreY"": 200, ""moreZ"": 0.1}]"
+TOWERBRIDGE,19,75,100,1,XLSWORDIAN_AGGRO,,null,null
+TOWERBRIDGE,20,1,10000,0,,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"
+DEVILROOM,0,20,100,1,DEVIL_HP_1,,"{""TimeLimit"": 1800, ""ClockSpeed"": 1, ""PlayerPxSpeed"": 1.9, ""EnemySpeed"": 1.9, ""ProjectileSpeed"": 1.15, ""GoldMultiplier"": 1.5, ""EnemyHealthMultiplier"": 1, ""LuckBonus"": 0, ""XPBonus"": 1}",null
+DEVILROOM,1,,,0,,,null,null
+DEVILROOM,2,,,0,,,null,null
+DEVILROOM,3,,,0,,,null,null
+DEVILROOM,4,,,0,,,null,null
+DEVILROOM,5,,,0,,,null,null
+DEVILROOM,6,,,0,,,null,null
+DEVILROOM,7,,,0,,,null,null
+DEVILROOM,8,,,0,,,null,null
+DEVILROOM,9,,,0,,,null,null
+DEVILROOM,10,,,0,,,null,null
+DEVILROOM,11,,,0,,,null,null
+DEVILROOM,12,,,0,,,null,null
+DEVILROOM,13,,,0,,,null,null
+DEVILROOM,14,,,0,,,null,null
+DEVILROOM,15,,,0,,,null,null
+DEVILROOM,16,,,0,,,null,null
+DEVILROOM,17,,,0,,,null,null
+DEVILROOM,18,,,0,,,null,null
+DEVILROOM,19,,,0,,,null,null
+DEVILROOM,20,,,0,,,null,null
+DEVILROOM,21,,,0,,,null,null
+DEVILROOM,22,,,0,,,null,null
+DEVILROOM,23,,,0,,,null,null
+DEVILROOM,24,,,0,,,null,null
+DEVILROOM,25,,,0,,,null,null
+DEVILROOM,26,,,0,,,null,null
+DEVILROOM,27,,,0,,,null,null
+DEVILROOM,28,,,0,,,null,null
+DEVILROOM,29,,,0,,,null,null
+DEVILROOM,30,1,10000,0,,BOSS_XLDEATH,null,"[{""eventType"": ""CYCLE_COMPLETE""}]"

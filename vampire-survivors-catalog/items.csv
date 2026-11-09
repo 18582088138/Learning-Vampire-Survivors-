@@ -1,0 +1,110 @@
+﻿id,name,rarity,unlocks_at,value,in_treasures,is_rare,is_relic,is_unlocked,hidden,always_hidden,content_group,frame_name,image
+GEM,Experience Gem,0,100000,50,False,,,,,,BASE,GemBlue.png,assets/items/GEM.png
+COIN,Gold Coin,50,0,1,False,,,,,,BASE,CoinGold.png,assets/items/COIN.png
+COINBAG1,Coin Bag,10,0,10,False,,,,,,BASE,MoneyBagRed.png,assets/items/COINBAG1.png
+COINBAG2,Big Coin Bag,0,100000,25,,,,,True,,BASE,MoneyBagGreen.png,assets/items/COINBAG2.png
+COINBAGMAX,Rich Coin Bag,1,5,100,,True,,,,,BASE,MoneyBagColor.png,assets/items/COINBAGMAX.png
+TREASURE,Treasure Chest,0,1000000,0,False,,,,,,BASE,BoxOpen.png,assets/items/TREASURE.png
+ROSARY,Rosary,1,8,500,,True,,,,,BASE,Rosary1.png,assets/items/ROSARY.png
+NFT,Nduja Fritta,1,0,300,,True,,,,,BASE,Nft1.png,assets/items/NFT.png
+SORBETTO,Sorbetto,1,0,300,,True,,,,,EXTRA,sorbetto1.png,assets/items/SORBETTO.png
+STATIC_GOLDPILE,Gold Pile,0,1000000,1000,False,False,,,True,,EXTRA,MoneyPile.png,assets/items/STATIC_GOLDPILE.png
+OROLOGION,Orologion,2,4,50,,True,,,,,BASE,PocketWatch1.png,assets/items/OROLOGION.png
+VACUUM,Vacuum,2,12,500,,True,,,,,BASE,Vacuum1.png,assets/items/VACUUM.png
+ROAST,Floor Chicken,12,0,30,,True,,,,,BASE,Roast.png,assets/items/ROAST.png
+LITTLEHEART,Little Heart,0,1000000,0,False,,,,True,,BASE,HeartMini.png,assets/items/LITTLEHEART.png
+GILDED,Gilded Clover,1,30,1000,False,,,,,,BASE,Gilded0.png,assets/items/GILDED.png
+CLOVER,Little Clover,0.5,0,0.1,False,,,,,,BASE,Clover2.png,assets/items/CLOVER.png
+PICKUP_REROLL_DICE,Rerollo,1,0,1,False,False,,,False,,EXTRA,Dice.png,assets/items/PICKUP_REROLL_DICE.png
+GOLDFINGER,Gold Finger,0.02,30,1000,False,,,,,,EXTRA,goldenFinger0.png,assets/items/GOLDFINGER.png
+SV_DRAFT1,SV Booster,0,0,4,False,,,,True,,EXTRA,Tarots3.png,assets/items/SV_DRAFT1.png
+SV_DRAFT2,SV Grand Booster,0,0,5,False,,,,True,,EXTRA,Tarots3.png,assets/items/SV_DRAFT2.png
+SV_DRAFT3,SV Jumbo Booster,0,0,6,False,,,,True,,EXTRA,Tarots3.png,assets/items/SV_DRAFT3.png
+BONUS_FROZENSOUL,Crystallized Soul,0,1000000,1,False,,,,True,,EXTRA,FrozenSoul.png,assets/items/BONUS_FROZENSOUL.png
+BONUS_CURSEDSOUL,Cursed Soul,0,1000000,1,False,,,,True,,EXTRA,CursedSoul.png,assets/items/BONUS_CURSEDSOUL.png
+BONUS_SCORCHEDSOUL,Scorched Soul,0,1000000,1,False,,,,True,,EXTRA,ScorchedSoul.png,assets/items/BONUS_SCORCHEDSOUL.png
+CART_ACCEL,Acceleration,0,1000000,0,False,,,,True,,,_Accel1.png,assets/items/CART_ACCEL.png
+CART_GOAL,Goal,0,1000000,0,False,,,,True,,,chequered0.png,assets/items/CART_GOAL.png
+WEAPON,Weapon,0,1000000,1000,False,,,,True,,,,
+STATS_TREASURE_1,,0,1000000,0,False,,,,True,,,BoxOpen.png,assets/items/STATS_TREASURE_1.png
+STATS_TREASURE_2,,0,1000000,0,False,,,,True,,,BoxOpenItems3.png,assets/items/STATS_TREASURE_2.png
+STATS_TREASURE_3,,0,1000000,0,False,,,,True,,,BoxOpenItems5.png,assets/items/STATS_TREASURE_3.png
+STATS_TREASURE_4,,0,1000000,0,False,,,,True,,,BoxOpen4.png,assets/items/STATS_TREASURE_4.png
+STATS_TREASURE_5,,0,1000000,0,False,,,,True,,,BoxArcana.png,assets/items/STATS_TREASURE_5.png
+STATS_TREASURE_EVOS,,0,1000000,0,False,,,,True,,,BoxOpen2.png,assets/items/STATS_TREASURE_EVOS.png
+STATS_TREASURE_WEAPONS,,0,1000000,0,False,,,,True,,,BoxOpen3.png,assets/items/STATS_TREASURE_WEAPONS.png
+ALWAYS_COINBAG2,[Always] Big Coin Bag,0,100000,25,,,,,True,,,MoneyBagGreen.png,assets/items/ALWAYS_COINBAG2.png
+ALWAYS_ROAST,[Always] Floor Chicken,0,100000,30,,,,,True,,,Roast.png,assets/items/ALWAYS_ROAST.png
+FRIENDSHIP,[Everyone] Friendship Amulet,0,100000,30,,,,,,,BASE,Friendship.png,assets/items/FRIENDSHIP.png
+TEXT_PICKUP,Text Pickup,0,1000000,0,False,,,,True,,BASE,10.png,assets/items/TEXT_PICKUP.png
+DUMMY_LIGHTSOURCE,,0,1000000,0,False,,,,True,,,Brazier1.png,assets/items/DUMMY_LIGHTSOURCE.png
+DUMMY_GOLDENEGG_MAX,MAX EGGS,0,1000000,0,False,,,,True,,,goldenegg.png,assets/items/DUMMY_GOLDENEGG_MAX.png
+DUMMY_REVIVAL,Revival,0,1000000,10000,False,,,,True,,,TiramisuBite.png,assets/items/DUMMY_REVIVAL.png
+DUMMY_BANISH,Banish,0,1000000,500,False,,,,True,,,Banish.png,assets/items/DUMMY_BANISH.png
+DUMMY_SKIP,Skip,0,1000000,100,False,,,,True,,,Skip.png,assets/items/DUMMY_SKIP.png
+DUMMY_REROLL,Reroll,0,1000000,1000,False,,,,True,,,Dice.png,assets/items/DUMMY_REROLL.png
+DUMMY_ARC,Pick a Card,0,1000000,20000,False,,,,True,,,Tarots.png,assets/items/DUMMY_ARC.png
+RELIC,,0,1000000,0,False,,True,,True,,,,
+RELIC_GRIMOIRE,Grim Grimoire,0,1000000,0,False,,True,,False,,BASE,grimoire.png,assets/items/RELIC_GRIMOIRE.png
+RELIC_GOUDA,Ars Gouda,0,1000000,0,False,,True,,False,,BASE,bestiary.png,assets/items/RELIC_GOUDA.png
+RELIC_MAP,Milky Way Map,0,1000000,0,False,,True,,False,,BASE,Map.png,assets/items/RELIC_MAP.png
+RELIC_BANGER,Magic Banger,0,1000000,0,False,,True,,False,,BASE,banger.png,assets/items/RELIC_BANGER.png
+RELIC_TEAR,Sorceress' Tears,0,1000000,0,False,,True,,False,,BASE,Tear.png,assets/items/RELIC_TEAR.png
+RELIC_GLASSMASK,Glass Vizard,0,1000000,10000,False,,True,,False,,BASE,glassmask.png,assets/items/RELIC_GLASSMASK.png
+RELIC_GOLDENEGG,Golden Egg,0,1000000,10000,False,,True,,False,,BASE,goldenegg.png,assets/items/RELIC_GOLDENEGG.png
+RELIC_NOSEGLASSES,Mindbender,0,1000000,10000,False,,True,,False,,BASE,mindbender.png,assets/items/RELIC_NOSEGLASSES.png
+RELIC_YELLOW,Yellow Sign,0,1000000,0,False,,True,,False,,BASE,yellowsign.png,assets/items/RELIC_YELLOW.png
+RELIC_SECRETS,Forbidden Scrolls of Morbane,0,1000000,10000,False,,True,,False,,BASE,scrolls.png,assets/items/RELIC_SECRETS.png
+RELIC_GGOSPEL,Great Gospel,0,1000000,0,False,,True,,False,,BASE,ggospel.png,assets/items/RELIC_GGOSPEL.png
+RELIC_MIRROR,Gracia's Mirror,0,1000000,0,False,,True,,False,,BASE,mirror.png,assets/items/RELIC_MIRROR.png
+RELIC_TRUMPET,Seventh Trumpet,0,1000000,0,False,,True,,False,,BASE,trumpet.png,assets/items/RELIC_TRUMPET.png
+RELIC_ATLAS,Atlas Gate,0,1000000,0,False,,True,,False,,EXTRA,atlas.png,assets/items/RELIC_ATLAS.png
+RELIC_MALACHITE,Chaos Malachite,0,1000000,0,False,,True,,False,,EXTRA,cMalachite.png,assets/items/RELIC_MALACHITE.png
+RELIC_ROSALIA,Chaos Rosalia,0,1000000,0,False,,True,,False,,EXTRA,cRosalia.png,assets/items/RELIC_ROSALIA.png
+RELIC_LAZULIA,Chaos Lazulia,0,1000000,0,False,,True,,False,,EXTRA,cLazulia.png,assets/items/RELIC_LAZULIA.png
+RELIC_ALTEMANNA,Chaos Altemanna,0,1000000,0,False,,True,,False,,EXTRA,cAltemanna.png,assets/items/RELIC_ALTEMANNA.png
+RELIC_TRISECTION,Trisection,0,1000000,0,False,,True,,False,,EXTRA,trisection.png,assets/items/RELIC_TRISECTION.png
+RELIC_BRAVESTORY,Brave Story,0,1000000,0,False,,True,,False,,EXTRA,bravestory.png,assets/items/RELIC_BRAVESTORY.png
+RELIC_PARTY,Masquerade,0,1000000,0,False,,True,,False,,EXTRA,icon_masquerade.png,assets/items/RELIC_PARTY.png
+RELIC_CHARM,Apoplexy,0,1000000,0,False,,True,,False,,EXTRA,Apoplexy.png,assets/items/RELIC_CHARM.png
+RELIC_ANTIDOTE,Antidote,0,1000000,0,False,,True,,False,,EXTRA,Antidote.png,assets/items/RELIC_ANTIDOTE.png
+RELIC_RECYCLE,Wax Fetish,0,1000000,0,False,,True,,False,,EXTRA,waxFetish.png,assets/items/RELIC_RECYCLE.png
+RELIC_SPEEDUP,Roast chicken with a clock in the middle,0,1000000,0,False,,True,,False,,EXTRA,speedup.png,assets/items/RELIC_SPEEDUP.png
+RELIC_GREENEYES,Green Eyes Vizard,0,1000000,60000,False,,True,,False,,EXTRA,icon_vizzardgreen.png,assets/items/RELIC_GREENEYES.png
+RELIC_MAP_AS,Astral Stair Map,0,1000000,0,False,,True,,False,,EXTRA,Map_AS.png,assets/items/RELIC_MAP_AS.png
+RELIC_MAP_MS,Mt.Moonspell Map,0,1000000,0,False,,True,,False,,MOONSPELL,Map_MS.png,assets/items/RELIC_MAP_MS.png
+RELIC_MAP_BMN,Bloodmoon Map,0,1000000,0,False,,True,,False,,BLOODMOON,-08-Map_BMN.png,assets/items/RELIC_MAP_BMN.png
+RELIC_MAP_FS,Lake Foscari Map,0,1000000,0,False,,True,,False,,FOSCARI,Map_FS.png,assets/items/RELIC_MAP_FS.png
+RELIC_MAP_CHAL,Polus Replica Map,0,1000000,0,False,,True,,False,,CHALCEDONY,Map_Chal.png,assets/items/RELIC_MAP_CHAL.png
+RELIC_MAP_FB,Galuga Jungle Map,0,1000000,0,False,,True,,False,,FIRST_BLOOD,Map_FB.png,assets/items/RELIC_MAP_FB.png
+RELIC_RANDOMAZZO,Randomazzo,0,1000000,0,False,,True,,False,,BASE,Tarots.png,assets/items/RELIC_RANDOMAZZO.png
+RELIC_DARKASSO,Darkasso,0,1000000,0,False,,True,,True,,EXTRA,Tarots2.png,assets/items/RELIC_DARKASSO.png
+RELIC_SURVAROCCHI,Survarocchi,0,1000000,120000,False,,True,,False,,EXTRA,Tarots3.png,assets/items/RELIC_SURVAROCCHI.png
+RELIC_SV_ANTIPASTIVES,Enemahs,0,1000000,180000,False,,True,,True,,EXTRA,Tarots4.png,assets/items/RELIC_SV_ANTIPASTIVES.png
+EX_ZI_APPUNTA_PICKUP,,0,1000000,0,False,,,,True,,EXTRA,ziappunta_destructible_1.png,
+COFFIN,,0,1000000,0,False,,,,True,,,QuestionMark.png,assets/items/COFFIN.png
+MERCHANT,,0,1000000,0,False,,,,True,,,merchant.png,assets/items/MERCHANT.png
+EGGMAN,,0,1000000,0,False,,,,True,,,merchant2.png,assets/items/EGGMAN.png
+HEALER,,0,1000000,0,False,,,,True,,,Healer.png,assets/items/HEALER.png
+DIRECTER,,0,1000000,0,False,,,,True,,,Healer.png,assets/items/DIRECTER.png
+PURIFY,Flames of Moonspell,0,1000000,0,False,,,,True,,,flame2.png,assets/items/PURIFY.png
+PURIFY2,Lantern of Foscari,0,1000000,0,False,,,,True,,,f_lantern.png,assets/items/PURIFY2.png
+COSMO_PAVONE,Cosmo Pavone,0,1000000,0,False,,,,True,,,flame2.png,assets/items/COSMO_PAVONE.png
+TELEPORTER,,0,1000000,0,False,,,,True,,,Healer.png,assets/items/TELEPORTER.png
+TP_CYCLEGATE,,0,1000000,0,False,,,,True,,,NoDraw.png,assets/items/TP_CYCLEGATE.png
+TP_RELIC_MASK_SUN,Aspect of Sun,0,1000000,0,False,,True,,True,,,TP_RELIC_MASK_SUN.png,assets/items/TP_RELIC_MASK_SUN.png
+TP_RELIC_MASK_MOON,Aspect of Moon,0,1000000,0,False,,True,,True,,,TP_RELIC_MASK_MOON.png,assets/items/TP_RELIC_MASK_MOON.png
+TP_RELIC_MASK_CITY,Aspect of City,0,1000000,0,False,,True,,True,,,TP_RELIC_MASK_CITY.png,assets/items/TP_RELIC_MASK_CITY.png
+TP_RELIC_MASK_VOLCANO,Aspect of Volcano,0,1000000,0,False,,True,,True,,,TP_RELIC_MASK_VOLCANO.png,assets/items/TP_RELIC_MASK_VOLCANO.png
+TP_RELIC_MASK_SEAWINDS,Aspect of Seawinds,0,1000000,0,False,,True,,True,,,TP_RELIC_MASK_SEAWINDS.png,assets/items/TP_RELIC_MASK_SEAWINDS.png
+TP_RELIC_MASK_STONE,Aspect of Stone,0,1000000,0,False,,True,,True,,,TP_RELIC_MASK_STONE.png,assets/items/TP_RELIC_MASK_STONE.png
+TP_RELIC_MASK_BLACK,Aspect of Black,0,1000000,0,False,,True,,True,,,TP_RELIC_MASK_BLACK.png,assets/items/TP_RELIC_MASK_BLACK.png
+RELIC_MASK_FATE,Aspect of Fate,0,1000000,0,False,,True,,True,,,TP_RELIC_MASK_BLACK.png,assets/items/RELIC_MASK_FATE.png
+RELIC_MASK_WRATH,Aspect of Wrath,0,1000000,0,False,,True,,True,,,TP_RELIC_MASK_BLACK.png,assets/items/RELIC_MASK_WRATH.png
+RELIC_MASK_SOVEREIGN,Aspect of Sovereign,0,1000000,0,False,,True,,True,,,TP_RELIC_MASK_BLACK.png,assets/items/RELIC_MASK_SOVEREIGN.png
+RELIC_MASK_IMPLACABILITY,Aspect of Implacability,0,1000000,0,False,,True,,True,,,TP_RELIC_MASK_BLACK.png,assets/items/RELIC_MASK_IMPLACABILITY.png
+RELIC_MASK_MIRTH,Aspect of Mirth,0,1000000,0,False,,True,,True,,,TP_RELIC_MASK_BLACK.png,assets/items/RELIC_MASK_MIRTH.png
+TAG_FIRE,,0,1000000,0,False,,,,True,,,tag_FIRE.png,assets/items/TAG_FIRE.png
+TAG_COLD,,0,1000000,0,False,,,,True,,,tag_COLD.png,assets/items/TAG_COLD.png
+TAG_CRIT,,0,1000000,0,False,,,,True,,,tag_CRIT.png,assets/items/TAG_CRIT.png
+BMN_BLOODGEM,Blood Gem,0,1000000,1,False,,,,True,,EXTRA,Blood3.png,assets/items/BMN_BLOODGEM.png

@@ -8,11 +8,16 @@
     "alwaysHidden": 39,
     "enemies": 579,
     "bossIds": 70,
-    "bestiaryIncluded": 180
+    "bestiaryIncluded": 180,
+    "stages": 24,
+    "stageTiling": 17,
+    "stageDetailedMaps": 2,
+    "stageScheduleEntries": 535
   },
   "imageCoverage": {
     "weapons": 153,
     "enemies": 579,
+    "stages": 24,
     "missing": 0
   },
   "weaponImages": {
@@ -2946,5 +2951,750 @@
       "width": 1,
       "height": 1
     }
+  },
+  "stageImages": {
+    "FOREST": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "LIBRARY": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "WAREHOUSE": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "TOWER": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "CHAPEL": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "MOLISE": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "SINKING": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "GREENACRES": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "BONEZONE": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "RASH": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "MACHINE": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "STAGEX": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "WHITEOUT": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "EX_LYCAEUM": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "COOP": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "SPAZIE": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "CARLOCART": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "LABORRATORY": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "EX_WESTWOODS": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": {
+        "width": 512,
+        "height": 512
+      }
+    },
+    "BATCOUNTRY": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "ASTRALSTAIR": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": {
+        "width": 512,
+        "height": 512
+      }
+    },
+    "EX_MAZERELLA": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "TOWERBRIDGE": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    },
+    "DEVILROOM": {
+      "icon": {
+        "width": 156,
+        "height": 96
+      },
+      "preview": {
+        "width": 300,
+        "height": 180
+      },
+      "details": null
+    }
+  },
+  "characterImages": {
+    "ANTONIO": {
+      "world": "assets/characters/world/ANTONIO.png",
+      "portrait": null,
+      "sourceBundle": "vs_local_assets_character_antonio.bundle"
+    },
+    "IMELDA": {
+      "world": "assets/characters/world/IMELDA.png",
+      "portrait": null,
+      "sourceBundle": "vs_local_assets_character_imelda.bundle"
+    },
+    "PASQUALINA": {
+      "world": "assets/characters/world/PASQUALINA.png",
+      "portrait": null,
+      "sourceBundle": "vs_local_assets_character_pasqualina.bundle"
+    },
+    "GENNARO": {
+      "world": "assets/characters/world/GENNARO.png",
+      "portrait": null,
+      "sourceBundle": "vs_local_assets_character_gennaro.bundle"
+    },
+    "CIRO": {
+      "world": "assets/characters/world/CIRO.png",
+      "portrait": "assets/characters/portraits/CIRO.png",
+      "sourceBundle": "vs_local_assets_character_arca.bundle"
+    },
+    "PORTA": {
+      "world": "assets/characters/world/PORTA.png",
+      "portrait": "assets/characters/portraits/PORTA.png",
+      "sourceBundle": "vs_local_assets_character_porta.bundle"
+    },
+    "LAMA": {
+      "world": "assets/characters/world/LAMA.png",
+      "portrait": "assets/characters/portraits/LAMA.png",
+      "sourceBundle": "vs_local_assets_character_lama.bundle"
+    },
+    "CAMILLO": {
+      "world": "assets/characters/world/CAMILLO.png",
+      "portrait": "assets/characters/portraits/CAMILLO.png",
+      "sourceBundle": "vs_local_assets_character_poe.bundle"
+    },
+    "GERMANA": {
+      "world": "assets/characters/world/GERMANA.png",
+      "portrait": "assets/characters/portraits/GERMANA.png",
+      "sourceBundle": "vs_local_assets_character_suora.bundle"
+    },
+    "DOMMARIO": {
+      "world": "assets/characters/world/DOMMARIO.png",
+      "portrait": "assets/characters/portraits/DOMMARIO.png",
+      "sourceBundle": "vs_local_assets_character_dommario.bundle"
+    },
+    "CROCI": {
+      "world": "assets/characters/world/CROCI.png",
+      "portrait": "assets/characters/portraits/CROCI.png",
+      "sourceBundle": "vs_local_assets_character_krochi.bundle"
+    },
+    "CRISTINA": {
+      "world": "assets/characters/world/CRISTINA.png",
+      "portrait": "assets/characters/portraits/CRISTINA.png",
+      "sourceBundle": "vs_local_assets_character_christine.bundle"
+    },
+    "PUGNALA": {
+      "world": "assets/characters/world/PUGNALA.png",
+      "portrait": "assets/characters/portraits/PUGNALA.png",
+      "sourceBundle": "vs_local_assets_character_pugnala.bundle"
+    },
+    "GIOVANNA": {
+      "world": "assets/characters/world/GIOVANNA.png",
+      "portrait": "assets/characters/portraits/GIOVANNA.png",
+      "sourceBundle": "vs_local_assets_character_giovanna.bundle"
+    },
+    "POPPEA": {
+      "world": "assets/characters/world/POPPEA.png",
+      "portrait": "assets/characters/portraits/POPPEA.png",
+      "sourceBundle": "vs_local_assets_character_poppea.bundle"
+    },
+    "CONCETTA": {
+      "world": "assets/characters/world/CONCETTA.png",
+      "portrait": "assets/characters/portraits/CONCETTA.png",
+      "sourceBundle": "vs_local_assets_character_concetta.bundle"
+    },
+    "MORTACCIO": {
+      "world": "assets/characters/world/MORTACCIO.png",
+      "portrait": "assets/characters/portraits/MORTACCIO.png",
+      "sourceBundle": "vs_local_assets_character_mortaccio.bundle"
+    },
+    "CAVALLO": {
+      "world": "assets/characters/world/CAVALLO.png",
+      "portrait": "assets/characters/portraits/CAVALLO.png",
+      "sourceBundle": "vs_local_assets_character_cavallo.bundle"
+    },
+    "MARIA": {
+      "world": "assets/characters/world/MARIA.png",
+      "portrait": "assets/characters/portraits/MARIA.png",
+      "sourceBundle": "vs_local_assets_character_ramba.bundle"
+    },
+    "TATANKA": {
+      "world": "assets/characters/world/TATANKA.png",
+      "portrait": "assets/characters/portraits/TATANKA.png",
+      "sourceBundle": "vs_local_assets_character_osole.bundle"
+    },
+    "AMBROGIO": {
+      "world": "assets/characters/world/AMBROGIO.png",
+      "portrait": "assets/characters/portraits/AMBROGIO.png",
+      "sourceBundle": "vs_local_assets_character_ambrojoe.bundle"
+    },
+    "PINO": {
+      "world": "assets/characters/world/PINO.png",
+      "portrait": "assets/characters/portraits/PINO.png",
+      "sourceBundle": "vs_local_assets_character_gallo.bundle"
+    },
+    "FEBBRA": {
+      "world": "assets/characters/world/FEBBRA.png",
+      "portrait": "assets/characters/portraits/FEBBRA.png",
+      "sourceBundle": "vs_local_assets_character_divano.bundle"
+    },
+    "ASSUNTA": {
+      "world": "assets/characters/world/ASSUNTA.png",
+      "portrait": "assets/characters/portraits/ASSUNTA.png",
+      "sourceBundle": "vs_local_assets_character_assunta.bundle"
+    },
+    "EXDASH": {
+      "world": "assets/characters/world/EXDASH.png",
+      "portrait": "assets/characters/portraits/EXDASH.png",
+      "sourceBundle": "vs_local_assets_character_exdash.bundle"
+    },
+    "PANINI": {
+      "world": "assets/characters/world/PANINI.png",
+      "portrait": "assets/characters/portraits/PANINI.png",
+      "sourceBundle": "vs_local_assets_character_panini.bundle"
+    },
+    "SMITH": {
+      "world": "assets/characters/world/SMITH.png",
+      "portrait": "assets/characters/portraits/SMITH.png",
+      "sourceBundle": "vs_local_assets_character_smith.bundle"
+    },
+    "ARENGIJUS": {
+      "world": "assets/characters/world/ARENGIJUS.png",
+      "portrait": null,
+      "sourceBundle": "vs_local_assets_character_random.bundle"
+    },
+    "NEO": {
+      "world": "assets/characters/world/NEO.png",
+      "portrait": "assets/characters/portraits/NEO.png",
+      "sourceBundle": "vs_local_assets_character_marrabbio.bundle"
+    },
+    "AVATAR": {
+      "world": "assets/characters/world/AVATAR.png",
+      "portrait": "assets/characters/portraits/AVATAR.png",
+      "sourceBundle": "vs_local_assets_character_avatar.bundle"
+    },
+    "GRAZIELLA": {
+      "world": "assets/characters/world/GRAZIELLA.png",
+      "portrait": "assets/characters/portraits/GRAZIELLA.png",
+      "sourceBundle": "vs_local_assets_character_minnah.bundle"
+    },
+    "VERANDA": {
+      "world": "assets/characters/world/VERANDA.png",
+      "portrait": "assets/characters/portraits/VERANDA.png",
+      "sourceBundle": "vs_local_assets_character_leda.bundle"
+    },
+    "PAVONE": {
+      "world": "assets/characters/world/PAVONE.png",
+      "portrait": "assets/characters/portraits/PAVONE.png",
+      "sourceBundle": "vs_local_assets_character_cosmo.bundle"
+    },
+    "PEPPINO": {
+      "world": "assets/characters/world/PEPPINO.png",
+      "portrait": "assets/characters/portraits/PEPPINO.png",
+      "sourceBundle": "vs_local_assets_character_peppino.bundle"
+    },
+    "PANTALONE": {
+      "world": "assets/characters/world/PANTALONE.png",
+      "portrait": "assets/characters/portraits/PANTALONE.png",
+      "sourceBundle": "vs_local_assets_character_trouser.bundle"
+    },
+    "FINO": {
+      "world": "assets/characters/world/FINO.png",
+      "portrait": "assets/characters/portraits/FINO.png",
+      "sourceBundle": "vs_local_assets_character_missing.bundle"
+    },
+    "BOROS": {
+      "world": "assets/characters/world/BOROS.png",
+      "portrait": "assets/characters/portraits/BOROS.png",
+      "sourceBundle": "vs_local_assets_character_boros.bundle"
+    },
+    "DRAGOGION": {
+      "world": "assets/characters/world/DRAGOGION.png",
+      "portrait": "assets/characters/portraits/DRAGOGION.png",
+      "sourceBundle": "vs_local_assets_character_dragogion.bundle"
+    },
+    "NOSTRO": {
+      "world": "assets/characters/world/NOSTRO.png",
+      "portrait": "assets/characters/portraits/NOSTRO.png",
+      "sourceBundle": "vs_local_assets_character_reddeath.bundle"
+    },
+    "SIGMA": {
+      "world": "assets/characters/world/SIGMA.png",
+      "portrait": "assets/characters/portraits/SIGMA.png",
+      "sourceBundle": "vs_local_assets_character_sigma.bundle"
+    },
+    "TUPU": {
+      "world": "assets/characters/world/TUPU.png",
+      "portrait": "assets/characters/portraits/TUPU.png",
+      "sourceBundle": "vs_local_assets_character_robbert.bundle"
+    },
+    "EX_ZIAPPUNTA": {
+      "world": "assets/characters/world/EX_ZIAPPUNTA.png",
+      "portrait": "assets/characters/portraits/EX_ZIAPPUNTA.png",
+      "sourceBundle": "vs_local_assets_character_ziappunta.bundle"
+    },
+    "EX_BIGTROUBLER": {
+      "world": "assets/characters/world/EX_BIGTROUBLER.png",
+      "portrait": "assets/characters/portraits/EX_BIGTROUBLER.png",
+      "sourceBundle": "vs_local_assets_character_bigtroubler.bundle"
+    },
+    "SHEMOONITA": {
+      "world": "assets/characters/world/SHEMOONITA.png",
+      "portrait": "assets/characters/portraits/SHEMOONITA.png",
+      "sourceBundle": "vs_local_assets_character_shemoon.bundle"
+    },
+    "EX_PARACOOLIO": {
+      "world": "assets/characters/world/EX_PARACOOLIO.png",
+      "portrait": "assets/characters/portraits/EX_PARACOOLIO.png",
+      "sourceBundle": "vs_local_assets_character_paracoolio.bundle"
+    },
+    "SANTA": {
+      "world": "assets/characters/world/SANTA.png",
+      "portrait": "assets/characters/portraits/SANTA.png",
+      "sourceBundle": "vs_local_assets_character_santa.bundle"
+    },
+    "YOLO": {
+      "world": "assets/characters/world/YOLO.png",
+      "portrait": "assets/characters/portraits/YOLO.png",
+      "sourceBundle": "vs_local_assets_character_gazebo.bundle"
+    },
+    "EX_CHULAREH": {
+      "world": "assets/characters/world/EX_CHULAREH.png",
+      "portrait": "assets/characters/portraits/EX_CHULAREH.png",
+      "sourceBundle": "vs_local_assets_character_chulareh.bundle"
+    },
+    "SPACEDUDE": {
+      "world": "assets/characters/world/SPACEDUDE.png",
+      "portrait": "assets/characters/portraits/SPACEDUDE.png",
+      "sourceBundle": "vs_local_assets_character_spacedude.bundle"
+    },
+    "BATSBATSBATS": {
+      "world": "assets/characters/world/BATSBATSBATS.png",
+      "portrait": "assets/characters/portraits/BATSBATSBATS.png",
+      "sourceBundle": "vs_local_assets_character_batsbatsbats.bundle"
+    },
+    "FOLLOWER_BATSBATSBATS": {
+      "world": "assets/characters/world/FOLLOWER_BATSBATSBATS.png",
+      "portrait": "assets/characters/portraits/FOLLOWER_BATSBATSBATS.png",
+      "sourceBundle": "vs_local_assets_character_batsbatsbats.bundle"
+    },
+    "FOLLOWER_MOONRABBIT": {
+      "world": "assets/characters/world/FOLLOWER_MOONRABBIT.png",
+      "portrait": "assets/characters/portraits/FOLLOWER_MOONRABBIT.png",
+      "sourceBundle": "vs_local_assets_character_spacedette.bundle"
+    },
+    "FOLLOWER_MOONDUCK": {
+      "world": "assets/characters/world/FOLLOWER_MOONDUCK.png",
+      "portrait": "assets/characters/portraits/FOLLOWER_MOONDUCK.png",
+      "sourceBundle": "vs_local_assets_character_spacedette.bundle"
+    },
+    "ROSE": {
+      "world": "assets/characters/world/ROSE.png",
+      "portrait": "assets/characters/portraits/ROSE.png",
+      "sourceBundle": "vs_local_assets_character_rose.bundle"
+    },
+    "TORINO": {
+      "world": "assets/characters/world/TORINO.png",
+      "portrait": "assets/characters/portraits/TORINO.png",
+      "sourceBundle": "vs_local_assets_character_torino.bundle"
+    },
+    "SCOREJ": {
+      "world": "assets/characters/world/SCOREJ.png",
+      "portrait": "assets/characters/portraits/SCOREJ.png",
+      "sourceBundle": "vs_local_assets_character_scorej.bundle"
+    },
+    "GYORUNTIN": {
+      "world": "assets/characters/world/GYORUNTIN.png",
+      "portrait": "assets/characters/portraits/GYORUNTIN.png",
+      "sourceBundle": "vs_local_assets_character_gyoruntin.bundle"
+    },
+    "EX_GIOCARE": {
+      "world": "assets/characters/world/EX_GIOCARE.png",
+      "portrait": "assets/characters/portraits/EX_GIOCARE.png",
+      "sourceBundle": "vs_local_assets_character_secretino.bundle"
+    },
+    "SPACEDUDETTE": {
+      "world": "assets/characters/world/SPACEDUDETTE.png",
+      "portrait": "assets/characters/portraits/SPACEDUDETTE.png",
+      "sourceBundle": "vs_local_assets_character_spacedette.bundle"
+    },
+    "FOLLOWER_ENEMY": {
+      "world": "assets/characters/world/FOLLOWER_ENEMY.png",
+      "portrait": "assets/characters/portraits/FOLLOWER_ENEMY.png",
+      "sourceBundle": "vs_local_assets_enemies.bundle"
+    },
+    "FS_FOLLOWER_HILLTROW": {
+      "world": "assets/characters/world/FS_FOLLOWER_HILLTROW.png",
+      "portrait": "assets/characters/portraits/FS_FOLLOWER_HILLTROW.png",
+      "sourceBundle": "vs_local_assets_character_followers.bundle"
+    },
+    "FS_FOLLOWER_BROWNIE": {
+      "world": "assets/characters/world/FS_FOLLOWER_BROWNIE.png",
+      "portrait": "assets/characters/portraits/FS_FOLLOWER_BROWNIE.png",
+      "sourceBundle": "vs_local_assets_character_followers.bundle"
+    },
+    "FOLLOWER_SOB1": {
+      "world": "assets/characters/world/FOLLOWER_SOB1.png",
+      "portrait": "assets/characters/portraits/FOLLOWER_SOB1.png",
+      "sourceBundle": "vs_local_assets_character_reddeath.bundle"
+    },
+    "FOLLOWER_SOB2": {
+      "world": "assets/characters/world/FOLLOWER_SOB2.png",
+      "portrait": "assets/characters/portraits/FOLLOWER_SOB2.png",
+      "sourceBundle": "vs_local_assets_character_reddeath.bundle"
+    },
+    "FOLLOWER_SOB3": {
+      "world": "assets/characters/world/FOLLOWER_SOB3.png",
+      "portrait": "assets/characters/portraits/FOLLOWER_SOB3.png",
+      "sourceBundle": "vs_local_assets_character_reddeath.bundle"
+    },
+    "FOLLOWER_SOB4": {
+      "world": "assets/characters/world/FOLLOWER_SOB4.png",
+      "portrait": "assets/characters/portraits/FOLLOWER_SOB4.png",
+      "sourceBundle": "vs_local_assets_character_reddeath.bundle"
+    },
+    "FOLLOWER_SOB5": {
+      "world": "assets/characters/world/FOLLOWER_SOB5.png",
+      "portrait": "assets/characters/portraits/FOLLOWER_SOB5.png",
+      "sourceBundle": "vs_local_assets_character_reddeath.bundle"
+    },
+    "FOLLOWER_SOB6": {
+      "world": "assets/characters/world/FOLLOWER_SOB6.png",
+      "portrait": "assets/characters/portraits/FOLLOWER_SOB6.png",
+      "sourceBundle": "vs_local_assets_character_reddeath.bundle"
+    },
+    "FOLLOWER_SPIRIT1": {
+      "world": "assets/characters/world/FOLLOWER_SPIRIT1.png",
+      "portrait": "assets/characters/portraits/FOLLOWER_SPIRIT1.png",
+      "sourceBundle": "moonspell_dynamic_assets_character_spiritoso.bundle"
+    },
+    "FOLLOWER_SPIRIT2": {
+      "world": "assets/characters/world/FOLLOWER_SPIRIT2.png",
+      "portrait": "assets/characters/portraits/FOLLOWER_SPIRIT2.png",
+      "sourceBundle": "moonspell_dynamic_assets_character_spiritoso.bundle"
+    }
+  },
+  "itemImages": {
+    "GEM": "assets/items/GEM.png",
+    "COIN": "assets/items/COIN.png",
+    "COINBAG1": "assets/items/COINBAG1.png",
+    "COINBAG2": "assets/items/COINBAG2.png",
+    "COINBAGMAX": "assets/items/COINBAGMAX.png",
+    "TREASURE": "assets/items/TREASURE.png",
+    "ROSARY": "assets/items/ROSARY.png",
+    "NFT": "assets/items/NFT.png",
+    "SORBETTO": "assets/items/SORBETTO.png",
+    "STATIC_GOLDPILE": "assets/items/STATIC_GOLDPILE.png",
+    "OROLOGION": "assets/items/OROLOGION.png",
+    "VACUUM": "assets/items/VACUUM.png",
+    "ROAST": "assets/items/ROAST.png",
+    "LITTLEHEART": "assets/items/LITTLEHEART.png",
+    "GILDED": "assets/items/GILDED.png",
+    "CLOVER": "assets/items/CLOVER.png",
+    "PICKUP_REROLL_DICE": "assets/items/PICKUP_REROLL_DICE.png",
+    "GOLDFINGER": "assets/items/GOLDFINGER.png",
+    "SV_DRAFT1": "assets/items/SV_DRAFT1.png",
+    "SV_DRAFT2": "assets/items/SV_DRAFT2.png",
+    "SV_DRAFT3": "assets/items/SV_DRAFT3.png",
+    "BONUS_FROZENSOUL": "assets/items/BONUS_FROZENSOUL.png",
+    "BONUS_CURSEDSOUL": "assets/items/BONUS_CURSEDSOUL.png",
+    "BONUS_SCORCHEDSOUL": "assets/items/BONUS_SCORCHEDSOUL.png",
+    "CART_ACCEL": "assets/items/CART_ACCEL.png",
+    "CART_GOAL": "assets/items/CART_GOAL.png",
+    "WEAPON": null,
+    "STATS_TREASURE_1": "assets/items/STATS_TREASURE_1.png",
+    "STATS_TREASURE_2": "assets/items/STATS_TREASURE_2.png",
+    "STATS_TREASURE_3": "assets/items/STATS_TREASURE_3.png",
+    "STATS_TREASURE_4": "assets/items/STATS_TREASURE_4.png",
+    "STATS_TREASURE_5": "assets/items/STATS_TREASURE_5.png",
+    "STATS_TREASURE_EVOS": "assets/items/STATS_TREASURE_EVOS.png",
+    "STATS_TREASURE_WEAPONS": "assets/items/STATS_TREASURE_WEAPONS.png",
+    "ALWAYS_COINBAG2": "assets/items/ALWAYS_COINBAG2.png",
+    "ALWAYS_ROAST": "assets/items/ALWAYS_ROAST.png",
+    "FRIENDSHIP": "assets/items/FRIENDSHIP.png",
+    "TEXT_PICKUP": "assets/items/TEXT_PICKUP.png",
+    "DUMMY_LIGHTSOURCE": "assets/items/DUMMY_LIGHTSOURCE.png",
+    "DUMMY_GOLDENEGG_MAX": "assets/items/DUMMY_GOLDENEGG_MAX.png",
+    "DUMMY_REVIVAL": "assets/items/DUMMY_REVIVAL.png",
+    "DUMMY_BANISH": "assets/items/DUMMY_BANISH.png",
+    "DUMMY_SKIP": "assets/items/DUMMY_SKIP.png",
+    "DUMMY_REROLL": "assets/items/DUMMY_REROLL.png",
+    "DUMMY_ARC": "assets/items/DUMMY_ARC.png",
+    "RELIC": null,
+    "RELIC_GRIMOIRE": "assets/items/RELIC_GRIMOIRE.png",
+    "RELIC_GOUDA": "assets/items/RELIC_GOUDA.png",
+    "RELIC_MAP": "assets/items/RELIC_MAP.png",
+    "RELIC_BANGER": "assets/items/RELIC_BANGER.png",
+    "RELIC_TEAR": "assets/items/RELIC_TEAR.png",
+    "RELIC_GLASSMASK": "assets/items/RELIC_GLASSMASK.png",
+    "RELIC_GOLDENEGG": "assets/items/RELIC_GOLDENEGG.png",
+    "RELIC_NOSEGLASSES": "assets/items/RELIC_NOSEGLASSES.png",
+    "RELIC_YELLOW": "assets/items/RELIC_YELLOW.png",
+    "RELIC_SECRETS": "assets/items/RELIC_SECRETS.png",
+    "RELIC_GGOSPEL": "assets/items/RELIC_GGOSPEL.png",
+    "RELIC_MIRROR": "assets/items/RELIC_MIRROR.png",
+    "RELIC_TRUMPET": "assets/items/RELIC_TRUMPET.png",
+    "RELIC_ATLAS": "assets/items/RELIC_ATLAS.png",
+    "RELIC_MALACHITE": "assets/items/RELIC_MALACHITE.png",
+    "RELIC_ROSALIA": "assets/items/RELIC_ROSALIA.png",
+    "RELIC_LAZULIA": "assets/items/RELIC_LAZULIA.png",
+    "RELIC_ALTEMANNA": "assets/items/RELIC_ALTEMANNA.png",
+    "RELIC_TRISECTION": "assets/items/RELIC_TRISECTION.png",
+    "RELIC_BRAVESTORY": "assets/items/RELIC_BRAVESTORY.png",
+    "RELIC_PARTY": "assets/items/RELIC_PARTY.png",
+    "RELIC_CHARM": "assets/items/RELIC_CHARM.png",
+    "RELIC_ANTIDOTE": "assets/items/RELIC_ANTIDOTE.png",
+    "RELIC_RECYCLE": "assets/items/RELIC_RECYCLE.png",
+    "RELIC_SPEEDUP": "assets/items/RELIC_SPEEDUP.png",
+    "RELIC_GREENEYES": "assets/items/RELIC_GREENEYES.png",
+    "RELIC_MAP_AS": "assets/items/RELIC_MAP_AS.png",
+    "RELIC_MAP_MS": "assets/items/RELIC_MAP_MS.png",
+    "RELIC_MAP_BMN": "assets/items/RELIC_MAP_BMN.png",
+    "RELIC_MAP_FS": "assets/items/RELIC_MAP_FS.png",
+    "RELIC_MAP_CHAL": "assets/items/RELIC_MAP_CHAL.png",
+    "RELIC_MAP_FB": "assets/items/RELIC_MAP_FB.png",
+    "RELIC_RANDOMAZZO": "assets/items/RELIC_RANDOMAZZO.png",
+    "RELIC_DARKASSO": "assets/items/RELIC_DARKASSO.png",
+    "RELIC_SURVAROCCHI": "assets/items/RELIC_SURVAROCCHI.png",
+    "RELIC_SV_ANTIPASTIVES": "assets/items/RELIC_SV_ANTIPASTIVES.png",
+    "EX_ZI_APPUNTA_PICKUP": null,
+    "COFFIN": "assets/items/COFFIN.png",
+    "MERCHANT": "assets/items/MERCHANT.png",
+    "EGGMAN": "assets/items/EGGMAN.png",
+    "HEALER": "assets/items/HEALER.png",
+    "DIRECTER": "assets/items/DIRECTER.png",
+    "PURIFY": "assets/items/PURIFY.png",
+    "PURIFY2": "assets/items/PURIFY2.png",
+    "COSMO_PAVONE": "assets/items/COSMO_PAVONE.png",
+    "TELEPORTER": "assets/items/TELEPORTER.png",
+    "TP_CYCLEGATE": "assets/items/TP_CYCLEGATE.png",
+    "TP_RELIC_MASK_SUN": "assets/items/TP_RELIC_MASK_SUN.png",
+    "TP_RELIC_MASK_MOON": "assets/items/TP_RELIC_MASK_MOON.png",
+    "TP_RELIC_MASK_CITY": "assets/items/TP_RELIC_MASK_CITY.png",
+    "TP_RELIC_MASK_VOLCANO": "assets/items/TP_RELIC_MASK_VOLCANO.png",
+    "TP_RELIC_MASK_SEAWINDS": "assets/items/TP_RELIC_MASK_SEAWINDS.png",
+    "TP_RELIC_MASK_STONE": "assets/items/TP_RELIC_MASK_STONE.png",
+    "TP_RELIC_MASK_BLACK": "assets/items/TP_RELIC_MASK_BLACK.png",
+    "RELIC_MASK_FATE": "assets/items/RELIC_MASK_FATE.png",
+    "RELIC_MASK_WRATH": "assets/items/RELIC_MASK_WRATH.png",
+    "RELIC_MASK_SOVEREIGN": "assets/items/RELIC_MASK_SOVEREIGN.png",
+    "RELIC_MASK_IMPLACABILITY": "assets/items/RELIC_MASK_IMPLACABILITY.png",
+    "RELIC_MASK_MIRTH": "assets/items/RELIC_MASK_MIRTH.png",
+    "TAG_FIRE": "assets/items/TAG_FIRE.png",
+    "TAG_COLD": "assets/items/TAG_COLD.png",
+    "TAG_CRIT": "assets/items/TAG_CRIT.png",
+    "BMN_BLOODGEM": "assets/items/BMN_BLOODGEM.png"
+  },
+  "characterCoverage": {
+    "world": "70/70",
+    "configuredPortraits": "65/65"
+  },
+  "itemCoverage": {
+    "configuredFrames": 107,
+    "matched": 106,
+    "missing": 1,
+    "genericEmptyFrames": 2
   }
 }

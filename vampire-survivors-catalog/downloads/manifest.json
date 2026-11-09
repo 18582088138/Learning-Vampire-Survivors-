@@ -1,0 +1,71 @@
+{
+  "licenseNotes": "游戏数据与 Sprite 提取自用户本地安装的 Vampire Survivors，仅供学习、研究与二次分析。相关游戏内容权利归原作者及发行方。图片由 Unity Sprite 导出，未进行重绘。本包不包含游戏可执行文件、完整原始资源包或音频。",
+  "packs": {
+    "weapons": {
+      "file": "downloads/weapons.zip",
+      "description": "武器与强化 Sprite、逐等级累计数值和原始升级补丁。",
+      "counts": {
+        "images": 153,
+        "levelEntries": 687
+      },
+      "bytes": 108054,
+      "sha256": "3a17e281406968a5aed3f8b3315468edde6acf8fc622174a54239c64c1ae15ba"
+    },
+    "enemies": {
+      "file": "downloads/enemies.zip",
+      "description": "怪物首帧 Sprite、基础生命/速度/Power/XP、技能、抗性与图鉴变体数据。",
+      "counts": {
+        "images": 579,
+        "bestiaryIncluded": 180
+      },
+      "bytes": 929945,
+      "sha256": "f3ba779e5233d643c2b1c8934f574fe81e0868bb7c5b3984c601db6f9d459802"
+    },
+    "characters": {
+      "file": "downloads/characters.zip",
+      "description": "角色世界贴图、已配置肖像、初始武器与基础属性。",
+      "counts": {
+        "worldImages": 70,
+        "portraitImages": 65,
+        "configuredPortraitCoverage": "65/65"
+      },
+      "bytes": 150142,
+      "sha256": "6f0348ad763f2a5d3d186c13e2746b91235570463245e50c0f17a0f7e310c6c5"
+    },
+    "items": {
+      "file": "downloads/items.zip",
+      "description": "物品、经验、金币与特殊拾取物图标及权重/解锁数据。",
+      "counts": {
+        "images": 106,
+        "configuredFrames": 107,
+        "missingImages": 1,
+        "genericEmptyFrames": 2
+      },
+      "bytes": 78717,
+      "sha256": "8fc16ef3de5055191a96172f6b17879eedb177acf9e6c1314519dac55b80325d"
+    },
+    "maps": {
+      "file": "downloads/maps.zip",
+      "description": "关卡图标、图鉴背景、详细地图、逐分钟敌群、模式修正与解锁数据。",
+      "counts": {
+        "icons": 24,
+        "backgrounds": 24,
+        "detailedMaps": 2,
+        "scheduleEntries": 535
+      },
+      "bytes": 1725095,
+      "sha256": "a51656ec58efb82aebff611e0e882ab2bc59370eaa27e7b2d3ce151aea3c92c2"
+    },
+    "research": {
+      "file": "downloads/research.zip",
+      "description": "结构化数据、CSV 与架构/机制/地图研究报告，便于代码分析和二次整理。",
+      "counts": {
+        "jsonFiles": 5,
+        "csvFiles": 8,
+        "researchDocuments": 5
+      },
+      "bytes": 220026,
+      "sha256": "96626b9f8ee31ac163cb84b218f2071d828806d794c06210e5e3af2d7ff2d452"
+    }
+  }
+}
